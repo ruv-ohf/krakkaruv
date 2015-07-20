@@ -1,0 +1,14 @@
+name = Workbench Nodequeue
+description = Integrates nodequeues into the interface provided by workbench.
+package = Workbench
+core = 7.x
+
+dependenceies[] = workbench
+dependenceies[] = nodequeue
+
+; Information added by drupal.org packaging script on 2013-10-26
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "workbench_nodequeue"
+datestamp = "1382797186"
+

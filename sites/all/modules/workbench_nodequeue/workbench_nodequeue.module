@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function workbench_nodequeue_menu() {
+  $items['admin/workbench/queue'] = array(
+    'title' => 'Queue content',
+    'page callback' => 'workbench_nodequeue_queue',
+    'access callback' => 'workbench_nodequeue_access',
+    'access arguments' => array(array('access workbench', 'manipulate queues')),
+    'type' => MENU_LOCAL_TASK,
+    'file path' => drupal_get_path('module', 'nodequeue') . '/includes',
+    'file' => 'nodequeue.admin.inc',
+  );
+
+  // Create redirect urls for nodequeu list pages.
+  // This is helpful for the admin_menu module and could have other uses.
+  $queues = nodequeue_load_queues(nodequeue_get_all_qids());
+  foreach ($queues as $queue) {
+    if (nodequeue_queue_access($queue)) {
+      $items['admin/workbench/queue/view/' . $queue->qid] = array(
+        'title' => $queue->title,
+        'title callback' => 'check_plain',
+        'page callback' => 'drupal_goto',
+        'page arguments' => array('admin/structure/nodequeue/' . $queue->qid . '/view/' . $queue->qid),
+        'access callback' => 'nodequeue_queue_access',
+        'access arguments' => array($queue->qid),
+        'description' => $queue->title,
+      );
+    }
+  }
+
+  return $items;
+}
+
+/**
+ * Menu access callback.
+ *
+ * @param  array $permissions
+ *   An array of  permissions that a user must have.
+ *
+ * @return bool
+ */
+function workbench_nodequeue_access($permissions) {
+  $access = TRUE;
+
+  foreach ($permissions as $permission) {
+    $access = user_access($permission);
+    if (!$access) {
+      break;
+    }
+  }
+
+  return $access;
+}
+
+/**
+ * Page callback.
+ */
+function workbench_nodequeue_queue() {
+  $output = array();
+  $output['queues'] = array(
+    '#markup' => nodequeue_view_queues(),
+  );
+
+  return $output;
+}

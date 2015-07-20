@@ -1,0 +1,667 @@
+<?php
+
+
+function ruv_custom_menu() {
+    return array(
+        'sarpur/calendar' => array(
+            'title' => 'Sarpur - dagskrá',
+            'page callback' => 'ruv_custom_sarpur_dagskra',
+            'page arguments' => array(2,3),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+          'frettalisti' => array(
+            'title' => 'Fréttalisti',
+            'page callback' => 'ruv_custom_frettalisti',
+            'page arguments' => array(1),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+          'thattalisti' => array(
+            'title' => 'Þáttalisti',
+            'page callback' => 'ruv_custom_thattalisti',
+            'page arguments' => array(1),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+          'slisti' => array(
+            'title' => 'Sarpur - aðgengilegir þættir',
+            'page callback' => 'ruv_custom_slisti',
+            'page arguments' => array(1),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+        'nyjast' => array(
+            'title' => 'Sarpurinn - nýjustu þættir í flokk',
+            'page callback' => 'ruv_custom_sarpur_nyjast',
+            'page arguments' => array(1),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+        'ajax/iloftinu' => array(
+            'title' => 'Í loftinu',
+            'page callback' => 'ruv_custom_iloftinu',
+            'page arguments' => array(2),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        ),
+        'xml/textavarp' => array(
+            'title' => 'Textvarp XML - sameinað',
+            'page callback' => 'ruv_custom_xml_textavarp',
+            'page arguments' => array(2),
+            'access callback' => TRUE,
+            'type' => MENU_CALLBACK,
+        )            
+    );
+}
+
+
+function ruv_custom_sarpur_dagskra($ras=NULL,$target_date=NULL) 
+{        
+    if(empty($target_date))
+    {
+      $target_date = date("Ymd", time());
+    } 
+
+    if(empty($ras))
+    {
+      $ras = "1";
+    }
+    
+    //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_sarpur_dagskra_'.$ras."_".$target_date;
+    //Cache-key búin til úr frá URL    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    { 
+      $dispid = 'panel_pane_4';
+      $view = views_get_view('dagskra_sidebars');
+      $view->set_display($dispid);
+     
+      /* dæmi um hvernig hægt er að vinna með filter
+      $item = $view->get_item($dispid, 'filter', 'field_filter_stuff');
+      $item = blbalb
+      $view->set_item($disp_id, 'filter', 'field_filter_stuff', $item);
+      */
+      $view->set_arguments(array($ras,$target_date));
+      $view->pre_execute();
+      $view->execute();
+      $output_html = $view->render();
+      $view->destroy();
+       //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 300);
+    }
+
+    echo '<div  id="sarps-dagskra-div">';
+
+    echo $output_html;
+    echo '</div>';
+}
+
+function ruv_custom_frettalisti($term) 
+{   
+    //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_'.$_GET["q"]."_".$_GET["page"];
+
+    $expiretime = (time() + 300);
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire)//Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    {
+      $dispid = 'panel_pane_3';
+      $view = views_get_view('frettastraumur');
+      $view->set_display($dispid);
+     
+      if(!empty($term))
+      {
+        $view->set_arguments(array($term));
+      }
+      $view->pre_execute();
+      $view->execute();
+      $output_html .= $view->render(); //Útrenderað View
+      $view->destroy();
+      //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', $expiretime);
+    }
+
+    echo $output_html; //Niðurstöður prentaðar út
+}
+
+//is that function used anywhere?
+function ruv_custom_thattalisti($ras=NULL) 
+{        
+    if(empty($ras))
+    {
+      $ras = "ruv";
+    } 
+    //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_thattalisti_'.$ras."_".$_GET["page"];
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    {
+      $dispid = 'panel_pane_1';
+      $view = views_get_view('thattalisti');
+      $view->set_display($dispid);
+     
+      $view->set_arguments(array($ras));
+      $view->pre_execute();
+      $view->execute();
+      $output_html = $view->render();
+      $view->destroy();
+       //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 300);
+    }
+    echo $output_html;
+}
+
+function ruv_custom_slisti($ras=NULL) 
+{    
+  //error_log(print_r($_GET,true));    
+    if(empty($ras))
+    {
+      $ras = "ruv";
+    } 
+
+     //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_'.$_GET["q"].$_GET["title"].$_GET["field_kringla_schedule_day_value"];
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    {
+      $dispid = 'panel_items';
+      $view = views_get_view('sarpur_available_items');
+      $view->set_display($dispid);
+
+      $view->set_arguments(array($ras));
+      $view->pre_execute();
+      $view->execute();
+      $output_html = $view->render();
+      $view->destroy();
+       //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 300);
+    }
+    echo $output_html;
+
+}
+
+function ruv_custom_iloftinu($ras=NULL) 
+{        
+    if(empty($ras))
+    {
+      $ras = "ruv";
+    }
+     //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_iloftinu_'.$ras;
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    { 
+      $dispid = 'panel_pane_3';
+      $view = views_get_view('dagskra');
+      $view->set_display($dispid);
+     
+
+      $view->set_arguments(array($ras));
+      $view->pre_execute();
+      $view->execute();
+      $output_html = $view->render();
+      $view->destroy();
+        //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 120);
+    }
+    echo $output_html;
+}
+
+function ruv_custom_xml_textavarp()
+{
+     //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_textavarp';
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    { 
+      $firstpage = simplexml_load_file("http://www.ruv.is/xml/textavarp/frettir");
+      $secondpage = simplexml_load_file("http://www.ruv.is/xml/textavarp/ithrottir");
+
+      $items[] = $firstpage->channel->item;
+      $items[] = $secondpage->channel->item;
+
+      $output_html = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
+      $output_html .= "<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n";
+      $output_html .= "<channel>\n";
+      foreach($items as $items_set => $items_arr)
+      {
+        foreach($items_arr as $key => $value)
+        {
+          $output_html .= "\t<item>\n";
+          foreach($value as $tag => $val)
+          {
+            $output_html .= "\t\t<".$tag.">".$val."</".$tag.">\n";
+          }
+          $output_html .= "\t</item>\n";
+        }
+      }
+      $output_html .= "</channel>\n";
+      $output_html .= "</rss>";
+      //Útrenderað View sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 300);
+    }
+    print $output_html;
+}
+
+function ruv_custom_sarpur_nyjast($term) 
+{        
+    if(empty($term))
+    {
+      $term = "sjonvarpsfrettir";
+    } 
+
+    $tits=array();
+    //$tit ="";
+    
+    if($term == "sjonvarpsfrettir")
+    {
+      $tits = [14262,14507]; 
+    }elseif($term == "utvarpsfrettir")
+    {
+      $tits = [14233,13264,14216,14223]; 
+    }else
+    {
+      $tpath = drupal_get_normal_path("thaettir/".$term);
+      //error_log($path);
+      $pieces = explode("/", $tpath);
+      //error_log("bla: ".$pieces[2]);
+      $tits = [$pieces[2]];
+    } 
+
+     //Cache-key búin til úr frá URL
+    $cache_key = 'ruv_custom_nyjast_'.implode("_",$tits);
+    
+    if($cache = cache_get($cache_key,'cache_page') and time() < $cache->expire) //Kannað hvort að Cache-key sé til
+    { //Ef Cache-key er til þá á að birta gögnin frá því
+      $output_html = $cache->data;
+    }else //Annars halda áfram
+    { 
+      // $res = db_query("select n.nid from node n 
+      // left join field_data_field_recording_file r on r.entity_id = n.nid 
+      // left join field_data_field_kringla_event_serie_id s on s.entity_id = n.nid  
+      // where s.field_kringla_event_serie_id_value in (:tits) and status and n.created <= UNIX_TIMESTAMP(NOW()) and 
+      // (r.field_recording_file_value like '%.mp4' or r.field_recording_file_value like '%.mp3') 
+      // order by n.created desc limit 1", array(':tits'=>$tits))-> fetchObject();
+
+      $res = db_query("SELECT 
+                          n.nid 
+                        FROM {taxonomy_index} a 
+                          LEFT JOIN {node} n on n.nid = a.nid 
+                          LEFT JOIN {field_data_field_recording_file} r on r.entity_id = n.nid  
+                        WHERE tid in (:tits) 
+                          AND status 
+                          AND n.created <= UNIX_TIMESTAMP(NOW()) 
+                          AND (r.field_recording_file_value 
+                            LIKE '%.mp4' 
+                          OR r.field_recording_file_value 
+                            LIKE '%.mp3') 
+                        ORDER BY n.created DESC 
+                        LIMIT 1", 
+                        array(':tits'=>$tits))->fetchObject();
+
+      //drupal_goto("node/".$res->nid."/".$term); 
+      $node = node_load($res->nid);
+      $task = page_manager_get_task('node_view');
+      $handlers = page_manager_load_sorted_handlers($task, '', TRUE);
+      //Specify your handler (variant), which you want to display, e.g.
+
+      ctools_include('context');
+      ctools_include('context-task-handler');
+
+      $contexts = ctools_context_handler_get_task_contexts($task, '', array($node));
+      $handler = $handlers['node_view_panel_context'];
+      //Now we got all needed arguments to fire the function:
+      $output_html = ctools_context_handler_render_handler($task,'',$handler, $contexts, array($node->nid));
+       //Útrenderuð síða sett í Cache með viðkomandi Cache-key
+      cache_set($cache_key, $output_html, 'cache_page', time() + 300);
+    }
+    return $output_html; 
+}
+
+
+//Overides function "nodequeue_api_autocomplete" line 1762 in nodequeue.module.
+//Adds order by changed date to get new content at the top of autocomplete list.
+function nodequeue_nodequeue_autocomplete($queue, $subqueue, $string, $where, $where_args)
+{
+  $matches = array();
+  if(empty($string)) 
+  {
+    return $matches;
+  }
+
+  $query = db_select('node', 'n')
+    ->addTag('node_access')
+    ->fields('n', array('nid', 'tnid', 'title','type','changed'))
+    ->range(0, variable_get('nodequeue_autocomplete_limit', 10));
+
+  if(!empty($queue->types)) 
+  {
+    $query->condition('n.type', $queue->types, 'IN');
+  }
+
+  $where_args = array();
+  
+  global $user;
+  if(!user_access('administer nodes', $user)) 
+  {
+    $query->condition(db_or()->condition('n.status', 1)->condition('n.uid', $user->uid));
+  }
+  // Run a match to see if they're specifying by nid.
+  $preg_matches = array();
+  $match = preg_match('/\[nid: (\d+)\]/', $string, $preg_matches);
+  if(!$match) 
+  {
+    $match = preg_match('/^nid: (\d+)/', $string, $preg_matches);
+  }
+
+  if($match) 
+  {
+    // If it found a nid via specification, reduce our resultset to just that nid.
+    $query->condition('n.nid', $preg_matches[1]);
+  }else 
+  {
+    // Build the constant parts of the query.
+    $query->where('LOWER(n.title) LIKE LOWER(:string)', array(':string' => '%' . db_like($string) . '%'));
+    $query->orderBy('n.changed', 'DESC');
+  }
+
+  //error_log("í function");
+  $query->addTag('i18n_select');
+  $result = $query->execute();
+
+  foreach ($result as $node) 
+  {
+    $id = nodequeue_get_content_id($queue, $node);
+    //$changed = check_plain(date("d.m.Y H:i", $node->changed));
+    $matches[$node->nid] = $node->type. " : ".check_plain($node->title) . " [nid: $id]" ;
+  }
+  return $matches;
+}
+
+
+/**
+*Eyjólfur Kristjánsson - 20141101
+*Uses hook  quicktabs alter from the quicktabs module to control contend of mail sent to users from "Hafa samband" forms .
+*/
+function ruv_custom_quicktabs_alter(&$quicktabs)
+{
+  //For quicktabs in dagskrá in Sarpurin
+  if( $quicktabs->machine_name == "sarpur_dagskra_tabs")
+  {
+    $quicktabs->default_tab = date("w");
+
+    if(!arg(1))
+    { 
+      foreach($quicktabs->tabs as &$tab )
+      {
+        $tab['args'] = str_replace( "%1", "1", $tab['args']);
+      }
+    }
+  }
+  //To insert correct term names in headers on most read block.
+  if( (arg(0) == 'taxonomy') && (arg(1) == 'term') && is_numeric(arg(2)) && ($term = taxonomy_term_load(arg(2))) )  
+  {
+    $quicktabs->title = "Mest lesið: " . $term->name;
+  }
+}
+
+function ruv_custom_dateformat($_day)
+{
+  $days_english = array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
+  $days_icelandic = array("mánudagur","þriðjudagur","miðvikudagur","fimmtudagur","föstudagur","laugardagur","sunnudagur");
+
+  $days_english_short = array("Mon","Tue","Wed","Thu","Fri","Sat","Sun");
+  $days_icelandic_short = array("mánu","þri","mið","fim","fös","lau","sun");
+
+  $months_english = array("January","February","March","April","May","June","July","August","September","October","November","December");
+  $months_icelandic = array("janúar","febrúar","mars","apríl","maí","júní","júlí","ágúst","september","október","nóvember","desember");
+
+  $months_english_short = array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+  $months_icelandic_short = array("jan","feb","mar","apr","maí","jún","júl","ágú","sep","okt","nóv","des");
+
+  $_day = str_replace($months_english,$months_icelandic,$_day);
+  $_day = str_replace($months_english_short,$months_icelandic_short,$_day);
+  $_day = str_replace($days_english,$days_icelandic,$_day);
+  $_day = str_replace($days_english_short,$days_icelandic_short,$_day);
+  
+  return $_day;
+}
+
+/**
+*Eyjólfur Kristjánsson - 20141101
+*Uses hook  query alter change order by for a query for Þáttalista pages. I.e. to order by "minus" - field, wich changes ordering of null valued fields in MySql .
+*/
+
+function ruv_custom_views_query_alter(&$view,&$query){
+
+  if($view->name ==  "thattakassi_queue" && ($view->current_display =="panel_pane_4" || $view->current_display =="panel_pane_5")){ 
+    foreach  ($query->orderby as &$item){
+      if ($item["field"] == "field_data_eq_taxonomy_term_delta") { 
+        $item["field"] = "-".$item["field"];
+      }
+    }
+  }
+
+}
+
+/*
+*   Author: Helgi Páll - helgipall@ruv.is
+*   Date:   11.03.2015
+*   Desc:   Fall sem sækir JWplayer JS skjöl þegar á þarf að halda.
+*   Param:  STR $version, segir til um hvaða útgáfu af JWplayer á að sækja, það sem er í boði er útgáfa 6.10 og útgáfa 6.12, default er útgáfa 6.10.
+            Arr $exclude, þau config skjöl sem á að taka með þegar það verið að setja saman strengin. Notað til að gera debug og svona.  Það sem er í boði er jwbase, html5, license, ruv-init og controls.
+*   Return: STR $addscript, html strengur sem sækir Js skrárnar.
+*/
+function ruv_custom_add_jwjs($version="6", $exclude=array())
+{
+  switch($version)//Hvaða útgáfu er verið að biðja um.
+  {
+    case "6" : 
+      $folder = "jwplayer";//útgáfa 6.10
+    break;
+    case "6.12": //útga´fa 6.12 þar sem HLS vandamál á að vera úr sögunni.
+        $folder = "jwplayer6.12";
+    break;
+    default : //EF það skyldi gleymast að skilgreina hvaða hvaða version á að nota og breytan er ekki í boði.
+      $folder = "jwplayer";
+  }
+
+  $scripts['jwbase'] = 'scripts/jwp6/'.$folder.'/jwplayer.js?i=234799';
+  $scripts['html5'] = 'scripts/jwp6/'.$folder.'/jwplayer.html5.js?i=234799';
+  $scripts['license'] = 'scripts/jwp6/jwpl.js?i=234799';//Licence strengur
+  $scripts['ruv-init'] = 'scripts/jwp6/ruv-jwplayer.int.js?i=234799'; //JS þar sem Jquery configið er keyrt.
+  $scripts['controls'] = 'scripts/jwp6/jwplayer-controls.js?i=234799'; //Aðgengislyklar fyrir blinda og sjónskreta (ALT)
+  
+  $base = "/sites/all/themes/at_ruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
+  $addscript = ""; //tóm breyta til að forðast villur.
+  
+  foreach($scripts as $scriptkey => $script)
+  {
+      if(in_array($scriptkey,$exclude) != true)
+      {
+        $addscript .= '<script src="'.$base.$script.'"></script>'."\n";
+      }
+  }
+  return $addscript;
+}
+
+/**
+*Eyjólfur Kristjánsson - 20141201
+*Uses hook  form alter to control contend of "Hafa samband" forms .
+*/
+
+function ruv_custom_form_contact_personal_form_alter(&$form, &$form_state, $form_id){
+  unset($form['to']);
+  unset($form['copy']);
+  unset($form['#submit'][0]);
+
+  if(isset($form['recipient']['#value']->field_user_display_name['und']['0']['value'])){
+  $res_name = $form['recipient']['#value']->field_user_display_name['und']['0']['value'];
+  $form['name']['#prefix'] = '<h3>Sendu skilaboð á: '. $res_name. "</h3>";
+  drupal_set_title("Sendu skilaboð á: ". $res_name,PASS_THROUGH);
+  }else{
+    drupal_set_title("Sendu skilaboð",PASS_THROUGH);
+  }
+
+  $form['referer'] = array(
+    '#type' => 'hidden', 
+    '#size' => 60, 
+    '#maxlength' => 128, 
+    '#default_value' => $_SERVER['HTTP_REFERER']
+  );
+
+
+  $form['name']['#title'] = "Sendandi";
+  $form['mail']['#title'] = "Netfang";
+  //$form['subject']['#title'] = "Titill";
+  unset($form['subject']);
+  $form['message']['#title'] = "Skilaboðin";
+  //$form['copy']['#title'] = "Senda skilaboðin líka til þín?";
+  $form['actions']['submit']['#value'] = "Senda skilaboðin";
+  $form['#submit'][0] = 'ruv_custom_form_contact_personal_form_submit';
+
+  //dsm( $form );
+
+  //dvm($form);
+
+
+}
+
+/**
+*Eyjólfur Kristjánsson - 20141201
+*Uses hook  form submit to control  submit values of "Hafa samband" forms .
+*/
+
+function ruv_custom_form_contact_personal_form_submit(&$form, &$form_state){
+  global $user, $language;
+
+  $values = $form_state['values'];
+  $values['sender'] = clone $user;
+  $values['sender']->name = $values['name'];
+  $values['sender']->mail = $values['mail'];
+
+  // Save the anonymous user information to a cookie for reuse.
+  if (!$user->uid) {
+    user_cookie_save(array_intersect_key($values, array_flip(array('name', 'mail'))));
+  }
+
+  // Get the to and from e-mail addresses.
+  $to = $values['recipient']->mail;
+  $from = $values['sender']->mail;
+
+  // Send the e-mail in the requested user language.
+  drupal_mail('contact', 'user_mail', $to, user_preferred_language($values['recipient']), $values, $from);
+
+
+  flood_register_event('contact', variable_get('contact_threshold_window', 3600));
+  watchdog('mail', '%sender-name (@sender-from) sent %recipient-name an e-mail.', array('%sender-name' => $values['name'], '@sender-from' => $from, '%recipient-name' => $values['recipient']->name));
+
+  // Jump to the contacted user's profile page.
+  drupal_set_message(t('Skilaboðin hafa verið send.'));
+  $form_state['redirect'] = $values['referer'];//user_access('access user profiles') ? 'user/' . $values['recipient']->uid : '';
+
+}
+
+
+/**
+*Eyjólfur Kristjánsson - 20141201
+*Uses hook  mail alter to control contend of mail sent to users from "Hafa samband" forms .
+*/
+function ruv_custom_mail_alter(&$message) {
+  if ($message['id'] == 'contact_user_mail') {
+    $language = $message['language'];
+
+    if (!isset($message['params']['subject']) || $message['params']['subject'] ==''){
+      $message['params']['subject'] = "Skilaboð af síðu";
+    }
+    $variables = array(
+        '!site-name' => variable_get('site_name', 'Drupal'),
+        '!site-mail' => variable_get('site_mail', ''),
+        '!subject' => $message['params']['subject'],
+        '!sender-name' => format_username($message['params']['sender']),
+        '!sender-url' => $message['params']['sender']->mail,
+        '!recipient' => $message['params']['recipient']->field_user_display_name['und']['0']['value'],
+    );
+
+   
+    $message['subject'] = t('!site-name - !subject', $variables, array('langcode' => $language->language));
+    unset($message['body']);
+    $message['body'][] = t('Sæl(l) !recipient,', $variables, array('langcode' => $language->language));
+    $message['body'][] = t("!sender-name (!sender-url) hefur sent þér skilaboð af !site-name . Skilaboðin eru:", $variables, array('langcode' => $language->language));
+    $message['body'][] = $message['params']['message'];
+    if (isset($message['params']['referer']) && $message['params']['referer'] !=''){
+    $message['body'][] = "Skilaboðin urðu til á síðunni:"; 
+    $message['body'][] = $message['params']['referer'];
+    }
+    $message['body'][] = t("", $variables, array('langcode' => $language->language));
+  }
+}
+
+// function ruv_custom_js_alter(&$javascript) {
+//   // Swap out autocomplete.js to use an updated version of the script.
+//   $javascript['misc/autocomplete.js']['data'] = drupal_get_path('theme', 'at_ruv') . '/scripts/ruv_autocomplete.js';
+// }
+
+
+/**
+*Eyjólfur Kristjánsson - 20150303
+*Uses hook to form alter for exposed view form to change class attributes on the form.
+*/
+function ruv_custom_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
+   // check this is the right form
+  if ($form['#id'] == 'views-exposed-form-thattakassi-queue-panel-pane-7') {
+  unset($form["submit"]['#attributes']['class']);
+  $form['#attributes']['class'][] = 'mar1l'; 
+  $form["submit"]['#attributes']['class'][] = 'fa fa-search fill-transparent no-border fr color-gray large  pad2r relative z10';
+  }
+
+}
+
+
+/**
+*Eyjólfur Kristjánsson - 20150310
+*Adds default alt andt title text to the picture object from the picture module.
+*/
+function ruv_custom_preprocess_picture(&$vars) {
+
+  if (empty($vars['alt'])) {
+    $vars['alt'] = "Mynd með færslu";
+  }
+
+  if (empty($vars['title'])) {
+    $vars['title'] = "Mynd með færslu";
+  }
+
+}
+
+function ruv_custom_preprocess_image(&$vars) {
+
+  if (empty($vars['alt'])) {
+    $vars['alt'] = "Mynd með færslu";
+  }
+
+  if (empty($vars['title'])) {
+    $vars['title'] = "Mynd með færslu";
+  }
+
+}
+

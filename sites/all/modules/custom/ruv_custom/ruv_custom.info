@@ -1,0 +1,7 @@
+name = "RUV Custom"
+description = "Custom functions and hookups."
+package = "RUV"
+core = 7.x
+
+files[] = ruv_custom.module
+

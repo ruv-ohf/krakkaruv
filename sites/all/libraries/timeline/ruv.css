@@ -1,0 +1,61 @@
+
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400);
+
+.vco-storyjs {
+/*background: url('/files/myndabordar/annall-2014-bg2.jpg') no-repeat center center fixed #191919;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-column,
+.columns,
+.content-inner,
+#page-wrapper,
+#page,
+#main-content,
+.region,
+.block,
+.contextual-links-region,
+.at-panel,
+.region-inner,
+.panel-pane,
+.block-inner,
+.block-content {
+  width: 100%;
+  height: 100%;
+}
+#page-wrapper,
+#main-content {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.region-page-bottom,
+.region-page-bottom .region-inner {
+  height: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.vco-slider .slider-item .content .content-container .text .container {
+  padding: 20px 20px 0 20px;
+  background: rgba(0,0,0,0.75);
+}
+#timeline-embed .feature p {
+  color: #A3A3A3;
+}
+#timeline-embed .slider-item h3{
+  font-family:'PT Serif',sans-serif;
+}
+.vco-slider .slider-item .content .content-container.layout-text-media.pad-left .text-media {
+  padding-right: 0;
+  border-right: 0;
+}

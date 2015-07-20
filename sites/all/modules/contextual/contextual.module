@@ -1,0 +1,466 @@
+<?php
+
+/**
+ * @file
+ * Contextual links.
+ */
+
+/**
+ * Implementation of hook_perm().
+ */
+function contextual_perm() {
+  return array('access contextual links');
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function contextual_theme() {
+  return array(
+    'contextual' => array(
+      'arguments' => array('edit_links' => NULL, 'id' => NULL)
+    )
+  );
+}
+
+/**
+ * Theme the contextual links.
+ */
+function theme_contextual($action_links, $id) {
+
+  $output = '<div class="contextual" id="'. $id .'">';
+  $output .= '<div class="contextual-wrapper">';
+
+  $rand = rand();
+  $output .= l(t('Edit'), '', array('fragment' => 'contextual-links', 'html' => TRUE, 'attributes' => array('class' => 'contextual-toggler', 'onclick' => 'javascript:Drupal.contextual.toggleVis(\'contextual-links-'. $rand .'\'); return false;')));
+  $output .= theme('links', $action_links, array('id' => 'contextual-links-'. $rand, 'class' => 'contextual-links inline', 'style' => 'display: none;'));
+
+  $output .= '</div>';
+  $output .= '</div>';
+
+  return $output;
+}
+
+/**
+ * API function to get all links for a certain object.
+ *
+ * @param stdClass $object The object to get links, eg node or block.
+ * @param string $type The name of the type, eg node, block, view etc.
+ */
+function contextual_get_all_links($object, $type) {
+  if (user_access('access contextual links')) {
+    $links = module_invoke_all('contextual_'. $type, $object);
+    // Allow modules to possibly override or even remove existing links.
+    drupal_alter('contextual', $links, $type, $object);
+    $links = contextual_prepare_links($links);
+
+    if (!empty($links)) {
+      asort($links);
+      contextual_add_css_and_js();
+      return $links;
+    }
+  }
+  return FALSE;
+}
+
+/**
+ * Api function to set or get links from other places.
+ *
+ * @param string $name A unique string to identify.
+ * @param array $action A single action or a collection of actions.
+ * @param string $action_id The id of the action.
+ */
+function contextual_set_links($name = NULL, $link = NULL, $link_id = NULL) {
+  static $static_links = array();
+
+  // Return actions.
+  if (isset($name) && !isset($link) && isset($static_links[$name])) {
+    return $static_links[$name];
+  }
+
+  // Set single action.
+  elseif (isset($name) && isset($link) && isset($link_id)) {
+    $static_links[$name][$link_id] = $link;
+  }
+
+  // Set multiple actions.
+  elseif (isset($name) && isset($link) && !isset($link_id)) {
+    if (!isset($static_links[$name])) {
+      $static_links[$name] = array();
+    }
+    $static_links[$name] = array_merge($static_links[$name], $link);
+  }
+}
+
+/**
+ * Function to prepare the links and perform access checks on them if needed.
+ *
+ * @param array $links A collection of actions.
+ */
+function contextual_prepare_links($links) {
+
+  $return_links = array();
+
+  foreach ($links as $key => $link) {
+    if (isset($link['access callback'])) {
+      $func = $link['access callback'];
+      $args = isset($link['access arguments']) ? $link['access arguments'] : array();
+      unset($link['access callback'], $link['access arguments']);
+      if (call_user_func_array($func, $args)) {
+        $return_links[$key] = $link;
+      }
+    }
+    else {
+      $return_links[$key] = $link;
+    }
+  }
+
+  return $return_links;
+}
+
+/**
+ * Set actions ready or theme them.
+ */
+function contextual_set_closure($links = NULL, $id = NULL) {
+  static $all_links = array();
+  if (isset($links) && isset($id) && !isset($all_links[$id])) {
+    $all_links[$id] = theme('contextual', $links, $id);
+  }
+  else {
+    return $all_links;
+  }
+}
+
+/**
+ * Add css and js for contextual.
+ */
+function contextual_add_css_and_js() {
+  static $set = FALSE;
+
+  if (!$set) {
+    $set = TRUE;
+    $path = drupal_get_path('module', 'contextual');
+    drupal_add_js($path .'/contextual.js');
+    drupal_add_css($path .'/contextual.css');
+  }
+}
+
+/**
+ * Implementation of hook_preprocess_page().
+ */
+function contextual_preprocess_page(&$vars) {
+  // @todo hide tabs if wanted.
+  //$vars['tabs'] = '';
+  $vars['page_classes'] = '';
+
+  contextual_get_all_links(NULL, 'page');
+
+  $page_links = contextual_set_links('page-actions');
+
+  if (!empty($page_links)) {
+    contextual_set_closure($page_links, 'contextual-page');
+    $vars['page_classes'] = 'contextual-enabled contextual-page';
+  }
+
+  $links = contextual_set_closure();
+  $vars['closure'] .= implode("\n", $links);
+}
+
+/**
+ * Implementation of hook_preprocess_block().
+ */
+function contextual_preprocess_block(&$vars) {
+  if (user_access('administer blocks') || user_access('administer menu')) {
+
+    $links = contextual_get_all_links($vars['block'], 'block');
+    if (!isset($vars['block_classes'])) {
+      $vars['block_classes'] = '';
+    }
+
+    $identifier = $vars['block']->module .'-'. $vars['block']->delta;
+
+    if (!empty($links)) {
+      contextual_set_closure($links, 'contextual-block-'. $identifier);
+      $vars['block_classes'] .= ' contextual-enabled contextual-block-'. $identifier;
+    }
+  }
+}
+
+/**
+ * Implementation of hook_preprocess_node().
+ */
+function contextual_preprocess_node(&$vars) {
+
+  $links = contextual_get_all_links($vars['node'], 'node');
+
+  $vars['node_classes'] = '';
+
+  if (!empty($links)) {
+    contextual_set_closure($links, 'contextual-node-'. $vars['node']->nid);
+    $vars['node_classes'] = 'contextual-enabled contextual-node-'. $vars['node']->nid;
+  }
+}
+
+/**
+ * Implementation of hook_preprocess_user().
+ */
+function contextual_preprocess_user_profile(&$vars) {
+  $links = contextual_get_all_links($vars['user'], 'user');
+  $vars['user_classes'] = '';
+
+  if (!empty($links)) {
+    contextual_set_closure($links, 'contextual-node-'. $vars['user']->uid);
+    $vars['user_classes'] = 'contextual-enabled contextual-node-'. $vars['user']->uid;
+  }
+}
+
+/**
+ * Implementation of hook_preprocess_view().
+ */
+function contextual_preprocess_views_view(&$vars) {
+
+  $links = array();
+
+  $links = contextual_get_all_links($vars['view'], 'views');
+
+  // Taxonomy term support.
+  if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    if (user_access('administer taxonomy')) {
+      $links['term-edit'] = array(
+        'weight' => 1,
+        'title' => 'Edit term',
+        'href' => 'admin/content/taxonomy/edit/term/'. $term->tid,
+      );
+      contextual_set_links('page-actions', $links['term-edit'], 'term-edit');
+    }
+  }
+
+  $vars['views_classes'] = '';
+
+  if (!empty($links)) {
+    contextual_set_closure($links, 'contextual-view-'. $vars['view']->vid);
+    $vars['views_classes'] = 'contextual-enabled';
+  }
+}
+
+/**
+ * Implementation of hook_contextual_page().
+ */
+function contextual_contextual_page($page) {
+  // Contact page.
+  if (arg(0) == 'contact' && user_access('administer site-wide contact form')) {
+    $links['contact-edit'] = array(
+      'weight' => 1,
+      'title' => 'Edit contact',
+      'href' => 'admin/build/contact',
+    );
+    $links['contact-edit-settings'] = array(
+      'weight' => 1,
+      'title' => 'Edit contact description',
+      'href' => 'admin/build/contact/settings',
+    );
+    contextual_set_links('page-actions', $links);
+  }
+}
+
+/**
+ * Implementation of hook_contextual_block().
+ */
+function contextual_contextual_block($block) {
+  $links = array();
+
+  // Standard block configuration.
+  if (user_access('administer blocks') && $block->module != 'glowbox-menu' && $block->module != 'panels_mini' && $block->module != 'custom') {
+    $links['block-list'] = array(
+      'weight' => 2,
+      'title' => 'Manage blocks',
+      'href' => 'admin/build/block',
+    );
+
+    $links['block-configure'] = array(
+      'weight' => 1,
+      'title' => 'Configure block',
+      'href' => 'admin/build/block/configure/'. $block->module .'/'. $block->delta,
+    );
+  }
+
+  // Support for all kinds of menus.
+  if (user_access('administer menu')) {
+    if (($block->module == 'menu' || $block->module == 'glowbox-menu' || ($block->module == 'user' && $block->delta == 1))) {
+
+      $menu_name = ($block->module == 'user') ? 'navigation' : $block->delta;
+
+      $links['block-menu-list'] = array(
+        'weight' => 2,
+        'title' => 'Configure menu',
+        'href' => 'admin/build/menu-customize/'. $menu_name,
+      );
+    }
+
+    elseif ($block->module == 'menu_block' || $block->module == 'nice_menus') {
+
+      list($menu_name, ) = split(':', variable_get('menu_block_'. $block->delta .'_parent', 'navigation:0'));
+
+      $links['block-menu-list'] = array(
+        'weight' => 0,
+        'title' => 'Configure menu',
+        'href' => 'admin/build/menu-customize/'. $menu_name,
+      );
+    }
+  }
+
+  // Support for views.
+  if ($block->module == 'views') {
+    $more_links = contextual_set_links($block->delta);
+    if (!empty($more_links)) {
+      $links = array_merge($more_links, $links);
+    }
+  }
+
+  return $links;
+}
+
+/**
+ * Implementation of hook_contextual_node().
+ */
+function contextual_contextual_node($node) {
+
+  $links = array();
+  $weight = 0;
+
+  $links['node-edit'] = array(
+    'weight' => ++$weight,
+    'title' => 'Edit',
+    'href' => 'node/' . $node->nid . '/edit',
+    'access callback' => 'node_access',
+    'access arguments' => array('update', $node)
+  );
+
+  // Translation support.
+  if (module_exists('translation')) {
+    $links['node-translate'] = array(
+      'weight' => ++$weight,
+      'title' => 'Translate',
+      'href' => 'node/' . $node->nid . '/translate',
+      'access callback' => '_translation_tab_access',
+      'access arguments' => array($node)
+    );
+  }
+
+  $links['node-delete'] = array(
+    'weight' => ++$weight,
+    'title' => 'Delete',
+    'href' => 'node/' . $node->nid . '/delete',
+    'access callback' => 'node_access',
+    'access arguments' => array('delete', $node)
+  );
+
+  $links['node-revision'] = array(
+    'weight' => ++$weight,
+    'title' => 'Revisions',
+    'href' => 'node/' . $node->nid . '/revisions',
+    'access callback' => '_node_revision_access',
+    'access arguments' => array($node)
+  );
+
+    // Webform support.
+  if ($node->type == 'webform') {
+    $links['node-components'] = array(
+      'weight' => ++$weight,
+      'title' => 'Webform fields',
+      'href' => 'node/'.$node->nid.'/edit/components',
+      'access callback' => 'node_access',
+      'access arguments' => array('update', $node),
+    );
+  }
+
+  // Nodequeue support.
+  if (module_exists('nodequeue')) {
+    $queues = nodequeue_load_queues_by_type($node->type);
+    if ($queues) {
+      $subqueues = nodequeue_get_subqueues_by_node($queues, $node);
+      nodequeue_set_subqueue_positions($subqueues, $node->nid);
+      $subqueue_count = 0;
+      foreach ($subqueues as $subqueue) {
+        $queue = $queues[$subqueue->qid];
+        ++$weight;
+        if (empty($subqueue->position)) {
+          $links['node-addtospotlight-' . $subqueue->sqid] = array(
+            'weight' => $weight,
+            'title' => 'Add to spotlight ' . $subqueue->title,
+            'href' => 'admin/content/nodequeue/' . $queue->qid . '/add/' . $subqueue->sqid . '/' . $node->nid,
+            'query' => drupal_get_destination() . '&' . nodequeue_get_token($node->nid),
+            'access callback' => 'nodequeue_queue_access',
+            'access arguments' => array($queue, $subqueue),
+          );
+        } else {
+          $links['node-removefromspotlight-' . $subqueue->sqid] = array(
+            'weight' => $weight,
+            'title' => 'Remove from spotlight ' . $subqueue->title,
+            'href' => 'admin/content/nodequeue/' . $queue->qid . '/remove-node/' . $subqueue->sqid . '/' . $node->nid,
+            'query' => drupal_get_destination() . '&' . nodequeue_get_token($node->nid),
+            'access callback' => 'nodequeue_queue_access',
+            'access arguments' => array($queue, $subqueue),
+          );
+        }
+      }
+    }
+  }
+  return $links;
+}
+
+/**
+ * Implementation of hook_contextual_user().
+ */
+function contextual_contextual_user($account) {
+  $links = array();
+  if (user_access('administer users')) {
+
+    $links['views-edit'] = array(
+      'weight' => 0,
+      'title' => 'Edit user',
+      'href' => 'user/'. $account->uid .'/edit/',
+    );
+    contextual_set_links('page-actions', $links);
+  }
+}
+
+/**
+ * Implementation of hook_contextual_views().
+ */
+function contextual_contextual_views($view) {
+
+  $actions = array();
+
+  $links['views-edit'] = array(
+    'weight' => 0,
+    'title' => 'Edit view',
+    'href' => 'admin/build/views/edit/' . $view->name,
+    'fragment' => 'views-tab-' . $view->current_display
+  );
+  $links['views-export'] = array(
+    'weight' => 1,
+    'title' => 'Export view',
+    'href' => 'admin/build/views/export/' . $view->name,
+    'fragment' => 'views-tab-' . $view->current_display
+  );
+  $links['views-clone'] = array(
+    'weight' => 2,
+    'title' => 'Clone view',
+    'href' => 'admin/build/views/clone/' . $view->name,
+    'fragment' => 'views-tab-' . $view->current_display
+  );
+
+  // First of all, access and ui check. After that, let's check if we are
+  // curently working with a block or not. If so, we'll set the actions statically.
+  if (user_access('administer views') && module_exists('views_ui')) {
+    if (strstr($view->current_display, 'page') !== FALSE) {
+      contextual_set_links('page-actions', $links);
+    }
+    else {
+      contextual_set_links($view->name .'-'. $view->current_display, $links);
+    }
+  }
+
+  return $links;
+}

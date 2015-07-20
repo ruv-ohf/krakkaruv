@@ -1,0 +1,25 @@
+/* $Id */
+
+-- SUMMARY --
+
+Works for D6.
+
+Adds contextual links for several objects like nodes, views, blocks etc.
+It's also an API which other modules can hook into to add or alter
+extra links.
+
+You need to add an extra variable to your template files:
+
+- node: $node_classes
+- views: $views_classes
+- block: $block_classes
+- page: $page_classes
+
+There is still some stuff todo - cleaning up API, settings page
+and other stuff which we've probably forgotten.
+
+-- MAINTAINERS --
+
+swentel - http://drupal.org/user/107403
+jyve - http://drupal.org/user/591438
+

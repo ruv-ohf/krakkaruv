@@ -1,0 +1,139 @@
+
+/* Contextual links */
+
+.contextual {
+  display: none;
+}
+
+.contextual-wrapper {
+  position: absolute !important;
+  top: 2px !important;
+  right: 2px !important;
+  z-index: 999 !important;
+}
+
+a.contextual-toggler  {
+  background: transparent url(images/gear-select.png) no-repeat 2px 0 !important;
+  display: block !important;
+  height: 18px !important;
+  margin: 2px 1px 0 1px !important;
+  padding: 0 2px !important;
+  outline: none !important;
+  text-indent: 34px !important;
+  width: 28px !important;
+  overflow: hidden !important;
+  z-index: 1;
+  border-radius-topleft: 4px;
+  border-radius-topright: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-radius-topleft: 4px;
+  -webkit-border-radius-topright: 4px;
+}
+
+a.contextual-toggler:hover,
+a.contextual-toggler-active {
+	background-position: 2px -18px !important;
+}
+
+a.contextual-toggler-active {
+  background-color: #fff !important;
+  border: #ccc 1px solid !important;
+  border-bottom: none !important;
+  padding: 0 2px !important;
+  margin: 1px 0 0 0 !important;
+  position: relative !important;
+}
+
+.contextual-wrapper ul.contextual-links {
+  padding: 0 !important;
+  background-color: #fff !important;
+  clear: both !important;
+  width: auto !important;
+  margin: 0 !important;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 19px;
+  right: 0;
+  padding: 0.25em 0;
+  white-space: nowrap;
+}
+
+.contextual-wrapper ul li,
+.contextual-wrapper ul li.odd,
+.contextual-wrapper ul li.even,
+.contextual-wrapper ul li.first,
+.contextual-wrapper ul li.last       {
+  padding: 0 !important;
+  border: none !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.contextual-wrapper ul li a {
+  color: #333 !important;
+  display:block !important;
+  line-height: 20px !important;
+  text-decoration: none !important;
+  border: none !important;
+  text-align: left !important;
+  padding: 2px 1em !important;
+  font-size: 11px !important;
+  background-image: none !important;
+}
+
+.contextual-wrapper ul li a:hover {
+  color: #fff !important;
+  background-color: #999 !important;
+  background-image: none !important;
+}
+
+/* Border */
+
+.contextual-region-active div.contextual-border {
+  filter:alpha(opacity=25);
+  -moz-opacity:0.25;
+  -khtml-opacity: 0.25;
+  opacity: 0.25;
+  position:absolute;
+  left:-3px;
+  right:-3px;
+  top:-3px;
+  bottom:-3px;
+  height:3px;
+  width:3px;
+  background:#666;
+}
+
+.contextual-region-active div.contextual-border-top {
+  left:0px; right:0px;
+  width:auto;
+  bottom:auto;
+}
+
+.contextual-region-active div.contextual-border-bottom {
+  left:0px; right:0px;
+  width:auto;
+  top:auto;
+}
+
+.contextual-region-active div.contextual-border-left {
+  height:auto;
+  right:auto;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-bottomleft:5px;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-bottom-left-radius-:5px;
+}
+
+.contextual-region-active div.contextual-border-right {
+  height:auto;
+  left:auto;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-bottomright:5px;
+  -webkit-border-top-right-radius:5px;
+  -webkit-border-bottom-right-radius-:5px;
+}
