@@ -665,6 +665,7 @@ function ruv_custom_preprocess_image(&$vars) {
 
 }
 
+
 function ruv_custom_krakkavefur_nyjast($term) 
 {        
     
@@ -705,3 +706,4 @@ function ruv_custom_krakkavefur_nodexists($nid){
   return db_query('select EXISTS(select 1 from node where nid = :nid)',array(':nid' => $nid))->fetchCol()[0];
 
 }
+
