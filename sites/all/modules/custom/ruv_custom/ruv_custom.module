@@ -665,3 +665,43 @@ function ruv_custom_preprocess_image(&$vars) {
 
 }
 
+function ruv_custom_krakkavefur_nyjast($term) 
+{        
+    
+//       $tpath = drupal_get_normal_path("thaettir/".$term);
+// error_log($tpath);
+//       $pieces = explode("/", $tpath);
+// error_log("bla: ".$pieces[2]);
+      $tits = [$term];
+ 
+
+      $res = db_query("SELECT 
+                          n.nid 
+                        FROM {taxonomy_index} a 
+                          LEFT JOIN {node} n on n.nid = a.nid 
+                          LEFT JOIN {field_data_field_recording_file} r on r.entity_id = n.nid  
+                        WHERE tid in (:tits) 
+                          AND status 
+                          AND n.created <= UNIX_TIMESTAMP(NOW()) 
+                          AND (r.field_recording_file_value 
+                            LIKE '%.mp4' 
+                          OR r.field_recording_file_value 
+                            LIKE '%.mp3') 
+                        ORDER BY n.created DESC 
+                        LIMIT 1", 
+                        array(':tits'=>$tits))->fetchObject();
+
+      if(isset($res->nid))
+      {
+        return $res->nid;
+      }
+      return 0;
+      
+
+}
+
+function ruv_custom_krakkavefur_nodexists($nid){
+
+  return db_query('select EXISTS(select 1 from node where nid = :nid)',array(':nid' => $nid))->fetchCol()[0];
+
+}
