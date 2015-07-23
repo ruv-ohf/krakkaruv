@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Math Pop - Help</title>
+<style type="text/css">
+body {
+    font-family: arial, verdana, helvetica, sans-serif;
+    background: #ddd;
+    color: #444;
+}
+
+h1 {
+    text-shadow: 0px 1px 1px #fff;
+}
+
+#page {
+    width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#content {
+    background: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px #000;
+}
+</style>
+</head>
+<body>
+
+<div id="page">
+
+<h1>Math Pop - Help</h1>
+
+<div id="content">
+
+<p>Thank you for purchasing Math Pop!</p>
+
+<p>If you ever have questions, please message me through
+<a href="http://activeden.net/user/BitwiseCreative" target="_blank">my Envato Profile</a>.</p>
+
+<h2>Game Overview</h2>
+
+<p>A fun and addicting math game. Pop the balloons to add up Your Number. The goal is to match the Star Number
+without going over. It's game over if you add Your Number too high, run out of move points, or run out of time.</p>
+
+<p>When you match the Star Number, you get some bonus score points. The Star Number is increased, the timer is reset, 
+and Your Number is set to zero for the next round. You also get some extra move points.</p>
+
+<h2>Fonts</h2>
+<p>The title font is <a href="http://www.fontsquirrel.com/fonts/henny-penny">Henny Penny</a>.<br />
+The in-game font (numbers, scores, etc.) is set in Game.js as "Arial, Verdana, Helvetica, sans-serif".</p>
+
+<h2>Logic and Assets</h2>
+
+<p>This game uses the <a href="http://phaser.io/">Phaser HTML5 Game Framework</a>.</p>
+
+<p>All of the visual assets for the game are in the /img directory (game sprites in /img/sprites).</p>
+
+<p>The sound files are located in the /audio directory.</p>
+
+<p>All of the logic for the game is in the /js directory.</p>
+
+<ul>
+    <li>Boot.js - Sets some display preferences, and gets the preloading text ready.</li>
+    <li>Preload.js - Preloads all of the game assets.</li>
+    <li>MainMenu.js - The main menu screen.</li>
+    <li>HowToPlay.js - The "How To Play" screen.</li>
+    <li>Game.js - The main game.</li>
+    <li>GameOver.js - The "Game Over" screen.</li>
+</ul>
+
+<p>There are configuration options in the Game.js file. Look for:</p>
+
+<p>
+<pre>
+        // CONFIG
+        ///////////////////////////////////////////////////////////////////////
+        
+        // Min/max to increase Star Number 
+        levelIncrease = [7, 15];
+        // Init percentage of Star Number to set Balloon Number to
+        balloonNumberLimit = .3;
+        // Out of 100 - Chance to double the balloon number
+        doubleNumberChance = 50;
+        // Out of 100 - Chance to half the balloon number (stacks with double)
+        halfNumberChance = 50;
+        // Out of 100 - Chance to set balloon number to single digit (Overrides chances above)
+        singleDigitNumberChance = 4;
+        // Out of 100 - Chance to set balloon number to the level-winning number
+        // (only occurs if yourNumber is >= 75% of starNumber) (Overrides chances above)  
+        perfectNumberChance = 8;
+        // Chance per frame out of 1000
+        balloonSpawnRate = 30;
+        // Balloon speed, random min/max
+        balloonSpeed = [4, 8];
+        // Balloon "wind" (left or right) random max
+        balloonWindLimit = 2;
+        // Moves to start with (moves do not reset after a level)
+        movesStart = 9;
+        // Multiplied by Star Number to increase moves by after winning a level
+        movesLeftInc = .05;
+        // Level starting seconds ("seconds" are relative to framerate of 60 fps)
+        timeLeftStart = 25;
+        // Scoring settings...
+        scoring = {
+            // Increase score by when winning a level
+            'level': 1000,
+            // Increase score by multiplying time left by (runs after winning a level, and at game over)
+            'timeMultiplier': 10,
+            // Increase score by multiplying moves left by (runs at game over)
+            'movesMultiplier': 10
+        };
+        ///////////////////////////////////////////////////////////////////////
+</pre>
+</p>
+
+<hr />
+
+<p><strong>Thank you again!</strong></p>
+
+<p><em>- BitwiseCreative</em></p>
+
+</div> <!-- end #content -->
+
+</div> <!-- end #page -->
+
+</body>
+</html>

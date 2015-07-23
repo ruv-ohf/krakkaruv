@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "name": "Math Pop",
+    "description": "A balloon popping math game (addition).",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "Bitwise Creative",
+        "url": "http://bitwisecreative.com/games.html"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {},
+    "fullscreen": "true",
+    "type": "web",
+    "orientation": "landscape"
+}

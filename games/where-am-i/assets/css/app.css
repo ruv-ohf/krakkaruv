@@ -1,0 +1,104 @@
+/**
+ * WhereAmI AngularJS application
+ * 
+ * @author compleXolution <info@complexolution.com>
+ * @version 1.5.1
+ */
+html, body { 
+    height: 100%; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar-brand { 
+    font-size: 30px; 
+}
+
+.page { 
+    height: 100%; 
+    padding-top: 51px; 
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+
+.fill-panel {
+    height: 100%;
+}
+
+.jumbotron {
+    margin-top: 20px;
+}
+
+#mapContainer {
+    padding: 0 0 40px 0;
+}
+
+#map { 
+    width: 100%; 
+    height: 100%; 
+}
+
+#buttons { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 40px; 
+}
+
+#buttons .btn {
+    height: 100%;
+    border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;
+}
+
+#differenceMap { 
+    width: 100%;
+    height: 400px;
+}
+
+code.score { font-size: 200%; }
+
+.btn-facebook { background: #45619d; color: #fff; border: 1px solid #fff; }
+.btn-facebook:hover { color: #fff; }
+
+/* GALLERY VIEW */
+
+#gallery { white-space: nowrap; overflow-x: auto; padding: 0; }
+#gallery img { height: 100%; }
+
+/* DEALS */
+
+#dealsContainer { overflow: hidden; padding: 0; }
+#dealsContainer iframe { display: block; border: 0 none; width: 100%; height: 100%; }
+
+/* LEADERBOARD */
+
+.leaderboard th, .leaderboard td { text-align: center; }
+.leaderboard .current td { background: rgba(128,128,128,0.3); font-weight: bold; }
+.leaderboard td.score { font-family: 'Courier New',monospace; }
+
+/* SCROLLBAR STYLES */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: rgba(180,180,180,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(180,180,180,0.4); 
+}

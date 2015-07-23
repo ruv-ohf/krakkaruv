@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="WhereAmI">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>{{ config.branding }}</title>
+
+        <!-- Link your custom bootstrap theme, or use a bootswatch theme for quick setup -->
+        <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.1.1/amelia/bootstrap.min.css" rel="stylesheet" title="bootstrap-theme">
+        
+        <!-- We use FontAwesome for the icons -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!-- Custom styles -->
+        <link href="assets/css/app.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Include the navigation bar -->
+        <div data-ng-include="'assets/templates/navbar.html'"></div>
+        
+        <!-- Page container -->
+        <div class="page" data-ng-view></div>
+        
+        
+        <!-- 3rd party JS lib -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//cdn.jsdelivr.net/bootbox/4.2.0/bootbox.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-sanitize.min.js"></script>
+                
+        <!-- Configuration -->
+        <script src="assets/js/config.js"></script>
+        
+        <!-- Google maps API -->
+        <script>
+            document.write('<'+'script src="//maps.googleapis.com/maps/api/js?key='+whereAmI.config.googleMapsApiKey+'&sensor=false&libraries=geometry" type="text/javascript"><'+'/script>');
+        </script>
+        
+        <!-- Application code -->
+        <script src="assets/js/functions.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/controllers/WelcomeController.js"></script>
+        <script src="assets/js/controllers/GuessController.js"></script>
+        <script src="assets/js/controllers/ShowController.js"></script>
+        <script src="assets/js/controllers/GameOverController.js"></script>
+    </body>
+</html>

@@ -1805,3 +1805,13 @@ tr.error {}
   min-height: 260px;
   width: auto;
 }
+
+/** GAMES */
+.game-landscape{
+  width: 100%;
+  height:500px;
+}
+
+.game-portrait{
+  height: 600px;
+}
