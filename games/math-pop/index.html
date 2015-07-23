@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Math Pop</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="apple-touch-icon" href="img/game-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui=1" />    
+    <script src="js/jquery.js"></script>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/Boot.js"></script>
+    <script src="js/Preloader.js"></script>
+    <script src="js/MainMenu.js"></script>
+    <script src="js/HowToPlay.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/GameOver.js"></script>
+</head>
+<body>
+<script>
+$(function() {
+    var game = new Phaser.Game(960, 640, Phaser.AUTO, 'game');
+    game.state.add('Boot', MP.Boot);
+    game.state.add('Preloader', MP.Preloader);
+    game.state.add('MainMenu', MP.MainMenu);
+    game.state.add('HowToPlay', MP.HowToPlay);
+    game.state.add('Game', MP.Game);
+    game.state.add('GameOver', MP.GameOver);
+    game.state.start('Boot');
+});
+</script>
+</body>
+</html>

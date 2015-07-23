@@ -1,0 +1,26 @@
+<div id="guess" class="fill-panel">
+    <!-- StreetView -->
+    <div class="col-sm-8 preview-panel fill-panel" id="streetView" data-ng-show="location.type === 'streetViewLocation' || location.type === 'streetViewRegion'">
+    </div>
+    
+    
+    <!-- Image gallery -->
+    <div class="col-sm-8 preview-panel fill-panel" id="gallery" data-ng-show="location.type === 'gallery'">
+        <img data-ng-src="{{ image }}" data-ng-repeat="image in location.images" />
+    </div>
+    
+    
+    <!-- Map -->
+    <div class="col-sm-4 fill-panel" id="mapContainer">
+        
+        <div id="map"></div>
+        
+        <div id="buttons">
+            <button class="btn btn-primary btn-block" data-ng-disabled="!location.guess" data-ng-click="makeGuess()">
+                {{ 'Make a Guess' | translate }}
+                <span data-ng-hide="guess.guessedLatLng">- {{ 'click on the map!' | translate }}</span>
+            </button>
+        </div>
+        
+    </div>
+</div>

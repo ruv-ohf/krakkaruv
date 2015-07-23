@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Snake</title>
+      <meta charset="utf-8" /> 
+	  <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+      <script src="files/libcanvas.js"></script>
+      <script src="files/application.js"></script>
+   </head>
+   <body>
+   <div id="options">
+	   <ul>
+		<li><a href="#" class="button" onclick="newGame();" title ="Restart game"><span class="icon icon6"></span></a></li>
+		<li><b class="button">Score: <span id="movecount">0</span></b></li>
+		<li><b id="clock" class="button"><span id="stopwatch">00:00:00</span></b></li>
+		<li><a href="#" class="button left"  id = "starttext" title ="Click here to start:" onclick="pauseGame();">Click here to start:</a></li>
+		<li><a href="#" class="button right" id="pausebutton" onclick="pauseGame();" title ="Start game"><span id="pauseicon" class="icon icon9"></span></a></li>
+		<div id="uncommonfoodcontainer"><li><b id="button" class="button"><span id="uncommonfood"></span></b></li></div>		
+		<div id="right">
+			<li><a href="#" class="button left" onclick = "changePieceSize(true);" title ="Increase scale"><span class="icon icon1"></span></a></li>
+			<li><a href="#" class="button right" id="minus_button" onclick = "changePieceSize(false);" title ="Decrease scale"><span class="icon icon2"></span></a></li>	
+			<li><a href="#" class="button left" id="level_down_button" onclick = "changeLevel(false);" title ="Level Down"><span class="icon icon7"></span></a></li>
+			<li><a href="#" class="button middle" > <span id="level">Normal</span></a></li>	
+			<li><a href="#" class="button right" id="level_up_button" onclick ="changeLevel(true);" title ="Level Up"><span class="icon icon8"></span></a></li>	
+			<li><a href="#" class="button" onclick ="message(true,'Use W, A, S, D or &#8593;, &#8595;, &#8592;, &#8594; </br>to control snake.</br> Backspace to pause or resume game.</br>');">Help</a></li>
+			<li><a href="#" class="button" onclick ="message(true,'Canvas Snake <br /> by RiodeJaneiro &copy; 2013 gta4rio@gmail.com');">About</a></li>
+		</div> 
+		</ul>
+	</div>
+	<div id="message"></div><div id="close_button" onclick ="message(false);"></div>
+    
+	<script> initGame(null, document.getElementById('movecount'), document.getElementById('stopwatch')); </script>
+	
+   </body>
+</html>

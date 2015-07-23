@@ -1,0 +1,32 @@
+var CANVAS_WIDTH = 768;
+var CANVAS_HEIGHT = 1024;
+
+var FPS_TIME      = 1000/24;
+var DISABLE_SOUND_MOBILE = true;
+
+var STATE_LOADING = 0;
+var STATE_MENU    = 1;
+var STATE_HELP    = 1;
+var STATE_GAME    = 3;
+
+var ON_MOUSE_DOWN = 0;
+var ON_MOUSE_UP   = 1;
+var ON_MOUSE_OVER = 2;
+var ON_MOUSE_OUT  = 3;
+var ON_DRAG_START = 4;
+var ON_DRAG_END   = 5;
+
+var BOARD_COLS; 
+var BOARD_ROWS; 
+var ELEM_SIZE = 88;
+var NUM_COLORS = 6;
+var SCORE_PER_ELEM;
+var SPEED_MOVE;
+var NUM_LIVES;
+
+var GAME_STATE_NO_MOVE = 0;
+var GAME_STATE_MOVE_VERTICAL = 1;
+var GAME_STATE_MOVE_HORIZONTAL = 2;
+
+var BOARD_OFFSET_X = 40;
+var BOARD_OFFSET_Y = 130;

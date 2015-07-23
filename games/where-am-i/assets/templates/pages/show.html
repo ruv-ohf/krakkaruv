@@ -1,0 +1,19 @@
+<div id="show" class="fill-panel">
+    <!-- Map -->
+    <div class="fill-panel" id="mapContainer" data-ng-class="{'col-sm-8': location.deals, 'col-sm-12': !location.deals}">
+        
+        <div id="map"></div>
+        
+        <div id="buttons">
+            <button class="btn btn-primary btn-block" data-ng-click="next()">
+                {{ 'Next' | translate }}
+            </button>
+        </div>
+        
+    </div>
+    
+    <div class="preview-panel fill-panel col-sm-4" id="dealsContainer" data-ng-show="location.deals">
+        <iframe frameBorder="no" src="about:blank" data-ng-src="{{ dealsUrl }}"></iframe>
+    </div>
+    
+</div>

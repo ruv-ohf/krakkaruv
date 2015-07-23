@@ -1,0 +1,69 @@
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">{{ config.branding }}</a>
+            
+            <!-- Menu button -->
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <i class="fa fa-fw fa-align-justify"></i>
+            </button>
+            
+            <!-- Toggle map map -->
+            <button class="navbar-toggle" type="button" data-ng-click="toggleMap()">
+                <i class="fa fa-fw fa-map-marker"></i>
+            </button>
+            
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                    <a href="javascript:" data-ng-click="newGame()">
+                        <i class="fa fa-fw fa-play"></i> 
+                        {{ 'New Game' | translate }}
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="javascript:" data-ng-click="leaderboard()">
+                        <i class="fa fa-fw fa-trophy"></i> 
+                        {{ 'Leaderboard' | translate }}
+                    </a>
+                </li>
+                
+                <li class="hidden-xs">
+                    <a href="javascript:toggleFullScreen()">
+                        <i class="fa fa-fw fa-arrows-alt"></i> 
+                        {{ 'Full Screen' | translate }}
+                    </a>
+                </li>
+                
+                <li class="dropdown" id="theme-dropdown" data-ng-show="config.allowChangeTheme">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-gears"></i> 
+                        {{ 'Change Theme' | translate }}
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="change-style-menu-item" rel="amelia">Amelia</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="cerulean">Cerulean</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="cosmo">Cosmo</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="cyborg">Cyborg</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="darkly">Darkly</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="flatly">Flatly</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="journal">Journal</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="lumen">Lumen</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="readable">Readable</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="simplex">Simplex</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="slate">Slate</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="spacelab">Spacelab</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="superhero">Superhero</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="united">United</a></li>
+                        <li><a href="#" class="change-style-menu-item" rel="yeti">Yeti</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>

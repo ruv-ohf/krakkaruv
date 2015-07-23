@@ -1,0 +1,33 @@
+<div id="game-over" class="container">    
+    <div class="jumbotron">
+        <h1>{{ 'Game Over' | translate }}</h1>
+        <p ng-bind-html="'GAME_SUMMARY' | translate | formatText:game"></p>
+        
+        <div class="well" data-ng-show="showSubmitForm">
+            <form method="post" data-ng-submit="submitLeaderboard()" class="form form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-4 col-md-3 col-lg-2">{{ 'Your Nickname' | translate }}</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" data-ng-model="user.username" />
+                    </div>
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-md btn-primary">{{ 'Submit High Score' | translate }}</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <p class="text-right">
+            
+            <a href="javascript:" data-ng-click="shareOnFacebook()" class="btn btn-facebook btn-lg" data-ng-show="config.facebookAppId">
+                <i class="fa fa-facebook"></i>
+                {{ 'Share on Facebook' | translate }} 
+            </a>
+  
+            <a href="javascript:" data-ng-click="newGame()" class="btn btn-default btn-lg">
+                {{ 'Start New Game!' | translate }} 
+                <i class="fa fa-chevron-right"></i>
+            </a>
+        </p>
+    </div>
+</div>

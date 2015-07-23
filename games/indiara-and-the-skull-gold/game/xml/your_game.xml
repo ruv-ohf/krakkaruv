@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<your_game>
+
+	<!--Facebook-->
+	
+	<id>YOUR ID APP FACEBOOK</id>
+	<!--EXAMPLE: 637119926359209 -->
+	
+	<message>YOUR MESSAGE OR GAME NAME</message>
+	<!--EXAMPLE: Indiara and the Skull Gold -->
+		
+	<link>YOUR LINK GAME</link>
+	<!--EXAMPLE: http://codecanyon.net/user/wall-e/portfolio -->
+		
+	<caption>YOUR CAPTION</caption>
+	<!--EXAMPLE: Come play this incredible adventure! -->
+	
+	<picture>YOUR URL PICTURE</picture>
+	<!--EXAMPLE: http://filippileonardo.com/_temp/envato/indiara_01/indiara_share_01.png -->
+	
+	<description>YOUR DESCRIPTION</description>
+	<!--EXAMPLE: The adventure is starting! Meet and play with Indiara, a girl who loves to collect ancient artifacts. Indiara now have to get 8 gold skulls that are in a cave full of traps! And what's worse, has a gigantic rock that pursues Indiara! You will escape the cave? -->
+
+	<!--Twitter-->
+	
+	<message_twitter>YOUR MESSAGE</message_twitter>
+	<!--EXAMPLE: Indiara and the Skull Gold http://codecanyon.net/user/wall-e/portfolio -->
+	
+</your_game>

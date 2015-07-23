@@ -1,0 +1,45 @@
+{
+	"debug": "no",
+	"forcelevel": "no",
+	"color_highlight": "#cc2",
+	"color_unsolved": "#2ad",
+	"color_solved": "#7fdb1d",
+	"thickness": 6,
+	"touch_indicator": "yes",
+	"tutorials": {
+		"first": {
+			"x": 20, "y": 360,
+			"text": [
+				"Rearrange the points on the graph so that no lines",
+				"meet and no point is sitting on any of the lines."
+			]
+		},
+		"won": {
+			"x": 20, "y": 340,
+			"text": [
+				"When the graph turns green, the level is complete.",
+				"An arrow has appared in the bottom right corner.",
+				"Push it to advance to the next level."
+			]
+		},
+		"won2": {
+			"x": 20, "y": 340,
+			"text": [
+				"Once the arrow appears, it will remain on screen",
+				"even if you twist the graph back up."
+			]
+		},
+		"second": {
+			"x": 20, "y": 390,
+			"text": [
+				"You got the gist of it. Now try this one."
+			]
+		},
+		"goodluck": {
+			"x": 20, "y": 360,
+			"text": [
+				"That's it. Good luck, you are on your own now."
+			]
+		}
+	}
+}

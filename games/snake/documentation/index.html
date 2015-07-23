@@ -1,0 +1,190 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Canvas Snake</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="RiodeJaneiro">
+	<meta name="copyright" content="RiodeJaneiro">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2013-08-09T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-canvas-snake">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#structure" title="Structure">Structure</a></li>
+			<li><a href="#how_to_use_without_options_bar_and_or_on_another_web_page" title="How to use without options bar and/or on another Web page">How to use without options bar and/or on another Web page</a></li>
+			<li><a href="#the_list_of_functions_for_the_buttons" title="The list of functions for the buttons">The list of functions for the buttons</a></li>
+			<li><a href="#default_settings" title="Default settings">Default settings</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright RiodeJaneiro 2013<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Canvas Snake</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 08/09/2013</li>
+	<li>latest update: 08/9/2013</li>
+	<li>by: RiodeJaneiro</li>
+	
+	<li>email: <a href="mailto:&#103;&#116;&#97;&#52;&#114;&#105;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#103;&#116;&#97;&#52;&#114;&#105;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing my game. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+	</section>
+	
+	<section id="structure">
+	<div class="page-header"><h3>Structure</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Game includes:</p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		index.html</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		style.css</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		application.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		libcanvas.js</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		images for buttons</li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+</section>
+<section id="how_to_use_without_options_bar_and_or_on_another_web_page">
+	<div class="page-header"><h3>How to use without options bar and/or on another Web page</h3><hr class="notop"></div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	The game can easily be used without the bar with the settings.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	In order to embed the game on another Web page, you need to connect the script executable files to HTML file for your Web page. To do this, insert the &lt;script src=&quot;%path%/libcanvas.js&quot;&gt;&lt;/script&gt; &lt;script src=&quot;%path%/application.js&quot;&gt;&lt;/script&gt;&nbsp;between the tags &lt;head&gt;&lt;/head&gt;. &nbsp;%path% is the path of the web page to files.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	Make sure you have choosen a right path for the files.</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	Then write the code below where you want to have a game board:</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;&lt;script&gt; initGame(null, document.getElementById(&#39;movecount&#39;), document.getElementById(&#39;stopwatch&#39;)); &lt;/script&gt;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	This can be in any unit like &lt;div&gt;&lt;/div&gt;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	Also you need a place to use counter of moves&nbsp;and stopwatch if you want:</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&lt;span id=&quot;movecount&quot;&gt;0&lt;/span&gt;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&lt;span id=&quot;stopwatch&quot;&gt;00:00:00&lt;/span&gt;</div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	&lt;span id=&quot;boardsize&quot;&gt;10 x 10&lt;/span&gt;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; show game board size</span></div>
+<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&lt;div id=&quot;uncommonfoodcontainer&quot;&gt;&lt;li&gt;&lt;b id=&quot;button&quot; class=&quot;button&quot;&gt;&lt;span id=&quot;uncommonfood&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;&lt;/div&gt;&nbsp;</span><span style="color: rgb(68, 68, 68); font-family: arial, sans-serif; font-size: small; line-height: 16px;">&mdash; uncommon food timer</span></div>
+</section>
+<section id="the_list_of_functions_for_the_buttons">
+	<div class="page-header"><h3>The list of functions for the buttons</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	To add function to button you can add&nbsp;onclick = &quot;%Function_name%();&quot; to button description.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	For example:&nbsp;&lt;a href=&quot;#&quot; class=&quot;button left&quot; onclick = &quot;undo();&quot;&gt;&lt;/a&gt;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Here all functions of game:</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	undo();&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; undo last move</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	redo();&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; redo last move that was undo</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">pauseGame();&nbsp;</span><span style="color: rgb(68, 68, 68); font-family: arial, sans-serif; font-size: small; line-height: 16px;">&mdash; pause or rresume game</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	changePieceSize(true);&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; increase the size of every square</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	changePieceSize(false);&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; decrease the size of every square</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	changeLevel(true);&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; to level up</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	changeLevel(false);&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; to level down</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	To use game messages you should write code below:</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	onclick =&quot;message(true,&#39;Your_text&#39;)&quot;;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: small; font-family: arial, sans-serif; vertical-align: baseline; color: rgb(68, 68, 68); line-height: 16px;">&mdash; be accurate about special symbols</span></p>
+</section>
+<section id="default_settings">
+	<div class="page-header"><h3>Default settings</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	To change default setting you should to edit application.js file.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Most variable settings are at the beginnig of the code.</p>
+</section>
+
+	</div>
+</body>
+</html>
