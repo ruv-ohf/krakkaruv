@@ -701,9 +701,44 @@ function ruv_custom_krakkavefur_nyjast($term)
 
 }
 
+
+
+
+/**
+*Eyjólfur Kristjánsson - 20150720
+*Function to use in custom valdation in views context filters to check if node exist.
+*/
 function ruv_custom_krakkavefur_nodexists($nid){
 
   return db_query('select EXISTS(select 1 from node where nid = :nid)',array(':nid' => $nid))->fetchCol()[0];
 
+}
+
+/**
+*Eyjólfur Kristjánsson - 20150722
+*Change uri callback function for some entity types, to be able to use same path/page for both taxonomy and nodes belonging to the same "heimur"
+*/
+function ruv_custom_entity_info_alter(&$entity_info){
+  $entity_info['taxonomy_term']['bundles']['heimar']['uri callback'] = 'thaettir_uri';
+  $entity_info['node']['bundles']['dagskra']['uri callback'] = 'dagskra_uri';
+//print_r($entity_info['node']);
+}
+
+/**
+*Eyjólfur Kristjánsson - 20150722
+*Callback functions for custom path for thaettir terms and dagskra nodes"
+*/
+
+function thaettir_uri($entity) {
+//print_r($entity);
+  return array(
+    'path' => 'heimur/' . taxonomy_term_load($entity->tid)->name,
+  );
+}
+function dagskra_uri($entity) {
+//print_r($entity);
+  return array(
+    'path' => 'heimur/' . $entity->title .'/'. $entity->nid,
+  );
 }
 
