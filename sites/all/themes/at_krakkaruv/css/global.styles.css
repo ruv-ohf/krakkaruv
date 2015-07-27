@@ -39,6 +39,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 87.5%;
+  max-width: 100%;
+  margin: auto;
 }
 
 *, *:after, *:before {
@@ -309,7 +311,17 @@ pre {
 /*
  * Wraps all the branding elements, logo, name and slogan
  */
-#branding {}
+#branding {
+
+}
+
+.front #menu-bar{
+  height: 788px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-image: url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg');
+  margin: 0;
+}
 
 /*
  * Logo
@@ -370,6 +382,98 @@ pre {
   margin: 0;
 }
 
+/* =============================================================================
+ *  Front page
+/* =========================================================================== */
+.front #block-block-1{
+  padding-top: 20%;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+.front #block-block-1 .krakkaruv-logo{
+  width: 580px;
+  height: 80px;
+  background: url('../images/krakkaruv-logo-stort.png') no-repeat center center;
+}
+
+/* =============================================================================
+ * Main menu
+ * ========================================================================== */
+#menu-bar a{
+  font-family: GloriaHallelujah;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#menu-bar a{
+  margin-top: 120px;
+  color: grey;
+}
+
+.front #menu-bar a{
+  color: white;
+}
+
+#menu-bar a:hover{
+  text-decoration: none;
+}
+
+#menu-bar li:hover a{
+  border-bottom: 5px solid;
+}
+
+nav#block-system-main-menu{
+  margin: 0 auto;
+  display: block;
+  width: 73%;
+}
+
+#menu-bar li{
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+#menu-bar li.watch{
+  background: #20439c url('../images/watch-button.png') no-repeat center center;
+}
+
+#menu-bar li.listen{
+  background: #1eae52 url('../images/listen-button.png') no-repeat center center;
+}
+
+#menu-bar li.play{
+  background: #f6cb1a url('../images/play-button.png') no-repeat center center;
+}
+
+#menu-bar li.create{
+  background: #aa344e url('../images/create-button.png') no-repeat center center;
+}
+
+#menu-bar li.worlds {
+  background: #3cc6df url('../images/worlds-button.png') no-repeat center center;
+}
+
+#menu-bar li{
+  margin: 1.5em;
+}
+
+/* =============================================================================
+ *   Logo - not on front page
+ * ========================================================================== */
+.not-front #block-block-1{
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.not-front .krakkaruv-logo{
+  width: 70px;
+  height: 70px;
+  background: url('../images/krakkrauv-logo-litid.png') no-repeat 0 0;
+}
 
 /* =============================================================================
  *   Misc Global Styles
@@ -549,18 +653,13 @@ a:focus {
 }
 
 .nav ul,
-.nav ul.menu {
-  margin: 0;
-  padding: 0;
-}
+.nav ul.menu {}
 
 .nav li,
 .nav ul.menu li {
   display: inline;
   float: left;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav li a,
@@ -723,9 +822,7 @@ ul.menu ul ul {}
 
 ul.menu ul ul ul {}
 
-ul.menu li {
-  margin: 0;
-}
+ul.menu li {}
 
 ul.menu li.collapsed,
 ul.menu li.expanded,
@@ -1895,6 +1992,123 @@ iframe{
   height: 770px;
 }
 
+/* =============================================================================
+ *   Boxes and headers
+ * ========================================================================== */
+
+.box {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 1.250em;
+}
+
+
+.box-content > .block-inner > .block-content {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 1.250em;
+}
+
+.h-border > .block-inner > .block-title {
+  font-family: "Exo", "OpenSans", Arial;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  border-bottom: 5px solid;
+  display: inline-block;
+  margin-bottom: -3px;
+  position: relative;
+  z-index: 10;
+}
+
+.h-border > .block-inner > .block-content {
+  padding-top: 16px;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 1em;
+}
+
+.content-border > .block-inner > .block-content {
+  border: 1px solid #dcdcdc;
+}
+
+.dark .h-border > .block-inner > .block-content {
+  border-top-color: #15212b;
+}
+
+.box-hover:hover {
+  border-color: #C8C8C8;
+}
+
+.box-footer {
+  margin: 0 -1.250em -1.250em 0;
+  padding: 0.625em 1.250em;
+  clear: both;
+}
+
+
+/* List styles ---------------------------------------- */
+ul.box-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.box-list li {
+  border: 1px solid #dcdcdc;
+  margin-bottom: 0.625em;
+  padding: 0.625em;
+  font-weight: bold;
+  background-color: white;
+}
+ul.box-list li a {
+  color: #202020;
+}
+
+ul.split-list  li {
+}
+
+/* border list ---------------------------*/
+ul.border-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.border-list li {
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  border-bottom: 1px solid #dcdcdc;
+  font-weight: bold;
+}
+ul.border-list li:last-child {
+  border-bottom: 0;
+}
+ul.border-list li:hover {
+  background: rgba(255,255,255,0.10);
+}
+
+/* Unlist list ------------------*/
+ul.unlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Borders ------------------------------------------ */
+
+.border { border: 1px solid #dcdcdc; }
+.border-top { border-top: 1px solid #dcdcdc; }
+.border-bottom { border-bottom: 1px solid #dcdcdc; }
+.border-left { border-left: 1px solid #dcdcdc; }
+.border-right { border-right: 1px solid #dcdcdc; }
+
+/* Dark borders ---------------------------------- */
+.dark .border { border-color: #15212b; }
+.dark .border-top { border-top: 1px solid #15212b; }
+.dark .border-bottom { border-bottom: 1px solid #15212b; }
+.dark .border-left { border-left: 1px solid #15212b; }
+.dark .border-right { border-right: 1px solid #15212b; }
+.dark .no-border { border: none; }
+
+.no-border { border: none; }
+
 /* Columns
 ------------------------------------------------------- */
 
@@ -1948,7 +2162,7 @@ img.inline, .inline { display: inline-block; }
 .align-middle { vertical-align: middle;}
 .align-top { vertical-align: top;}
 .align-bottom { vertical-align: bottom;}
-.align-text-bottom { vertical-align: text-bottom; };
+.align-text-bottom { vertical-align: text-bottom; }
 .display-block { display:block; }
 .scroll-x { overflow-x: auto; }
 .scroll-y { overflow-y: auto; }
@@ -2218,14 +2432,14 @@ ul.menu li.active > a,
 ul.sf-menu a:hover,
 .hover-brand:hover,
 .hovermenu li li:before,
-hover.ruv-color-hover:hover {
+.hover.ruv-color-hover:hover {
   color: #20439c;
 }
 .fill-brand {
   background-color: #20439c;
 }
 .h-border > .block-inner > .block-title,
-h-border > .block-inner > .block-title,
+.h-border > .block-inner > .block-title,
 blockquote {
   border-color: #20439c;
 }
@@ -2264,6 +2478,7 @@ ul.quicktabs-tabs li.active > a {
 }
 
 /* watch-color */
+.watch-color,
 .watch-color .fa,
 .watch-color .icon,
 .watch-color a,
