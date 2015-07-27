@@ -420,10 +420,6 @@ pre {
   text-decoration: none;
 }
 
-#menu-bar li:hover a{
-  border-bottom: 5px solid;
-}
-
 nav#block-system-main-menu{
   margin: 0 auto;
   display: block;
@@ -440,20 +436,40 @@ nav#block-system-main-menu{
   background: #20439c url('../images/watch-button.png') no-repeat center center;
 }
 
+#menu-bar li.watch:hover a{
+  border-bottom: 5px solid #20439c;
+}
+
 #menu-bar li.listen{
   background: #1eae52 url('../images/listen-button.png') no-repeat center center;
+}
+
+#menu-bar li.listen:hover a{
+  border-bottom: 5px solid #1eae52;
 }
 
 #menu-bar li.play{
   background: #f6cb1a url('../images/play-button.png') no-repeat center center;
 }
 
+#menu-bar li.play:hover a{
+  border-bottom: 5px solid #f6cb1a;
+}
+
 #menu-bar li.create{
   background: #aa344e url('../images/create-button.png') no-repeat center center;
 }
 
+#menu-bar li.create:hover a{
+  border-bottom: 5px solid #aa344e;
+}
+
 #menu-bar li.worlds {
   background: #3cc6df url('../images/worlds-button.png') no-repeat center center;
+}
+
+#menu-bar li.worlds:hover a{
+  border-bottom: 5px solid #3cc6df;
 }
 
 #menu-bar li{
