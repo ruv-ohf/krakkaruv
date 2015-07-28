@@ -404,7 +404,6 @@ pre {
 }
 
 #menu-bar a{
-  margin-top: 120px;
   color: grey;
 }
 
@@ -432,55 +431,60 @@ nav#block-system-main-menu{
 }
 
 #menu-bar li{
-  width: 120px;
-  height: 120px;
   display: inline-block;
+  height: 180px;
+
 }
 
-#menu-bar li.watch{
+#menu-bar li a{
+  width: 120px;
+  height: 120px;
+  padding-top: 120px;
+}
+
+#menu-bar li a.watch{
   background: #20439c url('../images/watch-button.png') no-repeat center center;
 }
 
-#menu-bar li.watch:hover a{
+#menu-bar li.watch:hover{
   border-bottom: 5px solid #20439c;
 }
 
-#menu-bar li.listen{
+#menu-bar li a.listen{
   background: #1eae52 url('../images/listen-button.png') no-repeat center center;
 }
 
-#menu-bar li.listen:hover a{
+#menu-bar li.listen:hover{
   border-bottom: 5px solid #1eae52;
 }
 
-#menu-bar li.play{
+#menu-bar li a.play{
   background: #f6cb1a url('../images/play-button.png') no-repeat center center;
 }
 
-#menu-bar li.play:hover a{
+#menu-bar li.play:hover{
   border-bottom: 5px solid #f6cb1a;
 }
 
-#menu-bar li.create{
+#menu-bar li a.create{
   background: #aa344e url('../images/create-button.png') no-repeat center center;
 }
 
-#menu-bar li.create:hover a{
+#menu-bar li.create:hover{
   border-bottom: 5px solid #aa344e;
 }
 
-#menu-bar li.worlds {
+#menu-bar li a.worlds {
   background: #3cc6df url('../images/worlds-button.png') no-repeat center center;
 }
 
-#menu-bar li.worlds:hover a{
+#menu-bar li.worlds:hover{
   border-bottom: 5px solid #3cc6df;
 }
 
 #menu-bar li{
   margin: 1.5em;
 }
-
 /* =============================================================================
  *   Logo - not on front page
  * ========================================================================== */
