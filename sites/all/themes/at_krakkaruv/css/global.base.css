@@ -30,6 +30,12 @@ summary {
   display: block;
 }
 
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
@@ -270,21 +276,10 @@ sub {
 dl,
 menu,
 ol,
-ul {
-  margin: 1em 0;
-}
-
-dd {
-  margin: 0 0 0 40px;
-}
-
-/*
- * Addresses paddings set differently in IE6/7
- */
-menu,
-ol,
-ul {
-  padding: 0 0 0 40px;
+ul,
+dd{
+  margin: 0;
+  padding: 0;
 }
 
 /*

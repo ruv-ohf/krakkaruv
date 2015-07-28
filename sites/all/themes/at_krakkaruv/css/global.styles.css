@@ -138,13 +138,9 @@ address {}
 
 ul {
   list-style-type: square;
-  padding-left: 1.5em;
-
 }
 
-ol {
-  padding-left: 1.5em;
-}
+ol {}
 
 li {}
 
@@ -320,6 +316,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-image: url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg');
+  background-position: center center;
   margin: 0;
 }
 
@@ -390,6 +387,7 @@ pre {
   text-align: center;
   width: 600px;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 .front #block-block-1 .krakkaruv-logo{
@@ -410,10 +408,15 @@ pre {
 #menu-bar a{
   margin-top: 120px;
   color: grey;
+  block-system-main-menu
 }
 
 .front #menu-bar a{
   color: white;
+}
+
+.front #menu-bar ul{
+  margin: 0;
 }
 
 #menu-bar a:hover{
@@ -421,15 +424,20 @@ pre {
 }
 
 nav#block-system-main-menu{
-  margin: 0 auto;
+ ;
+}
+
+#menu-bar ul{
   display: block;
-  width: 73%;
+  text-align: center;
+  margin: -115px 0 0 0;
+  padding: 0;
 }
 
 #menu-bar li{
   width: 120px;
   height: 120px;
-  text-align: center;
+  display: inline-block;
 }
 
 #menu-bar li.watch{
@@ -480,9 +488,9 @@ nav#block-system-main-menu{
  *   Logo - not on front page
  * ========================================================================== */
 .not-front #block-block-1{
-  float: left;
   margin-top: 40px;
   margin-left: 20px;
+  width: 70px;
 }
 
 .not-front .krakkaruv-logo{
@@ -673,8 +681,6 @@ a:focus {
 
 .nav li,
 .nav ul.menu li {
-  display: inline;
-  float: left;
   list-style: none;
 }
 
