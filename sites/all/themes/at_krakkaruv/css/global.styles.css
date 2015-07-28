@@ -313,10 +313,8 @@ pre {
 
 .front #menu-bar{
   height: 788px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background:  url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg') center center;
   background-size: cover;
-  background-image: url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg');
-  background-position: center center;
   margin: 0;
 }
 
@@ -400,7 +398,7 @@ pre {
  * Main menu
  * ========================================================================== */
 #menu-bar a{
-  font-family: GloriaHallelujah;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 30px;
   font-weight: 400;
 }
@@ -408,7 +406,6 @@ pre {
 #menu-bar a{
   margin-top: 120px;
   color: grey;
-  block-system-main-menu
 }
 
 .front #menu-bar a{
