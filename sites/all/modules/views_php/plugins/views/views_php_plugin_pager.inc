@@ -46,8 +46,9 @@ class views_php_plugin_pager extends views_php_plugin_wrapper  {
     
     //total_items less than items_per_page sets current_page=0, but we set current page to -1 to prevent the evaluation in 
     // function views_load_more_views_ajax_data_alter() to be true and prevent that function to alter the ajax $commands array. 
-    if(isset($is_last)){
-      view::set_current_page(-1);
+    if(isset($is_last) && $is_last == 1){
+      //view::set_current_page(-1);
+      $this->set_current_page(-1);
     }
 
   }
