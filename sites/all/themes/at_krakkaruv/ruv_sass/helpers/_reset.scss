@@ -1,0 +1,20 @@
+/**
+ * This reset file is to counter-act against some of the internal Drupal styles that
+ * are applied, e.g. from the system menu etc.
+ */
+a{
+  text-decoration: none;
+}
+
+.container{
+  padding: 0;
+}
+
+ul.menu li{
+  margin: 0;
+}
+
+ul li.leaf{
+  list-style: none;
+  padding: 0;
+}

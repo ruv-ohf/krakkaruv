@@ -1,0 +1,72 @@
+#menu-bar{
+  a{
+    color: $color-grey;
+    font-family: $headline-font;
+    font-size: $gutter / 2;
+    font-weight: $font-weight-normal;
+
+    .front &{
+      color: white;
+    }
+  }
+
+  ul{
+    display: block;
+    text-align: center;
+
+    padding: 0;
+
+    li{
+      @include inline-block;
+      margin-right: $gutter;
+
+      a:before{
+        content: " ";
+        display: block;
+        height: $gutter * 2;
+        width: $gutter * 2;
+        border-radius: 50%;
+        margin-bottom: $gutter / 2;
+      }
+
+      a{
+        display: block;
+        border-bottom: 5px solid transparent;
+        padding-bottom: $gutter / 4;
+      }
+    }
+
+    li:last-child{
+      margin-right: 0;
+    }
+
+    // Loop through the arrays, to set correct colors to the menu items
+    // Also to append the correct icons.
+    @for $i from 1 through length($menu-array){
+      $category_name: nth($menu-array, $i);
+      $color_name: nth($menu-color-array, $i);
+      li.#{$category_name}{
+        a:before{
+          background-color: #{$color_name};
+        }
+
+        a:hover{
+          border-bottom: 5px solid #{$color_name};
+        }
+      }
+    }
+
+    // When we are not on the front page.
+    .not-front &{
+      margin-top: $gutter / 4;
+
+      a:before{
+        height: $gutter * 1.5;
+        width: $gutter * 1.5;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+

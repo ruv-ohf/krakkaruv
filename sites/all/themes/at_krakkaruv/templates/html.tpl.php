@@ -66,7 +66,6 @@
 <head>
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Nunito:400,700,300' rel='stylesheet' type='text/css'>
     <?php print $styles; ?>
     <?php print $scripts; ?>
     <?php print $polyfills; ?>

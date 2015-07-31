@@ -1,0 +1,19 @@
+{
+  "name": "at_krakkaruv",
+  "version": "0.0.1",
+  "authors": [
+    "Hilmar Hallbjornsson <drupalviking@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

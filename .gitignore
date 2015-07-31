@@ -5,3 +5,7 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 .idea/*
+sites/all/themes/at_krakkaruv/vendor
+sites/all/themes/at_krakkaruv/.bowerrc
+sites/all/themes/at_krakkaruv/.sass-cache
+

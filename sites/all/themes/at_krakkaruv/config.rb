@@ -20,7 +20,7 @@ environment = :development
 # Location of the theme's resources.
 # Compass will overwrite the CSS files in the css_dir when set to watch.
 css_dir = "css"
-sass_dir = "sass"
+sass_dir = "ruv_sass"
 images_dir = "css/images"
 
 
@@ -48,7 +48,8 @@ relative_assets = true
 
 # To disable debugging comments that display the original location of your
 # selectors. Uncomment:
-# line_comments = false
+line_comments = false
+sourcemap = true
 
 # Pass options to sass.
 # - For development, we turn on the FireSass-compatible debug_info.

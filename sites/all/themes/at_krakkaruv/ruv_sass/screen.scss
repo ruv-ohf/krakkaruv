@@ -1,0 +1,17 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "helpers/imports";
+
+@import "compass/reset";
+@import "compass/css3/inline-block";
+
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid-framework";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+
+@import "components/imports";
