@@ -1,0 +1,28 @@
+.pane-hladbord-nodes-panel-pane-1{
+  background-color: pink;
+  border: 10px solid white;
+
+  .views-row{
+    // Hot-fix, because of white border below all pictures in Hlaðborð
+    // Does not work very well though :-(
+    margin-bottom: -4px;
+
+    float: left;
+    width: 25%;
+    position: relative;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .views-row-1{
+    width: 50%;
+  }
+
+  .title-bar{
+    position: absolute;
+    bottom: 0;
+  }
+}
