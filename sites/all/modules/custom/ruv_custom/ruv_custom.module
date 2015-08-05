@@ -491,7 +491,7 @@ function ruv_custom_add_jwjs($version="6", $exclude=array())
   $scripts['ruv-init'] = 'scripts/jwp6/ruv-jwplayer.int.js?i=234799'; //JS þar sem Jquery configið er keyrt.
   $scripts['controls'] = 'scripts/jwp6/jwplayer-controls.js?i=234799'; //Aðgengislyklar fyrir blinda og sjónskreta (ALT)
   
-  $base = "/sites/all/themes/at_ruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
+  $base = "/sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
   $addscript = ""; //tóm breyta til að forðast villur.
   
   foreach($scripts as $scriptkey => $script)
