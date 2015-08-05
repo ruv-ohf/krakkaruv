@@ -742,3 +742,35 @@ function dagskra_uri($entity) {
   );
 }
 
+function ruv_custom_views_rss_namespaces(){
+  $namespaces['jwplayer'] = array(
+    'prefix' => 'xmlns',
+    'uri' => 'http://rss.jwpcdn.com/',
+  );
+
+  return $namespaces;
+
+}
+
+function ruv_custom_views_rss_item_elements() {
+
+  $elements['jwplayer:image'] = array(
+    'title' => t('Preview image for item'),
+    'description' => t('Image for the video player'),
+  );
+  $elements['jwplayer:source'] = array(
+    'title' => t('Source file image for item'),
+    'description' => t('xxxSource file for the video player'),
+    'preprocess functions' => array('ruv_custom_views_rss_preprocess_item_source'),
+    //'attributes' => array('bla' => 'jalla',),
+  );  
+  //$elements['jwplayer:source']['attributes']['isPermaLink'] = "true";
+
+  return $elements;
+}
+
+function ruv_custom_views_rss_preprocess_item_source(&$variables) {
+
+  $variables['elements'][0]['attributes']['file'] = $variables['elements'][0]["value"];
+  unset($variables['elements'][0]["value"]);
+}
