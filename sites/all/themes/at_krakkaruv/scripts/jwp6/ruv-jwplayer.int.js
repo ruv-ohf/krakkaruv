@@ -135,7 +135,9 @@ jQuery(document).ready(function($)
 		myIp : function(){
 		    if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
 			else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-			xmlhttp.open("GET","/sites/all/themes/at_ruv/scripts/return-ip.php",false);
+			xmlhttp.open("GET","/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/return-ip.php",false);
 			xmlhttp.send();
 			hostipInfo = xmlhttp.responseText;
 			return hostipInfo;
@@ -149,7 +151,9 @@ jQuery(document).ready(function($)
 			{
 				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 			}
-			xmlhttp.open("POST","/sites/all/themes/at_ruv/scripts/is-ip-check.php?ip="+ip,false);
+			xmlhttp.open("POST","/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/is-ip-check.php?ip="+ip,false);
 			xmlhttp.send();
 			hostISLipInfo = xmlhttp.responseText;
 			return hostISLipInfo;
@@ -399,8 +403,12 @@ jQuery(document).ready(function($)
 				height: playerHeight,
 				aspectratio: "16:9",
 				primary : "html5",
-				src: '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf',
-				skin : '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer-skins-premium/six.xml',
+				src: '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer/jwplayer.flash.swf',
+				skin : '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer-skins-premium/six.xml',
 				autostart : player_autostart,
 				fallback : true,
 				stretching: "uniform",
@@ -474,7 +482,9 @@ jQuery(document).ready(function($)
 		var player_levels,player_modes;
 		//Upplýsingar um tengipunkt útfrá ip og staðsetningu
 		$.ajax({
-			url : "/sites/all/themes/at_ruv/scripts/ajax-geo.php?channel="+live_channel_id,
+			url : "/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/ajax-geo.php?channel="+live_channel_id,
 			dataType : "json",
 			async : 'false',
 			success : function(data){ //Fær upplýsingar um tengipunkt
@@ -489,7 +499,9 @@ jQuery(document).ready(function($)
 				];
 				/*player_modes = [
 					{ type: 'html5' },
-					{ type: 'flash', src: '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf' }
+					{ type: 'flash', src: '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer/jwplayer.flash.swf' }
 				];*/
 				
 				jwplayer(itemId).setup({
@@ -497,8 +509,12 @@ jQuery(document).ready(function($)
 					image : playerimage, 
 					poster : playerimage,
 					title : playertitle,
-					src: '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf',
-					skin : '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer-skins-premium/six.xml',
+					src: '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer/jwplayer.flash.swf',
+					skin : '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer-skins-premium/six.xml',
 					width: playerWidth,
 					height: playerHeight,
 					aspectratio: "16:9",
@@ -716,7 +732,9 @@ jQuery(document).ready(function($)
 			];
 			player_modes = [
 				{ type: 'html5' },
-				{ type: 'flash', src: '/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf' }
+				{ type: 'flash', src: '/sites/all/themes/at_krakkaruv
+
+term_custom/scripts/jwp6/jwplayer/jwplayer.flash.swf' }
 			];
 			
 			jwplayer('player-placeholder').setup({
