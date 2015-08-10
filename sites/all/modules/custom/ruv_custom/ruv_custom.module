@@ -742,6 +742,11 @@ function dagskra_uri($entity) {
   );
 }
 
+
+/**
+*Eyjólfur Kristjánsson - 20150730
+*Functions for adding jwplayer rss namaspace, items and attribute"
+*/
 function ruv_custom_views_rss_namespaces(){
   $namespaces['jwplayer'] = array(
     'prefix' => 'xmlns',
@@ -773,4 +778,16 @@ function ruv_custom_views_rss_preprocess_item_source(&$variables) {
 
   $variables['elements'][0]['attributes']['file'] = $variables['elements'][0]["value"];
   unset($variables['elements'][0]["value"]);
+}
+
+/**
+*Eyjólfur Kristjánsson - 20150706
+*Sets folders for ctools plugin system to scan for plugins of a particular type.
+*Currently set for modules:
+*   1. Feeds tamper module.
+*/
+function ruv_custom_ctools_plugin_directory($owner, $plugin_type){
+  if ($owner == 'feeds_tamper' && $plugin_type == 'plugins') {
+    return 'feeds_tamper_plugins';
+  }
 }
