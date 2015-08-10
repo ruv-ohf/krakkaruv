@@ -491,7 +491,7 @@ function ruv_custom_add_jwjs($version="6", $exclude=array())
   $scripts['ruv-init'] = 'scripts/jwp6/ruv-jwplayer.int.js?i=234799'; //JS þar sem Jquery configið er keyrt.
   $scripts['controls'] = 'scripts/jwp6/jwplayer-controls.js?i=234799'; //Aðgengislyklar fyrir blinda og sjónskreta (ALT)
   
-  $base = "/sites/all/themes/at_ruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
+  $base = "/sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
   $addscript = ""; //tóm breyta til að forðast villur.
   
   foreach($scripts as $scriptkey => $script)
@@ -742,3 +742,52 @@ function dagskra_uri($entity) {
   );
 }
 
+
+/**
+*Eyjólfur Kristjánsson - 20150730
+*Functions for adding jwplayer rss namaspace, items and attribute"
+*/
+function ruv_custom_views_rss_namespaces(){
+  $namespaces['jwplayer'] = array(
+    'prefix' => 'xmlns',
+    'uri' => 'http://rss.jwpcdn.com/',
+  );
+
+  return $namespaces;
+
+}
+
+function ruv_custom_views_rss_item_elements() {
+
+  $elements['jwplayer:image'] = array(
+    'title' => t('Preview image for item'),
+    'description' => t('Image for the video player'),
+  );
+  $elements['jwplayer:source'] = array(
+    'title' => t('Source file image for item'),
+    'description' => t('xxxSource file for the video player'),
+    'preprocess functions' => array('ruv_custom_views_rss_preprocess_item_source'),
+    //'attributes' => array('bla' => 'jalla',),
+  );  
+  //$elements['jwplayer:source']['attributes']['isPermaLink'] = "true";
+
+  return $elements;
+}
+
+function ruv_custom_views_rss_preprocess_item_source(&$variables) {
+
+  $variables['elements'][0]['attributes']['file'] = $variables['elements'][0]["value"];
+  unset($variables['elements'][0]["value"]);
+}
+
+/**
+*Eyjólfur Kristjánsson - 20150706
+*Sets folders for ctools plugin system to scan for plugins of a particular type.
+*Currently set for modules:
+*   1. Feeds tamper module.
+*/
+function ruv_custom_ctools_plugin_directory($owner, $plugin_type){
+  if ($owner == 'feeds_tamper' && $plugin_type == 'plugins') {
+    return 'feeds_tamper_plugins';
+  }
+}
