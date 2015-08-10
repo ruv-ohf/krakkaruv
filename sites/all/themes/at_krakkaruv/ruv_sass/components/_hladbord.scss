@@ -1,28 +1,52 @@
 .pane-hladbord-nodes-panel-pane-1{
-  background-color: pink;
+  font-family: $base-font;
+
+  background-color: white;
   border: 10px solid white;
 
   .views-row{
-    // Hot-fix, because of white border below all pictures in Hlaðborð
-    // Does not work very well though :-(
-    margin-bottom: -4px;
-
-    float: left;
-    width: 25%;
     position: relative;
+    padding: 5px;
+
+    width: 25%;
+    float: left;
 
     img{
+      vertical-align: super;
+      margin-bottom: -10px;
       width: 100%;
       height: auto;
     }
   }
 
+
+
   .views-row-1{
     width: 50%;
+
+    img{
+      margin-bottom: -8px;
+    }
   }
 
   .title-bar{
+    padding-right: 10px;
+    width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
+
+    @for $i from 1 through length($buffet-array) {
+      $category_name: nth($buffet-array, $i);
+      $color_name: nth($menu-color-array, $i);
+
+      &.#{$category_name} a{
+        display: block;
+        background-color: $color_name;
+        opacity: 0.9;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+      }
+    }
   }
 }

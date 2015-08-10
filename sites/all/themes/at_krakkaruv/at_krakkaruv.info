@@ -73,6 +73,8 @@
 
   ; ie_scripts[lte IE 8][] = scripts/my-script.js
 
+  scripts[] = scripts/masonry.pkgd.min.js
+
 
 ;----------// Regions
 

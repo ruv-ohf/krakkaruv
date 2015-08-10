@@ -24,3 +24,5 @@ ul li.leaf{
   list-style: none;
   padding: 0;
 }
+
+*, *:before, *:after{ box-sizing: border-box; }
