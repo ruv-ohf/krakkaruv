@@ -1,5 +1,5 @@
 .pane-hladbord-nodes-panel-pane-1{
-  font-family: $base-font;
+  font-family: $font-base;
 
   background-color: white;
   border: 10px solid white;
@@ -26,6 +26,10 @@
 
     img{
       margin-bottom: -8px;
+
+      @include breakpoint(max-width 1024px){
+        margin-bottom: -10px;
+      }
     }
   }
 
@@ -40,13 +44,16 @@
       $color_name: nth($menu-color-array, $i);
 
       &.#{$category_name} a{
-        display: block;
         background-color: $color_name;
-        opacity: 0.9;
-        padding: 10px;
-        color: white;
-        font-size: 20px;
       }
+    }
+
+    a{
+      display: block;
+      opacity: 0.9;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
     }
   }
 }

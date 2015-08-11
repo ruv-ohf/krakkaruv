@@ -1,0 +1,18 @@
+.ruv-item{
+  font-family: $font-base;
+  position: relative;
+  width: 25%;
+  float: left;
+
+  .title-bar{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+
+    a{
+      color: white;
+    }
+  }
+}
