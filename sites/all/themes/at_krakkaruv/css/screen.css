@@ -3535,4 +3535,12 @@ blockquote {
   margin-bottom: 30px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_item_list_pager\.scss}line{font-family:\000032}}
+.item-list-pager a {
+  font-family: "Nunito", sans-serf;
+  color: #20439c;
+  border: 1px solid #20439c;
+  padding: 10px 30px;
+}
+
 /*# sourceMappingURL=screen.css.map */
