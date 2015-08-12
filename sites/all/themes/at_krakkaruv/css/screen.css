@@ -3470,7 +3470,7 @@ blockquote {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000327}}
 .ruv-item-all .title-bar {
-  background-color: black;
+  background-color: #282828;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000332}}
@@ -3487,9 +3487,38 @@ blockquote {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\000031}}
 .age-categories {
   background-color: #20439c;
+  margin-top: -3px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\000038}}
+.age-categories .block-content {
+  margin: auto;
+  text-align: center;
+  width: 510px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000314}}
+.age-categories p {
+  float: left;
+  width: 150px;
+  border: 1px solid white;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000322}}
+.age-categories p:hover {
+  background-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000325}}
+.age-categories p:hover a {
+  color: #20439c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000330}}
 .age-categories a {
+  font-family: "Nunito", sans-serf;
+  font-size: 22px;
+  font-weight: 300;
   color: white;
 }
 
@@ -3503,7 +3532,7 @@ blockquote {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 36px;
   color: #20439c;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=screen.css.map */

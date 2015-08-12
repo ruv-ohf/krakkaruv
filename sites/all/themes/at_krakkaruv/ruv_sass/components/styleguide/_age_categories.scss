@@ -1,7 +1,36 @@
 .age-categories{
   background-color: $color-watch;
+  margin-top: -3px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%;
+
+  .block-content{
+    margin: auto;
+    text-align: center;
+    width: 510px;
+  }
+
+  p{
+    float: left;
+    width: 150px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 10px 30px;
+  }
+
+  p:hover{
+    background-color: white;
+
+    a{
+      color: $color-watch;
+    }
+  }
 
   a{
+    font-family: $font-base;
+    font-size: 22px;
+    font-weight: $font-weight-thin;
     color: white;
   }
 }
