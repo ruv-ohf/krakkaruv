@@ -3543,4 +3543,10 @@ blockquote {
   padding: 10px 30px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\000031}}
+.ruv-player.watch {
+  padding: 50px 50px 0 50px;
+  background-color: #20439c;
+}
+
 /*# sourceMappingURL=screen.css.map */
