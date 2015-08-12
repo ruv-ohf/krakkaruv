@@ -3440,18 +3440,13 @@ blockquote {
   color: white !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\000031}}
-.ruv-item-list {
-  margin: 0 auto;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\000031}}
 .ruv-item {
   font-family: "Nunito", sans-serf;
-  width: 100%;
-  max-width: 270px;
+  width: 23%;
   float: left;
   margin-right: 15px;
+  margin-bottom: 30px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\000039}}
 .ruv-item .title-bar {
@@ -3462,21 +3457,27 @@ blockquote {
 .ruv-item .title-bar a {
   color: white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000318}}
+.ruv-item img {
+  margin-bottom: -3px;
+  width: 100%;
+  height: auto;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000325}}
 .ruv-item-all {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000327}}
 .ruv-item-all .title-bar {
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000332}}
 .ruv-item-newest {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\0000335}}
 .ruv-item-newest .title-bar {
   position: absolute;
   bottom: 0;
@@ -3490,6 +3491,19 @@ blockquote {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\000034}}
 .age-categories a {
   color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000031}}
+.ruv-panel-pane {
+  margin: auto;
+  width: 88%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000035}}
+.ruv-panel-pane h2 {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 36px;
+  color: #20439c;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=screen.css.map */
