@@ -1440,7 +1440,7 @@ h1, h2 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\000031}}
-.worlds {
+.worlds-wrapper {
   padding: 40px;
   height: 788px;
   background: url("/sites/all/themes/at_krakkaruv/images/heimar-background.jpg") center center;
@@ -1448,57 +1448,57 @@ h1, h2 {
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\000038}}
-.worlds .view-heimar {
+.worlds-wrapper .view-heimar {
   width: 980px;
   margin: auto;
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000313}}
-.worlds .view-heimar .views-row {
+.worlds-wrapper .view-heimar .views-row {
   width: 20%;
   margin-right: 5%;
   float: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000320}}
-.worlds h1 {
+.worlds-wrapper h1 {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000324}}
-.worlds h2 {
+.worlds-wrapper h2 {
   color: #6be8ff;
   margin-bottom: 40px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000329}}
-.worlds .button {
+.worlds-wrapper .button {
   border-color: #6be8ff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000332}}
-.worlds .button a {
+.worlds-wrapper .button a {
   color: #6be8ff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000337}}
-.worlds .button:hover {
+.worlds-wrapper .button:hover {
   background-color: #6be8ff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000340}}
-.worlds .button:hover a {
+.worlds-wrapper .button:hover a {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000345}}
-.worlds .view-content {
+.worlds-wrapper .view-content {
   margin-bottom: 40px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/vendor\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
-.worlds .view-content:before, .worlds .view-content:after {
+.worlds-wrapper .view-content:before, .worlds-wrapper .view-content:after {
   content: " ";
   display: table;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/vendor\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
-.worlds .view-content:after {
+.worlds-wrapper .view-content:after {
   clear: both;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000350}}
-.worlds .view-footer {
+.worlds-wrapper .view-footer {
   width: 225px;
   margin: auto;
 }
