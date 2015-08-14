@@ -1,0 +1,11 @@
+/** 
+ * Main SCSS styles.
+ *
+ * Here we give global styles some values
+ */
+
+h1, h2{
+	font-family: $font-headline;
+	font-size: 48px;
+	line-height: 60px;
+}
