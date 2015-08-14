@@ -745,7 +745,8 @@ function dagskra_uri($entity) {
 
 /**
 *Eyjólfur Kristjánsson - 20150730
-*Functions for adding jwplayer rss namaspace, items and attribute"
+*Functions for adding jwplayer rss namespace, items and attribute"
+* Uses also functions ruv_custom_views_rss_item_elements() and ruv_custom_views_rss_preprocess_item_source(
 */
 function ruv_custom_views_rss_namespaces(){
   $namespaces['jwplayer'] = array(
