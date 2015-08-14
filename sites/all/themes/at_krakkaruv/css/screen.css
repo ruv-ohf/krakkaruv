@@ -1304,43 +1304,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000349}}
 #menu-bar ul li.watch a:before {
-  background-color: #20439c;
+  background-color: #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000353}}
 #menu-bar ul li.watch a:hover {
-  border-bottom: 5px solid #20439c;
+  border-bottom: 5px solid #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000349}}
 #menu-bar ul li.listen a:before {
-  background-color: #1eae52;
+  background-color: #34c6c6;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000353}}
 #menu-bar ul li.listen a:hover {
-  border-bottom: 5px solid #1eae52;
+  border-bottom: 5px solid #34c6c6;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000349}}
 #menu-bar ul li.play a:before {
-  background-color: #f6cb1a;
+  background-color: #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000353}}
 #menu-bar ul li.play a:hover {
-  border-bottom: 5px solid #f6cb1a;
+  border-bottom: 5px solid #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000349}}
 #menu-bar ul li.create a:before {
-  background-color: #aa344e;
+  background-color: #ab89bf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000353}}
 #menu-bar ul li.create a:hover {
-  border-bottom: 5px solid #aa344e;
+  border-bottom: 5px solid #ab89bf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000349}}
 #menu-bar ul li.worlds a:before {
-  background-color: #3cc6df;
+  background-color: #ffd150;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000353}}
 #menu-bar ul li.worlds a:hover {
-  border-bottom: 5px solid #3cc6df;
+  border-bottom: 5px solid #ffd150;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000360}}
 .not-front #menu-bar ul {
@@ -1396,23 +1396,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa a {
-  background-color: #20439c;
+  background-color: #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Hlusta a {
-  background-color: #1eae52;
+  background-color: #34c6c6;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Leika a {
-  background-color: #f6cb1a;
+  background-color: #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Skapa a {
-  background-color: #aa344e;
+  background-color: #ab89bf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Heimar a {
-  background-color: #3cc6df;
+  background-color: #ffd150;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000351}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar a {
@@ -3486,7 +3486,7 @@ blockquote {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\000031}}
 .age-categories {
-  background-color: #20439c;
+  background-color: #54ba54;
   margin-top: -3px;
   margin-bottom: 30px;
   padding: 20px;
@@ -3512,7 +3512,7 @@ blockquote {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000325}}
 .age-categories p:hover a {
-  color: #20439c;
+  color: #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000330}}
 .age-categories a {
@@ -3531,22 +3531,22 @@ blockquote {
 .ruv-panel-pane h2 {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 36px;
-  color: #20439c;
+  color: #54ba54;
   margin-bottom: 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_item_list_pager\.scss}line{font-family:\000032}}
 .item-list-pager a {
   font-family: "Nunito", sans-serf;
-  color: #20439c;
-  border: 1px solid #20439c;
+  color: #54ba54;
+  border: 1px solid #54ba54;
   padding: 10px 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\000031}}
 .ruv-player.watch {
   padding: 50px 50px 0 50px;
-  background-color: #20439c;
+  background-color: #54ba54;
 }
 
 /*# sourceMappingURL=screen.css.map */
