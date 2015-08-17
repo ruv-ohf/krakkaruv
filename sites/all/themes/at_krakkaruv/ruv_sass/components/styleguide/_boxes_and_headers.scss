@@ -1,0 +1,116 @@
+/* =============================================================================
+ *   Boxes and headers
+ * ========================================================================== */
+
+.box {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 1.250em;
+}
+
+
+.box-content > .block-inner > .block-content {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 1.250em;
+}
+
+.h-border > .block-inner > .block-title {
+  font-family: "Exo", "OpenSans", Arial;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  border-bottom: 5px solid;
+  display: inline-block;
+  margin-bottom: -3px;
+  position: relative;
+  z-index: 10;
+}
+
+.h-border > .block-inner > .block-content {
+  padding-top: 16px;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 1em;
+}
+
+.content-border > .block-inner > .block-content {
+  border: 1px solid #dcdcdc;
+}
+
+.dark .h-border > .block-inner > .block-content {
+  border-top-color: #15212b;
+}
+
+.box-hover:hover {
+  border-color: #C8C8C8;
+}
+
+.box-footer {
+  margin: 0 -1.250em -1.250em 0;
+  padding: 0.625em 1.250em;
+  clear: both;
+}
+
+
+/* List styles ---------------------------------------- */
+ul.box-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.box-list li {
+  border: 1px solid #dcdcdc;
+  margin-bottom: 0.625em;
+  padding: 0.625em;
+  font-weight: bold;
+  background-color: white;
+}
+ul.box-list li a {
+  color: #202020;
+}
+
+ul.split-list  li {
+}
+
+/* border list ---------------------------*/
+ul.border-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.border-list li {
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  border-bottom: 1px solid #dcdcdc;
+  font-weight: bold;
+}
+ul.border-list li:last-child {
+  border-bottom: 0;
+}
+ul.border-list li:hover {
+  background: rgba(255,255,255,0.10);
+}
+
+/* Unlist list ------------------*/
+ul.unlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Borders ------------------------------------------ */
+
+.border { border: 1px solid #dcdcdc; }
+.border-top { border-top: 1px solid #dcdcdc; }
+.border-bottom { border-bottom: 1px solid #dcdcdc; }
+.border-left { border-left: 1px solid #dcdcdc; }
+.border-right { border-right: 1px solid #dcdcdc; }
+
+/* Dark borders ---------------------------------- */
+.dark .border { border-color: #15212b; }
+.dark .border-top { border-top: 1px solid #15212b; }
+.dark .border-bottom { border-bottom: 1px solid #15212b; }
+.dark .border-left { border-left: 1px solid #15212b; }
+.dark .border-right { border-right: 1px solid #15212b; }
+.dark .no-border { border: none; }
+
+.no-border { border: none; }

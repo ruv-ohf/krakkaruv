@@ -1,0 +1,47 @@
+/* Fills -----------------------------------------------*/
+.fill-watch,
+.fill-blue { background: #20439c; }
+.fill-listen,
+.fill-green{ background: #1EAE52; }
+.fill-play,
+.fill-yellow { background: #F6CB1A; }
+.fill-create,
+.fill-burgundy{ background: #AA344E; }
+.fill-worlds,
+.fill-turquoise{ background: #3CC6DF; }
+
+.fill-red{ background: #DE0404; }
+.fill-dark{ background: #101010; }
+.fill-dark-gray{ background: #63717B; }
+.fill-gray{ background: #EAEAEA; }
+.fill-light{ background: #F7F7F7; }
+.fill-white{ background: #FFF; }
+.fill-light-blue{ background: #33ACE3; }
+
+
+.fill-darken0 { background: rgba(0,0,0,0.05); }
+.fill-darken1 { background: rgba(0,0,0,0.25); }
+.fill-darken2 { background: rgba(0,0,0,0.50); }
+.fill-darken3 { background: rgba(0,0,0,0.75); }
+
+.fill-lighten0 { background: rgba(255,255,255,0.10); }
+.fill-lighten1 { background: rgba(255,255,255,0.25); }
+.fill-lighten2 { background: rgba(255,255,255,0.50); }
+.fill-lighten3 { background: rgba(255,255,255,0.75); }
+
+.fill-transparent { background-color: transparent; }
+
+/* classes to be used when light text is needed and reverse */
+.dark {
+  color: #fff;
+}
+.dark a {
+  color: #8DC3FF;
+}
+.light {
+  color: #404040;
+}
+.color-white-hover.color-white-hover:hover,
+.active .color-white-hover {
+  color: white !important;
+}

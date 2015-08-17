@@ -1,0 +1,188 @@
+/* Spacing for lists - Automatically adds margin to child elements
+---------------------------------------------------------- */
+.space0 > * { margin-right: 0.313em; }
+.space1 > * { margin-right: 0.625em; }
+.space2 > * { margin-right: 1.250em; }
+.space3 > * { margin-right: 1.875em; }
+
+.space0:last-child,
+.space1:last-child,
+.space2:last-child,
+.space3:last-child {
+  margin-right: 0;
+}
+
+/* Margin
+------------------------------------------------------- */
+
+.mar1 { margin:0.625em; }
+.mar2 { margin:1.250em; }
+.mar3 { margin:1.875em; }
+.mar4 { margin:2.500em; }
+
+/* Margin for all sides of block content */
+.mar0-content > .block-inner > .block-content { margin:0.313em; }
+.mar1-content > .block-inner > .block-content { margin:0.625em; }
+.mar2-content > .block-inner > .block-content { margin:1.250em; }
+.mar3-content > .block-inner > .block-content { margin:1.875em; }
+
+/* Left and right margin for block content */
+.mar0x-content > .block-inner > .block-content { margin-right:0.313em; margin-left:0.313em; }
+.mar1x-content > .block-inner > .block-content { margin-left: 0.625em; margin-right: 0.625em; }
+.mar2x-content > .block-inner > .block-content { margin-left: 1.250em; margin-right: 1.250em; }
+.mar3x-content > .block-inner > .block-content { margin-left: 1.875em; margin-right: 1.875em; }
+
+/* Top and bottom margin for block content */
+.mar0y-content > .block-inner > .block-content { margin-top:0.313em; margin-bottom:0.313em; }
+.mar1y-content > .block-inner > .block-content { margin-top: 0.625em; margin-bottom: 0.625em; }
+.mar2y-content > .block-inner > .block-content { margin-top: 1.250em; margin-bottom: 1.250em; }
+.mar3y-content > .block-inner > .block-content { margin-top: 1.875em; margin-bottom: 1.875em; }
+
+/* Margin for all sides */
+.mar0 { margin:0.313em; }
+.mar1 { margin:0.625em; }
+.mar2 { margin:1.250em; }
+.mar3 { margin:1.875em; }
+.mar4 { margin:2.500em; }
+
+/* Left and Right margins*/
+.mar0x { margin-right:0.313em; margin-left:0.313em; }
+.mar1x { margin-left: 0.625em; margin-right: 0.625em; }
+.mar2x { margin-left: 1.250em; margin-right: 1.250em; }
+.mar3x { margin-left: 1.875em; margin-right: 1.875em; }
+.mar4y { margin-top: 2.500em; margin-bottom: 2.500em; }
+
+/* Top and Bottom margins*/
+.mar0y { margin-top:0.313em; margin-bottom:0.313em; }
+.mar1y { margin-top: 0.625em; margin-bottom: 0.625em; }
+.mar2y { margin-top: 1.250em; margin-bottom: 1.250em; }
+.mar3y { margin-top: 1.875em; margin-bottom: 1.875em; }
+.mar4y { margin-top: 2.500em; margin-bottom: 2.500em; }
+
+/* Left margin, used for left-floated elements */
+.mar0l { margin-left: 0.313em; }
+.mar1l { margin-left: 0.625em; }
+.mar2l { margin-left: 1.250em; }
+.mar3l { margin-left: 1.875em; }
+.mar4l { margin-left: 2.500em; }
+
+/* reverse margins on right-floated elements */
+.mar0r { margin-right: 0.313em; }
+.mar1r { margin-right: 0.625em; }
+.mar2r { margin-right: 1.250em; }
+.mar3r { margin-right: 1.875em; }
+.mar4r { margin-right: 2.500em; }
+
+/* Margin-bottom */
+.mar0b { margin-bottom: 0.313em; }
+.mar1b { margin-bottom: 0.625em; }
+.mar2b { margin-bottom: 1.250em; }
+.mar3b { margin-bottom: 1.875em; }
+.mar4b { margin-bottom: 2.500em; }
+
+/* Margin-top */
+.mar0t { margin-top: 0.313em; }
+.mar1t { margin-top: 0.625em; }
+.mar2t { margin-top: 1.250em; }
+.mar3t { margin-top: 1.875em; }
+.mar4t { margin-top: 2.500em; }
+
+/* Minus Left margin, used for left-floated elements */
+.mar-0l { margin-left: -0.313em; }
+.mar-1l { margin-left: -0.625em; }
+.mar-2l { margin-left: -1.250em; }
+.mar-3l { margin-left: -1.875em; }
+.mar-4l { margin-left: -2.500em; }
+
+/* Minus reverse margins on right-floated elements */
+.mar-0r { margin-right: -0.313em; }
+.mar-1r { margin-right: -0.625em; }
+.mar-2r { margin-right: -1.250em; }
+.mar-3r { margin-right: -1.875em; }
+.mar-4r { margin-right: -2.500em; }
+
+/* Minus Margin-bottom */
+.mar-0b { margin-bottom: -0.313em; }
+.mar-1b { margin-bottom: -0.625em; }
+.mar-2b { margin-bottom: -1.250em; }
+.mar-3b { margin-bottom: -1.875em; }
+.mar-4b { margin-bottom: -2.500em; }
+
+/* Minus Margin-top */
+.mar-0t { margin-top: -0.313em; }
+.mar-1t { margin-top: -0.625em; }
+.mar-2t { margin-top: -1.250em; }
+.mar-3t { margin-top: -1.875em; }
+.mar-4t { margin-top: -2.500em; }
+
+.no-margin { margin: 0; }
+
+/* Padding
+------------------------------------------------------- */
+
+.pad0 { padding:0.313em; }
+.pad1 { padding:0.625em; }
+.pad2 { padding:1.250em; }
+.pad3 { padding:1.875em; }
+
+.pad0x { padding-right:0.313em; padding-left:0.313em; }
+.pad1x { padding-left: 0.625em; padding-right: 0.625em;}
+.pad2x { padding-left: 1.250em; padding-right: 1.250em;}
+.pad3x { padding-left: 1.875em; padding-right: 1.875em;}
+
+.pad0y { padding-top:0.313em; padding-bottom:0.313em; }
+.pad1y { padding-top: 0.625em; padding-bottom: 0.625em;}
+.pad2y { padding-top: 1.250em; padding-bottom: 1.250em;}
+.pad3y { padding-top: 1.875em; padding-bottom: 1.875em;}
+
+/* Padding Left */
+.pad0l { padding-left: 0.313em; }
+.pad1l { padding-left: 0.625em; }
+.pad2l { padding-left: 1.250em; }
+.pad3l { padding-left: 1.875em; }
+
+/* Padding Right*/
+.pad0r { padding-right: 0.313em; }
+.pad1r { padding-right: 0.625em; }
+.pad2r { padding-right: 1.250em; }
+.pad3r { padding-right: 1.875em; }
+
+/* Padding-bottom */
+.pad0b { padding-bottom: 0.313em; }
+.pad1b { padding-bottom: 0.625em; }
+.pad2b { padding-bottom: 1.250em; }
+.pad3b { padding-bottom: 1.875em; }
+
+/* Padding-top */
+.pad0t { padding-top: 0.313em; }
+.pad1t { padding-top: 0.625em; }
+.pad2t { padding-top: 1.250em; }
+.pad3t { padding-top: 1.875em; }
+
+.pad0-content > .block-inner > .block-content { padding:0.313em; }
+.pad0y-content > .block-inner > .block-content { padding-top:0.313em; padding-bottom:0.313em; }
+.pad0x-content > .block-inner > .block-content { padding-right:0.313em; padding-left:0.313em; }
+
+.pad1-content > .block-inner > .block-content { padding:0.625em; }
+.pad2-content > .block-inner > .block-content { padding:1.250em; }
+.pad3-content > .block-inner > .block-content { padding:1.875em; }
+
+.pad1x-content > .block-inner > .block-content { padding-left: 0.625em; padding-right: 0.625em;}
+.pad2x-content > .block-inner > .block-content { padding-left: 1.250em; padding-right: 1.250em;}
+.pad3x-content > .block-inner > .block-content { padding-left: 1.875em; padding-right: 1.875em;}
+
+.pad1y-content > .block-inner > .block-content { padding-top: 0.625em; padding-bottom: 0.625em;}
+.pad2y-content > .block-inner > .block-content { padding-top: 1.250em; padding-bottom: 1.250em;}
+.pad3y-content > .block-inner > .block-content { padding-top: 1.875em; padding-bottom: 1.875em;}
+
+.no-padding { padding: 0; }
+
+.pad0-even {
+  padding-right: 0.1562em;
+  padding-left: 0.1562em;
+}
+.pad0-even:first-child {
+  padding-left: 0;
+  padding-right: 0.313em;
+}
+.pad0-even:last-child { padding-right: 0}
