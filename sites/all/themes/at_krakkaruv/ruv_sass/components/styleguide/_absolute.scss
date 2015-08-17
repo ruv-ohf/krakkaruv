@@ -1,0 +1,19 @@
+/* Absolute positioning ----------------------------------- */
+.pin-top,
+.pin-bottom,
+.pin-right,
+.pin-left,
+.pin-top-left,
+.pin-top-right,
+.pin-bottom-left,
+.pin-bottom-right {
+  position:absolute;
+}
+.pin-top    { top:0; right:0; left:0; }
+.pin-bottom { right:0; bottom:0; left:0; }
+.pin-left   { top:0; bottom:0; left:0; }
+.pin-right  { top:0; right:0; bottom:0; }
+.pin-bottom-right { bottom:0; right:0; }
+.pin-bottom-left  { bottom:0; left:0; }
+.pin-top-right    { top:0; right:0; }
+.pin-top-left     { top:0; left:0; }

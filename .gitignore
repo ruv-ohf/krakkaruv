@@ -9,3 +9,4 @@ sites/all/themes/at_krakkaruv/vendor
 sites/all/themes/at_krakkaruv/.bowerrc
 sites/all/themes/at_krakkaruv/.sass-cache
 
+.DS_Store

@@ -1,0 +1,397 @@
+/* =============================================================================
+ *   COLORS
+ * ========================================================================== */
+/* Default brand colors */
+.fa,
+.icon,
+a,
+.light a,
+.brand,
+ul.menu li.active-trail.sf-depth-1 > a,
+ul.menu li a.active,
+ul.menu li.active > a,
+ul.sf-menu a:hover,
+.hover-brand:hover,
+.hovermenu li li:before,
+.hover.ruv-color-hover:hover {
+  color: #20439c;
+}
+.fill-brand {
+  background-color: #20439c;
+}
+.h-border > .block-inner > .block-title,
+.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #20439c;
+}
+
+.form-submit,
+.button,
+.pager-load-more a {
+  border-color: #20439c;
+  color: #034EA1;
+}
+.dark .form-submit,
+.dark .button,
+.dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+
+.button.active,
+.form-submit:hover,
+.button:hover,
+.pager-load-more a:hover {
+  background: #20439c;
+  color: white;
+}
+
+.dark .form-submit:hover,
+.dark .button:hover,
+.dark .pager-load-more a:hover {
+  background: white;
+  color: #20439c;
+}
+
+ul.quicktabs-tabs li.active > a {
+  background: #20439c;
+  color: white;
+}
+
+/* watch-color */
+.watch-color,
+.watch-color .fa,
+.watch-color .icon,
+.watch-color a,
+.watch-color .light a,
+.watch-color .brand,
+.watch-color .ul.menu li.active-trail.sf-depth-1 > a,
+.watch-color .ul.menu li a.active,
+.watch-color .ul.menu li.active > a,
+.watch-color .ul.sf-menu a:hover,
+.watch-color .hover-brand:hover,
+.watch-color .hovermenu li li:before,
+.watch-color-hover.watch-color-hover:hover {
+  color: #20439c;
+}
+
+.watch-color .fill-brand {
+  background-color: #20439c;
+}
+
+.watch-color .h-border > .block-inner > .block-title,
+.watch-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #20439c;
+}
+.watch-color .form-submit,
+.watch-color .button,
+.watch-color .pager-load-more a {
+  border-color: #20439c;
+  color: #20439c;
+}
+.watch-color .dark .form-submit,
+.watch-color .dark .button,
+.watch-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.watch-color .button.active,
+.watch-color .form-submit:hover,
+.watch-color .button:hover,
+.watch-color .pager-load-more a:hover {
+  background: #20439c;
+  color: white;
+}
+.watch-color .dark .form-submit:hover,
+.watch-color .dark .button:hover,
+.watch-color .dark .button:hover .fa,
+.watch-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #20439c;
+}
+.watch-color ul.quicktabs-tabs li.active > a {
+  background: #20439c;
+  color: white;
+}
+
+
+/* listen-color */
+.listen-color .fa,
+.listen-color .icon,
+.listen-color a,
+.listen-color .light a,
+.listen-color .brand,
+.listen-color .ul.menu li.active-trail.sf-depth-1 > a,
+.listen-color .ul.menu li a.active,
+.listen-color .ul.menu li.active > a,
+.listen-color .ul.sf-menu a:hover,
+.listen-color .hover-brand:hover,
+.listen-color .hovermenu li li:before,
+.listen-color-hover.listen-color-hover:hover {
+  color: #1EAE52;
+}
+
+.listen-color .fill-brand {
+  background-color: #1EAE52;
+}
+
+.listen-color .h-border > .block-inner > .block-title,
+.listen-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #1EAE52;
+}
+.listen-color .form-submit,
+.listen-color .button,
+.listen-color .pager-load-more a {
+  border-color: #1EAE52;
+  color: #1EAE52;
+}
+.listen-color .dark .form-submit,
+.listen-color .dark .button,
+.listen-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.listen-color .button.active,
+.listen-color .form-submit:hover,
+.listen-color .button:hover,
+.listen-color .pager-load-more a:hover {
+  background: #1EAE52;
+  color: white;
+}
+.listen-color .dark .form-submit:hover,
+.listen-color .dark .button:hover,
+.listen-color .dark .button:hover .fa,
+.listen-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #1EAE52;
+}
+.listen-color ul.quicktabs-tabs li.active > a {
+  background: #1EAE52;
+  color: white;
+}
+
+/* play-color */
+.play-color .fa,
+.play-color .icon,
+.play-color a,
+.play-color .light a,
+.play-color .brand,
+.play-color .ul.menu li.active-trail.sf-depth-1 > a,
+.play-color .ul.menu li a.active,
+.play-color .ul.menu li.active > a,
+.play-color .ul.sf-menu a:hover,
+.play-color .hover-brand:hover,
+.play-colorplay-color .hovermenu li li:before,
+.play-color-hover.play-color-hover:hover {
+  color: #F6CB1A;
+}
+
+.play-color .fill-brand {
+  background-color: #F6CB1A;
+}
+
+.play-color .h-border > .block-inner > .block-title,
+.play-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #F6CB1A;
+}
+.play-color .form-submit,
+.play-color .button,
+.play-color .pager-load-more a {
+  border-color: #F6CB1A;
+  color: #F6CB1A;
+}
+.play-color .dark .form-submit,
+.play-color .dark .button,
+.play-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.play-color .button.active,
+.play-color .form-submit:hover,
+.play-color .button:hover,
+.play-color .pager-load-more a:hover {
+  background: #F6CB1A;
+  color: white;
+}
+.play-color .dark .form-submit:hover,
+.play-color .dark .button:hover,
+.play-color .dark .button:hover .fa,
+.play-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #F6CB1A;
+}
+.play-color ul.quicktabs-tabs li.active > a {
+  background: #F6CB1A;
+  color: white;
+}
+
+/* listen-color */
+.create-color .fa,
+.create-color .icon,
+.create-color a,
+.create-color .light a,
+.create-color .brand,
+.create-color .ul.menu li.active-trail.sf-depth-1 > a,
+.create-color .ul.menu li a.active,
+.create-color .ul.menu li.active > a,
+.create-color .ul.sf-menu a:hover,
+.create-color .hover-brand:hover,
+.create-color .hovermenu li li:before,
+.create-color-hover.create-color-hover:hover {
+  color: #AA344E;
+}
+
+.create-colorcreate-color .fill-brand {
+  background-color: #AA344E;
+}
+
+.create-color .h-border > .block-inner > .block-title,
+.create-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #AA344E;
+}
+.create-color .form-submit,
+.create-color .button,
+.create-color .pager-load-more a {
+  border-color: #AA344E;
+  color: #AA344E;
+}
+.create-color .dark .form-submit,
+.create-color .dark .button,
+.create-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.create-color .button.active,
+.create-color .form-submit:hover,
+.create-color .button:hover,
+.create-color .pager-load-more a:hover {
+  background: #AA344E;
+  color: white;
+}
+.create-color .dark .form-submit:hover,
+.create-color .dark .button:hover,
+.create-color .dark .button:hover .fa,
+.create-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #AA344E;
+}
+.create-color ul.quicktabs-tabs li.active > a {
+  background: #AA344E;
+  color: white;
+}
+
+/* worlds-color */
+.worlds-color .fa,
+.worlds-color .icon,
+.worlds-color a,
+.worlds-color .light a,
+.worlds-color .brand,
+.worlds-color .ul.menu li.active-trail.sf-depth-1 > a,
+.worlds-color .ul.menu li a.active,
+.worlds-color .ul.menu li.active > a,
+.worlds-color .ul.sf-menu a:hover,
+.worlds-color .hover-brand:hover,
+.worlds-color .hovermenu li li:before,
+.worlds-color-hover.worlds-color-hover:hover {
+  color: #3CC6DF;
+}
+
+.worlds-color .fill-brand {
+  background-color: #3CC6DF;
+}
+
+.worlds-color .h-border > .block-inner > .block-title,
+.worlds-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #3CC6DF;
+}
+.worlds-color .form-submit,
+.worlds-color .button,
+.worlds-color .pager-load-more a {
+  border-color: #3CC6DF;
+  color: #3CC6DF;
+}
+.worlds-color .dark .form-submit,
+.worlds-color .dark .button,
+.worlds-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.worlds-color .button.active,
+.worlds-color .form-submit:hover,
+.worlds-color .button:hover,
+.worlds-color .pager-load-more a:hover {
+  background: #3CC6DF;
+  color: white;
+}
+.worlds-color .dark .form-submit:hover,
+.worlds-color .dark .button:hover,
+.worlds-color .dark .button:hover .fa,
+.worlds-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #3CC6DF;
+}
+.worlds-color ul.quicktabs-tabs li.active > a {
+  background: #3CC6DF;
+  color: white;
+}
+
+/* worlds-color */
+.red-color .fa,
+.red-color .icon,
+.red-color a,
+.red-color .light a,
+.red-color .brand,
+.red-color .ul.menu li.active-trail.sf-depth-1 > a,
+.red-color .ul.menu li a.active,
+.red-color .ul.menu li.active > a,
+.red-color .ul.sf-menu a:hover,
+.red-color .hover-brand:hover,
+.red-color .hovermenu li li:before,
+.red-color-hover.red-color-hover:hover {
+  color: #DE0404;
+}
+
+.red-colorred-color .fill-brand {
+  background-color: #DE0404;
+}
+
+.red-color .h-border > .block-inner > .block-title,
+.red-color.h-border > .block-inner > .block-title,
+blockquote {
+  border-color: #DE0404;
+}
+.red-color .form-submit,
+.red-color .button,
+.red-color .pager-load-more a {
+  border-color: #DE0404;
+  color: #DE0404;
+}
+.red-color .dark .form-submit,
+.red-color .dark .button,
+.red-color .dark .pager-load-more a {
+  border-color: white;
+  color: white;
+}
+.red-color .button.active,
+.red-color .form-submit:hover,
+.red-color .button:hover,
+.red-color .pager-load-more a:hover {
+  background: #DE0404;
+  color: white;
+}
+.red-color .dark .form-submit:hover,
+.red-color .dark .button:hover,
+.red-color .dark .button:hover .fa,
+.red-color .dark .pager-load-more a:hover {
+  background: white;
+  color: #DE0404;
+}
+.red-color ul.quicktabs-tabs li.active > a {
+  background: #DE0404;
+  color: white;
+}

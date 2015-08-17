@@ -1,0 +1,57 @@
+.worlds-wrapper{
+	padding: 40px;
+    background:  url('/sites/all/themes/at_krakkaruv/images/heimar-background.jpg') center center;
+    background-size: cover;
+    margin: 0;
+
+	.view-heimar{
+		width: 980px;
+		margin: auto;
+		text-align: center;
+
+		.views-row{
+			width: 20%;
+			margin-right: 5%;
+			float: left;
+		}
+	}
+
+	h1{
+		color: white;
+	}
+
+	h2{
+		color: $color-worlds-blue-headline;
+		margin-bottom: 40px;
+	}
+
+	.button{
+		border-color: $color-worlds-blue-headline;
+
+		a{
+			color: $color-worlds-blue-headline;
+		}
+	}
+
+	.button:hover{
+		background-color: $color-worlds-blue-headline;
+
+		a{
+			color: white;
+		}
+	}
+
+	.view-content{
+		@include clearfix;
+		margin-bottom: 40px;
+	}
+
+	.view-footer{
+		width: 225px;
+		margin: auto;
+	}
+}
+
+.frontpage-worlds{
+	height: 640px;
+}
