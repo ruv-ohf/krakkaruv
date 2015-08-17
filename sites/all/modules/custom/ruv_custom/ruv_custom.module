@@ -447,18 +447,27 @@ function ruv_custom_dateformat($_day)
 }
 
 /**
-*Eyjólfur Kristjánsson - 20141101
-*Uses hook  query alter change order by for a query for Þáttalista pages. I.e. to order by "minus" - field, wich changes ordering of null valued fields in MySql .
+*Eyjólfur Kristjánsson - 20150817
+*Uses hook  query to add "and nodeINNER.type='faersla'" to subquery in "representative node" relationship, since because of a bug, using a seperate sub view for filtering was generating an error.
 */
 
 function ruv_custom_views_query_alter(&$view,&$query){
 
-  if($view->name ==  "thattakassi_queue" && ($view->current_display =="panel_pane_4" || $view->current_display =="panel_pane_5")){ 
-    foreach  ($query->orderby as &$item){
-      if ($item["field"] == "field_data_eq_taxonomy_term_delta") { 
-        $item["field"] = "-".$item["field"];
-      }
-    }
+
+  if($view->name ==  "term_list" && $view->current_display =="panel_pane_2" ){ 
+
+    $new_query = "SELECT nodeINNER.nid AS nidINNER
+    FROM 
+    {node} nodeINNER
+    LEFT JOIN {taxonomy_index} taxonomy_indexINNER ON nodeINNER.nid = taxonomy_indexINNER.nid
+    LEFT JOIN {taxonomy_term_data} taxonomy_term_data_nodeINNER ON taxonomy_indexINNER.tid = taxonomy_term_data_nodeINNER.tid
+    WHERE (( (taxonomy_term_data_nodeINNER.tid = taxonomy_term_data.tid ) and nodeINNER.type='faersla'))
+    ORDER BY nodeINNER.nid DESC
+    LIMIT 1 OFFSET 0";
+
+  $query->table_queue["node_taxonomy_term_data"]["join"]->left_query = $new_query;
+//print_r($query->table_queue["node_taxonomy_term_data"]["join"]->left_query);
+
   }
 
 }
@@ -666,13 +675,14 @@ function ruv_custom_preprocess_image(&$vars) {
 }
 
 
+
+/**
+*Eyjólfur Kristjánsson - 20150310
+*Selects newest dagskra node for supplied term. Used on heimar, to get default item for the player.
+*/
 function ruv_custom_krakkavefur_nyjast($term) 
 {        
     
-//       $tpath = drupal_get_normal_path("thaettir/".$term);
-// error_log($tpath);
-//       $pieces = explode("/", $tpath);
-// error_log("bla: ".$pieces[2]);
       $tits = [$term];
  
 
