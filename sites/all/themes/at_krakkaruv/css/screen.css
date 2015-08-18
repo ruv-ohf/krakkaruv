@@ -6362,7 +6362,7 @@ label {
   margin: auto;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_content_pane\.scss}line{font-family:\0000311}}
-.content-pane .front {
+.front .content-pane {
   text-align: center;
 }
 
