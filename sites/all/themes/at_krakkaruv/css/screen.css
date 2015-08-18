@@ -6354,12 +6354,16 @@ label {
 .content-pane {
   width: 100%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_content_pane\.scss}line{font-family:\000036}}
 .content-pane .block-inner {
   width: 88%;
   margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_content_pane\.scss}line{font-family:\0000311}}
+.content-pane .front {
+  text-align: center;
 }
 
 /*# sourceMappingURL=screen.css.map */
