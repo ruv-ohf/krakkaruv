@@ -5288,35 +5288,35 @@ ul.sf-menu a:hover,
 .hover-brand:hover,
 .hovermenu li li:before,
 .hover.ruv-color-hover:hover {
-  color: #54ba54;
+  color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000319}}
 .fill-brand {
-  background-color: #54ba54;
+  background-color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000322}}
 .h-border > .block-inner > .block-title,
 .h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #54ba54;
+  border-color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000328}}
 .form-submit,
 .button,
 .pager-load-more a {
-  border-color: #54ba54;
-  color: #54ba54;
+  border-color: white;
+  color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000334}}
 .dark .form-submit,
 .dark .button,
 .dark .pager-load-more a {
-  border-color: white;
-  color: white;
+  border-color: #0B0B0B;
+  color: #0B0B0B;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000341}}
@@ -5324,22 +5324,22 @@ blockquote {
 .form-submit:hover,
 .button:hover,
 .pager-load-more a:hover {
-  background: #54ba54;
-  color: white;
+  background: white;
+  color: #0B0B0B;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000349}}
 .dark .form-submit:hover,
 .dark .button:hover,
 .dark .pager-load-more a:hover {
-  background: white;
-  color: #54ba54;
+  background: #0B0B0B;
+  color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\0000356}}
 ul.quicktabs-tabs li.active > a {
-  background: #54ba54;
-  color: white;
+  background: white;
+  color: #0B0B0B;
 }
 
 /* watch-color */

@@ -14,48 +14,48 @@ ul.sf-menu a:hover,
 .hover-brand:hover,
 .hovermenu li li:before,
 .hover.ruv-color-hover:hover {
-  color: $color-watch;
+  color: white;
 }
 .fill-brand {
-  background-color: $color-watch;
+  background-color: white;
 }
 .h-border > .block-inner > .block-title,
 .h-border > .block-inner > .block-title,
 blockquote {
-  border-color: $color-watch;
+  border-color: white;
 }
 
 .form-submit,
 .button,
 .pager-load-more a {
-  border-color: $color-watch;
-  color: $color-watch;
+  border-color: white;
+  color: white;
 }
 .dark .form-submit,
 .dark .button,
 .dark .pager-load-more a {
-  border-color: white;
-  color: white;
+  border-color: #0B0B0B;
+  color: #0B0B0B;
 }
 
 .button.active,
 .form-submit:hover,
 .button:hover,
 .pager-load-more a:hover {
-  background: $color-watch;
-  color: white;
+  background: white;
+  color: #0B0B0B;
 }
 
 .dark .form-submit:hover,
 .dark .button:hover,
 .dark .pager-load-more a:hover {
-  background: white;
-  color: $color-watch;
+  background: #0B0B0B;
+  color: white;
 }
 
 ul.quicktabs-tabs li.active > a {
-  background: $color-watch;
-  color: white;
+  background: white;
+  color: #0B0B0B;
 }
 
 /* watch-color */
