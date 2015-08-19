@@ -14,22 +14,22 @@ ul.sf-menu a:hover,
 .hover-brand:hover,
 .hovermenu li li:before,
 .hover.ruv-color-hover:hover {
-  color: #20439c;
+  color: $color-watch;
 }
 .fill-brand {
-  background-color: #20439c;
+  background-color: $color-watch;
 }
 .h-border > .block-inner > .block-title,
 .h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #20439c;
+  border-color: $color-watch;
 }
 
 .form-submit,
 .button,
 .pager-load-more a {
-  border-color: #20439c;
-  color: #034EA1;
+  border-color: $color-watch;
+  color: $color-watch;
 }
 .dark .form-submit,
 .dark .button,
@@ -42,7 +42,7 @@ blockquote {
 .form-submit:hover,
 .button:hover,
 .pager-load-more a:hover {
-  background: #20439c;
+  background: $color-watch;
   color: white;
 }
 
@@ -50,16 +50,17 @@ blockquote {
 .dark .button:hover,
 .dark .pager-load-more a:hover {
   background: white;
-  color: #20439c;
+  color: $color-watch;
 }
 
 ul.quicktabs-tabs li.active > a {
-  background: #20439c;
+  background: $color-watch;
   color: white;
 }
 
 /* watch-color */
 .watch-color,
+.watch-color h1, .watch-color h2,
 .watch-color .fa,
 .watch-color .icon,
 .watch-color a,
@@ -72,23 +73,23 @@ ul.quicktabs-tabs li.active > a {
 .watch-color .hover-brand:hover,
 .watch-color .hovermenu li li:before,
 .watch-color-hover.watch-color-hover:hover {
-  color: #20439c;
+  color: $color-watch;
 }
 
 .watch-color .fill-brand {
-  background-color: #20439c;
+  background-color: $color-watch;
 }
 
 .watch-color .h-border > .block-inner > .block-title,
 .watch-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #20439c;
+  border-color: $color-watch;
 }
 .watch-color .form-submit,
 .watch-color .button,
 .watch-color .pager-load-more a {
-  border-color: #20439c;
-  color: #20439c;
+  border-color: $color-watch;
+  color: $color-watch;
 }
 .watch-color .dark .form-submit,
 .watch-color .dark .button,
@@ -100,7 +101,7 @@ blockquote {
 .watch-color .form-submit:hover,
 .watch-color .button:hover,
 .watch-color .pager-load-more a:hover {
-  background: #20439c;
+  background: $color-watch;
   color: white;
 }
 .watch-color .dark .form-submit:hover,
@@ -108,15 +109,17 @@ blockquote {
 .watch-color .dark .button:hover .fa,
 .watch-color .dark .pager-load-more a:hover {
   background: white;
-  color: #20439c;
+  color: $color-watch;
 }
 .watch-color ul.quicktabs-tabs li.active > a {
-  background: #20439c;
+  background: $color-watch;
   color: white;
 }
 
 
 /* listen-color */
+.listen-color,
+.listen-color h1, .listen-color h2,
 .listen-color .fa,
 .listen-color .icon,
 .listen-color a,
@@ -129,23 +132,23 @@ blockquote {
 .listen-color .hover-brand:hover,
 .listen-color .hovermenu li li:before,
 .listen-color-hover.listen-color-hover:hover {
-  color: #1EAE52;
+  color: $color-listen;
 }
 
 .listen-color .fill-brand {
-  background-color: #1EAE52;
+  background-color: $color-listen;
 }
 
 .listen-color .h-border > .block-inner > .block-title,
 .listen-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #1EAE52;
+  border-color: $color-listen;
 }
 .listen-color .form-submit,
 .listen-color .button,
 .listen-color .pager-load-more a {
-  border-color: #1EAE52;
-  color: #1EAE52;
+  border-color: $color-listen;
+  color: $color-listen;
 }
 .listen-color .dark .form-submit,
 .listen-color .dark .button,
@@ -157,7 +160,7 @@ blockquote {
 .listen-color .form-submit:hover,
 .listen-color .button:hover,
 .listen-color .pager-load-more a:hover {
-  background: #1EAE52;
+  background: $color-listen;
   color: white;
 }
 .listen-color .dark .form-submit:hover,
@@ -165,14 +168,15 @@ blockquote {
 .listen-color .dark .button:hover .fa,
 .listen-color .dark .pager-load-more a:hover {
   background: white;
-  color: #1EAE52;
+  color: $color-listen;
 }
 .listen-color ul.quicktabs-tabs li.active > a {
-  background: #1EAE52;
+  background: $color-listen;
   color: white;
 }
 
 /* play-color */
+.play-color h1, .play-color h2,
 .play-color .fa,
 .play-color .icon,
 .play-color a,
@@ -185,23 +189,23 @@ blockquote {
 .play-color .hover-brand:hover,
 .play-colorplay-color .hovermenu li li:before,
 .play-color-hover.play-color-hover:hover {
-  color: #F6CB1A;
+  color: $color-play;
 }
 
 .play-color .fill-brand {
-  background-color: #F6CB1A;
+  background-color: $color-play;
 }
 
 .play-color .h-border > .block-inner > .block-title,
 .play-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #F6CB1A;
+  border-color: $color-play;
 }
 .play-color .form-submit,
 .play-color .button,
 .play-color .pager-load-more a {
-  border-color: #F6CB1A;
-  color: #F6CB1A;
+  border-color: $color-play;
+  color: $color-play;
 }
 .play-color .dark .form-submit,
 .play-color .dark .button,
@@ -213,7 +217,7 @@ blockquote {
 .play-color .form-submit:hover,
 .play-color .button:hover,
 .play-color .pager-load-more a:hover {
-  background: #F6CB1A;
+  background: $color-play;
   color: white;
 }
 .play-color .dark .form-submit:hover,
@@ -221,14 +225,15 @@ blockquote {
 .play-color .dark .button:hover .fa,
 .play-color .dark .pager-load-more a:hover {
   background: white;
-  color: #F6CB1A;
+  color: $color-play;
 }
 .play-color ul.quicktabs-tabs li.active > a {
-  background: #F6CB1A;
+  background: $color-play;
   color: white;
 }
 
 /* listen-color */
+.create-color h1, .create-color h2,
 .create-color .fa,
 .create-color .icon,
 .create-color a,
@@ -241,23 +246,23 @@ blockquote {
 .create-color .hover-brand:hover,
 .create-color .hovermenu li li:before,
 .create-color-hover.create-color-hover:hover {
-  color: #AA344E;
+  color: $color-create;
 }
 
 .create-colorcreate-color .fill-brand {
-  background-color: #AA344E;
+  background-color: $color-create;
 }
 
 .create-color .h-border > .block-inner > .block-title,
 .create-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #AA344E;
+  border-color: $color-create;
 }
 .create-color .form-submit,
 .create-color .button,
 .create-color .pager-load-more a {
-  border-color: #AA344E;
-  color: #AA344E;
+  border-color: $color-create;
+  color: $color-create;
 }
 .create-color .dark .form-submit,
 .create-color .dark .button,
@@ -269,7 +274,7 @@ blockquote {
 .create-color .form-submit:hover,
 .create-color .button:hover,
 .create-color .pager-load-more a:hover {
-  background: #AA344E;
+  background: $color-create;
   color: white;
 }
 .create-color .dark .form-submit:hover,
@@ -277,14 +282,15 @@ blockquote {
 .create-color .dark .button:hover .fa,
 .create-color .dark .pager-load-more a:hover {
   background: white;
-  color: #AA344E;
+  color: $color-create;
 }
 .create-color ul.quicktabs-tabs li.active > a {
-  background: #AA344E;
+  background: $color-create;
   color: white;
 }
 
 /* worlds-color */
+.worlds-color h1, .worlds-color h2,
 .worlds-color .fa,
 .worlds-color .icon,
 .worlds-color a,
@@ -297,23 +303,23 @@ blockquote {
 .worlds-color .hover-brand:hover,
 .worlds-color .hovermenu li li:before,
 .worlds-color-hover.worlds-color-hover:hover {
-  color: #3CC6DF;
+  color: $color-worlds;
 }
 
 .worlds-color .fill-brand {
-  background-color: #3CC6DF;
+  background-color: $color-worlds;
 }
 
 .worlds-color .h-border > .block-inner > .block-title,
 .worlds-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #3CC6DF;
+  border-color: $color-worlds;
 }
 .worlds-color .form-submit,
 .worlds-color .button,
 .worlds-color .pager-load-more a {
-  border-color: #3CC6DF;
-  color: #3CC6DF;
+  border-color: $color-worlds;
+  color: $color-worlds;
 }
 .worlds-color .dark .form-submit,
 .worlds-color .dark .button,
@@ -325,7 +331,7 @@ blockquote {
 .worlds-color .form-submit:hover,
 .worlds-color .button:hover,
 .worlds-color .pager-load-more a:hover {
-  background: #3CC6DF;
+  background: $color-worlds;
   color: white;
 }
 .worlds-color .dark .form-submit:hover,
@@ -333,14 +339,14 @@ blockquote {
 .worlds-color .dark .button:hover .fa,
 .worlds-color .dark .pager-load-more a:hover {
   background: white;
-  color: #3CC6DF;
+  color: $color-worlds;
 }
 .worlds-color ul.quicktabs-tabs li.active > a {
-  background: #3CC6DF;
+  background: $color-worlds;
   color: white;
 }
 
-/* worlds-color */
+/* red-color */
 .red-color .fa,
 .red-color .icon,
 .red-color a,
@@ -395,3 +401,6 @@ blockquote {
   background: #DE0404;
   color: white;
 }
+
+/** GREY */
+.color-grey.color-grey { color: #B8B8B8; }
