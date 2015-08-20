@@ -7123,4 +7123,17 @@ footer .inline {
   color: white;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000031}}
+.banner-image {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000038}}
+.play-banner-image {
+  background: url("/sites/all/themes/at_krakkaruv/images/super-mario-bros.jpg") center center;
+}
+
 /*# sourceMappingURL=screen.css.map */

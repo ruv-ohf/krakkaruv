@@ -4,3 +4,19 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Ignore MAC generated files
+.DS_Store
+
+#Ignore PHP Storm folders
+.idea/
+
+#Ignore vendor folders
+sites/all/themes/at_krakkaruv/vendor/
+
+#Ignore the sass cache
+sites/all/themes/at_krakkaruv/.sass-cache/
+
+#Ignore Bower generated files
+sites/all/themes/at_krakkaruv/.bowerrc
+
