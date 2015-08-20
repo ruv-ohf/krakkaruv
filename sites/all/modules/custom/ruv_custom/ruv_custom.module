@@ -774,13 +774,21 @@ function ruv_custom_views_rss_item_elements() {
     'title' => t('Preview image for item'),
     'description' => t('Image for the video player'),
   );
-  $elements['jwplayer:source'] = array(
-    'title' => t('Source file image for item'),
-    'description' => t('xxxSource file for the video player'),
+  $elements['jwplayer:source label="rtmp"'] = array(
+    'title' => t('Source file 1 for item'),
+    'description' => t('Source file for the video player'),
     'preprocess functions' => array('ruv_custom_views_rss_preprocess_item_source'),
-    //'attributes' => array('bla' => 'jalla',),
+  ); 
+    $elements['jwplayer:source label="hls"'] = array(
+    'title' => t('Source file 2 for item'),
+    'description' => t('Source file for the video player'),
+    'preprocess functions' => array('ruv_custom_views_rss_preprocess_item_source'),
   );  
-  //$elements['jwplayer:source']['attributes']['isPermaLink'] = "true";
+    $elements['jwplayer:source label="smooth"'] = array(
+    'title' => t('Source file 3 for item'),
+    'description' => t('Source file for the video player'),
+    'preprocess functions' => array('ruv_custom_views_rss_preprocess_item_source'),
+  );   
 
   return $elements;
 }

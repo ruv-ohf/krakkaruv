@@ -63,6 +63,6 @@ function ruv_custom_aldursflokkar_add_callback($result, $item_key, $element_key,
     $field = $terms;
    
   }
-error_log(print_r($field,"true"));  
+//error_log(print_r($field,"true"));  
 
 }
