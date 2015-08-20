@@ -1,0 +1,13 @@
+footer{
+  font-family: $font-base;
+
+  .inline{
+    margin-top: -4px;
+    font-weight: 300;
+  }
+
+  .front &{
+    background-color: $color-messages-background;
+    color: white;
+  }
+}

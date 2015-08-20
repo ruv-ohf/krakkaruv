@@ -21,14 +21,40 @@ function entityconnect_requirements($phase) {
       $requirements['entityconnect']['title'] = $info['name'];
       $requirements['entityconnect']['value'] = $info['version'];
 
-      if (module_exists('entityreference')) {
-        $requirements['entityconnect']['severity'] = REQUIREMENT_OK;
+      // At least one of the following modules is required in order for
+      //  entityconnect to function properly.
+      $singularly_required_modules = array(
+        'entityreference',
+        'node_reference',
+        'user_reference',
+      );
+      // If this module is being installed as part of a Drupal installation,
+      //  check for the existence of required modules without relying on the
+      //  "module_exists()" function, which will always return false for these
+      //  modules during a Drupal installation.
+      if (drupal_installation_attempted()) {
+        $files = drupal_system_listing('/^' . DRUPAL_PHP_FUNCTION_PATTERN . '\.info$/', 'modules', 'name', 0);
+        foreach ($singularly_required_modules as $module_name) {
+          if (isset($files[$module_name])) {
+            $requirements['entityconnect']['severity'] = REQUIREMENT_OK;
+            break;
+          }
+        }
       }
-      elseif (module_exists('node_reference') || module_exists('user_reference')) {
-        $requirements['entityconnect']['severity'] = REQUIREMENT_OK;
-      }
+      // If this module is being installed manually (after Drupal has been
+      //  installed), check to ensure that one of the required modules exists
+      //  and is enabled.
       else {
-        $requirements['entityconnect']['severity'] = REQUIREMENT_WARNING;
+        foreach ($singularly_required_modules as $module_name) {
+          if (module_exists($module_name)) {
+            $requirements['entityconnect']['severity'] = REQUIREMENT_OK;
+            break;
+          }
+        }
+      }
+
+      if (!isset($requirements['entityconnect']['severity'])) {
+        $requirements['entityconnect']['severity'] = REQUIREMENT_ERROR;
         $requirements['entityconnect']['description'] = $t(
           'Neither Entityreference nor References module is installed or activated.
           Entityconnect needs at least one of those modules to work.'
@@ -39,4 +65,24 @@ function entityconnect_requirements($phase) {
   }
 
   return $requirements;
+}
+
+
+/**
+ * Implements hook_schema().
+ */
+function entityconnect_schema() {
+  $schema = array();
+  $schema['cache_entityconnect'] = drupal_get_schema_unprocessed('system', 'cache');
+  return $schema;
+}
+
+/**
+ * Add cache table.
+ */
+function entityconnect_update_7000() {
+  if (!db_table_exists('cache_entityconnect')) {
+    $schema = entityconnect_schema();
+    db_create_table('cache_entityconnect', $schema ['cache_entityconnect']);
+  }
 }

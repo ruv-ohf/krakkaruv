@@ -1,10 +1,12 @@
 name = "Entity Connect"
 description = "Allows for referenced entity to be created and edited from the entity reference field"
 core = "7.x"
+package = Entity Connect
+configure = admin/config/content/entityconnect
 
-; Information added by drupal.org packaging script on 2013-02-11
-version = "7.x-1.0-rc1"
+; Information added by Drupal.org packaging script on 2015-08-18
+version = "7.x-1.0-rc3"
 core = "7.x"
 project = "entityconnect"
-datestamp = "1360574066"
+datestamp = "1439905145"
 

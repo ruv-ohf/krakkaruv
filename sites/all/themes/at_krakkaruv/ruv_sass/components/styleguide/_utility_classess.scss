@@ -95,3 +95,13 @@ img.inline, .inline { display: inline-block; }
   margin: 0;
   padding: 0;
 }
+
+.main-heading{
+  span.subtitle{
+    font-size: 32px;
+  }
+
+  span.episode-numbers{
+    font-family: $font-base;
+  }
+}

@@ -47,7 +47,8 @@
       $color_name: nth($menu-color-array, $i);
       li.#{$category_name}{
         a:before{
-          background-color: #{$color_name};
+          background: #{$color_name} url("/sites/all/themes/at_krakkaruv/images/#{$category-name}-button.png") no-repeat center center;
+          background-size: 120px 120px;
         }
 
         a:hover{

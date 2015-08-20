@@ -1,0 +1,15 @@
+.content-pane{
+  width: 100%;
+  margin: auto;
+  text-align: left;
+
+  .block-inner{
+    width: 88%;
+    margin: auto;
+  }
+
+  .front &,
+  footer &{
+    text-align: center;
+  }
+}
