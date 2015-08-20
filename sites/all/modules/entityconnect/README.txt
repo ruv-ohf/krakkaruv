@@ -18,9 +18,13 @@ Installation
 1. Copy entityconnect into your modules directory and then enable on the admin
 modules page
 2. Define permissions on admin/people/permissions page
-3. Go to you form which contain entityreference, you should see an add and/or
-edit button on the right of line.
-
+3. Define default parameters in administration page admin/config/content/entityconnect
+4.1 If you set default button visibility to ON
+  4.1.a Go to a form (add or edit form) which contain an entityreference field and you should see an add (+) and/or
+  edit (pencil) button after your field.
+4.2 If you set default button visibility to OFF
+  4.2.a Go to fields administration for the entity you want to alter (eg: admin/structure/types/manage/page/fields)
+  4.2.b Edit an entityreference field and active it for that field (Display Entity Connect "edit" button / Display Entity Connect "add" button)
 
 FAQ
 ---
@@ -30,6 +34,17 @@ A. When only one content type is defined on entityreference field, module
 also check if user has the permission to "create N content" where N is
 the content type or has the permission "administer nodes".
 
+Q. I don't see any buttons on my form
+A. Please check if your field have entityconnect buttons activated. By default, there are disable.
+
+Q. I have already a lot of entityreference fields and I don't want to them manually. What can I do?
+A. You can change default parameters in admin/config/content/entityconnect page and set buttons visibility to "On".
+That will activate buttons for all your fields.
+Of course, you can always override parameters on your field instance.
+
+Q. I don't want the default CSS icons to be display?
+I want to display the help text after the icon?
+A. You can change default parameters in admin/config/content/entityconnect page and set icons visibility to "Text only" or "Icons + Text".
 
 Next steps
 ----------
