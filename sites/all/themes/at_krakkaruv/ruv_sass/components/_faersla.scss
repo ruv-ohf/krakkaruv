@@ -1,0 +1,41 @@
+.node-type-faersla{
+  font-family: $font-base;
+  font-weight: 300;
+
+  .two-66-33{
+    max-width: 1180px;
+    margin: auto;
+
+    h1, h2{
+      font-family: $font-base;
+      font-weight: 400;
+    }
+
+    h1{
+      font-size: 46px;
+      line-height: 30px;
+    }
+
+    h2{
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    .region-two-66-33-first{
+
+      img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    }
+
+    .region-two-66-33-second{
+       padding-left: 25px;
+    }
+  }
+
+  p{
+    margin-bottom: 20px;
+  }
+}

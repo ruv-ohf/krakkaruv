@@ -1,0 +1,30 @@
+.play-game{
+  width: 100%;
+  margin: auto;
+  .game-image-and-link{
+    width: 54%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    a{
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      max-height: 500px;
+      overflow: hidden;
+    }
+  }
+}
+
+.pane-node-entities-panel-leikur{
+  .views-field-nothing{
+    background-color: $color-play;
+    width: 100%;
+  }
+}
