@@ -7,6 +7,10 @@
     background:  url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg') center center;
     background-size: cover;
     margin: 0;
+
+    @include breakpoint($mobile-size){
+      height: 500px;
+    }
   }
 
   #block-block-1{
