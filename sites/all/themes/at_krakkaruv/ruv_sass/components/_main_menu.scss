@@ -34,7 +34,7 @@
 
       //Breaking the icons to two lines
       @include breakpoint(max-width 480px){
-        margin-right: $gutter;
+        margin-right: $gutter / 4;
 
         &:first-child{
           margin-left: $gutter / 2.5;
