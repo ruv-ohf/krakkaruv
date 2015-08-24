@@ -32,6 +32,15 @@
         margin-right: $gutter / 2;
       }
 
+      //Breaking the icons to two lines
+      @include breakpoint(max-width 480px){
+        margin-right: $gutter;
+
+        &:first-child{
+          margin-left: $gutter / 2.5;
+        }
+      }
+
       a:before{
         content: " ";
         display: block;

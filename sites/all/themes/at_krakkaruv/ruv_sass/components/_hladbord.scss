@@ -16,6 +16,14 @@
       margin-bottom: -10px;
       width: 100%;
       height: auto;
+
+      @include breakpoint($tablet-size){
+        margin-bottom: -7px;
+      }
+    }
+
+    @include breakpoint($mobile-size){
+      width: 100%;
     }
   }
 
@@ -27,9 +35,13 @@
     img{
       margin-bottom: -8px;
 
-      @include breakpoint(max-width 1024px){
-        margin-bottom: -10px;
+      @include breakpoint($tablet-size){
+        margin-bottom: -4px;
       }
+    }
+
+    @include breakpoint($mobile-size){
+      width: 100%;
     }
   }
 
@@ -54,6 +66,14 @@
       padding: 10px;
       color: white;
       font-size: 20px;
+
+      @include breakpoint($tablet-size){
+        font-size: 14px;
+      }
+
+      @include breakpoint($mobile-size){
+        font-size: 18px;
+      }
     }
   }
 }

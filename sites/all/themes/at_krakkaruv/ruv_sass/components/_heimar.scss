@@ -1,54 +1,64 @@
 .worlds-wrapper{
-	padding: 40px;
-    background:  url('/sites/all/themes/at_krakkaruv/images/heimar-background.jpg') center center;
-    background-size: cover;
-    margin: 0;
+  padding: 40px;
+  background:  url('/sites/all/themes/at_krakkaruv/images/heimar-background.jpg') center center;
+  background-size: cover;
+  margin: 0;
 
-	.view-heimar{
+  .view-heimar{
 
-		.views-row{
-			width: 20%;
-			margin-right: 5%;
-			float: left;
-		}
+	.views-row{
+	  width: 20%;
+	  margin-right: 5%;
+	  float: left;
 	}
+  }
 
-	h1{
-		color: white;
+  h1{
+	color: white;
+  }
+
+  h2{
+	color: $color-worlds-blue-headline;
+	margin-bottom: 40px;
+  }
+
+  img{
+	width: 100%;
+	height: 100%;
+  }
+
+  .button{
+	border-color: $color-worlds-blue-headline;
+
+	a{
+	  font-size: 18px;
+	  color: $color-worlds-blue-headline;
 	}
+  }
 
-	h2{
-		color: $color-worlds-blue-headline;
-		margin-bottom: 40px;
+  .button:hover{
+	background-color: $color-worlds-blue-headline;
+
+	a{
+	  color: white;
 	}
+  }
 
-	.button{
-		border-color: $color-worlds-blue-headline;
+  .view-content{
+	@include clearfix;
+	margin-bottom: 40px;
+  }
 
-		a{
-			color: $color-worlds-blue-headline;
-		}
-	}
-
-	.button:hover{
-		background-color: $color-worlds-blue-headline;
-
-		a{
-			color: white;
-		}
-	}
-
-	.view-content{
-		@include clearfix;
-		margin-bottom: 40px;
-	}
-
-	.view-footer{
-		width: 225px;
-		margin: auto;
-	}
+  .view-footer{
+	width: 225px;
+	margin: auto;
+  }
 }
 
 .frontpage-worlds{
-	height: 520px;
+  height: 580px;
+
+  @include breakpoint($tablet-size){
+	height: 500px;
+  }
 }
