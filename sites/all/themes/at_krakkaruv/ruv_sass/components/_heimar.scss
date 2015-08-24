@@ -76,6 +76,10 @@
 	width: 225px;
 	margin: auto;
   }
+
+  .block-inner{
+	width: 100% !important;
+  }
 }
 
 .frontpage-worlds{
@@ -86,6 +90,18 @@
   }
 
   @include breakpoint($mobile-size){
-	height: 780px;
+	height: 930px;
+  }
+
+  @include breakpoint(max-width 670px){
+	height: 850px;
+  }
+
+  @include breakpoint(max-width 540px){
+	height: 820px;
+  }
+
+  @include breakpoint(max-width 400px){
+	height: 720px;
   }
 }

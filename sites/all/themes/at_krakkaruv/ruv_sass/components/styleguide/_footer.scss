@@ -14,5 +14,7 @@ footer{
   .front &{
     background-color: $color-messages-background;
     color: white;
+
+    border-top: 1px solid white;
   }
 }

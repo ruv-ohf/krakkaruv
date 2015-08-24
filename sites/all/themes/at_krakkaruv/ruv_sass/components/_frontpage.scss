@@ -8,6 +8,10 @@
     background-size: cover;
     margin: 0;
 
+    @include breakpoint($tablet-size){
+      height: 600px;
+    }
+
     @include breakpoint($mobile-size){
       height: 500px;
     }

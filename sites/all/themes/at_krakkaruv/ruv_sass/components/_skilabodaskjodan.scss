@@ -9,6 +9,10 @@
 
   h2.block-title{
     margin-bottom: 40px;
+
+    @include breakpoint(max-width 440px){
+      font-size: 30px;
+    }
   }
 
   h1{
@@ -31,6 +35,7 @@
         line-height: 24px;
       }
     }
+
 
   }
 
