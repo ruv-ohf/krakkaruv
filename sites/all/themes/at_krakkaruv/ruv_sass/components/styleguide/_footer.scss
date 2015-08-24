@@ -1,5 +1,10 @@
 footer{
   font-family: $font-base;
+  font-size: 16px;
+
+  @include breakpoint($mobile-size){
+    font-size: 14px;
+  }
 
   .inline{
     margin-top: -4px;

@@ -20,6 +20,14 @@
     width: 100%;
     height: auto;
   }
+
+  .message-in-a-bottle &{
+    width: 23%;
+
+    @include breakpoint(max-width 860px){
+      width: 47%;
+    }
+  }
 }
 
 .ruv-item-all{
@@ -42,5 +50,3 @@
     }
   }
 }
-
-

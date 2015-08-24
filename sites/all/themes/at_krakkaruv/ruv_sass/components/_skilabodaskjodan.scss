@@ -16,10 +16,16 @@
     line-height: 24px;
     text-align: left;
     margin-bottom: 20px;
+
+    @include breakpoint($tablet-size){
+      font-size: 16px;
+      line-height: 14px;
+    }
   }
 
   p, a, .views-field-title{
     text-align: left;
+    font-size: 16px;
   }
 
   .views-field-title{
@@ -29,6 +35,7 @@
 
   p{
     font-weight: 300;
+    font-size: 16px;
   }
 
   .views-field-field-image{
