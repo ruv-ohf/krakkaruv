@@ -104,6 +104,11 @@
         height: $gutter * 1.5;
         width: $gutter * 1.5;
         font-size: 24px;
+
+        @include breakpoint($mobile-size){
+          height: $gutter;
+          width: $gutter;
+        }
       }
     }
   }
