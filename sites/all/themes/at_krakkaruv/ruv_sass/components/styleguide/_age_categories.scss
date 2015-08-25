@@ -8,12 +8,12 @@
   .block-content{
     margin: auto;
     text-align: center;
-    width: 510px;
+    width: 100%;
   }
 
   p{
     float: left;
-    width: 150px;
+    width: 27%;
     border: 1px solid white;
     margin-right: 20px;
     padding: 10px 30px;
@@ -32,5 +32,9 @@
     font-size: 22px;
     font-weight: $font-weight-thin;
     color: white !important;
+
+    @include breakpoint($mobile-size){
+      font-size: 16px;
+    }
   }
 }

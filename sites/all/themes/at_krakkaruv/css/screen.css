@@ -5252,12 +5252,12 @@ h1, h2 {
 .age-categories .block-content {
   margin: auto;
   text-align: center;
-  width: 510px;
+  width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000314}}
 .age-categories p {
   float: left;
-  width: 150px;
+  width: 27%;
   border: 1px solid white;
   margin-right: 20px;
   padding: 10px 30px;
@@ -5276,6 +5276,12 @@ h1, h2 {
   font-size: 22px;
   font-weight: 300;
   color: white !important;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000330}}
+  .age-categories a {
+    font-size: 16px;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000033}}
@@ -7441,35 +7447,61 @@ footer .inline {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000031}}
-.play-game {
-  width: 100%;
-  margin: auto;
+.play-image {
+  background-color: #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000034}}
-.play-game .game-image-and-link {
-  width: 54%;
+.play-image .game-image-and-link {
+  width: 50%;
   margin: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 60px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000310}}
-.play-game .game-image-and-link a {
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000316}}
-.play-game .game-image-and-link img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000039}}
+.play-image .game-image-and-link img {
   width: 100%;
   height: auto;
-  max-height: 500px;
-  overflow: hidden;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000034}}
+  .play-image .game-image-and-link {
+    width: 90%;
+  }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000320}}
+.play-text {
+  width: 80%;
+  margin: 40px auto;
+  font-family: "Nunito", sans-serf;
+  font-weight: 300;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000326}}
-.pane-node-entities-panel-leikur .views-field-nothing {
-  background-color: #cc406e;
-  width: 100%;
+.play-text h2 {
+  font-size: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000330}}
+.play-text h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000335}}
+.play-text li {
+  list-style: inside;
+  margin-left: 20px;
+  list-style-type: circle;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000343}}
+.play-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000320}}
+  .play-text {
+    width: 90%;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\000031}}
