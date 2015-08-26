@@ -22,14 +22,16 @@
   margin: 40px auto;
   font-family: $font-base;
   font-weight: 300;
+  color: black;
 
   h2{
     font-size: 30px;
   }
 
-  h3{
+  h3, .text h1{
     font-size: 24px;
     margin-bottom: 5px;
+    font-family: $font-base;
   }
 
   li{
