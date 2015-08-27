@@ -348,7 +348,7 @@ function entityconnect_edit($cache_id) {
             foreach ($info as $key => $value) {
               $content[$key] = array(
                 'label' => $value->label,
-                'href' => 'block/' . $value->label . '/edit',
+                'href' => 'block/' . $value->delta . '/edit',
                 'description' =>  ''
               );
             }
@@ -360,7 +360,7 @@ function entityconnect_edit($cache_id) {
           }
           else {
             $bean_entity = entity_load_single($entity_type, $target_id);
-            drupal_goto("block/" . $bean_entity->label . "/edit", array(
+            drupal_goto("block/" . $bean_entity->delta . "/edit", array(
               'query' => array("build_cache_id" => $cache_id, "child" => TRUE)));
           }
         }

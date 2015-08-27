@@ -529,7 +529,7 @@ function entityconnect_return_form_alter(&$form, &$form_state, $form_id, $cache_
       $widget_container_type = 'multiple_selects';
     }
 
-    if (isset($data['target_id']) && $form_state['rebuild'] === TRUE) {
+    if (isset($data['target_id']) && !is_array($data['target_id']) && $form_state['rebuild'] === TRUE) {
       switch ($data['target_entity_type']) {
         case 'node':
           if ($data['target_id'] != 0 && $node = node_load($data['target_id'])) {
@@ -791,7 +791,7 @@ function entityconnect_return_form_alter(&$form, &$form_state, $form_id, $cache_
           // Bean support.
           if (module_exists('bean')) {
             $entiy_info = entity_get_info($data['target_entity_type']);
-            if ($entiy_info['module'] = 'bean') {
+            if ($entiy_info['module'] == 'bean') {
               if (($data['target_id'] != NULL || $data['target_id'] != 0) && $bean_entity = entity_load_single($data['target_entity_type'], $data['target_id'])) {
                 switch ($widget_container_type) {
                   // Autocomplete tags style.
