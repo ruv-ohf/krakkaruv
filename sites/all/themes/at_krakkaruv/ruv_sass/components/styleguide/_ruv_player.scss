@@ -5,6 +5,11 @@
 
 .view-spilari{
   padding-top: 20px;
+
+  h2{
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
 }
 
 .watch-color .view-spilari{
@@ -14,4 +19,65 @@
 .listen-color .view-spilari{
   background-color: $color-listen;
   padding-bottom: 20px;
+}
+section.text-boxes{
+  @include clearfix;
+
+  section.text-box {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    font-family: $font-base;
+    float: left;
+    margin-bottom: 20px;
+    color: $color-all-shows-black;
+
+    .texts{
+      width: 60%;
+      float: left;
+      color: $color-all-shows-black;
+    }
+
+    .display-box{
+      width: 30%;
+      float: right;
+      text-align: right;
+
+      p{
+        margin-bottom: 5px;
+      }
+
+      p:last-child{
+        margin-bottom: 10px;
+      }
+    }
+
+    p{
+      margin-bottom: 10px;
+      line-height: 23px;
+      font-weight: 300;
+    }
+  }
+
+  .rights{
+    @include clearfix;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    font-size: 16px;
+    font-family: $font-base;
+
+    h3{
+      color: $color-all-shows-black;
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    p{
+      margin-bottom: 10px;
+      line-height: 16px;
+      font-weight: 300;
+    }
+  }
 }

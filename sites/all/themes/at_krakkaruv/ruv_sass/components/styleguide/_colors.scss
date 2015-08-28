@@ -349,6 +349,14 @@ blockquote {
   color: white;
 }
 
+.worlds-color.dark{
+  background-color: $color-grey;
+  color: $color-worlds;
+  h1, h2, h3{
+    color: $color-worlds !important;
+  }
+}
+
 /* red-color */
 .red-color .fa,
 .red-color .icon,
