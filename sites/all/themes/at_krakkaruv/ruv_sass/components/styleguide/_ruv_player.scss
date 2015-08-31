@@ -3,6 +3,21 @@
   background-color: $color-watch;
 }
 
+.page-heimur{
+  header{
+    h1{
+      margin-left: 20px;
+    }
+  }
+
+  .pane-spilari-panel-pane-3{
+    .view-spilari{
+      background-color: $color-worlds;
+      padding-bottom: 20px;
+    }
+  }
+}
+
 .view-spilari{
   padding-top: 20px;
 
