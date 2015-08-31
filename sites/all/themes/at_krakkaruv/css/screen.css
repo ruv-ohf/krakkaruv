@@ -4614,7 +4614,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 600px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\000035}}
   .front #menu-bar {
     height: 500px;
@@ -4654,7 +4654,7 @@ h1, h2 {
   font-size: 30px;
   font-weight: 400;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000032}}
   #menu-bar a {
     font-size: 20px;
@@ -4685,7 +4685,7 @@ h1, h2 {
     margin-right: 30px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000323}}
   #menu-bar ul li {
     margin-right: 30px;
@@ -4717,7 +4717,7 @@ h1, h2 {
     width: 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000344}}
   #menu-bar ul li a:before {
     height: 60px;
@@ -4745,7 +4745,7 @@ h1, h2 {
     background-size: 90px 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000380}}
   #menu-bar ul li.watch a:before {
     background-size: 60px 60px;
@@ -4766,7 +4766,7 @@ h1, h2 {
     background-size: 90px 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000380}}
   #menu-bar ul li.listen a:before {
     background-size: 60px 60px;
@@ -4787,7 +4787,7 @@ h1, h2 {
     background-size: 90px 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000380}}
   #menu-bar ul li.play a:before {
     background-size: 60px 60px;
@@ -4808,7 +4808,7 @@ h1, h2 {
     background-size: 90px 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000380}}
   #menu-bar ul li.create a:before {
     background-size: 60px 60px;
@@ -4829,7 +4829,7 @@ h1, h2 {
     background-size: 90px 90px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\0000380}}
   #menu-bar ul li.worlds a:before {
     background-size: 60px 60px;
@@ -4849,7 +4849,7 @@ h1, h2 {
   width: 90px;
   font-size: 24px;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003103}}
   .not-front #menu-bar ul a:before {
     height: 60px;
@@ -4883,7 +4883,7 @@ h1, h2 {
     margin-bottom: -7px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
   .pane-hladbord-nodes-panel-pane-1 .views-row {
     width: 100%;
@@ -4903,7 +4903,7 @@ h1, h2 {
     margin-bottom: -4px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000332}}
   .pane-hladbord-nodes-panel-pane-1 .views-row-1 {
     width: 100%;
@@ -4950,7 +4950,7 @@ h1, h2 {
     font-size: 14px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000363}}
   .pane-hladbord-nodes-panel-pane-1 .title-bar a {
     font-size: 18px;
@@ -4970,7 +4970,7 @@ h1, h2 {
   margin: 0 2%;
   float: left;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\000039}}
   .worlds-wrapper .view-heimar .views-row {
     width: 42%;
@@ -4986,7 +4986,7 @@ h1, h2 {
   color: #6be8ff;
   margin-bottom: 40px;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000325}}
   .worlds-wrapper h2 {
     margin-bottom: 0;
@@ -4998,7 +4998,7 @@ h1, h2 {
     font-size: 40px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000334}}
   .worlds-wrapper h1, .worlds-wrapper h2 {
     font-size: 40px;
@@ -5065,7 +5065,7 @@ h1, h2 {
     height: 500px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\0000385}}
   .frontpage-worlds {
     height: 930px;
@@ -5277,7 +5277,7 @@ h1, h2 {
   font-weight: 300;
   color: white !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000330}}
   .age-categories a {
     font-size: 16px;
@@ -5309,18 +5309,32 @@ h1, h2 {
 .view-spilari {
   padding-top: 20px;
 }
+@media (min-width: 320px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\000039}}
+  .view-spilari h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000316}}
 .view-spilari h2 {
   margin-bottom: 30px;
   font-size: 36px;
 }
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000316}}
+  .view-spilari h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000327}}
 .watch-color .view-spilari {
   background-color: #54ba54;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000331}}
 .listen-color .view-spilari {
   background-color: #34c6c6;
   padding-bottom: 20px;
@@ -5335,7 +5349,7 @@ section.text-boxes:before, section.text-boxes:after {
 section.text-boxes:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000338}}
 section.text-boxes section.text-box {
   width: 100%;
   margin: auto;
@@ -5345,33 +5359,52 @@ section.text-boxes section.text-box {
   margin-bottom: 20px;
   color: #282828;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000347}}
 section.text-boxes section.text-box .texts {
   width: 60%;
   float: left;
   color: #282828;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000341}}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000347}}
+  section.text-boxes section.text-box .texts {
+    width: 60%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000357}}
 section.text-boxes section.text-box .display-box {
   width: 30%;
   float: right;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000362}}
 section.text-boxes section.text-box .display-box p {
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000366}}
 section.text-boxes section.text-box .display-box p:last-child {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000355}}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000357}}
+  section.text-boxes section.text-box .display-box {
+    width: 40%;
+    float: left;
+  }
+}
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000357}}
+  section.text-boxes section.text-box .display-box {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000380}}
 section.text-boxes section.text-box p {
   margin-bottom: 10px;
   line-height: 23px;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000387}}
 section.text-boxes .rights {
   width: 30%;
   float: right;
@@ -5388,18 +5421,25 @@ section.text-boxes .rights:before, section.text-boxes .rights:after {
 section.text-boxes .rights:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000395}}
 section.text-boxes .rights h3 {
   color: #282828;
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\00003102}}
 section.text-boxes .rights p {
   margin-bottom: 10px;
   line-height: 16px;
   font-weight: 300;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000387}}
+  section.text-boxes .rights {
+    width: 100%;
+    float: left;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_button\.scss}line{font-family:\000031}}
@@ -7508,7 +7548,7 @@ footer {
   font-family: "Nunito", sans-serf;
   font-size: 16px;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\000031}}
   footer {
     font-size: 14px;
@@ -7555,7 +7595,7 @@ footer .inline {
   width: 100%;
   height: auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000034}}
   .play-image .game-image-and-link {
     width: 90%;
@@ -7593,7 +7633,7 @@ footer .inline {
   font-size: 16px;
   margin-bottom: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000320}}
   .play-text {
     width: 90%;

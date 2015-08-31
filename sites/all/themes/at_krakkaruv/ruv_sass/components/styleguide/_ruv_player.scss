@@ -6,9 +6,21 @@
 .view-spilari{
   padding-top: 20px;
 
+  h1{
+    @include breakpoint($mobile-portrait-max){
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
   h2{
     margin-bottom: 30px;
     font-size: 36px;
+
+    @include breakpoint($mobile-portrait-max){
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 }
 
@@ -36,6 +48,10 @@ section.text-boxes{
       width: 60%;
       float: left;
       color: $color-all-shows-black;
+
+      @include breakpoint($mobile-size){
+        width: 60%;
+      }
     }
 
     .display-box{
@@ -49,6 +65,15 @@ section.text-boxes{
 
       p:last-child{
         margin-bottom: 10px;
+      }
+
+      @include breakpoint($mobile-size){
+        width: 40%;
+        float: left;
+      }
+
+      @include breakpoint($mobile-portrait-max){
+        width: 100%;
       }
     }
 
@@ -78,6 +103,11 @@ section.text-boxes{
       margin-bottom: 10px;
       line-height: 16px;
       font-weight: 300;
+    }
+
+    @include breakpoint($mobile-size){
+      width: 100%;
+      float: left;
     }
   }
 }
