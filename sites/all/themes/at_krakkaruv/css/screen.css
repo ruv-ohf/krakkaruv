@@ -4917,27 +4917,27 @@ h1, h2 {
   bottom: 4px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000358}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa p {
   background-color: #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000358}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Hlusta a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar.Hlusta p {
   background-color: #34c6c6;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000358}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Leika a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar.Leika p {
   background-color: #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000358}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Skapa a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar.Skapa p {
   background-color: #ab89bf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000358}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Heimar a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar.Heimar p {
   background-color: #ffd150;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000363}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar a {
+.pane-hladbord-nodes-panel-pane-1 .title-bar p {
   display: block;
   opacity: 0.9;
   padding: 10px;
@@ -4946,13 +4946,13 @@ h1, h2 {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000363}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar a {
+  .pane-hladbord-nodes-panel-pane-1 .title-bar p {
     font-size: 14px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000363}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar a {
+  .pane-hladbord-nodes-panel-pane-1 .title-bar p {
     font-size: 18px;
   }
 }
