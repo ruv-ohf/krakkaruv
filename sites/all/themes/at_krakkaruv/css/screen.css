@@ -3592,7 +3592,7 @@ img.inline, .inline {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\000031}}
-input {
+input, textarea {
   padding: 10px;
   font-family: "Nunito", sans-serf;
   font-size: 16px;
@@ -4439,6 +4439,42 @@ footer .inline {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000339}}
 .node-type-faersla p {
   margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\000031}}
+.contact-us {
+  background-color: #008c99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\000034}}
+.contact-us h2 {
+  color: #71d3dc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\000038}}
+.contact-us .block-inner {
+  width: 88%;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\0000313}}
+.contact-us h2 {
+  width: 50%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\0000318}}
+.contact-us .block-content {
+  width: 50%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\0000322}}
+.contact-us .block-content input {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\0000326}}
+.contact-us .block-content input[type="submit"] {
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_contact_us\.scss}line{font-family:\0000330}}
+.contact-us .block-content textarea {
+  width: 100%;
 }
 
 /*# sourceMappingURL=screen.css.map */

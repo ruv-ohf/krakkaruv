@@ -1,0 +1,34 @@
+.contact-us{
+  background-color: $color-messages-background;
+
+  h2{
+    color: $color-messages-headline;
+  }
+
+  .block-inner{
+    width: 88%;
+    margin: auto;
+  }
+
+  h2{
+    width: 50%;
+    float: left;
+  }
+
+  .block-content{
+    width: 50%;
+    float: left;
+
+    input{
+      width: 100%;
+    }
+
+    input[type="submit"]{
+      width: 20%;
+    }
+
+    textarea{
+      width: 100%;
+    }
+  }
+}
