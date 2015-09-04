@@ -1,0 +1,93 @@
+.challenge{
+  .video-and-webform{
+    background-color: $color-create;
+    width: 100%;
+    margin-bottom: 30px;
+
+    .block-content{
+      width: 88%;
+      padding: 20px;
+      margin: 0 auto;
+
+      .views-field-title{
+        h1{
+          text-align: center;
+          font-family: $font-base;
+          color: white;
+          margin-bottom: 20px;
+
+          @include breakpoint($mobile-size){
+            font-size: 36px;
+          }
+        }
+      }
+
+      .views-field-php{
+        width: 60%;
+        float: left;
+
+        @include breakpoint($mobile-size){
+          width: 100%;
+          margin-bottom: 30px;
+        }
+      }
+
+      .challenge-webform{
+        margin-top: -15px;
+        padding: 0 20px;
+        width: 40%;
+        float: left;
+
+        h1{
+          display: none;
+        }
+
+        input[type="text"]{
+          width: 100%;
+        }
+
+        input[type="file"]{
+          padding: 5px 0;
+          width: 100%;
+          margin-bottom: 5px;
+          @include breakpoint($mobile-size){
+            width: auto;
+          }
+        }
+
+        input[type="submit"]{
+          padding: 5px 15px;
+          font-weight: 300;
+          font-size: 15px;
+        }
+
+        .description{
+          display: none;
+        }
+
+        .form-actions{
+          margin-top: 30px;
+        }
+
+        .webform-component--myndband,
+        .webform-component--mynd{
+          color: white;
+        }
+
+        @include breakpoint($mobile-size){
+          width: 100%;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .body-texts{
+    width: 100%;
+
+    .challenge-main-body{
+      width: 88%;
+      margin: 0 auto;
+    }
+  }
+}

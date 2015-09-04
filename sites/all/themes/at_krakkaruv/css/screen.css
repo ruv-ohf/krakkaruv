@@ -4498,4 +4498,104 @@ footer .inline {
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\000032}}
+.challenge .video-and-webform {
+  background-color: #ab89bf;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\000037}}
+.challenge .video-and-webform .block-content {
+  width: 88%;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000313}}
+.challenge .video-and-webform .block-content .views-field-title h1 {
+  text-align: center;
+  font-family: "Nunito", sans-serf;
+  color: white;
+  margin-bottom: 20px;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000313}}
+  .challenge .video-and-webform .block-content .views-field-title h1 {
+    font-size: 36px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000325}}
+.challenge .video-and-webform .block-content .views-field-php {
+  width: 60%;
+  float: left;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000325}}
+  .challenge .video-and-webform .block-content .views-field-php {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000335}}
+.challenge .video-and-webform .block-content .challenge-webform {
+  margin-top: -15px;
+  padding: 0 20px;
+  width: 40%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000341}}
+.challenge .video-and-webform .block-content .challenge-webform h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000345}}
+.challenge .video-and-webform .block-content .challenge-webform input[type="text"] {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000349}}
+.challenge .video-and-webform .block-content .challenge-webform input[type="file"] {
+  padding: 5px 0;
+  width: 100%;
+  margin-bottom: 5px;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000349}}
+  .challenge .video-and-webform .block-content .challenge-webform input[type="file"] {
+    width: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000358}}
+.challenge .video-and-webform .block-content .challenge-webform input[type="submit"] {
+  padding: 5px 15px;
+  font-weight: 300;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000364}}
+.challenge .video-and-webform .block-content .challenge-webform .description {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000368}}
+.challenge .video-and-webform .block-content .challenge-webform .form-actions {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000372}}
+.challenge .video-and-webform .block-content .challenge-webform .webform-component--myndband,
+.challenge .video-and-webform .block-content .challenge-webform .webform-component--mynd {
+  color: white;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000335}}
+  .challenge .video-and-webform .block-content .challenge-webform {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000385}}
+.challenge .body-texts {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000388}}
+.challenge .body-texts .challenge-main-body {
+  width: 88%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=screen.css.map */
