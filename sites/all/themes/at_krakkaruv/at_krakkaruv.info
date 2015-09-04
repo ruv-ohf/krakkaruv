@@ -73,7 +73,7 @@
 
   ; ie_scripts[lte IE 8][] = scripts/my-script.js
 
-  scripts[] = scripts/masonry.pkgd.min.js
+  ;scripts[] = scripts/masonry.pkgd.min.js
 
 
 ;----------// Regions
@@ -473,6 +473,9 @@
 
   ; Custom CSS
   settings[custom_css] = ''
+
+  ; Custom JS
+  scripts[] = 'scripts/krakkaruv_scripts.js'
 
 ; Information added by Drupal.org packaging script on 2014-03-23
 version = "7.x-3.2"

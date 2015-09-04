@@ -47,6 +47,13 @@
   background-color: $color-listen;
   padding-bottom: 20px;
 }
+
+p.toggle-text-boxes{
+  font-family: $font-base;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 section.text-boxes{
   @include clearfix;
 

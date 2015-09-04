@@ -836,8 +836,6 @@ function thaettir_uri($entity) {
  * @modified Hilmar Kári Hallbjörnsson
  */
 function dagskra_uri($entity) {
-  $taxname = strtolower(transliteration_get(taxonomy_term_load($entity->field_thaettir_term_ref[LANGUAGE_NONE][0]['tid'])->name, 'is_IS'));
-  $taxname = str_replace(' ', '-', $taxname);
   $tid = $entity->field_thaettir_term_ref[LANGUAGE_NONE][0]['tid'];
   return array(
     'path' => 'thattur/' . $tid .'/'. $entity->nid,

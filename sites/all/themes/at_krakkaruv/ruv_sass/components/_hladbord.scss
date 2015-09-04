@@ -55,12 +55,12 @@
       $category_name: nth($buffet-array, $i);
       $color_name: nth($menu-color-array, $i);
 
-      &.#{$category_name} a{
+      &.#{$category_name} p{
         background-color: $color_name;
       }
     }
 
-    a{
+    p{
       display: block;
       opacity: 0.9;
       padding: 10px;

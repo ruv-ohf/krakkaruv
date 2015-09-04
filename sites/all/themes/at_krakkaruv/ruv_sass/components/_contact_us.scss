@@ -1,0 +1,49 @@
+.contact-us{
+  background-color: $color-messages-background;
+
+  h2{
+    color: $color-messages-headline;
+  }
+
+  .block-inner{
+    width: 88%;
+    margin: auto;
+  }
+
+  h2{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+
+    @include breakpoint($mobile-size){
+      width: 100%;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .block-content {
+    width: 50%;
+    float: left;
+
+    input {
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      width: 20%;
+
+      @include breakpoint($mobile-size) {
+        width: 35%;
+      }
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    @include breakpoint($mobile-size) {
+      width: 100%;
+    }
+  }
+}
