@@ -4393,6 +4393,10 @@ footer .inline {
   font-size: 16px;
   margin-bottom: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000350}}
+.play-text .views-field-field-pdf-skjol {
+  margin: 20px 0;
+}
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000320}}
   .play-text {
@@ -4567,16 +4571,21 @@ footer .inline {
   padding: 5px 15px;
   font-weight: 300;
   font-size: 15px;
+  color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000365}}
+.challenge .video-and-webform .block-content .challenge-webform input[type="submit"]:hover {
+  color: #ab89bf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000369}}
 .challenge .video-and-webform .block-content .challenge-webform .description {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000373}}
 .challenge .video-and-webform .block-content .challenge-webform .form-actions {
   margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000377}}
 .challenge .video-and-webform .block-content .challenge-webform .webform-component--myndband,
 .challenge .video-and-webform .block-content .challenge-webform .webform-component--mynd {
   color: white;
@@ -4588,14 +4597,31 @@ footer .inline {
     padding: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000390}}
 .challenge .body-texts {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000393}}
 .challenge .body-texts .challenge-main-body {
   width: 88%;
   margin: 0 auto;
+  color: #282828;
+  font-family: "Nunito", sans-serf;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_myndbandsleidbeiningar\.scss}line{font-family:\000031}}
+.video-player-common {
+  background-color: #54ba54;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_myndbandsleidbeiningar\.scss}line{font-family:\000034}}
+.video-player-common .views-field-php {
+  width: 88%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/**
+ * Text stylings are under leikur.scss
+ */
 
 /*# sourceMappingURL=screen.css.map */

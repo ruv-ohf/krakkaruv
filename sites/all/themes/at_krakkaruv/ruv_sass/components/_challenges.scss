@@ -59,6 +59,11 @@
           padding: 5px 15px;
           font-weight: 300;
           font-size: 15px;
+          color: white;
+        }
+
+        input[type="submit"]:hover{
+          color: $color-create;
         }
 
         .description{
@@ -88,6 +93,8 @@
     .challenge-main-body{
       width: 88%;
       margin: 0 auto;
+      color: $color-all-shows-black;
+      font-family: $font-base;
     }
   }
 }
