@@ -1710,7 +1710,7 @@ h1, h2 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\000039}}
 .worlds-wrapper .view-heimar .views-row {
   width: 21%;
-  margin: 0 2%;
+  margin: 20px 2%;
   float: left;
 }
 @media (max-width: 769px) {
