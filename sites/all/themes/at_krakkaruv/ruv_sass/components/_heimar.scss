@@ -124,16 +124,23 @@
   .fifty-percent{
 	width: 50%;
 	float: left;
+
+	@include breakpoint($mobile-size){
+	  width: 100%;
+	}
   }
 
   .video-pane{
 	padding-right: 20px;
+	padding-left: 6%;
   }
 
   .webform-pane{
 	padding-left: 20px;
+	padding-right: 6%;
 
-	input{
+	input[type='text'],
+	input[textarea='textarea']{
 	  width: 100%;
 	}
   }
@@ -149,6 +156,7 @@
 	margin: 0 auto 40px;
 	padding: 80px;
 	color: white;
+	font-size: 16px;
 
 	h2{
 	  color: white;
