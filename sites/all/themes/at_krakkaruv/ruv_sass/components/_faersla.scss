@@ -1,6 +1,7 @@
 .node-type-faersla{
   font-family: $font-base;
   font-weight: 300;
+  color: $color-all-shows-black;
 
   .two-66-33{
     max-width: 1180px;
@@ -9,6 +10,7 @@
     h1, h2{
       font-family: $font-base;
       font-weight: 400;
+      color: $color-all-shows-black;
     }
 
     h1{
@@ -31,6 +33,7 @@
       }
 
       .text{
+        text-size: 16px;
         padding: 0 20px;
       }
     }

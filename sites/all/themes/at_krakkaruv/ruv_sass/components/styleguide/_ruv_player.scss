@@ -39,15 +39,6 @@
   }
 }
 
-.watch-color .view-spilari{
-  background-color: $color-watch;
-}
-
-.listen-color .view-spilari{
-  background-color: $color-listen;
-  padding-bottom: 20px;
-}
-
 p.toggle-text-boxes{
   font-family: $font-base;
   font-size: 18px;
@@ -132,4 +123,9 @@ section.text-boxes{
       float: left;
     }
   }
+}
+
+.player-watch-playlist{
+  background-color: $color-watch;
+  padding-bottom: 20px;
 }
