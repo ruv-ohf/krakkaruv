@@ -105,3 +105,54 @@
 	height: 720px;
   }
 }
+
+.worlds-page{
+  #content {
+	width: 88%;
+	padding: 20px;
+	margin: 0 auto;
+  }
+
+  .fifty-percent{
+	width: 50%;
+	float: left;
+  }
+
+  .video-pane{
+	padding-right: 20px;
+  }
+
+  .webform-pane{
+	padding-left: 20px;
+  }
+
+  .views-field-field-heimur{
+	display: none;
+  }
+
+  .worlds-diary{
+	background:  url('/sites/all/themes/at_krakkaruv/images/galaxy.jpg') center center;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto 40px;
+	padding: 80px;
+	color: white;
+
+	h2{
+	  color: white;
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+
+	a{
+	  color: white;
+	  font-size: 24px;
+	  margin-bottom: 20px;
+	  display: block;
+	}
+  }
+
+  .views-row-last{
+	margin-right: 0;
+  }
+}
