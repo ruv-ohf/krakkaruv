@@ -135,7 +135,7 @@
 	padding-left: 6%;
 
 	@include breakpoint($mobile-size){
-	  padding-left: 0;
+	  padding-left: 4%;
 	}
   }
 
@@ -149,7 +149,7 @@
 	}
 
 	@include breakpoint($mobile-size){
-	  padding-right: 0;
+	  padding-right: 4%;
 	}
   }
 
