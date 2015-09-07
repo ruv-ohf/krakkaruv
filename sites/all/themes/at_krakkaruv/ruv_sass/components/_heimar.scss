@@ -133,6 +133,10 @@
   .video-pane{
 	padding-right: 20px;
 	padding-left: 6%;
+
+	@include breakpoint($mobile-size){
+	  padding-left: 0;
+	}
   }
 
   .webform-pane{
@@ -142,6 +146,10 @@
 	input[type='text'],
 	input[textarea='textarea']{
 	  width: 100%;
+	}
+
+	@include breakpoint($mobile-size){
+	  padding-right: 0;
 	}
   }
 
