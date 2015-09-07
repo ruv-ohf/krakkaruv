@@ -1834,7 +1834,7 @@ h1, h2 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\00003110}}
-.worlds-page #content {
+.worlds-page .eighty-eight {
   width: 88%;
   padding: 20px;
   margin: 0 auto;
