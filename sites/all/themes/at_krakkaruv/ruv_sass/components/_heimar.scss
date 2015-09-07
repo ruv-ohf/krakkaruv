@@ -11,6 +11,18 @@
 	  margin: 20px 2%;
 	  float: left;
 
+	  a{
+		text-align: center;
+		color: white;
+		font-size: 24px;
+		font-family: $font-headline;
+		display: block;
+	  }
+
+	  .dot{
+		margin-bottom: 20px;
+	  }
+
 	  @include breakpoint($mobile-size){
 		width: 42%;
 		margin: 20px 4%;
