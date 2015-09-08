@@ -11,6 +11,26 @@
     width: 100%;
   }
 
+  ul{
+    margin: auto;
+
+    li{
+      display: inline-block;
+      border: 1px solid white;
+      padding: 10px 30px;
+      margin: 20px;
+    }
+
+    li:hover{
+      background-color: white;
+      color: $color-watch;
+
+      a{
+        color: $color-watch !important;
+      }
+    }
+  }
+
   p{
     float: left;
     width: 27%;
