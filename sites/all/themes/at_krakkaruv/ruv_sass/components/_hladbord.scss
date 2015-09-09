@@ -5,17 +5,20 @@
   border: 10px solid white;
 
   .views-row{
+
     position: relative;
     padding: 5px;
-
+    overflow: hidden;
     width: 25%;
     float: left;
 
     img{
+      transition: all 0.7s ease-in-out;
       vertical-align: super;
       margin-bottom: -10px;
       width: 100%;
       height: auto;
+      overflow: hidden;
 
       @include breakpoint($tablet-size){
         margin-bottom: -7px;
@@ -27,6 +30,23 @@
     }
   }
 
+  .views-row:hover{
+    img{
+      @include filter(blur(2px));
+    }
+
+    .title-bar{
+      @for $i from 1 through length($buffet-array) {
+        $category_name: nth($buffet-array, $i);
+        $color_name: nth($title-bar-color-array-hi, $i);
+
+        &.#{$category_name} p{
+          background-color: $color_name;
+        }
+      }
+    }
+
+  }
 
 
   .views-row-1{
@@ -46,6 +66,7 @@
   }
 
   .title-bar{
+    transition: all 0.5s ease-in-out;
     padding-right: 10px;
     width: 100%;
     position: absolute;
@@ -53,7 +74,7 @@
 
     @for $i from 1 through length($buffet-array) {
       $category_name: nth($buffet-array, $i);
-      $color_name: nth($menu-color-array, $i);
+      $color_name: nth($title-bar-color-array-low, $i);
 
       &.#{$category_name} p{
         background-color: $color_name;
@@ -61,11 +82,13 @@
     }
 
     p{
+      transition: all 0.5s ease-in-out;
       display: block;
-      opacity: 0.9;
       padding: 10px;
       color: white;
       font-size: 20px;
+      font-weight: 300;
+      text-shadow: 2px 2px 8px $color-all-shows-black;
 
       @include breakpoint($tablet-size){
         font-size: 14px;
