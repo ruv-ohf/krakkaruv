@@ -1346,36 +1346,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* =========================================================================== */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\000035}}
 .front #menu-bar {
-  height: 788px;
   background: url("/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg") center center;
   background-size: cover;
   margin: 0;
+  width: 100%;
+  padding-top: 230px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\000035}}
   .front #menu-bar {
-    height: 600px;
+    padding-top: 150px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\000035}}
   .front #menu-bar {
-    height: 500px;
+    padding-top: 150px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000321}}
 .front #block-block-1 {
-  padding-top: 20%;
   text-align: center;
-  width: 600px;
+  width: 70%;
   margin: auto;
-  margin-bottom: 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000327}}
-.front #block-block-1 .krakkaruv-logo {
-  width: 580px;
-  height: 80px;
-  background: url("../images/krakkaruv-logo-stort.png") no-repeat center center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000326}}
+.front #block-block-1 img {
+  width: 100%;
 }
 
 /** 
@@ -1597,6 +1594,22 @@ h1, h2 {
   .not-front #menu-bar ul a:before {
     height: 60px;
     width: 60px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003116}}
+#menu-bar .menu-bar-wrapper {
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003116}}
+  #menu-bar .menu-bar-wrapper {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003116}}
+  #menu-bar .menu-bar-wrapper {
+    margin-bottom: 40px;
   }
 }
 

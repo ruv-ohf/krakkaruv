@@ -112,6 +112,18 @@
       }
     }
   }
+
+  .menu-bar-wrapper{
+    margin-bottom: 100px;
+
+    @include breakpoint($tablet-size){
+      margin-bottom: 70px;
+    }
+
+    @include breakpoint($mobile-size){
+      margin-bottom: 40px;
+    }
+  }
 }
 
 
