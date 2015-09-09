@@ -21,6 +21,17 @@
 		font-size: 24px;
 		font-family: $font-headline;
 	  }
+
+	  img{
+		transition: all 0.5s ease-in-out;
+	  }
+	}
+
+	.views-row:hover{
+	  img{
+		@include filter(grayscale(100%));
+		border: 10px solid white;
+	  }
 	}
 
 	.view-footer{

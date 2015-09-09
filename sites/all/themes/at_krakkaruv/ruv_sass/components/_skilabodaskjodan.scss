@@ -1,7 +1,7 @@
 .message-in-a-bottle{
   background-color: $color-messages-background;
   color: white;
-  padding-top: 40px;
+  padding: 100px 40px;
 
   a{
     color: white;
@@ -39,20 +39,28 @@
 
   p, a, .views-field-title{
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .views-field-title{
     font-weight: 700;
     margin-bottom: 20px;
+    font-size: 20px;
   }
 
   p{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .views-field-field-image{
     margin-bottom: 15px;
+  }
+
+  .view-content{
+    @include clearfix;
+    max-width: $max-width;
+    margin: 80px auto;
+    padding: 0 50px;
   }
 }

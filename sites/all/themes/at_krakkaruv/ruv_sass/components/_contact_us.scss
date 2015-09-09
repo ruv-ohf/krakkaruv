@@ -6,8 +6,9 @@
   }
 
   .block-inner{
-    width: 88%;
+    max-width: $max-width;
     margin: auto;
+    padding: 0 50px;
   }
 
   h2{
