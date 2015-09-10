@@ -1,6 +1,7 @@
 footer{
   font-family: $font-base;
   font-size: 16px;
+  padding: 0 50px;
 
   @include breakpoint($mobile-size){
     font-size: 14px;
@@ -16,5 +17,10 @@ footer{
     color: white;
 
     border-top: 1px solid white;
+  }
+
+  .region-footer{
+    max-width: $max-width;
+    margin: 0 auto;
   }
 }

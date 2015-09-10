@@ -7,4 +7,8 @@
     font-size: 36px;
     margin-bottom: 30px;
   }
+
+  @include breakpoint($mobile-size){
+    padding: 0 20px;
+  }
 }

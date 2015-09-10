@@ -20,6 +20,8 @@
 
 .view-spilari{
   padding-top: 20px;
+  max-width: $max-width;
+  margin: 0 auto;
 
   h1{
     @include breakpoint($mobile-portrait-max){

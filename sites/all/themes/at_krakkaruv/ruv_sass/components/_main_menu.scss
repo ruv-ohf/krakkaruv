@@ -104,10 +104,12 @@
         height: $gutter * 1.5;
         width: $gutter * 1.5;
         font-size: 24px;
+        background-size: $gutter*1.5 $gutter*1.5 !important;
 
         @include breakpoint($mobile-size){
           height: $gutter;
           width: $gutter;
+          background-size: $gutter $gutter !important;
         }
       }
     }
@@ -122,6 +124,31 @@
 
     @include breakpoint($mobile-size){
       margin-bottom: 40px;
+    }
+  }
+
+  .not-front &{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+
+    #block-block-1{
+      display: none;
+    }
+
+    #block-block-3{
+      position: absolute;
+      left: 20px;
+      margin-bottom: 0;
+
+      img{
+        width: $gutter * 1.5;
+        float: left;
+      }
+    }
+
+    nav{
+      margin-bottom: 0;
     }
   }
 }

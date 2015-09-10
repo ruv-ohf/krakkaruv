@@ -20,19 +20,18 @@
     height: auto;
   }
 
-  /*
-  .message-in-a-bottle &{
-    width: 23%;
+  @include breakpoint($tablet-size){
+    width: 48%;
+  }
 
-    @include breakpoint(max-width 860px){
-      width: 47%;
-    }
+  @include breakpoint($mobile-size){
+    width: 48%;
+  }
 
-    @include breakpoint(max-width 580px){
-      width: 100%;
-      margin-right: 0;
-    }
-  }*/
+  @include breakpoint($mobile-portrait-max){
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 
 .ruv-item-all{
