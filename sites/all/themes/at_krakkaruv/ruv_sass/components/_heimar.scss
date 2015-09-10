@@ -14,7 +14,7 @@
 	.views-row{
 	  width: 25%;
 	  float: left;
-	  transition: all 0.5s ease-in-out;
+	  transition: all 0.3s ease-in-out;
 
 	  a {
 		text-align: center;
@@ -24,7 +24,7 @@
 	  }
 
 	  img{
-		transition: all 0.5s ease-in-out;
+		transition: all 0.3s ease-in-out;
 	  }
 
 	  @include breakpoint($mobile-size){
@@ -44,7 +44,7 @@
 
 	.view-footer{
 	  a{
-		transition: all 0.5s ease-in-out;
+		transition: all 0.3s ease-in-out;
 		font-family: $font-base;
 		font-size: 18px;
 		padding: 10px 30px;
@@ -98,14 +98,14 @@
 	}
   }
   .eighty-eight {
-	width: 88%;
-	padding: 20px;
+	max-width: 1140px;
 	margin: 0 auto;
   }
 
   .fifty-percent{
 	width: 50%;
 	float: left;
+	margin-bottom: 50px;
 
 	@include breakpoint($mobile-size){
 	  width: 100%;
@@ -159,6 +159,11 @@
 	  font-size: 24px;
 	  margin-bottom: 20px;
 	  display: block;
+	}
+
+	.block-content{
+	  max-width: $max-width;
+	  margin: 0 auto;
 	}
   }
 

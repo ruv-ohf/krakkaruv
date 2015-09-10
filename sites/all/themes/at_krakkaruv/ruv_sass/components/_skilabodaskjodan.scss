@@ -60,6 +60,6 @@
   .view-content{
     @include clearfix;
     max-width: $max-width;
-    margin: 80px auto;
+    margin: 80px auto 0;
   }
 }

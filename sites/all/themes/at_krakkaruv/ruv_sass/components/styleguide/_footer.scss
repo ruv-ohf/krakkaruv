@@ -24,3 +24,23 @@ footer{
     margin: 0 auto;
   }
 }
+
+.watch-color footer{
+  border-top: 1px solid $color-watch;
+}
+
+.listen-color footer{
+  border-top: 1px solid $color-listen;
+}
+
+.play-color footer{
+  border-top: 1px solid $color-play;
+}
+
+.create-color footer{
+  border-top: 1px solid $color-create;
+}
+
+.worlds-color footer{
+  border-top: 1px solid $color-worlds;
+}
