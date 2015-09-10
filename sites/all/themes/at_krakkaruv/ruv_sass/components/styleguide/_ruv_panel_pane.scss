@@ -1,8 +1,14 @@
 .ruv-panel-pane{
+  max-width: 1140px;
+  margin: auto;
 
   h2{
     font-family: $font-headline;
     font-size: 36px;
     margin-bottom: 30px;
+  }
+
+  @include breakpoint($mobile-size){
+    padding: 0 20px;
   }
 }

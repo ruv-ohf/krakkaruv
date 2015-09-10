@@ -3,10 +3,20 @@
  * COLOR DEFINITIONS
  */
 $color-watch:                 #54ba54;
+$color-watch-rgb-low:         rgba(84,186,84,0.9);
+$color-watch-rgb-hi:          rgba(84,186,84,0.3);
 $color-listen:                #34c6c6;
-$color-play:                  #cc406e;
+$color-listen-rgb-low:        rgba(52,198,198,0.9);
+$color-listen-rgb-hi:         rgba(52,198,198,0.3);
+$color-play:                   #cc406e;
+$color-play-rgb-low:          rgba(204,64,110,0.9);
+$color-play-rgb-hi:           rgba(204,64,110,0.3);
 $color-create:                #ab89bf;
+$color-create-rgb-low:        rgba(171,137,191,0.9);
+$color-create-rgb-hi:         rgba(171,137,191,0.3);
 $color-worlds:                #ffd150;
+$color-worlds-rgb-low:        rgba(255,209,80,0.9);
+$color-worlds-rgb-hi:         rgba(255,209,80,0.3);
 $color-worlds-blue-headline:  #6be8ff;
 $color-messages-background:   #008c99;
 $color-messages-headline:     #71d3dc;
@@ -14,6 +24,8 @@ $color-grey:                  grey;
 $color-all-shows-black:       #282828;
 
 $menu-color-array: ($color-watch, $color-listen, $color-play, $color-create, $color-worlds);
+$title-bar-color-array-low: ($color-watch-rgb-low, $color-listen-rgb-low, $color-play-rgb-low, $color-create-rgb-low, $color-worlds-rgb-low);
+$title-bar-color-array-hi:  ($color-watch-rgb-hi, $color-listen-rgb-hi, $color-play-rgb-hi, $color-create-rgb-hi, $color-worlds-rgb-hi);
 $menu-array: ('watch', 'listen', 'play', 'create', 'worlds');
 $buffet-array: ('Horfa', 'Hlusta', 'Leika', 'Skapa', 'Heimar');
 /**
@@ -35,3 +47,4 @@ $gutter:  60px;
 $mobile-size:  max-width 769px;
 $mobile-portrait-max: max-width 320px;
 $tablet-size: 768px 1024px;
+$max-width: 1140px;

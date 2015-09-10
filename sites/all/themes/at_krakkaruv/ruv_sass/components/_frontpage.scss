@@ -3,31 +3,32 @@
 /* =========================================================================== */
 .front{
   #menu-bar{
-    height: 788px;
     background:  url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg') center center;
     background-size: cover;
     margin: 0;
+    width: 100%;
+    padding-top: 230px;
 
     @include breakpoint($tablet-size){
-      height: 600px;
+      padding-top: 150px;
     }
 
     @include breakpoint($mobile-size){
-      height: 500px;
+      padding-top: 150px;
     }
   }
 
   #block-block-1{
-    padding-top: 20%;
     text-align: center;
-    width: 10 * $gutter;
+    width: 70%;
     margin: auto;
-    margin-bottom: 70px;
 
-    .krakkaruv-logo{
-      width: 580px;
-      height: 80px;
-      background: url('../images/krakkaruv-logo-stort.png') no-repeat center center;
+    img{
+      width: 100%;
     }
+  }
+
+  #block-block-3{
+    display: none;
   }
 }

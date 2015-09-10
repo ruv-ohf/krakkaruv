@@ -1,12 +1,13 @@
 .contact-us{
   background-color: $color-messages-background;
+  padding: 0 50px 50px;
 
   h2{
     color: $color-messages-headline;
   }
 
   .block-inner{
-    width: 88%;
+    max-width: $max-width;
     margin: auto;
   }
 

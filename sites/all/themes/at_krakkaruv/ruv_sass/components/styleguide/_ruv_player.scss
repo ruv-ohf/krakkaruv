@@ -20,6 +20,8 @@
 
 .view-spilari{
   padding-top: 20px;
+  max-width: $max-width;
+  margin: 0 auto;
 
   h1{
     @include breakpoint($mobile-portrait-max){
@@ -37,15 +39,6 @@
       line-height: 24px;
     }
   }
-}
-
-.watch-color .view-spilari{
-  background-color: $color-watch;
-}
-
-.listen-color .view-spilari{
-  background-color: $color-listen;
-  padding-bottom: 20px;
 }
 
 p.toggle-text-boxes{
@@ -132,4 +125,9 @@ section.text-boxes{
       float: left;
     }
   }
+}
+
+.player-watch-playlist{
+  background-color: $color-watch;
+  padding-bottom: 20px;
 }

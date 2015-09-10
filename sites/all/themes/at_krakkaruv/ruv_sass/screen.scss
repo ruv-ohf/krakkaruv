@@ -8,13 +8,14 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+@import "compass/css3/box-sizing";
 @import "helpers/imports";
 
 @import "fonts.scss";
 
 @import "compass/reset";
 @import "compass/css3/inline-block";
-@import "compass/css3/box-sizing";
+@import "compass/css3/filter";
 
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins/grid-framework";

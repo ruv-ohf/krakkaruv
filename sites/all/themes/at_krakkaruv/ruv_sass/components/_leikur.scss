@@ -47,6 +47,10 @@
     margin-bottom: 20px;
   }
 
+  .views-field-field-pdf-skjol{
+    margin: 20px 0;
+  }
+
   @include breakpoint($mobile-size){
     width: 90%;
   }

@@ -1,6 +1,7 @@
 footer{
   font-family: $font-base;
   font-size: 16px;
+  padding: 0 50px;
 
   @include breakpoint($mobile-size){
     font-size: 14px;
@@ -17,4 +18,29 @@ footer{
 
     border-top: 1px solid white;
   }
+
+  .region-footer{
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}
+
+.watch-color footer{
+  border-top: 1px solid $color-watch;
+}
+
+.listen-color footer{
+  border-top: 1px solid $color-listen;
+}
+
+.play-color footer{
+  border-top: 1px solid $color-play;
+}
+
+.create-color footer{
+  border-top: 1px solid $color-create;
+}
+
+.worlds-color footer{
+  border-top: 1px solid $color-worlds;
 }
