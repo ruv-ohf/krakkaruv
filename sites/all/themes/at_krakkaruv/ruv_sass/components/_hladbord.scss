@@ -26,6 +26,10 @@
     }
 
     @include breakpoint($mobile-size){
+      width: 50%;
+    }
+
+    @include breakpoint($mobile-portrait-max){
       width: 100%;
     }
   }
@@ -61,6 +65,10 @@
     }
 
     @include breakpoint($mobile-size){
+      width: 100%;
+    }
+
+    @include breakpoint($mobile-portrait-max){
       width: 100%;
     }
   }
