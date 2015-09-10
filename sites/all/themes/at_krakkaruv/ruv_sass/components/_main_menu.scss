@@ -134,6 +134,16 @@
 
     #block-block-1{
       display: none;
+
+      @include breakpoint($mobile-size){
+        display: block;
+        margin: 0;
+
+        img{
+          width: 200px;
+          margin: auto;
+        }
+      }
     }
 
     #block-block-3{
@@ -144,6 +154,10 @@
       img{
         width: $gutter * 1.5;
         float: left;
+      }
+
+      @include breakpoint($mobile-size){
+        display: none;
       }
     }
 
