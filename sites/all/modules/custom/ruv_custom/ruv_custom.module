@@ -641,7 +641,7 @@ jwplayer("sarpur-video-player").setup({
       aspectratio: "16:9",
       primary : "html",
       src: "/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf",
-      skin : "/sites/all/themes/at_ruv/scripts/jwp6/jwplayer-skins-premium/six.xml",
+      skin : "/sites/all/themes/at_ruv/scripts/jwp6/jwplayer-skins-premium/six.css",
       autostart : <?php print $autostart;?>,
       fallback : false,
       stretching: "uniform",
