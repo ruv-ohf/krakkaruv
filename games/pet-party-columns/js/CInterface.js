@@ -133,8 +133,8 @@ function CInterface(oSpriteSheet){
     };
     
     this.refreshScore = function(iScore){
-      _oScoreText.text = iScore+ " PT";  
-	  _oScoreTextBack.text = iScore+ " PT";
+      _oScoreText.text = iScore+ " St";  
+	  _oScoreTextBack.text = iScore+ " St";
     };
     
     this.gameOver = function(iScore){
