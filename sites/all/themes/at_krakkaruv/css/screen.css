@@ -3881,6 +3881,12 @@ img.inline, .inline {
   font-family: "Nunito", sans-serf;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_utility_classess\.scss}line{font-family:\00003109}}
+.center-max {
+  max-width: 1140px;
+  margin: auto;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\000031}}
 input, textarea {
   padding: 10px;

@@ -105,3 +105,8 @@ img.inline, .inline { display: inline-block; }
     font-family: $font-base;
   }
 }
+
+.center-max{
+  max-width: 1140px;
+  margin: auto;
+}
