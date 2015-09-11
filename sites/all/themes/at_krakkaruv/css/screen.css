@@ -4654,7 +4654,12 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000039}}
 .play-banner-image {
-  background: url("/sites/all/themes/at_krakkaruv/images/super-mario-bros.jpg") center center;
+  background: url("/sites/all/themes/at_krakkaruv/images/leikir.jpg") center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000313}}
+.create-banner-image {
+  background: url("/sites/all/themes/at_krakkaruv/images/skapa.jpg") center center;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000031}}
