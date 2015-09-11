@@ -24,6 +24,10 @@
   font-weight: 300;
   color: black;
 
+  h1,h2{
+    font-family: $font-base;
+  }
+
   h2{
     font-size: 30px;
   }

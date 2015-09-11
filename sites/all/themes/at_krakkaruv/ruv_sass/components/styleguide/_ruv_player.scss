@@ -73,6 +73,10 @@ p.toggle-text-boxes{
       .toggle-text-boxes{
         margin-bottom: 20px;
       }
+
+      .toggle-text-boxes:before{
+        content: "+ ";
+      }
     }
 
     @include breakpoint($tablet-size){
@@ -101,10 +105,12 @@ p.toggle-text-boxes{
       text-align: right;
       font-family: $font-base;
       font-weight: 300;
+      margin-bottom: 20px;
 
       p{
         font-size: 16px;
         margin-bottom: 5px;
+        color: lightgrey;
       }
 
       p:last-child{
@@ -112,22 +118,29 @@ p.toggle-text-boxes{
       }
     }
 
-    .rights{
+    #rights{
       padding: 20px;
       font-size: 16px;
       font-family: $font-base;
+      border: 1px solid lightgrey;
+      background-color: grey;
+      color: lightgrey;
 
       h3{
-        color: $color-all-shows-black;
+        color: lightgrey;
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 10px;
       }
 
       p{
-        margin-bottom: 10px;
+        margin: 0 10px 10px 0;
         line-height: 16px;
         font-weight: 300;
+      }
+
+      a{
+        color: #8DC3FF;
       }
     }
 
@@ -139,59 +152,6 @@ p.toggle-text-boxes{
       width: 100%;
     }
   }
-
-  /*section.text-box {
-    width: 70%;
-    margin: auto;
-    font-size: 16px;
-    font-family: $font-base;
-    float: left;
-    margin-bottom: 20px;
-    color: $color-all-shows-black;
-
-    .texts{
-      width: 60%;
-      float: left;
-      color: $color-all-shows-black;
-
-      @include breakpoint($mobile-size){
-        width: 60%;
-      }
-    }
-
-    .display-box{
-      width: 30%;
-      float: right;
-
-
-      @include breakpoint($mobile-size){
-        width: 40%;
-        float: left;
-      }
-
-      @include breakpoint($mobile-portrait-max){
-        width: 100%;
-      }
-    }
-
-    p{
-      margin-bottom: 10px;
-      line-height: 23px;
-      font-weight: 300;
-    }
-  }
-
-  .rights{
-    @include clearfix;
-    width: 30%;
-    float: right;
-
-
-    @include breakpoint($mobile-size){
-      width: 100%;
-      float: left;
-    }
-  }*/
 }
 
 .player-watch-playlist{
