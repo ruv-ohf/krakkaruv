@@ -21,6 +21,7 @@
     padding: 0;
 
     li{
+      transition: all 0.3s ease-out;
       @include inline-block;
       margin-right: $gutter;
 
@@ -71,6 +72,10 @@
       margin-right: 0;
     }
 
+    li:hover{
+      transform: scale(1.1);
+    }
+
     // Loop through the arrays, to set correct colors to the menu items
     // Also to append the correct icons.
     @for $i from 1 through length($menu-array){
@@ -92,6 +97,20 @@
 
         a:hover{
           border-bottom: 5px solid #{$color_name};
+        }
+      }
+    }
+
+    // Setting the hover states of the menu items.
+    @for $i from 1 through length($menu-array){
+      $category_name: nth($menu-array, $i);
+      $color_name: nth($menu-color-array, $i);
+      li.#{$category_name}.active-trail{
+        border-bottom: 5px solid #{$color_name};
+        border-radius: 0;
+
+        a{
+          color: #{$color_name};
         }
       }
     }
