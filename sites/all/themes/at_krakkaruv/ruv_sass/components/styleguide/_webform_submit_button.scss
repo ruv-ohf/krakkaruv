@@ -1,0 +1,34 @@
+.front .form-submit{
+  border: 1px solid white;
+  color: lightgrey;
+  background-color: $color-messages-background;
+}
+
+.front .form-submit:hover{
+  color: $color-messages-background;
+  background-color: white;
+}
+
+.create-color .form-submit{
+  background-color: $color-create;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+}
+
+.create-color .form-submit:hover{
+  background-color: white;
+  color: $color-create;
+}
+
+.worlds-color .form-submit{
+  color: $color-worlds;
+  background-color: white;
+  border: 1px solid $color-worlds;
+  padding: 10px 30px;
+}
+
+.worlds-color .form-submit:hover{
+  color: white;
+  background-color: $color-worlds;
+}

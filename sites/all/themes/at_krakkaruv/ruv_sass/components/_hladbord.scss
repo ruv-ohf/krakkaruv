@@ -98,6 +98,11 @@
       font-weight: 300;
       text-shadow: 2px 2px 8px $color-all-shows-black;
 
+      @include breakpoint($superscreens){
+        padding: 14px;
+        font-size: 24px;
+      }
+
       @include breakpoint($tablet-size){
         font-size: 14px;
       }

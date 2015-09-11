@@ -55,17 +55,6 @@
           }
         }
 
-        input[type="submit"]{
-          padding: 5px 15px;
-          font-weight: 300;
-          font-size: 15px;
-          color: white;
-        }
-
-        input[type="submit"]:hover{
-          color: $color-create;
-        }
-
         .description{
           display: none;
         }

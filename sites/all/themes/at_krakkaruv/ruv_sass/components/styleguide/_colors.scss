@@ -25,13 +25,11 @@ blockquote {
   border-color: white;
 }
 
-.form-submit,
 .button,
 .pager-load-more a {
   border-color: white;
   color: white;
 }
-.dark .form-submit,
 .dark .button,
 .dark .pager-load-more a {
   border-color: #0B0B0B;
@@ -39,14 +37,12 @@ blockquote {
 }
 
 .button.active,
-.form-submit:hover,
 .button:hover,
 .pager-load-more a:hover {
   background: white;
   color: #0B0B0B;
 }
 
-.dark .form-submit:hover,
 .dark .button:hover,
 .dark .pager-load-more a:hover {
   background: #0B0B0B;
@@ -85,26 +81,22 @@ ul.quicktabs-tabs li.active > a {
 blockquote {
   border-color: $color-watch;
 }
-.watch-color .form-submit,
 .watch-color .button,
 .watch-color .pager-load-more a {
   border-color: $color-watch;
   color: $color-watch;
 }
-.watch-color .dark .form-submit,
 .watch-color .dark .button,
 .watch-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .watch-color .button.active,
-.watch-color .form-submit:hover,
 .watch-color .button:hover,
 .watch-color .pager-load-more a:hover {
   background: $color-watch;
   color: white;
 }
-.watch-color .dark .form-submit:hover,
 .watch-color .dark .button:hover,
 .watch-color .dark .button:hover .fa,
 .watch-color .dark .pager-load-more a:hover {
@@ -148,26 +140,22 @@ blockquote {
 blockquote {
   border-color: $color-listen;
 }
-.listen-color .form-submit,
 .listen-color .button,
 .listen-color .pager-load-more a {
   border-color: $color-listen;
   color: $color-listen;
 }
-.listen-color .dark .form-submit,
 .listen-color .dark .button,
 .listen-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .listen-color .button.active,
-.listen-color .form-submit:hover,
 .listen-color .button:hover,
 .listen-color .pager-load-more a:hover {
   background: $color-listen;
   color: white;
 }
-.listen-color .dark .form-submit:hover,
 .listen-color .dark .button:hover,
 .listen-color .dark .button:hover .fa,
 .listen-color .dark .pager-load-more a:hover {
@@ -206,26 +194,22 @@ blockquote {
 blockquote {
   border-color: $color-play;
 }
-.play-color .form-submit,
 .play-color .button,
 .play-color .pager-load-more a {
   border-color: $color-play;
   color: $color-play;
 }
-.play-color .dark .form-submit,
 .play-color .dark .button,
 .play-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .play-color .button.active,
-.play-color .form-submit:hover,
 .play-color .button:hover,
 .play-color .pager-load-more a:hover {
   background: $color-play;
   color: white;
 }
-.play-color .dark .form-submit:hover,
 .play-color .dark .button:hover,
 .play-color .dark .button:hover .fa,
 .play-color .dark .pager-load-more a:hover {
@@ -264,26 +248,22 @@ blockquote {
 blockquote {
   border-color: $color-create;
 }
-.create-color .form-submit,
 .create-color .button,
 .create-color .pager-load-more a {
-  border-color: $color-create;
-  color: $color-create;
+  border-color: white;
+  color: white;
 }
-.create-color .dark .form-submit,
 .create-color .dark .button,
 .create-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .create-color .button.active,
-.create-color .form-submit:hover,
 .create-color .button:hover,
 .create-color .pager-load-more a:hover {
-  background: $color-create;
+  background-color: $color-create;
   color: white;
 }
-.create-color .dark .form-submit:hover,
 .create-color .dark .button:hover,
 .create-color .dark .button:hover .fa,
 .create-color .dark .pager-load-more a:hover {
@@ -322,26 +302,22 @@ blockquote {
 blockquote {
   border-color: $color-worlds;
 }
-.worlds-color .form-submit,
 .worlds-color .button,
 .worlds-color .pager-load-more a {
   border-color: $color-worlds;
   color: $color-worlds;
 }
-.worlds-color .dark .form-submit,
 .worlds-color .dark .button,
 .worlds-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .worlds-color .button.active,
-.worlds-color .form-submit:hover,
 .worlds-color .button:hover,
 .worlds-color .pager-load-more a:hover {
   background: $color-worlds;
   color: white;
 }
-.worlds-color .dark .form-submit:hover,
 .worlds-color .dark .button:hover,
 .worlds-color .dark .button:hover .fa,
 .worlds-color .dark .pager-load-more a:hover {
@@ -386,26 +362,22 @@ blockquote {
 blockquote {
   border-color: #DE0404;
 }
-.red-color .form-submit,
 .red-color .button,
 .red-color .pager-load-more a {
   border-color: #DE0404;
   color: #DE0404;
 }
-.red-color .dark .form-submit,
 .red-color .dark .button,
 .red-color .dark .pager-load-more a {
   border-color: white;
   color: white;
 }
 .red-color .button.active,
-.red-color .form-submit:hover,
 .red-color .button:hover,
 .red-color .pager-load-more a:hover {
   background: #DE0404;
   color: white;
 }
-.red-color .dark .form-submit:hover,
 .red-color .dark .button:hover,
 .red-color .dark .button:hover .fa,
 .red-color .dark .pager-load-more a:hover {
