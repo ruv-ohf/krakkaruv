@@ -40,6 +40,7 @@
   p, a, .views-field-title{
     text-align: left;
     font-size: 18px;
+    transition: all 0.3s ease;
   }
 
   .views-field-title{
@@ -57,9 +58,28 @@
     margin-bottom: 15px;
   }
 
+  img{
+    transition: all 0.3s ease;
+  }
+
   .view-content{
     @include clearfix;
     max-width: $max-width;
     margin: 80px auto 0;
   }
+
+  .views-row:hover{
+    img{
+      border: 10px solid white;
+      @include filter(grayscale(100%));
+    }
+
+    color: lightgrey;
+
+    a{
+      color: lightgrey;
+    }
+  }
 }
+
+

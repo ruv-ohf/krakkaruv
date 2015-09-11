@@ -3,9 +3,11 @@
  */
 (function($) {
     $(document).ready(function() {
-        $(".text-boxes").toggle();
+        $(".text-box").toggle();
+        $(".side-boxes").toggle();
         $(".toggle-text-boxes").click(function() {
-            $(".text-boxes").toggle("slow");
+            $(".text-box").toggle("slow");
+            $(".side-boxes").toggle("slow");
         });
     })
 })(jQuery);

@@ -47,11 +47,101 @@ p.toggle-text-boxes{
   cursor: pointer;
 }
 
-section.text-boxes{
+.ruv-player-extra-info{
   @include clearfix;
 
-  section.text-box {
-    width: 100%;
+  .title-and-texts{
+    float: left;
+    width: 68%;
+    margin-right: 2%;
+    .title{
+      h1, h2{
+        font-family: $font-base;
+      }
+
+      h1{
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
+
+      h2{
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      .toggle-text-boxes{
+        margin-bottom: 20px;
+      }
+    }
+
+    @include breakpoint($tablet-size){
+      width: 58%;
+    }
+
+    @include breakpoint($mobile-size){
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .text-box{
+      p{
+        font-family: $font-base;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .side-boxes{
+    float: left;
+    width: 30%;
+
+    .display-box{
+      text-align: right;
+      font-family: $font-base;
+      font-weight: 300;
+
+      p{
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      p:last-child{
+        margin-bottom: 10px;
+      }
+    }
+
+    .rights{
+      padding: 20px;
+      font-size: 16px;
+      font-family: $font-base;
+
+      h3{
+        color: $color-all-shows-black;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+
+      p{
+        margin-bottom: 10px;
+        line-height: 16px;
+        font-weight: 300;
+      }
+    }
+
+    @include breakpoint($tablet-size){
+      width: 40%;
+    }
+
+    @include breakpoint($tablet-size){
+      width: 100%;
+    }
+  }
+
+  /*section.text-box {
+    width: 70%;
     margin: auto;
     font-size: 16px;
     font-family: $font-base;
@@ -72,15 +162,7 @@ section.text-boxes{
     .display-box{
       width: 30%;
       float: right;
-      text-align: right;
 
-      p{
-        margin-bottom: 5px;
-      }
-
-      p:last-child{
-        margin-bottom: 10px;
-      }
 
       @include breakpoint($mobile-size){
         width: 40%;
@@ -103,28 +185,13 @@ section.text-boxes{
     @include clearfix;
     width: 30%;
     float: right;
-    padding: 20px;
-    font-size: 16px;
-    font-family: $font-base;
 
-    h3{
-      color: $color-all-shows-black;
-      font-size: 24px;
-      line-height: 30px;
-      margin-bottom: 10px;
-    }
-
-    p{
-      margin-bottom: 10px;
-      line-height: 16px;
-      font-weight: 300;
-    }
 
     @include breakpoint($mobile-size){
       width: 100%;
       float: left;
     }
-  }
+  }*/
 }
 
 .player-watch-playlist{
