@@ -14,7 +14,7 @@ ul.sf-menu a:hover,
 .hover-brand:hover,
 .hovermenu li li:before,
 .hover.ruv-color-hover:hover {
-  color: white;
+  color: $color-all-shows-black;
 }
 .fill-brand {
   background-color: white;
@@ -22,18 +22,18 @@ ul.sf-menu a:hover,
 .h-border > .block-inner > .block-title,
 .h-border > .block-inner > .block-title,
 blockquote {
-  border-color: white;
+  border-color: $color-all-shows-black;
 }
 
 .button,
 .pager-load-more a {
-  border-color: white;
-  color: white;
+  border-color: $color-all-shows-black;
+  color: $color-all-shows-black;
 }
 .dark .button,
 .dark .pager-load-more a {
-  border-color: #0B0B0B;
-  color: #0B0B0B;
+  border-color: white;
+  color: white;
 }
 
 .button.active,

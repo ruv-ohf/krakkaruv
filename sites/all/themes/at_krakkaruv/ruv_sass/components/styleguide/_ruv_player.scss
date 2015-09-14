@@ -57,17 +57,24 @@ p.toggle-text-boxes{
     .title{
       h1, h2{
         font-family: $font-base;
+        color: $color-all-shows-black;
       }
 
       h1{
         font-size: 30px;
-        line-height: 36px;
-        margin-bottom: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+
+        span.subtitle{
+          font-size: 24px;
+          font-weight: 300;
+        }
       }
 
       h2{
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
       }
 
       .toggle-text-boxes{
@@ -140,7 +147,7 @@ p.toggle-text-boxes{
       }
 
       a{
-        color: #8DC3FF;
+        color: $color-all-shows-black;
       }
     }
 
