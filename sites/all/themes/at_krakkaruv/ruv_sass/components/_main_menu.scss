@@ -159,7 +159,6 @@
   }
 
   .not-front &{
-    max-width: 1140px;
     margin: 0 auto;
     position: relative;
 
@@ -183,7 +182,7 @@
       margin-bottom: 0;
 
       img{
-        width: $gutter * 1.5;
+        width: $gutter;
         float: left;
       }
 
