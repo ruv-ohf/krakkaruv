@@ -117,18 +117,37 @@
 
     // When we are not on the front page.
     .not-front &{
-      margin-top: $gutter / 4;
+      margin-top: $gutter / 2;
 
       li{
         margin-right: 40px;
+
+        @include breakpoint(max-width 480px){
+          margin-right: 20px;
+        }
+
+        @include breakpoint(max-width 380px){
+          margin-right: 5px;
+        }
       }
 
+      li:first-child{
+        @include breakpoint(max-width 480px){
+          margin-left: 0;
+        }
+      }
       li:last-child{
         margin-right: 0;
       }
 
       a{
         font-size: 20px;
+        @include breakpoint($mobile-size){
+          line-height: 0;
+          font-size: 0;
+          color: transparent;
+          padding-bottom: 0;
+        }
       }
 
       a:before{
@@ -136,12 +155,15 @@
         width: $gutter;
         font-size: 24px;
         background-size: $gutter $gutter !important;
+        margin-bottom: 15px;
 
         @include breakpoint($mobile-size){
-          height: $gutter;
-          width: $gutter;
-          background-size: $gutter $gutter !important;
+          margin-bottom: 0;
         }
+      }
+
+      @include breakpoint($mobile-size){
+        margin-top: $gutter;
       }
     }
   }
@@ -163,11 +185,16 @@
     position: relative;
 
     #block-block-1{
-      display: none;
+      position: absolute;
+      left: 20px;
+      img{
+        width: 150px;
+      }
 
       @include breakpoint($mobile-size){
         display: block;
         margin: 0;
+        top: -45px;
 
         img{
           width: 200px;
@@ -177,6 +204,7 @@
     }
 
     #block-block-3{
+      display: none;
       position: absolute;
       left: 20px;
       margin-bottom: 0;
