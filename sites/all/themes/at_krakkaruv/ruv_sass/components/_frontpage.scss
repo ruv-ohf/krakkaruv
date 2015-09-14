@@ -7,21 +7,13 @@
     background-size: cover;
     margin: 0;
     width: 100%;
-    padding-top: 230px;
-
-    @include breakpoint($tablet-size){
-      padding-top: 150px;
-    }
-
-    @include breakpoint($mobile-size){
-      padding-top: 150px;
-    }
+    padding: 100px 0;
   }
 
   #block-block-1{
     text-align: center;
     width: 70%;
-    margin: auto;
+    margin: 0 auto 50px;
 
     img{
       width: 100%;
