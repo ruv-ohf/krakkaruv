@@ -119,11 +119,23 @@
     .not-front &{
       margin-top: $gutter / 4;
 
+      li{
+        margin-right: 40px;
+      }
+
+      li:last-child{
+        margin-right: 0;
+      }
+
+      a{
+        font-size: 20px;
+      }
+
       a:before{
-        height: $gutter * 1.5;
-        width: $gutter * 1.5;
+        height: $gutter;
+        width: $gutter;
         font-size: 24px;
-        background-size: $gutter*1.5 $gutter*1.5 !important;
+        background-size: $gutter $gutter !important;
 
         @include breakpoint($mobile-size){
           height: $gutter;
