@@ -187,6 +187,8 @@
     #block-block-1{
       position: absolute;
       left: 20px;
+      top: 10px;
+
       img{
         width: 150px;
       }
@@ -195,11 +197,6 @@
         display: block;
         margin: 0;
         top: -45px;
-
-        img{
-          width: 200px;
-          margin: auto;
-        }
       }
     }
 

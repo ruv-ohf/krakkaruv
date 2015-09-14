@@ -1723,8 +1723,9 @@ h1, h2 {
 .not-front #menu-bar #block-block-1 {
   position: absolute;
   left: 20px;
+  top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003192}}
 .not-front #menu-bar #block-block-1 img {
   width: 150px;
 }
@@ -1735,31 +1736,26 @@ h1, h2 {
     margin: 0;
     top: -45px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003199}}
-  .not-front #menu-bar #block-block-1 img {
-    width: 200px;
-    margin: auto;
-  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003203}}
 .not-front #menu-bar #block-block-3 {
   display: none;
   position: absolute;
   left: 20px;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003209}}
 .not-front #menu-bar #block-block-3 img {
   width: 60px;
   float: left;
 }
 @media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003203}}
   .not-front #menu-bar #block-block-3 {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003219}}
 .not-front #menu-bar nav {
   margin-bottom: 0;
 }
