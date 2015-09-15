@@ -34,25 +34,6 @@
     }
   }
 
-  .views-row:hover{
-    img{
-      @include filter(grayscale(100%));
-    }
-
-    .title-bar{
-      @for $i from 1 through length($buffet-array) {
-        $category_name: nth($buffet-array, $i);
-        $color_name: nth($title-bar-color-array-hi, $i);
-
-        &.#{$category_name} p{
-          background-color: $color_name;
-        }
-      }
-    }
-
-  }
-
-
   .views-row-1{
     width: 50%;
 
@@ -71,14 +52,17 @@
     @include breakpoint($mobile-portrait-max){
       width: 100%;
     }
+
+    .title-bar{
+      bottom: 0;
+    }
   }
 
   .title-bar{
     transition: all 0.3s ease-in-out;
-    padding-right: 10px;
     width: 100%;
     position: absolute;
-    bottom: 4px;
+    bottom: 1px;
 
     @for $i from 1 through length($buffet-array) {
       $category_name: nth($buffet-array, $i);
@@ -110,6 +94,82 @@
       @include breakpoint($mobile-size){
         font-size: 18px;
       }
+    }
+
+    @include breakpoint($tablet-size){
+      bottom: -1px;
+    }
+  }
+}
+
+.hladbords-item{
+  position: relative;
+  .hover{
+    transition: all 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    .hl-button {
+      transition: all 0.5s ease;
+      margin: 30% auto;
+      max-width: 72%;
+
+      p {
+        text-align: center;
+        padding: 10px 20px;
+        color: white;
+        font-size: 16px;
+        border: 1px solid white;
+
+        @include breakpoint($tablet-size){
+          font-size: 14px;
+          padding: 10px;
+        }
+
+        @include breakpoint(max-width 950px){
+          padding: 10px 5px;
+        }
+
+        @include breakpoint(max-width 880px){
+          padding: 5px;
+          font-size: 12px;
+        }
+
+        @include breakpoint($mobile-size){
+          padding: 10px 20px;
+          font-size: 14px;
+        }
+      }
+
+      @include breakpoint($tablet-size){
+        max-width: 82%;
+      }
+
+      @include breakpoint($mobile-size){
+        max-width: 72%;
+      }
+    }
+
+    @for $i from 1 through length($buffet-array) {
+      $category_name: nth($buffet-array, $i);
+      $color_name: nth($title-bar-color-array-low, $i);
+
+      &.#{$category_name}{
+        background-color: $color_name;
+      }
+    }
+  }
+}
+
+.hladbords-item:hover{
+  .hover{
+    opacity: 1;
+
+    .hl-button {
+      margin: 22% auto;
     }
   }
 }

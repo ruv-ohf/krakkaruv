@@ -38,10 +38,7 @@
 	}
 
 	.views-row:hover{
-	  img{
-		@include filter(grayscale(100%));
-		border: 10px solid white;
-	  }
+	  transform: scale(1.2);
 	}
 
 	.view-footer{
