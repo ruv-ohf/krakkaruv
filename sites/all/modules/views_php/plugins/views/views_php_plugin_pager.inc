@@ -37,7 +37,7 @@ class views_php_plugin_pager extends views_php_plugin_wrapper  {
       }
     }
 
-    if(count($this->wrapped->view->result)< $this->wrapped->get_items_per_page()) {
+    if(count($this->wrapped->view->result) < $this->wrapped->get_items_per_page()) {
       $this->wrapped->total_items=count($this->wrapped->view->result);
       $this->update_page_info();
       $is_last = 1;   
