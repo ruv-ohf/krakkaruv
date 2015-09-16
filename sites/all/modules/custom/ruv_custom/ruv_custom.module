@@ -482,6 +482,8 @@ function ruv_custom_views_query_alter(&$view,&$query){
 */
 function ruv_custom_add_jwjs($version="6", $exclude=array())
 {
+  global $base_path;
+
   switch($version)//Hvaða útgáfu er verið að biðja um.
   {
     case "6" : 
@@ -500,7 +502,7 @@ function ruv_custom_add_jwjs($version="6", $exclude=array())
   $scripts['ruv-init'] = 'scripts/jwp6/ruv-jwplayer.int.js?i=234799'; //JS þar sem Jquery configið er keyrt.
   $scripts['controls'] = 'scripts/jwp6/jwplayer-controls.js?i=234799'; //Aðgengislyklar fyrir blinda og sjónskreta (ALT)
   
-  $base = "/sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
+  $base = $base_path."sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
   $addscript = ""; //tóm breyta til að forðast villur.
   
   foreach($scripts as $scriptkey => $script)
@@ -519,11 +521,16 @@ function ruv_custom_add_jwjs($version="6", $exclude=array())
 */
 function ruv_custom_add_jw($version="7", $exclude=array())
 {
+  global $base_path;
+
   switch($version)//Hvaða útgáfu er verið að biðja um.
   {
     case "6" :
-      $folder = "jpw6"; //version 6.10
+      $folder = "jpw6/jwplayer"; //version 6.10
       break;
+    case "6.12": //útga´fa 6.12 þar sem HLS vandamál á að vera úr sögunni.
+        $folder = "jwp6/jwplayer6.12";
+    break;
     case "7" : 
       $folder = "jwp7";//útgáfa 7.10
       break;
@@ -535,7 +542,7 @@ function ruv_custom_add_jw($version="7", $exclude=array())
   $scripts['license'] = 'scripts/'.$folder.'/jwpl.js?i=234799';//Licence strengur
   $scripts['controls'] = 'scripts/'.$folder.'/jwplayer-controls.js?i=234799'; //Aðgengislyklar fyrir blinda og sjónskerta (ALT)
 
-  $base = "/sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
+  $base = $base_path."sites/all/themes/at_krakkaruv/"; //Grunnmappan þard sem JS skjölin eru geymd.
   $addscript = ""; //tóm breyta til að forðast villur.
   
   foreach($scripts as $scriptkey => $script)
@@ -619,7 +626,10 @@ function ruv_custom_get_image_for_video_player($sid)
  */
 function ruv_custom_add_video_player($title, $src, $img="/sites/all/themes/at_ruv/images/default-image-1200x750.png", $autostart = true)
 {
+  global $base_path;
+
   echo ruv_custom_add_jw("7");
+
 ?>
   <video id="sarpur-video-player" class="player" fullwidth="true" style="width:100%;" controls poster="<?php print $img; ?>" >
     <source src="http://smooth.ruv.cache.is/<?php print $src; ?>" type="video/mp4" title="<?php print $title; ?>">
@@ -628,21 +638,23 @@ function ruv_custom_add_video_player($title, $src, $img="/sites/all/themes/at_ru
 jwplayer("sarpur-video-player").setup({
   playlist : [{
     sources : [{
-      file : "rtmp://sipvodfs.fplive.net/sipvod/<?php print $src; ?>"
-    },{
-      file : "http://sip-ruv-vod.dcp.adaptive.level3.net/<?php print $src; ?>.m3u8"
-    },{
-      file : "http://smooth.ruv.cache.is/<?php print $src; ?>"
-    }],
-      image : "<?php print $img; ?>"
-    }],
+        file : "rtmp://sipvodfs.fplive.net/sipvod/<?php print $src; ?>"
+      },{
+        file : "http://sip-ruv-vod.dcp.adaptive.level3.net/<?php print $src; ?>.m3u8"
+      },{
+        file : "http://smooth.ruv.cache.is/<?php print $src; ?>"
+      }],
+        image : "<?php print $img; ?>"
+      }],
       width: "100%",
       height: "100%",
       aspectratio: "16:9",
       primary : "html",
-      src: "/sites/all/themes/at_ruv/scripts/jwp6/jwplayer/jwplayer.flash.swf",
-      skin : "/sites/all/themes/at_ruv/scripts/jwp6/jwplayer-skins-premium/six.css",
-      autostart : <?php print $autostart;?>,
+      src: "<?php print $base_path; ?>sites/all/themes/at_krakkaruv/scripts/jwp7/jwplayer.flash.swf",
+      skin: {
+        name: "bekle"
+      },
+      autostart : <?php print ($autostart == true ? "true" : "false");?>,
       fallback : false,
       stretching: "uniform",
       andriodhls: true
@@ -662,26 +674,36 @@ jwplayer("sarpur-video-player").setup({
  */
 function ruv_custom_add_video_player_w_playlist($src, $playlistNr = false, $autostart = true)
 {
+  global $base_path;
+
     if(!$playlistNr){
         return;
     }
     echo ruv_custom_add_jw("7");
-    ?>
-    <video id="sarpur-video-player" class="player" fullwidth="true" style="width:100%;" controls poster="/sites/all/themes/at_krakkaruv/images/720.GIF" >
+
+   ?>
+    <video id="sarpur-video-player" class="player" fullwidth="true" style="width:100%;" controls poster="" >
+      <img src="<?php print $base_path; ?>sites/all/themes/at_krakkaruv/images/720.GIF">
     </video>
     <script>
         theplayer = jwplayer("sarpur-video-player").setup({
-            playlist : "/playlists.rss/<?php print $playlistNr; ?>",
+            playlist : "<?php print $base_path; ?>playlists.rss/<?php print $playlistNr; ?>",
             width: "100%",
             height: "100%",
             aspectratio: "16:9",
             primary : "html",
-            src: "/sites/all/themes/at_ruv/scripts/jwp7/jwplayer/jwplayer.flash.swf",
-            skin : "/sites/all/themes/at_ruv/scripts/jwp7/jwplayer-skins-premium/six.xml",
-            autostart : <?php print $autostart;?>,
+            src: "<?php print $base_path; ?>sites/all/themes/at_krakkaruv/scripts/jwp7/jwplayer.flash.swf",
+            skin: {
+              name: "glow"
+            },
+            autostart : <?php print ($autostart == true ? "true" : "false");?>,
             fallback : false,
             stretching: "uniform",
-            andriodhls: true
+            andriodhls: true,
+            listbar: {
+              position: "right",
+              size: '30%'
+            }
         });
         <?php if (isset($src) && $src != ''){ ?>
         theplayer.onReady (
