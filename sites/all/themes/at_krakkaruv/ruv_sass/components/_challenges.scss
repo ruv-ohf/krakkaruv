@@ -25,6 +25,7 @@
       .views-field-php{
         width: 60%;
         float: left;
+        margin-bottom: 30px;
 
         @include breakpoint($mobile-size){
           width: 100%;

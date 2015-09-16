@@ -1,0 +1,52 @@
+.page-node-done{
+  width: 100%;
+
+  #columns{
+    max-width: 1140px;
+    margin: auto;
+
+    #main-content{
+      font-family: $font-base;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 18px;
+      color: $color-dark-gray;
+
+      h1,h2,h3,h1.page-title{
+        font-family: $font-base;
+        color: $color-dark-gray;
+        font-weight: 400;
+      }
+
+      h2{
+        font-size: 24px;
+      }
+
+      h2.block-title{
+        font-size: 36px;
+      }
+
+      p{
+
+        margin-bottom: 20px;
+      }
+
+      li{
+        list-style: disc;
+        list-style-position: inside;
+      }
+    }
+
+    #block-system-main{
+      .links{
+        display: none;
+      }
+    }
+  }
+}
+
+#crumbs{
+  display: none;
+}
+
+
