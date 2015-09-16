@@ -5130,7 +5130,7 @@ footer .region-footer {
   color: #404040;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000317}}
-.node-type-basic-page #content h1, .node-type-basic-page #content h2, .node-type-basic-page #content h3 {
+.node-type-basic-page #content h1, .node-type-basic-page #content h2, .node-type-basic-page #content h3, .node-type-basic-page #content h1.page-title {
   font-family: "Nunito", sans-serf;
   color: #404040;
   font-weight: 400;
@@ -5151,6 +5151,56 @@ footer .region-footer {
 .node-type-basic-page #content li {
   list-style: disc;
   list-style-position: inside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\000031}}
+.page-node-done {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\000034}}
+.page-node-done #columns {
+  max-width: 1140px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\000038}}
+.page-node-done #columns #main-content {
+  font-family: "Nunito", sans-serf;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000315}}
+.page-node-done #columns #main-content h1, .page-node-done #columns #main-content h2, .page-node-done #columns #main-content h3, .page-node-done #columns #main-content h1.page-title {
+  font-family: "Nunito", sans-serf;
+  color: #404040;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000321}}
+.page-node-done #columns #main-content h2 {
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000325}}
+.page-node-done #columns #main-content h2.block-title {
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000329}}
+.page-node-done #columns #main-content p {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000334}}
+.page-node-done #columns #main-content li {
+  list-style: disc;
+  list-style-position: inside;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000341}}
+.page-node-done #columns #block-system-main .links {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000348}}
+#crumbs {
+  display: none;
 }
 
 /*# sourceMappingURL=screen.css.map */
