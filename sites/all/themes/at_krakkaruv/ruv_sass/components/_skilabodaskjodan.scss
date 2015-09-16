@@ -52,6 +52,7 @@
   p{
     font-weight: 300;
     font-size: 18px;
+    line-height: 22px;
   }
 
   .views-field-field-image{
@@ -69,11 +70,6 @@
   }
 
   .views-row:hover{
-    img{
-      border: 10px solid white;
-      @include filter(grayscale(100%));
-    }
-
     color: lightgrey;
 
     a{
