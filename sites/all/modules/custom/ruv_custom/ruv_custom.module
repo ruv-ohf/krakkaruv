@@ -652,7 +652,7 @@ jwplayer("sarpur-video-player").setup({
       primary : "html",
       src: "<?php print $base_path; ?>sites/all/themes/at_krakkaruv/scripts/jwp7/jwplayer.flash.swf",
       skin: {
-        name: "bekle"
+        name: "glow"
       },
       autostart : <?php print ($autostart == true ? "true" : "false");?>,
       fallback : false,
