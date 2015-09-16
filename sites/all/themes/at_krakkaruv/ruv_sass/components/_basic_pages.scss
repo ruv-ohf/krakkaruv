@@ -1,0 +1,41 @@
+.node-type-basic-page{
+  width: 100%;
+
+  #main-content{
+    margin: 0 20px;
+  }
+
+  #content{
+    max-width: $max-width;
+    margin: auto;
+    font-family: $font-base;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: $color-dark-gray;
+
+    h1,h2,h3{
+      font-family: $font-base;
+      color: $color-dark-gray;
+      font-weight: 400;
+    }
+
+    h2{
+      font-size: 24px;
+    }
+
+    h2.block-title{
+      font-size: 36px;
+    }
+
+    p{
+
+      margin-bottom: 20px;
+    }
+
+    li{
+      list-style: disc;
+      list-style-position: inside;
+    }
+  }
+}

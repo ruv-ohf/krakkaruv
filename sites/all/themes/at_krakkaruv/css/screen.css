@@ -5111,4 +5111,46 @@ footer .region-footer {
   background-color: #ffd150;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\000031}}
+.node-type-basic-page {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\000034}}
+.node-type-basic-page #main-content {
+  margin: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\000038}}
+.node-type-basic-page #content {
+  max-width: 1140px;
+  margin: auto;
+  font-family: "Nunito", sans-serf;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000317}}
+.node-type-basic-page #content h1, .node-type-basic-page #content h2, .node-type-basic-page #content h3 {
+  font-family: "Nunito", sans-serf;
+  color: #404040;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000323}}
+.node-type-basic-page #content h2 {
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000327}}
+.node-type-basic-page #content h2.block-title {
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000331}}
+.node-type-basic-page #content p {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000336}}
+.node-type-basic-page #content li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
 /*# sourceMappingURL=screen.css.map */
