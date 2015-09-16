@@ -199,7 +199,8 @@ class views_php_handler_field extends views_handler_field {
    */
   function pre_render(&$values) {
     if (!empty($this->options['php_output'])) {
-      $this->php_output_lamda_function = create_function('$view, $handler, &$static, $row, $data, $value', ' ?>' . $this->options['php_output'] . '<?php ');
+      //print_r($this->options['php_output']);
+      $this->php_output_lamda_function = @create_function('$view, $handler, &$static, $row, $data, $value', ' ?>' . $this->options['php_output'] . '<?php ');
     }
   }
 
