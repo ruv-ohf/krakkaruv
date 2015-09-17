@@ -4895,40 +4895,94 @@ footer .region-footer {
 .node-type-faersla .two-66-33 h1, .node-type-faersla .two-66-33 h2 {
   font-family: "Nunito", sans-serf;
   font-weight: 400;
-  color: #282828;
+  color: #404040;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000316}}
 .node-type-faersla .two-66-33 h1 {
   font-size: 46px;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000322}}
 .node-type-faersla .two-66-33 h2 {
   font-size: 30px;
   line-height: 36px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000328}}
+.node-type-faersla .two-66-33 .region-two-66-33-top p.node-created {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 16px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000333}}
+.node-type-faersla .two-66-33 .region-two-66-33-top p.node-created::before {
+  margin-right: 5px;
+  color: #c6c6c6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000341}}
 .node-type-faersla .two-66-33 .region-two-66-33-first img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000335}}
-.node-type-faersla .two-66-33 .region-two-66-33-first .text {
-  text-size: 16px;
-  padding: 0 20px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000347}}
+.node-type-faersla .two-66-33 .region-two-66-33-first .views-field-field-summary {
+  padding-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000352}}
+.node-type-faersla .two-66-33 .region-two-66-33-first .text {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000357}}
 .node-type-faersla .two-66-33 .region-two-66-33-second {
   padding-left: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000360}}
 .node-type-faersla .two-66-33 .region-two-66-33-second .ruv-item {
   width: 100%;
   padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000366}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .node-author-headshot-img {
+  float: left;
+  margin-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000371}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .image-style-headshot {
+  float: left;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000377}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .node-author-name {
+  float: left;
+  font-family: "Gloria Hallelujah", sans-serif;
+  color: #34c6c6;
+  font-size: 18px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000385}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author {
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000392}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a {
+  color: grey;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000396}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a:hover {
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000399}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a::before {
+  margin-right: 5px;
+  color: #34c6c6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003109}}
 .node-type-faersla p {
   margin-bottom: 20px;
 }

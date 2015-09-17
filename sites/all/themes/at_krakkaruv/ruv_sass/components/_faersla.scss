@@ -10,18 +10,30 @@
     h1, h2{
       font-family: $font-base;
       font-weight: 400;
-      color: $color-all-shows-black;
+      color: $color-dark-gray;
     }
 
     h1{
       font-size: 46px;
       line-height: 30px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
 
     h2{
       font-size: 30px;
       line-height: 36px;
+    }
+
+    .region-two-66-33-top{
+      p.node-created{
+        color:$color-grey;
+        font-size:14px;
+        margin-bottom:16px !important;
+      }
+      p.node-created::before{
+        margin-right:5px;
+        color:$color-light-grey;
+      }
     }
 
     .region-two-66-33-first{
@@ -32,9 +44,13 @@
         margin-bottom: 20px;
       }
 
+      .views-field-field-summary
+      {
+        padding-top:20px;
+      }
+
       .text{
-        text-size: 16px;
-        padding: 0 20px;
+        font-size: 16px;
       }
     }
 
@@ -45,6 +61,48 @@
         width: 100%;
         padding-right: 20px;
       }
+
+      .node-author{
+        .node-author-headshot-img
+        {
+          float:left;
+          margin-right:8px;
+        }
+        .image-style-headshot
+        {
+          float:left;
+          border-radius:50%;
+          border:1px solid $color-grey;
+        }
+        .node-author-name
+        {
+          float:left;
+          font-family: $font-headline;
+          color: $color-listen;
+          font-size:18px;
+          margin-top:10px;
+        }
+        .msg-to-node-author
+        {
+          float:left;
+          width:60%;
+          margin-top:10px;
+          font-family: $font-base;
+          
+          a{
+            color:$color-grey;
+            font-size:14px;
+          }
+          a:hover{
+            color: $color-dark-gray;
+          }        
+          a::before{
+            margin-right:5px;
+            color:$color-listen;
+          }
+        }
+      }
+
     }
   }
 
