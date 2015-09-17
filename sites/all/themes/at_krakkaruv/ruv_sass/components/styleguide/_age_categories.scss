@@ -21,14 +21,14 @@
       margin: 20px;
     }
 
-    li:hover{
+    li:hover, li.selected{
       background-color: white;
       color: $color-watch;
 
       a{
         color: $color-watch !important;
       }
-    }
+    }   
   }
 
   p{

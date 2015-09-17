@@ -2411,12 +2411,12 @@ h1, h2 {
   margin: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000324}}
-.age-categories ul li:hover {
+.age-categories ul li:hover, .age-categories ul li.selected {
   background-color: white;
   color: #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000328}}
-.age-categories ul li:hover a {
+.age-categories ul li:hover a, .age-categories ul li.selected a {
   color: #54ba54 !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_age_categories\.scss}line{font-family:\0000334}}
