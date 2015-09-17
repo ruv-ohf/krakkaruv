@@ -48,14 +48,14 @@
 		font-family: $font-base;
 		font-size: 18px;
 		padding: 10px 30px;
-		border: 1px solid $color-messages-headline;
-		color: $color-messages-headline;
+		border: 1px solid #FFF; /*$color-messages-headline;*/
+		color: #FFF; /*$color-messages-headline;*/
 	  }
 
 	  a:hover{
-		background-color: $color-messages-headline;
+		background-color: #34c6c6; /*$color-messages-headline;*/
 		color: white;
-		text-shadow: 0px 0px 10px black;
+		/*text-shadow: 0px 0px 10px black;*/
 	  }
 	}
   }
