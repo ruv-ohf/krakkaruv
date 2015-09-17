@@ -1,4 +1,25 @@
 #menu-bar{
+  position: relative;
+
+  #block-block-4{
+    position: absolute;
+    left: 110px;
+    top: 30px;
+
+     p.for-adults{
+       a {
+         font-family: $font-base;
+         font-weight: 300;
+         font-size: 18px;
+       }
+     }
+
+    @include breakpoint($mobile-size){
+      display: none;
+    }
+  }
+
+
   a{
     color: $color-grey;
     font-family: $font-headline;
@@ -208,6 +229,10 @@
       @include breakpoint($mobile-size){
         display: none;
       }
+    }
+
+    #block-block-4{
+      display: none;
     }
 
     nav{
