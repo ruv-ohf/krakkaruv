@@ -27,6 +27,7 @@
 
 	  img{
 		transition: all 0.3s ease-in-out;
+		margin-bottom: 20px;
 	  }
 
 	  @include breakpoint($mobile-size){
