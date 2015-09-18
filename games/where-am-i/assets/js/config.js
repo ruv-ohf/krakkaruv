@@ -7,7 +7,7 @@
 whereAmI = {
     config: {
 
-        branding: 'Where am I?',    // The branding to use in the title and navbar
+        branding: 'Hvar er ég?',    // The branding to use in the title and navbar
 
         googleMapsApiKey: '',       // Google Maps API Key
         facebookAppId: '',          // Facebook App ID (optional, required for share button only)
@@ -80,35 +80,39 @@ whereAmI = {
         
         leaderboard: 'api-demo/leaderboard.php', // Leaderboard API endpoint
 
-        defaultLanguage: 'en',              // The default language to use
-        availableLanguages: ['en', 'hu'],   // Available languages
+        defaultLanguage: 'is',              // The default language to use
+        availableLanguages: ['en', 'hu', 'is'],   // Available languages
         translations: {                     // Translations
-            'New Game': { hu: 'Új játék' }, 
-            'Full Screen': { hu: 'Teljes képernyő' },
-            'Change Theme': { hu: 'Sablon választása' },
-            'Next': { hu: 'Következő' },
-            'Start New Game!': { hu: 'Új játék' },
-            'Make a Guess': { hu: 'Tippelés' },
-            'click on the map!': { hu: 'kattints a térképre!' },
-            'Leaderboard': { hu: 'Toplista' },
-            'Close': { hu: 'Bezárás' },
-            'Game Over': { hu: 'A játék véget ért' },
-            'Your Nickname': { hu: 'Beceneved' },
-            'Submit High Score': { hu: 'Toplistába vele!' },
-            'Share on Facebook': { hu: 'Megosztás Facebookon' },
+            'New Game': { hu: 'Új játék', is : 'Nýr leikur' }, 
+            'Full Screen': { hu: 'Teljes képernyő', is: 'Fylla út skjá' },
+            'Change Theme': { hu: 'Sablon választása', is: 'Breyta þema' },
+            'Next': { hu: 'Következő', is: 'Næsta' },
+            'Start New Game!': { hu: 'Új játék', is: 'Byrja nýjan leik!' },
+            'Make a Guess': { hu: 'Tippelés', is:'Giskaðu' },
+            'click on the map!': { hu: 'kattints a térképre!', is: 'smelltu á kortið!' },
+            'Leaderboard': { hu: 'Toplista', is: 'Stigatafla' },
+            'Close': { hu: 'Bezárás', is: 'Loka' },
+            'Game Over': { hu: 'A játék véget ért', is: 'Leik lokið' },
+            'Your Nickname': { hu: 'Beceneved', is: 'Gælunafnið þitt' },
+            'Submit High Score': { hu: 'Toplistába vele!', is:'Senda inn stig' },
+            'Share on Facebook': { hu: 'Megosztás Facebookon', is:'Deila á Facebook' },
 
             // You can override text in the default language as well:
             'INTRO': { en: 'Can you find out where you are?', 
-                       hu: 'Találd ki, hogy merre jársz!' },
+                       hu: 'Találd ki, hogy merre jársz!',
+                       is : 'Getur þú fundið út hvar þú ert?' },
 
             'CONFIRM_NEW_GAME': { en: 'Are you sure you want to start a new game? Your current progress will be lost!',
-                                  hu: 'Biztosan új játékot indítasz? A jelenlegi állás el fog veszni!' },
+                                  hu: 'Biztosan új játékot indítasz? A jelenlegi állás el fog veszni!',
+                                  is: 'Ertu viss um að þú viljir byrja nýjan leik? Staðan í núverandi leik tapast!' },
 
             'GUESS_SUMMARY': { en: 'You have collected $points points. The original location ($location) was $distance km from where you put the marker.',
-                               hu: '$points pontot szereztél. Az eredeti helyszín ($location) $distance km-re volt az általad tippelt helytől.' },
+                               hu: '$points pontot szereztél. Az eredeti helyszín ($location) $distance km-re volt az általad tippelt helytől.',
+                               is: 'Þú hefur náð $points stigum.  Staðsetning ($location) var $distance km frá þeim stað sem þú settir niður merkið.' },
 
             'GAME_SUMMARY': { en: 'Congratulations, you have collected <code class="score">$score</code> points in this game!',
-                              hu: 'Gratulálunk, ebben a játékban összesen <code class="score">$score</code> pontot szereztél!'}
+                              hu: 'Gratulálunk, ebben a játékban összesen <code class="score">$score</code> pontot szereztél!',
+                              is: 'Til hamingju! Þú hefur safnað <code class="score">$score</code> stig í þessum leik!'}
         }
 
     }

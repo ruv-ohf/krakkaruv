@@ -39,10 +39,10 @@ whereAmI.module = angular.module('WhereAmI', ['ngRoute', 'ngSanitize'])
         $rootScope.user = {};
 
         // Set up translation
-        whereAmI.lang = $rootScope.lang = (navigator.language || navigator.userLanguage).substr(0,2);
+        whereAmI.lang = 'is'; /*$rootScope.lang = (navigator.language || navigator.userLanguage).substr(0,2);
         if (!$rootScope.lang || jQuery.inArray($rootScope.lang, whereAmI.config.availableLanguages) === -1) {
             whereAmI.lang = $rootScope.lang = whereAmI.config.defaultLanguage;
-        }
+        }*/
         
         // Current game
         $rootScope.game = null;

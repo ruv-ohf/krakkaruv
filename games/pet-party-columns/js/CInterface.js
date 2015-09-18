@@ -70,13 +70,13 @@ function CInterface(oSpriteSheet){
             _oAudioToggle.addEventListener(ON_MOUSE_UP, this._onAudioToggle, this);
         }
         
-	_oScoreTextBack = new createjs.Text("0 PT","bold 40px Arial", "#000000");
+	_oScoreTextBack = new createjs.Text("0 St","bold 40px Arial", "#000000");
         _oScoreTextBack.textAlign = "center";
         _oScoreTextBack.x = CANVAS_WIDTH/2 + 1;
         _oScoreTextBack.y = CANVAS_HEIGHT - 70;
         s_oStage.addChild(_oScoreTextBack);
 		
-        _oScoreText = new createjs.Text("0 PT","bold 40px Arial", "#ffffff");
+        _oScoreText = new createjs.Text("0 St","bold 40px Arial", "#ffffff");
         _oScoreText.textAlign = "center";
         _oScoreText.x = CANVAS_WIDTH/2;
         _oScoreText.y = CANVAS_HEIGHT - 72;

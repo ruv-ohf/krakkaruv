@@ -11,16 +11,16 @@ MP.GameOver.prototype = {
         buttonPlayAgain.height = 140;
         
         // Text
-        var reason = 'You added too much!';
+        var reason = 'Þú bættir við of miklu!';
         if (timeLeft <= 0) {
-            reason = 'Time\'s up!';
+            reason = 'Tíminn er liðinn!';
         }
         if (movesLeft <= 0) {
-            reason = 'Out of moves!';
+            reason = 'Ekki fleiri aðgerðir!';
         }
         var t_reason = this.add.text(0, 230, reason, { font: '36px ' + t_font, fill: '#F8FF75' });
         t_reason.x = 480 - t_reason._width / 2;
-        var t_go_score = this.add.text(0, 310, 'Score: ' + score.toString(), { font: '60px ' + t_font, fill: '#ffffff' });
+        var t_go_score = this.add.text(0, 310, 'Stig: ' + score.toString(), { font: '60px ' + t_font, fill: '#ffffff' });
         t_go_score.x = 480 - t_go_score._width / 2;
     },
     playGame: function() {

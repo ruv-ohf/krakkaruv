@@ -87,12 +87,12 @@ MP.Game.prototype = {
 
         // Text
         t_font = "Arial, Verdana, Helvetica, sans-serif";
-        t_score = this.add.text(12, 12, 'SCORE: ' + score.toString(), { font: '24px ' + t_font, fill: '#ffffff' });
+        t_score = this.add.text(12, 12, 'STIG: ' + score.toString(), { font: '24px ' + t_font, fill: '#ffffff' });
         t_your_number = this.add.text(9999, 522, yourNumber.toString(), { font: '60px ' + t_font, fill: '#323232' });
         t_star_number = this.add.text(9999, 496, starNumber.toString(), { font: '60px ' + t_font, fill: '#ff0000' });
-        t_moves_left_label = this.add.text(12, 325, 'MOVES: ', { font: '18px ' + t_font, fill: '#ffffff' });
+        t_moves_left_label = this.add.text(12, 325, 'AÐGERÐIR: ', { font: '18px ' + t_font, fill: '#ffffff' });
         t_moves_left = this.add.text(24 + t_moves_left_label._width, 312, movesLeft.toString(), { font: '42px ' + t_font, fill: '#E8E8E8' });
-        t_time_left_label = this.add.text(12, 375, 'TIME: ', { font: '18px ' + t_font, fill: '#ffffff' });
+        t_time_left_label = this.add.text(12, 375, 'TÍMI: ', { font: '18px ' + t_font, fill: '#ffffff' });
         t_time_left = this.add.text(24 + t_moves_left_label._width, 362, timeLeft.toString(), { font: '42px ' + t_font, fill: '#F8FF75' });
     },
     
@@ -117,7 +117,7 @@ MP.Game.prototype = {
         }
         
         // Update text values
-        t_score.text = 'SCORE: ' + score.toString();
+        t_score.text = 'STIG: ' + score.toString();
         t_your_number.text = yourNumber.toString();
         t_star_number.text = starNumber.toString();
         t_moves_left.text = movesLeft.toString();

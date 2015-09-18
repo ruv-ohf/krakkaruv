@@ -22654,7 +22654,7 @@ cr.getProjectModel = function() { return [
 					107,
 					85,
 					"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-					"PLEASE PRESS       OR    BUTTON",
+					"",
 					0.4,
 					0,
 					1,
@@ -23527,7 +23527,7 @@ cr.getProjectModel = function() { return [
 					107,
 					85,
 					"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-					"Level Page",
+					"BORÐ",
 					0.6,
 					0,
 					1,
@@ -125713,7 +125713,7 @@ false,false,1101768357656318,false
 							10,
 							[
 								2,
-								"STARS:"
+								"STJÖRNUR:"
 							]
 							,[
 								23,

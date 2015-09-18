@@ -10,35 +10,35 @@
 		"first": {
 			"x": 20, "y": 360,
 			"text": [
-				"Rearrange the points on the graph so that no lines",
-				"meet and no point is sitting on any of the lines."
+				"Dragðu punktana á nýja staði svo engar línur skarist",
+				"og punktarnir séu hvergi á sömu línu."
 			]
 		},
 		"won": {
 			"x": 20, "y": 340,
 			"text": [
-				"When the graph turns green, the level is complete.",
-				"An arrow has appared in the bottom right corner.",
-				"Push it to advance to the next level."
+				"Þegar myndin verður græn á litinn er takmarkinu náð",
+				"og ör birtist í neðra horninu hægra megin.",
+				"Smelltu á örina til að halda áfram upp í næsta borð."
 			]
 		},
 		"won2": {
 			"x": 20, "y": 340,
 			"text": [
-				"Once the arrow appears, it will remain on screen",
-				"even if you twist the graph back up."
+				"Eftir að örinn birtist, verður hún áfram sýnileg",
+				"jafnvel þó að þú færir punktana aftur til."
 			]
 		},
 		"second": {
 			"x": 20, "y": 390,
 			"text": [
-				"You got the gist of it. Now try this one."
+				"Er þetta ekki skýrt? Prófaðu bara!"
 			]
 		},
 		"goodluck": {
 			"x": 20, "y": 360,
 			"text": [
-				"That's it. Good luck, you are on your own now."
+				"Gangi þér vel!"
 			]
 		}
 	}
