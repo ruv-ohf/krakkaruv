@@ -1770,7 +1770,7 @@ h1, h2 {
 .pane-hladbord-nodes-panel-pane-1 {
   font-family: "Nunito", sans-serf;
   background-color: white;
-  border: 10px solid white;
+  border: 5px solid white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
 .pane-hladbord-nodes-panel-pane-1 .views-row {
