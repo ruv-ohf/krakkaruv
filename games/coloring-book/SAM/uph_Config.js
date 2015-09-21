@@ -16,7 +16,7 @@ function bucket_size()
 //-----------------------------------------
 function parameter_mode()
 {
-	var_mode=0;//0 to remove feature.
+	var_mode=1;//0 to remove feature.
 	return var_mode;
 }
 function parameter_back_button()
