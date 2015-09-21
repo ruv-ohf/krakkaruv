@@ -14,11 +14,13 @@
   color: white;
   border: 1px solid white;
   padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .create-color .form-submit:hover{
   background-color: white;
   color: $color-create;
+  cursor: pointer;
 }
 
 .worlds-color .form-submit{

@@ -5185,15 +5185,17 @@ footer .region-footer {
   color: white;
   border: 1px solid white;
   padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000320}}
 .create-color .form-submit:hover {
   background-color: white;
   color: #ab89bf;
+  cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000326}}
 .worlds-color .form-submit {
   color: #ffd150;
   background-color: white;
@@ -5201,7 +5203,7 @@ footer .region-footer {
   padding: 10px 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000333}}
 .worlds-color .form-submit:hover {
   color: white;
   background-color: #ffd150;
