@@ -26,21 +26,36 @@ footer{
 }
 
 .watch-color footer{
-  border-top: 1px solid $color-watch;
+  .site-footer
+  {
+    border-top: 1px solid $color-watch;
+  }
 }
 
 .listen-color footer{
-  border-top: 1px solid $color-listen;
+  .site-footer
+  {
+    border-top: 1px solid $color-watch;
+  }
 }
 
 .play-color footer{
-  border-top: 1px solid $color-play;
+  .site-footer
+  {
+    border-top: 1px solid $color-watch;
+  }
 }
 
 .create-color footer{
-  border-top: 1px solid $color-create;
+  .site-footer
+  {
+    border-top: 1px solid $color-watch;
+  }
 }
 
 .worlds-color footer{
-  border-top: 1px solid $color-worlds;
+  .site-footer
+  {
+    border-top: 1px solid $color-watch;
+  }
 }

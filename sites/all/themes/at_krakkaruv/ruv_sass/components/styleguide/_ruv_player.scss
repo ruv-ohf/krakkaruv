@@ -157,7 +157,11 @@ p.toggle-text-boxes{
       }
 
       a{
-        color: $color-all-shows-black;
+        color: grey;
+      }
+      a:hover{
+        color: grey;
+        text-decoration: underline;
       }
     }
 
