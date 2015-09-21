@@ -80,7 +80,7 @@
       color: white;
       font-size: 20px;
       font-weight: 300;
-      text-shadow: 2px 2px 8px $color-all-shows-black;
+      /*text-shadow: 2px 2px 8px $color-all-shows-black;*/
 
       @include breakpoint($superscreens){
         padding: 14px;

@@ -1872,7 +1872,7 @@ h1, h2 {
   color: white;
   font-size: 20px;
   font-weight: 300;
-  text-shadow: 2px 2px 8px #282828;
+  /*text-shadow: 2px 2px 8px $color-all-shows-black;*/
 }
 @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000376}}
