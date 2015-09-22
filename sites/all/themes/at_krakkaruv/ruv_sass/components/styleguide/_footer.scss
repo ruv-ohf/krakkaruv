@@ -16,7 +16,11 @@ footer{
   .front &{
     background-color: $color-messages-background;
     color: white;
-    border-top: 1px solid white;
+    /*border-top: 1px solid white;*/
+    .site-footer
+    {
+      border-top: 1px solid white;
+    }
   }
 
   .region-footer{
