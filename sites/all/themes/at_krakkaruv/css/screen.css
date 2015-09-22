@@ -5349,8 +5349,8 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000320}}
 .play-text {
-  width: 54%;
-  margin: 40px auto;
+  /*width: 54%;*/
+  margin-left: 8.5%;
   font-family: "Nunito", sans-serf;
   font-weight: 300;
   color: black;
@@ -5360,16 +5360,21 @@ footer .region-footer {
   font-family: "Nunito", sans-serf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000331}}
+.play-text h1 {
+  font-size: 28px;
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000336}}
 .play-text h2 {
   font-size: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000340}}
 .play-text h3, .play-text .text h1 {
   font-size: 24px;
   margin-bottom: 5px;
   font-family: "Nunito", sans-serf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000346}}
 .play-text li {
   list-style: inside;
   margin-left: 20px;
@@ -5377,12 +5382,13 @@ footer .region-footer {
   margin-bottom: 5px;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000354}}
 .play-text p {
   font-size: 16px;
-  margin-bottom: 20px;
+  line-height: 1.3;
+  /*margin-bottom: 20px;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\0000360}}
 .play-text .views-field-field-pdf-skjol {
   margin: 20px 0;
 }
@@ -5826,10 +5832,12 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\000038}}
 .ruv-at-panel .region-wrapper .region-two-66-33-first {
   width: 66.666666%;
+  text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000313}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second {
   width: 33.333333%;
+  text-align: left;
 }
 
 /*# sourceMappingURL=screen.css.map */
