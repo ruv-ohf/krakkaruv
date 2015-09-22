@@ -18,7 +18,8 @@
       display: inline-block;
       border: 1px solid white;
       padding: 10px 30px;
-      margin: 20px;
+      margin: 5px;
+      transition: 0.3s all ease-in-out;
     }
 
     li:hover, li.selected{
