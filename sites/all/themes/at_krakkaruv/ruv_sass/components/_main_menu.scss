@@ -116,7 +116,7 @@
           }
         }
 
-        a:hover{
+        a:not(.active-trail):hover{
           border-bottom: 5px solid #{$color_name};
         }
       }

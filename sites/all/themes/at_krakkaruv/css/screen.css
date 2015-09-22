@@ -1513,7 +1513,7 @@ h1, h2 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003119}}
-#menu-bar ul li.watch a:hover {
+#menu-bar ul li.watch a:not(.active-trail):hover {
   border-bottom: 5px solid #54ba54;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003106}}
@@ -1534,7 +1534,7 @@ h1, h2 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003119}}
-#menu-bar ul li.listen a:hover {
+#menu-bar ul li.listen a:not(.active-trail):hover {
   border-bottom: 5px solid #34c6c6;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003106}}
@@ -1555,7 +1555,7 @@ h1, h2 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003119}}
-#menu-bar ul li.play a:hover {
+#menu-bar ul li.play a:not(.active-trail):hover {
   border-bottom: 5px solid #cc406e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003106}}
@@ -1576,7 +1576,7 @@ h1, h2 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003119}}
-#menu-bar ul li.create a:hover {
+#menu-bar ul li.create a:not(.active-trail):hover {
   border-bottom: 5px solid #ab89bf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003106}}
@@ -1597,7 +1597,7 @@ h1, h2 {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003119}}
-#menu-bar ul li.worlds a:hover {
+#menu-bar ul li.worlds a:not(.active-trail):hover {
   border-bottom: 5px solid #ffd150;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003129}}
