@@ -5227,9 +5227,9 @@ footer {
   font-size: 16px;
   padding: 0 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\000037}}
-footer .social-media a:before:hover {
-  color: #EEE !important;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\000038}}
+footer .social-media a:hover i:before {
+  opacity: 0.7;
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\000031}}
@@ -5237,50 +5237,73 @@ footer .social-media a:before:hover {
     font-size: 14px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000319}}
 footer .inline {
   margin-top: -4px;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000324}}
 .front footer {
   background-color: #008c99;
   color: white;
-  /*border-top: 1px solid white;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000328}}
 .front footer .site-footer {
   border-top: 1px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000331}}
+.front footer .site-footer a.tel-link {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000338}}
 footer .region-footer {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000345}}
 .watch-color footer .site-footer {
   border-top: 1px solid #54ba54;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000348}}
+.watch-color footer .site-footer a.tel-link {
+  color: #54ba54;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000356}}
 .listen-color footer .site-footer {
   border-top: 1px solid #34c6c6;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000353}}
-.play-color footer .site-footer {
-  border-top: 1px solid #cc406e;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000360}}
-.create-color footer .site-footer {
-  border-top: 1px solid #ab89bf;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000359}}
+.listen-color footer .site-footer a.tel-link {
+  color: #34c6c6;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000367}}
+.play-color footer .site-footer {
+  border-top: 1px solid #cc406e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000370}}
+.play-color footer .site-footer a.tel-link {
+  color: #cc406e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000378}}
+.create-color footer .site-footer {
+  border-top: 1px solid #ab89bf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000381}}
+.create-color footer .site-footer a.tel-link {
+  color: #ab89bf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000389}}
 .worlds-color footer .site-footer {
   border-top: 1px solid #ffd150;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\0000392}}
+.worlds-color footer .site-footer a.tel-link {
+  color: #ffd150;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000031}}
@@ -5792,6 +5815,21 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_done\.scss}line{font-family:\0000348}}
 #crumbs {
   display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\000033}}
+.ruv-at-panel .region-wrapper {
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\000038}}
+.ruv-at-panel .region-wrapper .region-two-66-33-first {
+  width: 66.666666%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000312}}
+.ruv-at-panel .region-wrapper .region-two-66-33-second {
+  width: 33.333333%;
 }
 
 /*# sourceMappingURL=screen.css.map */

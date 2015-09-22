@@ -4,8 +4,10 @@ footer{
   padding: 0 50px;
 
   .social-media{
-    a:before:hover{
-     color:#EEE !important;
+    a:hover{
+      i:before{
+        opacity:0.7;
+      }
     }
   }
   
@@ -22,10 +24,14 @@ footer{
   .front &{
     background-color: $color-messages-background;
     color: white;
-    /*border-top: 1px solid white;*/
+    
     .site-footer
     {
       border-top: 1px solid white;
+      a.tel-link
+      {
+        color:white;
+      }
     }
   }
 
@@ -39,6 +45,10 @@ footer{
   .site-footer
   {
     border-top: 1px solid $color-watch;
+    a.tel-link
+    {
+      color:$color-watch;
+    }
   }
 }
 
@@ -46,6 +56,10 @@ footer{
   .site-footer
   {
     border-top: 1px solid $color-listen;
+    a.tel-link
+    {
+      color:$color-listen;
+    }
   }
 }
 
@@ -53,6 +67,10 @@ footer{
   .site-footer
   {
     border-top: 1px solid $color-play;
+    a.tel-link
+    {
+      color:$color-play;
+    }
   }
 }
 
@@ -60,6 +78,10 @@ footer{
   .site-footer
   {
     border-top: 1px solid $color-create;
+    a.tel-link
+    {
+      color:$color-create;
+    }
   }
 }
 
@@ -67,5 +89,9 @@ footer{
   .site-footer
   {
     border-top: 1px solid $color-worlds;
+    a.tel-link
+    {
+      color:$color-worlds;
+    }
   }
 }

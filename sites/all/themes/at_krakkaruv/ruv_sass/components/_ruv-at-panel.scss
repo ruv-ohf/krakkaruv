@@ -1,0 +1,17 @@
+.ruv-at-panel
+{
+	.region-wrapper
+	{
+		max-width: $max-width;
+		text-align: center;
+		margin:0 auto;
+		.region-two-66-33-first
+		{
+			width:66.666666%;
+		}
+		.region-two-66-33-second
+		{
+			width:33.333333%;
+		}
+	}
+}
