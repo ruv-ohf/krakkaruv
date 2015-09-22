@@ -8,9 +8,13 @@
   overflow: hidden;
   display: inline-block;
 
+  .term-list-item-image{
+    border:1px solid $color-light-grey;
+  }
+
   .views-field{
     overflow: hidden;
-    border:1px solid $color-light-grey;
+    
   }
 
   .title-bar{
