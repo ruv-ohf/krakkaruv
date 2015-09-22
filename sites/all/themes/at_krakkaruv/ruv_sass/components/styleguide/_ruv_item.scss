@@ -26,6 +26,7 @@
     width: 100%;
     height: auto;
     transition: all 0.3s ease-out;
+    border:1px solid $color-light-grey;
   }
 
   @include breakpoint($tablet-size){
