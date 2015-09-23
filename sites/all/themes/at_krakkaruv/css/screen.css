@@ -5583,7 +5583,7 @@ footer .region-footer {
 .challenge .video-and-webform {
   background-color: #ab89bf;
   width: 100%;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\000037}}
 .challenge .video-and-webform .block-content {
@@ -5834,33 +5834,44 @@ footer .region-footer {
   max-width: 1140px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 57px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000310}}
 .ruv-at-panel .region-wrapper .region-two-66-33-first {
   width: 66.666666%;
   text-align: left;
+  padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000316}}
+.ruv-at-panel .region-wrapper .region-two-66-33-first h1.game-title {
+  font-family: "Nunito", sans-serf;
+  font-weight: 300;
+  font-size: 22px;
+  color: #404040;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000325}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second {
   width: 33.333333%;
   text-align: left;
+  padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000331}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second .side-bar-node-list {
   background: #f7f7f7;
   padding: 20px;
-  margin-top: 57px;
+  /*margin-top:57px;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000337}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second .side-bar-node-list .block-content {
   padding-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000340}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second .side-bar-node-list .block-content .views-row {
   float: left;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ruv-at-panel\.scss}line{font-family:\0000348}}
 .ruv-at-panel .region-wrapper .region-two-66-33-second h2.pane-title.block-title {
   font-family: "Nunito", sans-serf;
   font-weight: 300;
