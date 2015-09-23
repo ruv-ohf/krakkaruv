@@ -1348,11 +1348,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* =========================================================================== */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\000035}}
 .front #menu-bar {
-  background: url("/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg") center center;
+  /*background:  url('/sites/all/themes/at_krakkaruv/images/tofraheimar.jpg') center center;
   background-size: cover;
   margin: 0;
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000313}}
 .front #block-block-1 {
