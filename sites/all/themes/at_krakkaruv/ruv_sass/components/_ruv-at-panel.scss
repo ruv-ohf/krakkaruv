@@ -14,6 +14,33 @@
 		{
 			width:33.333333%;
 			text-align: left;
+
+			.side-bar-node-list
+			{
+				background:$color-ultralight-grey;
+				padding:20px;
+				margin-top:57px;
+				
+				.block-content
+				{
+					padding-top:20px;
+					.views-row
+					{
+						float:left;
+						width:100%;
+					}
+				}
+			}
+
+			h2.pane-title.block-title
+			{
+				font-family: $font-base;
+				font-weight: $font-weight-thin;
+				font-size:22px;
+				color:$color-dark-gray;
+				line-height:20px;
+			}
 		}
+
 	}
 }
