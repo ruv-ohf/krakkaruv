@@ -10,6 +10,12 @@
             $(".side-boxes").toggle("slow");
         });
         do_resize_fix();
+        $('#block-system-main-menu ul li').hide();
+        $('#block-system-main-menu ul li').each(function(i,x){
+        	var dtime = (i * 100) + 100;
+        	console.log(dtime);
+        	$(x).delay(dtime).fadeTo('slow',1);
+        });
     });
 
     $(window).resize(function(){
@@ -22,8 +28,6 @@
         var pxadd = 10;
 
         var vidratio = (vidheight / vidwith);
-
-        console.log(vidratio);
 
         var menuheight = Math.round($(window).width() * vidratio);
 
