@@ -7,3 +7,9 @@
 	 font-weight: $font-weight-thin;
    }
  }
+
+ .webform-submit.button-primary
+ {
+ 	transition: 0.3s all ease-in-out;
+ 	cursor:pointer;
+ }

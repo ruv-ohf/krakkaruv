@@ -2701,6 +2701,12 @@ p.toggle-text-boxes {
   font-weight: 300;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_button\.scss}line{font-family:\0000311}}
+.webform-submit.button-primary {
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
 /* Absolute positioning ----------------------------------- */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_absolute\.scss}line{font-family:\000032}}
 .pin-top,
