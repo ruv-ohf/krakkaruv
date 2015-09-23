@@ -9,5 +9,22 @@
             $(".text-box").toggle("slow");
             $(".side-boxes").toggle("slow");
         });
-    })
+        
+    });
+
+    $(window).resize(function(){
+    	var vidwith = 1920; //100%
+        var vidheight = 1080; //??
+        var pxadd = 10;
+
+        var vidratio = (vidheight / vidwith);
+
+        console.log(vidratio);
+
+        var menuheight = Math.round($(window).width() * vidratio);
+
+        $('#menu-bar').height(menuheight);
+
+    });
+
 })(jQuery);
