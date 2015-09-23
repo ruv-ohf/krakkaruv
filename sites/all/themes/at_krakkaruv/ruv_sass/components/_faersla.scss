@@ -24,16 +24,18 @@
       line-height: 36px;
     }
 
-    .region-two-66-33-top{
-      p.node-created{
+    p.node-created{
         color:$color-grey;
         font-size:14px;
         margin-bottom:16px !important;
-      }
-      p.node-created::before{
+    }
+    p.node-created::before{
         margin-right:5px;
         color:$color-light-grey;
-      }
+     }
+
+    .region-two-66-33-top{
+      
     }
 
     .region-two-66-33-first{
@@ -63,6 +65,8 @@
       }
 
       .node-author{
+        margin-top:74px;
+        
         .node-author-headshot-img
         {
           float:left;
