@@ -10,10 +10,10 @@
             $(".side-boxes").toggle("slow");
         });
         do_resize_fix();
-        $('#block-system-main-menu ul li').hide();
-        $('#block-block-1').hide();
+        $('.front #block-system-main-menu ul li').hide();
+        $('.front #block-block-1').hide();
         
-        $('#block-block-1').fadeTo('slow',1,function(){
+        $('.front #block-block-1').fadeTo('slow',1,function(){
 	        $('#block-system-main-menu ul li').each(function(i,x){
 	        	var dtime = (i * 100) + 100;
 	        	$(x).delay(dtime).fadeTo('slow',1);
@@ -36,7 +36,7 @@
 
         var menuheight = Math.round($(window).width() * vidratio);
 
-        $('#menu-bar').height(menuheight);
+        $('.front #menu-bar').height(menuheight);
     }
 
 })(jQuery);
