@@ -52,6 +52,7 @@ p.toggle-text-boxes{
 
 .ruv-player-extra-info{
   @include clearfix;
+  padding-top:40px;
 
   .title-and-texts{
     float: left;
