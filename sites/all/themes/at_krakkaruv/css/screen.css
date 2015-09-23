@@ -5670,7 +5670,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_challenges\.scss}line{font-family:\0000383}}
 .challenge .body-texts .challenge-main-body {
-  width: 78.9%;
+  /*width: 78.9%;*/
   margin: 0 auto;
   color: #282828;
   font-family: "Nunito", sans-serf;
