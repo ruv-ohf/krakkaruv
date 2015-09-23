@@ -11,11 +11,16 @@
         });
         do_resize_fix();
         $('#block-system-main-menu ul li').hide();
-        $('#block-system-main-menu ul li').each(function(i,x){
-        	var dtime = (i * 100) + 100;
-        	console.log(dtime);
-        	$(x).delay(dtime).fadeTo('slow',1);
+        $('#block-block-1').hide();
+        
+        $('#block-block-1').fadeTo('slow',1,function(){
+	        $('#block-system-main-menu ul li').each(function(i,x){
+	        	var dtime = (i * 100) + 100;
+	        	$(x).delay(dtime).fadeTo('slow',1);
+	        });
         });
+
+
     });
 
     $(window).resize(function(){
