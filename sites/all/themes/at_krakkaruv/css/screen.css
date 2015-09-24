@@ -1503,7 +1503,7 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003107}}
 #menu-bar ul li.home a:before {
-  background: #54ba54 url("/sites/all/themes/at_krakkaruv/images/home-button.png") no-repeat center center;
+  background: #FFFFFF url("/sites/all/themes/at_krakkaruv/images/home-button.png") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1520,7 +1520,7 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003120}}
 #menu-bar ul li.home a:not(.active-trail):hover {
-  border-bottom: 5px solid #54ba54;
+  border-bottom: 5px solid #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003107}}
 #menu-bar ul li.watch a:before {
@@ -1629,12 +1629,12 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
 #menu-bar ul li.home.active-trail {
-  border-bottom: 5px solid #54ba54;
+  border-bottom: 5px solid #FFFFFF;
   border-radius: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
 #menu-bar ul li.home.active-trail a {
-  color: #54ba54;
+  color: #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
 #menu-bar ul li.watch.active-trail {
@@ -1887,7 +1887,7 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000373}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa p {
-  background-color: rgba(84, 186, 84, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000373}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Hlusta p {
@@ -1970,7 +1970,7 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003135}}
 .hladbords-item .hover.Horfa {
-  background-color: rgba(84, 186, 84, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003135}}
 .hladbords-item .hover.Hlusta {
