@@ -1380,6 +1380,12 @@ h1, h2 {
   line-height: 60px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000313}}
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000031}}
 #menu-bar {
   position: relative;
