@@ -887,6 +887,27 @@ function ruv_custom_preprocess_image(&$vars) {
 
 }
 
+function ruv_custom_preprocess(&$variables, $hook){
+    if ($hook==='page') {
+        drupal_add_js("
+        (function ($) {
+            Drupal.behaviors.fixe_more_link = {
+              attach: function (context, settings) {
+               $('.item-list.item-list-pager').each(function () {
+                   var parent_view = $(this).parent('.view');
+                   var links = $('a.episode-link',parent_view);
+                   var total_eps = links.attr('total-episodes');
+                   if ($('a[episode='+total_eps+']',parent_view).length > 0) {
+                     $(this).hide();
+                   }
+               });
+              }
+            };
+        })(jQuery);
+        ","inline");
+    }
+}
+
 
 
 /**
