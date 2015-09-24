@@ -1817,8 +1817,8 @@ p {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000338}}
 .pane-hladbord-nodes-panel-pane-1 .views-row-1 {
   width: 50%;
-  border-right: 5px;
-  border-bottom: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000343}}
 .pane-hladbord-nodes-panel-pane-1 .views-row-1 img {
