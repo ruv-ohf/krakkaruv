@@ -1,11 +1,14 @@
 .pane-hladbord-nodes-panel-pane-1{
   font-family: $font-base;
   background-color: white;
+  padding-top:5px;
   
   .views-row{
 
     position: relative;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     overflow: hidden;
     width: 25%;
     float: left;
