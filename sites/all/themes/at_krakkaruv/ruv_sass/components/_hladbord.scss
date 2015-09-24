@@ -64,7 +64,7 @@
     transition: all 0.3s ease-in-out;
     width: 100%;
     position: absolute;
-    bottom: 1px;
+    bottom: 0px; /*1px;*/
 
     @for $i from 1 through length($buffet-array) {
       $category_name: nth($buffet-array, $i);

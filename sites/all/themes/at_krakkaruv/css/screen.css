@@ -1851,7 +1851,8 @@ p {
   transition: all 0.3s ease-in-out;
   width: 100%;
   position: absolute;
-  bottom: 1px;
+  bottom: 0px;
+  /*1px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000373}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa p {
