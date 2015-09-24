@@ -3,6 +3,7 @@
 
   background-color: white;
   border-top: 5px solid white;
+  border-bottom: 5px solid white;
 
   .views-row{
 
@@ -36,6 +37,8 @@
 
   .views-row-1{
     width: 50%;
+    border-right:5px;
+    border-bottom:5px;
 
     img{
       margin-bottom: -10px;
