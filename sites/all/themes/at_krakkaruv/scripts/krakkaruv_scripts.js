@@ -15,8 +15,11 @@
         
         $('.front #block-block-1').fadeTo('slow',1,function(){
 	        $('#block-system-main-menu ul li').each(function(i,x){
-	        	var dtime = (i * 100) + 100;
-	        	$(x).delay(dtime).fadeTo('slow',1);
+	        	if($(x).hasClass('home') == false)
+	        	{
+		        	var dtime = (i * 100) + 100;
+		        	$(x).delay(dtime).fadeTo('slow',1);
+		        }
 	        });
         });
 
