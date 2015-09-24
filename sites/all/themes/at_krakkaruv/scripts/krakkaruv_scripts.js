@@ -49,7 +49,7 @@
 
         var first_item_img_correct_height = Math.round( hladbord_first_item_width * first_item_img_ratio) - 1;
 
-        $('.pane-hladbord-nodes-panel-pane-1 .views-row-1').height(first_item_img_correct_height1);
+        $('.pane-hladbord-nodes-panel-pane-1 .views-row-1').height(first_item_img_correct_height);
 
     }
 
