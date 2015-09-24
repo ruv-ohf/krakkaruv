@@ -2,7 +2,7 @@
   font-family: $font-base;
 
   background-color: white;
-  border: 5px solid white;
+  border-top: 5px solid white;
 
   .views-row{
 
@@ -54,7 +54,7 @@
     }
 
     .title-bar{
-      bottom: 0;
+      bottom: -2px;
     }
   }
 

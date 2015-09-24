@@ -1776,7 +1776,7 @@ p {
 .pane-hladbord-nodes-panel-pane-1 {
   font-family: "Open Sans", sans-serif;
   background-color: white;
-  border: 5px solid white;
+  border-top: 5px solid white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
 .pane-hladbord-nodes-panel-pane-1 .views-row {
@@ -1841,7 +1841,7 @@ p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000356}}
 .pane-hladbord-nodes-panel-pane-1 .views-row-1 .title-bar {
-  bottom: 0;
+  bottom: -2px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000361}}
 .pane-hladbord-nodes-panel-pane-1 .title-bar {
