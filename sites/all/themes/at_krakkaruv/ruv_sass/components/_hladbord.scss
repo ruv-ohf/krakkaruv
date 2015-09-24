@@ -6,9 +6,6 @@
   .views-row{
 
     position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
     overflow: hidden;
     width: 25%;
     float: left;
@@ -37,7 +34,9 @@
 
   .views-row-1{
     width: 50%;
-    
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
 
     img{
       margin-bottom: -10px;
