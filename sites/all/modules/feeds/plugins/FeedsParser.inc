@@ -438,7 +438,8 @@ class FeedsEnclosure extends FeedsElement {
         $file->filename = $this->getSafeFilename();
 
         if (drupal_dirname($file->uri) !== $destination) {
-          $file = file_copy($file, $destination);
+          //$file = file_copy($file, $destination); - 2015-09-25 HP: This line removed from the module because it is evil.  Not the file will be replaced not duplicated.
+          $file = file_copy($file, $destination,FILE_EXISTS_REPLACE);
         }
         else {
           // If file is not to be copied, check whether file already exists,
@@ -450,7 +451,8 @@ class FeedsEnclosure extends FeedsElement {
             $file->fid = $existing->fid;
             $file->filename = $existing->filename;
           }
-          file_save($file);
+          //file_save($file); 2015-09-25 HP: This line var removed because it is evel. Not the file is replaced but not duplicated.
+          file_save($file,FILE_EXISTS_REPLACE);
         }
       }
       else {
