@@ -1384,6 +1384,7 @@ h1, h2 {
 p {
   font-size: 16px;
   line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000031}}
