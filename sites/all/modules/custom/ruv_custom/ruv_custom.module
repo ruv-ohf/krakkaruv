@@ -1052,5 +1052,7 @@ function ruv_custom_views_rss_preprocess_item_source(&$variables) {
 function ruv_custom_ctools_plugin_directory($owner, $plugin_type){
   if ($owner == 'feeds_tamper' && $plugin_type == 'plugins') {
     return 'feeds_tamper_plugins';
+    // bara svona
+ 
   }
 }
