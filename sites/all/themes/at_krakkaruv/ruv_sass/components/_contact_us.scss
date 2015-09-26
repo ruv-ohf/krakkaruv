@@ -1,10 +1,15 @@
 .contact-us{
   background-color: $color-messages-background;
-  padding: 0 50px 50px;
+  padding: 0 50px 25px 0px;
 
   h2{
     color: $color-messages-headline;
   }
+  
+  h3{
+    color: white;
+  }
+  
 
   .block-inner{
     max-width: $max-width;
@@ -12,7 +17,6 @@
   }
 
   h2{
-    width: 48%;
     margin-right: 2%;
     float: left;
 
@@ -24,11 +28,10 @@
   }
 
   .block-content {
-    width: 50%;
     float: left;
 
     input {
-      width: 100%;
+      width: 70%;
     }
 
     input[type="submit"] {
