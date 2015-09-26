@@ -40,6 +40,7 @@ function varnish_admin_settings_form() {
       '2' => '2.0.x',
       '2.1' => '2.1.x',
       '3' => '3.x',
+      '4' => '4.x',
     ),
   );
 

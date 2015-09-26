@@ -1,5 +1,13 @@
 .ruv-item-list{
-  .pager-load-more{
-    margin-bottom: 50px;
-  }
+	.item-list-pager
+	{
+		margin-right:2%;
+	}
+	.pager-load-more{
+		margin-bottom: 50px;
+		padding-top:10px;
+		li{
+			margin:0;
+		}
+	}
 }

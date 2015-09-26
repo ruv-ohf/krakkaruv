@@ -20,12 +20,11 @@
   #block-block-3{
     display: none;
   }
-}  
+}
 
 /*
  * the bottomblocks .two-50 contains the small contact form and the "about" (fyrir fullorðna)
  */
-
 .bottom-blocks{
 .two-50{
   .region{
@@ -38,6 +37,13 @@
   }
   background-color: #008c99;
   
+  .block-inner {
+	 h2 {
+		font-size: 36px;
+		line-height: 48px;
+	}
+  }  
+  
   h2{
     color: $color-messages-headline;
     padding-bottom: 10px;
@@ -45,7 +51,7 @@
   h3,
   h3 * {
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     @include breakpoint($mobile-size){
        text-align: center;
   	}
