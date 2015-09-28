@@ -1,14 +1,22 @@
 .play-image{
   background-color: $color-play;
+  padding-top:$gutter;
+  padding-bottom:$gutter;
+
+  .block-inner
+  {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 
   .game-image-and-link{
-    width: 50%;
     margin: auto;
-    padding: $gutter 0;
+    padding-right:20px;
 
     img{
       width: 100%;
       height: auto;
+      float:left;
     }
 
     @include breakpoint($mobile-size){

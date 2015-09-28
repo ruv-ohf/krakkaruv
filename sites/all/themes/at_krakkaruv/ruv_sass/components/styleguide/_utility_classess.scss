@@ -231,3 +231,12 @@ img.inline, .inline { display: inline-block; }
 .pad1t { padding-top: 0.625em; }
 .pad2t { padding-top: 1.250em; }
 .pad3t { padding-top: 1.875em; }
+
+/* Text definitions */
+.color-white
+{
+  color:white;
+  p,h2{
+    color:white;
+  }
+}

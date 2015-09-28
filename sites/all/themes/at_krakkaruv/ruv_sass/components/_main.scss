@@ -22,11 +22,12 @@ p{
 	font-family: $font-base;
 }
 
-ul
+ul,ol
 {
 	margin-top:10px;
 	margin-bottom:10px;
 	li{
+		font-family: $font-base;
 		margin-bottom:8px;
 	}
 }
