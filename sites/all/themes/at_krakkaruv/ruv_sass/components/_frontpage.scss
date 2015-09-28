@@ -25,23 +25,27 @@
 /*
  * the bottomblocks .two-50 contains the small contact form and the "about" (fyrir fullorðna)
  */
-.bottom-blocks{
-.two-50{
-  .region{
-    width: 50%;
-    float: left;
-    clear: none;
-    @include breakpoint($mobile-size){
-      width: 100%;
-    }
-  }
+#front-bottom-mini-panel{
   background-color: #008c99;
+  .two-50{
+    max-width: $max-width;
+    margin:0 auto;
+
+    .region{
+      width: 50%;
+      float: left;
+      clear: none;
+      @include breakpoint($mobile-size){
+        width: 100%;
+      }
+    }
+  
   
   .block-inner {
 	 h2 {
 		font-size: 36px;
 		line-height: 48px;
-	}
+	 }
   }  
   
   h2{
@@ -68,15 +72,16 @@
   }
   
   .region-two-50-first{
-    padding-left: 40px;
-    padding-right: 15px;
+    .block-content
+    {
+      padding-right:30px;
+    }
     @include breakpoint($mobile-size){
       padding-right: 50px;
     }
   }
   
   .region-two-50-second{
-    padding-right: 50px;
     @include breakpoint($mobile-size){
       padding-left: 40px;
     }
@@ -86,14 +91,18 @@
   .block-content{
   
   	p{
-  	  a{
-  	    color: white;
-  	  }
-  	  padding-top: 11px;
-  	  margin: 1em 0 1em 0;
-  	  color: white;
-  	  font-family: "Open Sans", sans-serif
+      padding-top: 11px;
+      margin: 1em 0 1em 0;
+      color: white;
+      font-family: "Open Sans", sans-serif;
   	}
+    
+    a{
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 
     input {
       width: 70%;
@@ -123,8 +132,6 @@
     @include breakpoint($mobile-size) {
       width: 100%;
     }
-  }
-  
-  
+  }  
 }
 }
