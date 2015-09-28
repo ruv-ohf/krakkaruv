@@ -13,10 +13,20 @@ h1, h2{
 h3{
 	font-family: $font-headline;
 	font-size: 32px;
+	margin-bottom:20px;
 }
 
 p{
 	font-size:16px;
 	line-height: 1.6;
 	font-family: $font-base;
+}
+
+ul
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	li{
+		margin-bottom:8px;
+	}
 }

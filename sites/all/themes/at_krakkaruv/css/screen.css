@@ -1508,13 +1508,24 @@ h1, h2 {
 h3 {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000319}}
 p {
   font-size: 16px;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000325}}
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000329}}
+ul li {
+  margin-bottom: 8px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000031}}
@@ -5912,20 +5923,19 @@ footer .region-footer {
   font-size: 16px;
   line-height: 18px;
   color: #404040;
+    /*h2{
+      font-size: 24px;
+    }
+
+    h2.block-title{
+      font-size: 36px;
+    }*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000317}}
 .node-type-basic-page #content h1, .node-type-basic-page #content h2, .node-type-basic-page #content h3, .node-type-basic-page #content h1.page-title {
   font-family: "Open Sans", sans-serif;
   color: #404040;
   font-weight: 400;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000323}}
-.node-type-basic-page #content h2 {
-  font-size: 24px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000327}}
-.node-type-basic-page #content h2.block-title {
-  font-size: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\0000331}}
 .node-type-basic-page #content p {
