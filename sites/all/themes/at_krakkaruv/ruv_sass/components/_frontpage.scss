@@ -26,7 +26,9 @@
  * the bottomblocks .two-50 contains the small contact form and the "about" (fyrir fullorðna)
  */
 #front-bottom-mini-panel{
-  background-color: #008c99;
+  background-color: $color-messages-background;
+  padding: 0 40px;
+
   .two-50{
     max-width: $max-width;
     margin:0 auto;
@@ -35,6 +37,7 @@
       width: 50%;
       float: left;
       clear: none;
+
       @include breakpoint($mobile-size){
         width: 100%;
       }
@@ -77,13 +80,13 @@
       padding-right:30px;
     }
     @include breakpoint($mobile-size){
-      padding-right: 50px;
+      padding-right: 0px;
     }
   }
   
   .region-two-50-second{
     @include breakpoint($mobile-size){
-      padding-left: 40px;
+      padding-left: 0px;
     }
  
   }

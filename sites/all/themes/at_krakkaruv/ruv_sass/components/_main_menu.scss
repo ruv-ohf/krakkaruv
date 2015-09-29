@@ -30,6 +30,10 @@
       font-size: $gutter / 3;
     }
 
+    @include breakpoint($mobile-portrait-max){
+      font-size: $gutter / 6;
+    }
+
     .front &{
       color: white;
       text-shadow:0px 0px 8px black;
@@ -85,6 +89,12 @@
           height: $gutter;
           width: $gutter;
         }
+
+        @include breakpoint($mobile-portrait-max){
+          height: $gutter / 2;
+          width: $gutter / 2;
+          margin-bottom: 5px;
+        }
       }
 
       a{
@@ -118,6 +128,10 @@
 
           @include breakpoint($mobile-size){
             background-size: $gutter $gutter;
+          }
+
+          @include breakpoint($mobile-portrait-max){
+            background-size: $gutter/2 $gutter/2;
           }
         }
 
