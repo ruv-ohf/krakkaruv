@@ -67,6 +67,10 @@
     @include clearfix;
     max-width: $max-width;
     margin: 80px auto 0;
+
+    @include breakpoint($mobile-portrait-max){
+      margin-top: 0;
+    }
   }
 
   .views-row:hover{
@@ -75,6 +79,10 @@
     a{
       color: lightgrey;
     }
+  }
+
+  @include breakpoint($mobile-portrait-max){
+    padding-top: 40px;
   }
 }
 

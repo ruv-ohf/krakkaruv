@@ -14,12 +14,22 @@ footer{
   
 
   @include breakpoint($mobile-size){
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  @include breakpoint($mobile-portrait-max){
+    font-size: 10px;
   }
 
   .inline{
     margin-top: -4px;
     font-weight: 300;
+  }
+
+  .inline:last-child{
+    @include breakpoint($mobile-portrait-max){
+      display: none;
+    }
   }
 
   .front &{

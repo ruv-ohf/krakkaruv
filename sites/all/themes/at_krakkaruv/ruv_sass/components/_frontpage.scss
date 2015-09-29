@@ -48,6 +48,11 @@
 	 h2 {
 		font-size: 36px;
 		line-height: 48px;
+
+       @include breakpoint($mobile-portrait-max){
+         font-size: 24px;
+         line-heigth: 36px;
+       }
 	 }
   }  
   
@@ -55,6 +60,7 @@
     color: $color-messages-headline;
     padding-bottom: 10px;
   }
+
   h3,
   h3 * {
     color: white;
@@ -78,9 +84,10 @@
     .block-content
     {
       padding-right:30px;
-    }
-    @include breakpoint($mobile-size){
-      padding-right: 0px;
+
+      @include breakpoint($mobile-size){
+        padding-right: 0px;
+      }
     }
   }
   
@@ -108,7 +115,7 @@
     }
 
     input {
-      width: 70%;
+      width: 100%;
     }
 
     input[type="submit"] {
