@@ -66,6 +66,7 @@
     transition: all 0.3s ease-out;
     position: absolute;
     bottom: 0;
+    font-size: 16px;
     @include background-image(linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.5)));
 
     h1.item-title,
