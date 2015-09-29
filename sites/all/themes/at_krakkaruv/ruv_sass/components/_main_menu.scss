@@ -234,26 +234,6 @@
       }
     }
 
-    #block-block-3{
-      display: none;
-      position: absolute;
-      left: 20px;
-      margin-bottom: 0;
-
-      img{
-        width: $gutter;
-        float: left;
-      }
-
-      @include breakpoint($mobile-size){
-        display: none;
-      }
-    }
-
-    #block-block-4{
-      display: none;
-    }
-
     nav{
       margin-bottom: 0;
     }

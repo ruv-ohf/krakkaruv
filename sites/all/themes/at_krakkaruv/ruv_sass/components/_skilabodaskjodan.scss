@@ -63,7 +63,7 @@
     max-width: $max-width;
     margin: 80px auto 0;
 
-    @include breakpoint($mobile-portrait-max){
+    @include breakpoint($mobile-size){
       margin-top: 0;
     }
   }
@@ -82,7 +82,7 @@
     }
   }
 
-  @include breakpoint($mobile-portrait-max){
+  @include breakpoint($mobile-size){
     padding-top: 40px;
   }
 }
