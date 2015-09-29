@@ -21,6 +21,10 @@
 				color:$color-dark-gray;
 				line-height:20px;
 			}
+
+		  	@include breakpoint($mobile-size){
+			  	width: 100%;
+			}
 		}
 		.region-two-66-33-second
 		{
@@ -41,6 +45,14 @@
 					{
 						float:left;
 						width:100%;
+
+					  	@include breakpoint($mobile-size){
+						  width: 48%;
+						}
+
+					  	@include breakpoint($mobile-portrait-max){
+							width: 100%;
+					  	}
 					}
 				}
 			}
@@ -53,6 +65,10 @@
 				color:$color-dark-gray;
 				line-height:20px;
 			}
+
+		  	@include breakpoint($mobile-size){
+				width: 100%;
+		  	}
 		}
 
 	}
