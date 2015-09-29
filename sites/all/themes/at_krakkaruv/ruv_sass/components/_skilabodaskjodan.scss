@@ -20,20 +20,15 @@
     line-height: 24px;
     text-align: left;
     margin-bottom: 20px;
+    min-height: 54px;
 
     a{
       font-size: 20px;
       line-height: 24px;
+    }
 
-      @include breakpoint($tablet-size){
-        font-size: 16px;
-        line-height: 14px;
-      }
-
-      @include breakpoint(max-width 860px){
-        font-size: 26px;
-        line-height: 24px;
-      }
+    @include breakpoint($mobile-portrait-max){
+      min-height: 0;
     }
   }
 
@@ -70,6 +65,12 @@
 
     @include breakpoint($mobile-portrait-max){
       margin-top: 0;
+    }
+  }
+
+  .views-row{
+    @include breakpoint($mobile-portrait-max){
+      margin-bottom: 10px;
     }
   }
 
