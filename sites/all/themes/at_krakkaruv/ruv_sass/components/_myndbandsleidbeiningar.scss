@@ -1,6 +1,4 @@
 .video-player-common{
-  background-color: $color-watch;
-
   .views-field-php{
     /*width: 88%;*/
     margin: 0 auto;
@@ -11,3 +9,10 @@
 /**
  * Text stylings are under leikur.scss
  */
+
+.node-type-myndbandsleidbeiningar{
+  .region-two-66-33-top{
+    background-color: $color-watch;
+    padding: 0 20px;
+  }
+}

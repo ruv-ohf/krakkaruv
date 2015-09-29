@@ -1,5 +1,11 @@
+.node-type-leikir{
+  .region-two-66-33-top{
+    background-color: $color-play;
+    padding: 0 20px;
+  }
+}
+
 .play-image{
-  background-color: $color-play;
   padding-top:20px;
   padding-bottom:$gutter;
 
@@ -24,7 +30,8 @@
 
   .game-image-and-link{
     margin: auto;
-    padding-right:20px;
+    width: 50%;
+    float: left;
 
     img{
       width: 100%;
@@ -33,42 +40,64 @@
     }
 
     @include breakpoint($mobile-size){
-      width: 90%;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .directions{
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+    color: white;
+
+    h2{
+      font-family: $font-base;
+      color: white;
+      font-weight: 300;
+      font-size: 28px;
+      line-height: 28px;
+    }
+
+    li{
+      list-style: inside;
+      margin-left: 20px;
+      list-style-type: circle;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    @include breakpoint($mobile-size){
+      width: 100%;
     }
   }
 }
 
-.play-text{
-  font-family: $font-base;
-  font-weight: 300;
-  color: black;
-
-  h1,h2{
-    font-family: $font-base;
-  }
-
-  h1{
-    font-size:28px;
-    color:$color-dark-gray;
-  }
+.short-description{
+  color: $color-all-shows-black;
 
   h2{
-    font-size: 22px; 
-    font-weight:$font-weight-thin;
-    color:$color-dark-gray;
-    padding:0px;
-  }
-
-  h3, .text h1{
-    font-size: 24px;
-    /*margin-bottom: 5px;*/
     font-family: $font-base;
+    color: $color-all-shows-black;
+    font-weight: 300;
+    font-size: 28px;
+  }
+}
+
+.play-text{
+  color: $color-all-shows-black;
+  font-weight: 300;
+
+  h2, h3{
+    font-family: $font-base;
+    font-size: 22px;
+    font-weight: 300;
+    color: $color-all-shows-black;
+    padding: 0;
   }
 
-  h3
-  {
-    margin-top:15px;
-    margin-bottom:5px;
+  h3{
+    margin: 15px 0 5px 0;
   }
 
   li{
@@ -77,19 +106,5 @@
     list-style-type: circle;
     margin-bottom: 5px;
     font-size: 16px;
-  }
-
-  p{
-    font-size: 16px;
-    line-height:1.4;
-    /*margin-bottom: 20px;*/
-  }
-
-  .views-field-field-pdf-skjol{
-    margin: 20px 0;
-  }
-
-  @include breakpoint($mobile-size){
-    width: 90%;
   }
 }

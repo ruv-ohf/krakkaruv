@@ -16,3 +16,5 @@
 .col12   { width:100%; display:block; }
 /* For when you need five columns */
 .fifth  { float: left; width: 20%; }
+
+.col12-mobile{ @include breakpoint($mobile-size){width:100%; display:block; } }
