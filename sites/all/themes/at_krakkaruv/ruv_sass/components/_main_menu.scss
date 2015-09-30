@@ -119,7 +119,7 @@
       $color_name: nth($menu-color-array, $i);
       li.#{$category_name}{
         a:before{
-          background: #{$color_name} url("/sites/all/themes/at_krakkaruv/images/#{$category-name}-button.png") no-repeat center center;
+          background: #{$color_name} url("/sites/all/themes/at_krakkaruv/images/#{$category-name}-button.svg") no-repeat center center;
           background-size: $gutter*2 $gutter*2;
 
           @include breakpoint($tablet-size){

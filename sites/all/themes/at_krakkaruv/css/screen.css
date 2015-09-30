@@ -1669,7 +1669,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.home a:before {
-  background: #FFFFFF url("/sites/all/themes/at_krakkaruv/images/home-button.png") no-repeat center center;
+  background: #FFFFFF url("/sites/all/themes/at_krakkaruv/images/home-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1696,7 +1696,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.watch a:before {
-  background: #54ba54 url("/sites/all/themes/at_krakkaruv/images/watch-button.png") no-repeat center center;
+  background: #54ba54 url("/sites/all/themes/at_krakkaruv/images/watch-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1723,7 +1723,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.listen a:before {
-  background: #34c6c6 url("/sites/all/themes/at_krakkaruv/images/listen-button.png") no-repeat center center;
+  background: #34c6c6 url("/sites/all/themes/at_krakkaruv/images/listen-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1750,7 +1750,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.play a:before {
-  background: #cc406e url("/sites/all/themes/at_krakkaruv/images/play-button.png") no-repeat center center;
+  background: #cc406e url("/sites/all/themes/at_krakkaruv/images/play-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1777,7 +1777,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.create a:before {
-  background: #ab89bf url("/sites/all/themes/at_krakkaruv/images/create-button.png") no-repeat center center;
+  background: #ab89bf url("/sites/all/themes/at_krakkaruv/images/create-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1804,7 +1804,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003121}}
 #menu-bar ul li.worlds a:before {
-  background: #ffd150 url("/sites/all/themes/at_krakkaruv/images/worlds-button.png") no-repeat center center;
+  background: #f4853a url("/sites/all/themes/at_krakkaruv/images/worlds-button.svg") no-repeat center center;
   background-size: 120px 120px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1827,7 +1827,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003138}}
 #menu-bar ul li.worlds a:not(.active-trail):hover {
-  border-bottom: 5px solid #ffd150;
+  border-bottom: 5px solid #f4853a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003148}}
 #menu-bar ul li.home.active-trail {
@@ -1876,12 +1876,12 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003148}}
 #menu-bar ul li.worlds.active-trail {
-  border-bottom: 5px solid #ffd150;
+  border-bottom: 5px solid #f4853a;
   border-radius: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003152}}
 #menu-bar ul li.worlds.active-trail a {
-  color: #ffd150;
+  color: #f4853a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003159}}
 .not-front #menu-bar ul {
@@ -2749,7 +2749,7 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_player\.scss}line{font-family:\0000318}}
 .page-heimur .pane-spilari-panel-pane-3 .view-spilari {
-  background-color: #ffd150;
+  background-color: #f4853a;
   padding-bottom: 20px;
 }
 
@@ -3564,26 +3564,26 @@ blockquote {
 .worlds-color .hover-brand:hover,
 .worlds-color .hovermenu li li:before,
 .worlds-color-hover.worlds-color-hover:hover {
-  color: #ffd150;
+  color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003300}}
 .worlds-color .fill-brand {
-  background-color: #ffd150;
+  background-color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003304}}
 .worlds-color .h-border > .block-inner > .block-title,
 .worlds-color.h-border > .block-inner > .block-title,
 blockquote {
-  border-color: #ffd150;
+  border-color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003309}}
 .worlds-color .button,
 .worlds-color .pager-load-more a {
-  border-color: #ffd150;
-  color: #ffd150;
+  border-color: #f4853a;
+  color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003314}}
@@ -3597,7 +3597,7 @@ blockquote {
 .worlds-color .button.active,
 .worlds-color .button:hover,
 .worlds-color .pager-load-more a:hover {
-  background: #ffd150;
+  background: #f4853a;
   color: white;
 }
 
@@ -3606,23 +3606,23 @@ blockquote {
 .worlds-color .dark .button:hover .fa,
 .worlds-color .dark .pager-load-more a:hover {
   background: white;
-  color: #ffd150;
+  color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003331}}
 .worlds-color ul.quicktabs-tabs li.active > a {
-  background: #ffd150;
+  background: #f4853a;
   color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003336}}
 .worlds-color.dark {
   background-color: grey;
-  color: #ffd150;
+  color: #f4853a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_colors\.scss}line{font-family:\00003339}}
 .worlds-color.dark h1, .worlds-color.dark h2, .worlds-color.dark h3 {
-  color: #ffd150 !important;
+  color: #f4853a !important;
 }
 
 /* red-color */
@@ -3831,7 +3831,7 @@ blockquote {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_fills\.scss}line{font-family:\0000310}}
 .fill-worlds,
 .fill-turquoise {
-  background: #ffd150;
+  background: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_fills\.scss}line{font-family:\0000313}}
@@ -5604,11 +5604,11 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\00003100}}
 .worlds-color footer .site-footer {
-  border-top: 1px solid #ffd150;
+  border-top: 1px solid #f4853a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\00003103}}
 .worlds-color footer .site-footer a.tel-link {
-  color: #ffd150;
+  color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000031}}
@@ -6006,16 +6006,16 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000326}}
 .worlds-color .form-submit {
-  color: #ffd150;
+  color: #f4853a;
   background-color: white;
-  border: 1px solid #ffd150;
+  border: 1px solid #f4853a;
   padding: 10px 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_webform_submit_button\.scss}line{font-family:\0000333}}
 .worlds-color .form-submit:hover {
   color: white;
-  background-color: #ffd150;
+  background-color: #f4853a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_basic_pages\.scss}line{font-family:\000031}}
