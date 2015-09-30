@@ -92,3 +92,10 @@ function adaptivetheme_subtheme_preprocess_block(&$vars) {
 function adaptivetheme_subtheme_process_block(&$vars) {
 }
 // */
+function at_krakkaruv_process_page(&$variables) {
+    global $user;
+    if ( !$user->uid) 
+    {
+        drupal_add_js(drupal_get_path('theme', 'at_krakkaruv') . '/scripts/remove_cookie.js');
+    }
+}
