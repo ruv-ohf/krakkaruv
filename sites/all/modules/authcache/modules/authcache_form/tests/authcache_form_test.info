@@ -1,0 +1,15 @@
+name = Authcache Form Test Stub
+description = Authcache Form Test Stub
+core = 7.x
+hidden = TRUE
+dependencies[] = authcache_backend_test
+dependencies[] = authcache_p13n
+dependencies[] = authcache_test_hookstub
+dependencies[] = views
+
+; Information added by Drupal.org packaging script on 2015-07-29
+version = "7.x-2.0-beta7"
+core = "7.x"
+project = "authcache"
+datestamp = "1438156442"
+
