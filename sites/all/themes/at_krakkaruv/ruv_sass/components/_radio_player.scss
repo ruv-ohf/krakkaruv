@@ -1,0 +1,28 @@
+.radio-player-wrapper{
+  background: url('/sites/all/themes/at_krakkaruv/images/utvarp-krakka-ruv-top.jpg') no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+
+  .radio-player-inner-wrapper{
+    margin: 0 auto;
+    width: 50%;
+
+    .radio-player-logo{
+      img{
+        width: 100%;
+      }
+
+      @include breakpoint($mobile-size){
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+
+
+    @include breakpoint($mobile-size){
+      width: 60%;
+    }
+  }
+}

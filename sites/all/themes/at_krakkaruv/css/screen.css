@@ -6184,4 +6184,34 @@ footer .region-footer {
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\000031}}
+.radio-player-wrapper {
+  background: url("/sites/all/themes/at_krakkaruv/images/utvarp-krakka-ruv-top.jpg") no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\000037}}
+.radio-player-wrapper .radio-player-inner-wrapper {
+  margin: 0 auto;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\0000312}}
+.radio-player-wrapper .radio-player-inner-wrapper .radio-player-logo img {
+  width: 100%;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\0000311}}
+  .radio-player-wrapper .radio-player-inner-wrapper .radio-player-logo {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\000037}}
+  .radio-player-wrapper .radio-player-inner-wrapper {
+    width: 60%;
+  }
+}
+
 /*# sourceMappingURL=screen.css.map */
