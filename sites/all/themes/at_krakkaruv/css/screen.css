@@ -5824,35 +5824,40 @@ footer .region-footer {
   border: 1px solid grey;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000381}}
-.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .node-author-name {
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .node-author-name-wrapper {
+  float: left;
+  width: 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000386}}
+.node-type-faersla .two-66-33 .region-two-66-33-second .node-author .node-author-name-wrapper .node-author-name {
   float: left;
   font-family: "Gloria Hallelujah", sans-serif;
   color: #34c6c6;
   font-size: 18px;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000395}}
 .node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author {
   float: left;
   width: 60%;
   margin-top: 10px;
   font-family: "Open Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003102}}
 .node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a {
   color: grey;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003106}}
 .node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a:hover {
   color: #404040;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003109}}
 .node-type-faersla .two-66-33 .region-two-66-33-second .node-author .msg-to-node-author a::before {
   margin-right: 5px;
   color: #34c6c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_faersla\.scss}line{font-family:\00003119}}
 .node-type-faersla p {
   margin-bottom: 20px;
 }

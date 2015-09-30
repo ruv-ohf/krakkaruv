@@ -82,7 +82,7 @@
         }
 
         if($.trim($(text).val()) == ''
-            && $.trim($(radio).val()) == ''
+            && ($.trim($(radio).val()) == '' || $.trim($(radio).val()) == '_none')
             && ($.trim($(select).val()) == '' || $.trim($(select).val()) == '_none')
             && $.trim($(checkbox).val()) == '') {
           return false;
