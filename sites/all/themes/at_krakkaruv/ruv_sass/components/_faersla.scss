@@ -78,13 +78,19 @@
           border-radius:50%;
           border:1px solid $color-grey;
         }
-        .node-author-name
+        .node-author-name-wrapper
         {
           float:left;
-          font-family: $font-headline;
-          color: $color-listen;
-          font-size:18px;
-          margin-top:10px;
+          width:60%;
+            
+          .node-author-name
+          {
+            float:left;
+            font-family: $font-headline;
+            color: $color-listen;
+            font-size:18px;
+            margin-top:10px;
+          }
         }
         .msg-to-node-author
         {
