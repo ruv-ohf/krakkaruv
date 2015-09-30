@@ -78,6 +78,19 @@ function entityconnect_schema() {
 }
 
 /**
+ * Implements hook_install().
+ */
+function entityconnect_install() {
+  // We need to run after the workbench_email module so that our
+  // entityconnect_return redirect works properly.
+  db_update('system')
+    ->fields(array('weight' => 1))
+    ->condition('name', 'entityconnect')
+    ->condition('type', 'module')
+    ->execute();
+}
+
+/**
  * Add cache table.
  */
 function entityconnect_update_7000() {
@@ -85,4 +98,18 @@ function entityconnect_update_7000() {
     $schema = entityconnect_schema();
     db_create_table('cache_entityconnect', $schema ['cache_entityconnect']);
   }
+}
+
+/**
+ * Change module weight so that other modules are less likely to break the
+ * redirect that this module performs after creating a referenced entity.
+ */
+function entityconnect_update_7101() {
+  // We need to run after the workbench_email module so that our
+  // entityconnect_return redirect works properly.
+  db_update('system')
+    ->fields(array('weight' => 1))
+    ->condition('name', 'entityconnect')
+    ->condition('type', 'module')
+    ->execute();
 }
