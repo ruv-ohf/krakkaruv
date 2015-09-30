@@ -27,7 +27,7 @@
     font-weight: $font-weight-normal;
 
     @include breakpoint($mobile-size){
-      font-size: $gutter / 3;
+      font-size: $gutter / 4;
     }
 
     @include breakpoint($mobile-portrait-max){
@@ -60,7 +60,7 @@
       }
 
       @include breakpoint($mobile-size){
-        margin-right: $gutter / 2;
+        margin-right: $gutter / 3;
       }
 
       //Breaking the icons to two lines
@@ -86,8 +86,9 @@
         }
 
         @include breakpoint($mobile-size){
-          height: $gutter;
-          width: $gutter;
+          height: 45px;
+          width: 45px;
+          margin-bottom: 5px;
         }
 
         @include breakpoint($mobile-portrait-max){
@@ -127,7 +128,7 @@
           }
 
           @include breakpoint($mobile-size){
-            background-size: $gutter $gutter;
+            background-size: 45px 45px;
           }
 
           @include breakpoint($mobile-portrait-max){

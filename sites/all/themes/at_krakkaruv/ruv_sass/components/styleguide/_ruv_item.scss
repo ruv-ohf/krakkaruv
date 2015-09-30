@@ -74,10 +74,20 @@
       font-family: $font-base;
       font-size: 18px;
       line-height: 23px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       color: white;
       text-shadow: 0px 0px 5px $color-all-shows-black;
       display: block;
+    }
+
+    h2.item-subtitle{
+      @include breakpoint($mobile-size){
+        display: none;
+      }
+
+      @include breakpoint($mobile-portrait-max){
+        display: block;
+      }
     }
 
     time{
@@ -88,6 +98,14 @@
       color: white;
       text-shadow: 0px 0px 5px $color-all-shows-black;
       font-weight: 300;
+
+      @include breakpoint($mobile-size){
+        display: none;
+      }
+
+      @include breakpoint($mobile-portrait-max){
+        display: block;
+      }
     }
   }
 }
