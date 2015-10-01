@@ -650,6 +650,7 @@ jwplayer("sarpur-video-player").setup({
       height: "100%",
       aspectratio: "16:9",
       primary : "html",
+      cookies : false,
       src: "<?php print $base_path; ?>sites/all/themes/at_krakkaruv/scripts/jwp7/jwplayer.flash.swf",
       skin: {
         name: "glow"
@@ -700,6 +701,7 @@ function ruv_custom_add_video_player_w_playlist($src, $playlistNr = false, $auto
             fallback : false,
             stretching: "uniform",
             andriodhls: true,
+            cookies : false,
             listbar: {
               position: "right",
               size: '30%'
