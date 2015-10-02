@@ -1357,7 +1357,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   width: 70%;
   margin: 0 auto 50px;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\0000315}}
 .front #block-block-1 img {
