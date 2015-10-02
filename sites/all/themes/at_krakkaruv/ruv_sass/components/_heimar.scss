@@ -91,32 +91,8 @@
 }
 
 .worlds-page{
-  .hundred{
-	width: 100%;
-
-	img{
-	  width: 100%;
-	  height: auto;
-	}
-  }
-  .eighty-eight {
-	max-width: 1140px;
-	margin: 0 auto;
-  }
-
-  .fifty-percent{
-	width: 50%;
-	float: left;
-	margin-bottom: 50px;
-
-	@include breakpoint($mobile-size){
-	  width: 100%;
-	}
-  }
-
   .video-pane{
 	padding-right: 20px;
-	padding-left: 6%;
 
 	@include breakpoint($mobile-size){
 	  padding-left: 4%;
@@ -125,7 +101,6 @@
 
   .webform-pane{
 	padding-left: 20px;
-	padding-right: 6%;
 
 	input[type='text'],
 	input[textarea='textarea'],
