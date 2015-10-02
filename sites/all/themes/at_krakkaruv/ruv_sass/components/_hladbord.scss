@@ -14,12 +14,16 @@
     img{
       transition: all 0.3s ease-in-out;
       vertical-align: super;
-      margin-bottom: -8px;
+      margin-bottom: -7px;
       width: 100%;
       height: auto;
       overflow: hidden;
 
       @include breakpoint($tablet-size){
+        margin-bottom: -4px;
+      }
+
+      @include breakpoint($mobile-size){
         margin-bottom: -7px;
       }
     }
@@ -40,7 +44,7 @@
     padding-bottom: 5px;*/
 
     img{
-      /*margin-bottom: -10px;*/
+      margin-bottom: -7px;
 
       @include breakpoint($tablet-size){
         margin-bottom: -4px;
