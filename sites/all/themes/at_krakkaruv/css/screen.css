@@ -2727,7 +2727,11 @@ h1.worlds-header {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000031}}
+.ruv-panel-pane {
+  margin-bottom: 30px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000034}}
 .ruv-panel-pane h2 {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 36px;
