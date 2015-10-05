@@ -179,4 +179,8 @@ h1.worlds-header{
 .pager-load-more{
   width: 30%;
   margin: auto !important;
+  @include breakpoint($mobile-size)
+  {
+	width:100%;
+  }
 }

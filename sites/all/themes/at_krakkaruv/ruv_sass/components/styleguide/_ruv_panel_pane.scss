@@ -5,6 +5,10 @@
     font-family: $font-headline;
     font-size: 36px;
     margin-bottom: 20px;
+    @include breakpoint($mobile-size)
+    {
+    	text-align: center;
+    }
   }
 
   @include breakpoint($mobile-size){

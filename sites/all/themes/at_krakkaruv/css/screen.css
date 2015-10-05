@@ -2400,6 +2400,12 @@ h1.worlds-header {
   width: 30%;
   margin: auto !important;
 }
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\00003179}}
+  .pager-load-more {
+    width: 100%;
+  }
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_skilabodaskjodan\.scss}line{font-family:\000031}}
 .message-in-a-bottle {
@@ -2743,6 +2749,12 @@ h1.worlds-header {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 36px;
   margin-bottom: 20px;
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000034}}
+  .ruv-panel-pane h2 {
+    text-align: center;
+  }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000031}}
