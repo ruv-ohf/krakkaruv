@@ -6233,7 +6233,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_radio_player\.scss}line{font-family:\000031}}
 .radio-player-wrapper {
   background: url("/sites/all/themes/at_krakkaruv/images/utvarp-krakka-ruv-top.jpg") no-repeat;
-  background-size: 'cover';
+  background-size: 100%;
   width: 100%;
   height: auto;
 }
