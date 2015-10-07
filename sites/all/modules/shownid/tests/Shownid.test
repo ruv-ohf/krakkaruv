@@ -1,0 +1,42 @@
+<?php
+
+class ShownidTestCase extends DrupalWebTestCase {
+  public static function getInfo() {
+    return array(
+      'name' => t('Shownid functionality'),
+      'description' => t('Tests the functionality of Shownid'),
+      'group' => 'shownid',
+    );
+  }
+
+  public function setUp() {
+    parent::setUp('shownid');
+
+    $admin = $this->drupalCreateUser(array('administer blocks', 'create article content', 'administer nodes', 'use shownid'));
+    $this->drupalLogin($admin);
+
+    // Go to the block page and activate the shownid block.
+    $edit = array(
+      'blocks[shownid_shownid_displaynid][region]' => 'sidebar_first',
+    );
+    $this->drupalPost('admin/structure/block', $edit, t('Save blocks'));
+
+    // create an article node with a known title.
+    $edit = array(
+      'title' => 'Shownid testcase',
+      'body[und][0][value]' => 'Shownid test body',
+    );
+    $this->drupalPost('node/add/article', $edit, t('Save'));
+  }
+
+  public function testMainTest() {
+    $node = $this->drupalGetNodeByTitle('Shownid testcase');
+
+    if (!empty($node)) {
+        // Navigate to our node.
+        $this->drupalGet('node/' . $node->nid);
+        // Verify that the current nid is -text is visible.
+        $this->assertText(t(variable_get('shownid_block_prefix', 'Current nid is') . ': !nid', array('!nid' => $node->nid)), 'Shownid block is working as expected.');
+    }
+  }
+}

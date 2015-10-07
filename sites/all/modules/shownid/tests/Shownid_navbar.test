@@ -1,0 +1,39 @@
+<?php
+
+class ShownidNavbarTestCase extends DrupalWebTestCase {
+  public static function getInfo() {
+    return array(
+      'name' => t('Shownid navbar functionality'),
+      'description' => t('Tests the functionality of Shownid navbar integration'),
+      'group' => 'shownid',
+    );
+  }
+
+  public function setUp() {
+    parent::setUp('shownid', 'navbar');
+
+    // Set the variable to enable navbar integration of shownid.
+    variable_set('shownid_navbar', TRUE);
+
+    $admin = $this->drupalCreateUser(array('create article content', 'administer nodes', 'use shownid', 'access navbar'));
+    $this->drupalLogin($admin);
+
+    // create an article node with a known title.
+    $edit = array(
+      'title' => 'Shownid navbar testcase',
+      'body[und][0][value]' => 'Shownid test body',
+    );
+    $this->drupalPost('node/add/article', $edit, t('Save'));
+  }
+
+  public function testMainTest() {
+    $node = $this->drupalGetNodeByTitle('Shownid navbar testcase');
+
+    if (!empty($node)) {
+        // Navigate to our node.
+        $this->drupalGet('node/' . $node->nid);
+        // Verify that the current nid is -text is visible.
+        $this->assertText('Nid: ' . $node->nid, 'Shownid block is working in Navbar as expected.');
+    }
+  }
+}

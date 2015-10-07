@@ -1,0 +1,19 @@
+; Shownid is a module defining a block that will display the current Node ID
+; or Taxonomy Term ID and in the future perhaps other relevant id's to people
+; logged on and having the necessary privileges.
+; It's intended as a tool for site admins and editors who need to know the
+; NID quickly without hovering over the "edit" -button and inspecting the link.
+
+name = Shownid
+description = Shows the nid or tid for the active page in a block.
+package = Shownid
+core = 7.x
+files[] = tests/Shownid.test
+files[] = tests/Shownid_navbar.test
+
+; Information added by Drupal.org packaging script on 2015-09-18
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "shownid"
+datestamp = "1442558992"
+

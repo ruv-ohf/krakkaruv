@@ -1,0 +1,143 @@
+<?php
+/**
+ * @file
+ * Defines a block that shows the current nid/tid.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function shownid_menu() {
+  $items = array();
+
+  $items['admin/config/development/shownid'] = array(
+    'title' => 'Shownid',
+    'description' => 'Settings for showing current nid/tid.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('shownid_admin_form'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'shownid.admin.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function shownid_block_info() {
+  $blocks = array();
+  $blocks['shownid_displaynid'] = array(
+    'info' => t("Shows the current nid/tid in a block."),
+    'weight' => '10',
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function shownid_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'shownid_displaynid':
+      // Check user permissions first.
+      if (user_access("use shownid")) {
+        $block['content'] = _shownid_displaynid();
+        $block['subject'] = '';
+      }
+      break;
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_permission().
+ *
+ * Defining permissions for using shownid.
+ */
+function shownid_permission() {
+  return array(
+    'use shownid' => array(
+      'title' => t('Use shownid'),
+    ),
+  );
+}
+
+/**
+ * Determins if this is a node or a taxonomy term and returns tid/nid.
+ *
+ * @param string $mode
+ *   Output mode for the text in the returned markup.
+ *   Defaults to 'default'. Value of 'plain' outputs the text in short format.
+ *
+ * @return string
+ *   Markup with tid/nid or FALSE if none found.
+ */
+function _shownid_displaynid($mode = 'default') {
+  // Try to get the Node.
+  $node = menu_get_object();
+  if (!empty($node)) {
+    if (!empty($node->nid)) {
+      $nid = $node->nid;
+
+      if ($mode == 'plain') {
+        $value = t('Nid: !nid', array('!nid' => $nid));
+      }
+      else {
+        $value = t(variable_get('shownid_block_prefix', 'Current nid is') . ': !nid', array('!nid' => $nid));
+      }
+    }
+  }
+  // If no node found, check if this is a taxonomy page.
+  elseif (arg(0) == 'taxonomy' && is_numeric(arg(2))) {
+    $tid = arg(2) * 1;
+
+    if ($mode == 'plain') {
+      $value = t('Tid: !tid', array('!tid' => $tid));
+    }
+    else {
+      $prefix = str_replace('nid', 'tid', variable_get('shownid_block_prefix', 'Current nid is'));
+      $value = t($prefix . ': !tid', array('!tid' => $tid));
+    }
+  }
+  else {
+    return FALSE;
+  }
+
+  $element = array(
+    '#tag' => 'div',
+    '#attributes' => array(
+      'class' => 'shownid_infobox',
+    ),
+    '#value' => $value,
+  );
+
+  return theme('html_tag', array('element' => $element));
+}
+
+/**
+ * Implements hook_navbar().
+ */
+function shownid_navbar() {
+  $items = array();
+
+  $navbar_integration = variable_get('shownid_navbar', FALSE);
+  $markup = _shownid_displaynid('plain');
+
+  // If user has access to shownid and navbar integration is enabled,
+  // add a tab to navbar to show the current nid/tid.
+  if (user_access('use shownid') && $navbar_integration && $markup) {
+    $weight = variable_get('shownid_navbar_weight', 0);
+    $items['shownid'] = array(
+      '#type' => 'navbar_item',
+      'tab' => array(
+        '#type' => 'markup',
+        '#markup' => $markup,
+      ),
+      '#weight' => $weight,
+    );
+  }
+
+  return $items;
+}
