@@ -6,6 +6,10 @@
 
     .region{
       width: 50%;
+
+      @include breakpoint($mobile-size){
+        width: 100%;
+      }
     }
   }
 }

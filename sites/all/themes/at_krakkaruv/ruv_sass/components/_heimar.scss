@@ -101,9 +101,9 @@
   .video-pane{
 	padding-right: 20px;
 
-	@include breakpoint($mobile-size){
-	  padding-left: 4%;
-	}
+    @include breakpoint($mobile-size){
+      padding-right: 0;
+    }
   }
 
   .webform-pane{
@@ -129,7 +129,7 @@
 	background-size: cover;
 	width: 100%;
 	margin: 0 auto 40px;
-	padding: 80px;
+	padding: 20px;
 	color: white;
 	font-size: 16px;
 
