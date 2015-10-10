@@ -167,13 +167,11 @@ function drush_ruv_custom_ruv_jstats()
 function _ruv_custom_available_feed() {
   $available_feeds = array(
     "ruv",
-    "ras2",
     "ras1",
     "ras2",
     "thaettir-ruv",
     "thaettir-ras1",
     "thaettir-ras2",
-    "klippur"
   );
   return implode(",", $available_feeds);
 }
@@ -189,66 +187,44 @@ function _ruv_custom_run_feed($feed=NULL)
 		{
 			case "ruv" :
 				drush_print("Running RÚV feed | ".date("Y-m-d H:i:s",time()));
-				$is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',460170);
+				$is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',144);
 				drush_print($is_succsess);
 				drush_print("DONE RÚV feed | ".date("Y-m-d H:i:s",time()));
 			break;
 			//
-			case "ruv2" :
-				drush_print("Running RÚV2 feed");
-				$is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',460269);
-				drush_print($is_succsess);
-				drush_print("DONE RÚV2 feed | ".date("Y-m-d H:i:s",time()));
-			break;
-			//
 			case "ras1" :
 				drush_print("Running Rás 1 feed | ".date("Y-m-d H:i:s",time()));
-				$is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',460218);
+				$is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',295);
 				drush_print($is_succsess);
 				drush_print("DONE Rás 1 feed | ".date("Y-m-d H:i:s",time()));
 			break;
 			//
 			case "ras2" :
 				drush_print("Running Rás 2 feed | ".date("Y-m-d H:i:s",time()));
-				_ruv_custom_import_feed('muninn_feeds_15m',460287);
-				$is_succsess = drush_print($is_succsess);
+                $is_succsess = _ruv_custom_import_feed('muninn_feeds_15m',296);
+				drush_print($is_succsess);
 				drush_print("DONE Rás 2 feed | ".date("Y-m-d H:i:s",time()));
 			break;
       //
       case "thaettir-ruv" :
         drush_print("Running RÚV þættir feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',459901);
+        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',2);
         drush_print($is_succsess);
         drush_print("DONE RÚV þættir feed");
       break;
        //
       case "thaettir-ras1" :
         drush_print("Running Rás 1 þættir feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',459900);
+        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',4);
         drush_print($is_succsess);
         drush_print("DONE Rás 1 þættir feed | ".date("Y-m-d H:i:s",time()));
       break;
        //
       case "thaettir-ras2" :
         drush_print("Running Rás 2 þættir feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',459635);
+        $is_succsess = _ruv_custom_import_feed('theattir_info_feed',3);
         drush_print($is_succsess);
         drush_print("DONE Rás 2 þættir feed | ".date("Y-m-d H:i:s",time()));
-      break;   
-      case "klippur" :
-        drush_print("Running RÚV klipp-feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('clip_feed_item',856092); //RÚV
-        drush_print($is_succsess);
-
-        drush_print("Running Rás 1 klipp-feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('clip_feed_item',871916);//Rás 1
-        drush_print($is_succsess);
-
-        drush_print("Running Rás 2 klipp-feed | ".date("Y-m-d H:i:s",time()));
-        $is_succsess = _ruv_custom_import_feed('clip_feed_item',871969);//Rás 2
-        drush_print($is_succsess);
-
-        drush_print("DONE RÚV klipp-feed | ".date("Y-m-d H:i:s",time()));
       break;
 		}
 	}
