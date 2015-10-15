@@ -401,7 +401,7 @@ function nodequeue_nodequeue_autocomplete($queue, $subqueue, $string, $where, $w
     {
       $original_title = "";
     }
-    $matches[$node->nid] = substr($node->type,0,3)." ($id) : ".check_plain($node->title)." ".$original_title."(".date("d.m.Y",$node->changed).")" ;
+    $matches[$node->nid] = substr($node->type,0,3).": ".check_plain($node->title)." ".$original_title."(".date("d.m.Y",$node->changed).") [nid: $id]";
   }
   return $matches;
 }
