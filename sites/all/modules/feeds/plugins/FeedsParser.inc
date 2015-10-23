@@ -439,7 +439,7 @@ class FeedsEnclosure extends FeedsElement {
 
         if (drupal_dirname($file->uri) !== $destination) {
           //$file = file_copy($file, $destination); - 2015-09-25 HP: This line removed from the module because it is evil.  Not the file will be replaced not duplicated.
-          $file = file_copy($file, $destination,FILE_EXISTS_REPLACE);
+          $file = file_copy($file, $destination, FILE_EXISTS_REPLACE);
         }
         else {
           // If file is not to be copied, check whether file already exists,
@@ -452,7 +452,7 @@ class FeedsEnclosure extends FeedsElement {
             $file->filename = $existing->filename;
           }
           //file_save($file); 2015-09-25 HP: This line var removed because it is evel. Not the file is replaced but not duplicated.
-          file_save($file,FILE_EXISTS_REPLACE);
+          file_save($file, FILE_EXISTS_REPLACE);
         }
       }
       else {
@@ -466,8 +466,8 @@ class FeedsEnclosure extends FeedsElement {
             require_once drupal_get_path('module', 'transliteration') . '/transliteration.inc';
             $filename = transliteration_clean_filename($filename);
           }
-
-          $file = file_save_data($this->getContent(), $destination . $filename);
+          //$file = file_save_data($this->getContent(), $destination . $filename);  2015-10-14 HP: Added the FILE_EXISTS_REPLACE flag on the function to stop the duplicate image on feeds-update issue.
+          $file = file_save_data($this->getContent(), $destination . $filename,FILE_EXISTS_REPLACE);
         }
         catch (Exception $e) {
           watchdog_exception('Feeds', $e, nl2br(check_plain($e)));
