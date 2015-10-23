@@ -1,10 +1,6 @@
 .ruv-player
 {
-  padding-top:40px;
-}
-.ruv-player.watch{
-  padding: 50px 50px 0 50px;
-  background-color: $color-watch;
+  padding:40px 0;
 }
 
 .page-heimur{
@@ -24,7 +20,7 @@
 
 .view-spilari{
   max-width: $max-width;
-  margin: 0 auto;
+  margin: auto;
 
   h1{
     @include breakpoint($mobile-portrait-max){
@@ -192,4 +188,16 @@ p.toggle-text-boxes{
       margin-bottom: 0;
     }
   }
+}
+
+.pane-page-title{
+  h2{
+    font-family: $font-base;
+    margin-top: 20px;
+    color: $color-dark-gray !important;
+  }
+}
+
+.pane-taxonomy-term-description{
+  color: $color-dark-gray;
 }
