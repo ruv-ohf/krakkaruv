@@ -1978,21 +1978,21 @@ ul li, ol li {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000031}}
-.pane-hladbord-nodes-panel-pane-1 {
+.buffet {
   font-family: "Open Sans", sans-serif;
   background-color: white;
   padding-top: 2px;
   padding-bottom: 2px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-.pane-hladbord-nodes-panel-pane-1 .views-row {
+.buffet .views-row {
   position: relative;
   overflow: hidden;
   width: 25%;
   float: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000314}}
-.pane-hladbord-nodes-panel-pane-1 .views-row img {
+.buffet .views-row img {
   transition: all 0.3s ease-in-out;
   vertical-align: super;
   margin-bottom: -7px;
@@ -2002,64 +2002,64 @@ ul li, ol li {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000314}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row img {
+  .buffet .views-row img {
     margin-bottom: -4px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000314}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row img {
+  .buffet .views-row img {
     margin-bottom: -7px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row {
+  .buffet .views-row {
     width: 50%;
   }
 }
 @media (max-width: 420px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row {
+  .buffet .views-row {
     width: 100%;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000340}}
-.pane-hladbord-nodes-panel-pane-1 .views-row-1 {
+.buffet .views-row-1 {
   width: 50%;
   /*padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
-.pane-hladbord-nodes-panel-pane-1 .views-row-1 img {
+.buffet .views-row-1 img {
   margin-bottom: -7px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000346}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row-1 img {
+  .buffet .views-row-1 img {
     margin-bottom: -4px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000340}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row-1 {
+  .buffet .views-row-1 {
     width: 100%;
   }
 }
 @media (max-width: 420px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000340}}
-  .pane-hladbord-nodes-panel-pane-1 .views-row-1 {
+  .buffet .views-row-1 {
     width: 100%;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000362}}
-.pane-hladbord-nodes-panel-pane-1 .views-row-1 .title-bar {
+.buffet .views-row-1 .title-bar {
   bottom: 1px;
   /*-2px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000367}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar {
+.buffet .title-bar {
   transition: all 0.3s ease-in-out;
   width: 100%;
   position: absolute;
@@ -2067,31 +2067,31 @@ ul li, ol li {
   /*1px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Heim p {
+.buffet .title-bar.Heim p {
   background-color: rgba(0, 0, 0, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Horfa p {
+.buffet .title-bar.Horfa p {
   background-color: rgba(84, 186, 84, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Hlusta p {
+.buffet .title-bar.Hlusta p {
   background-color: rgba(52, 198, 198, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Leika p {
+.buffet .title-bar.Leika p {
   background-color: rgba(204, 64, 110, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Skapa p {
+.buffet .title-bar.Skapa p {
   background-color: rgba(171, 137, 191, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar.Heimar p {
+.buffet .title-bar.Heimar p {
   background-color: rgba(255, 209, 80, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000382}}
-.pane-hladbord-nodes-panel-pane-1 .title-bar p {
+.buffet .title-bar p {
   transition: all 0.4s ease-in-out;
   display: block;
   padding: 10px;
@@ -2102,26 +2102,26 @@ ul li, ol li {
 }
 @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000382}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar p {
+  .buffet .title-bar p {
     padding: 14px;
     font-size: 24px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000382}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar p {
+  .buffet .title-bar p {
     font-size: 14px;
   }
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000382}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar p {
+  .buffet .title-bar p {
     font-size: 18px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000367}}
-  .pane-hladbord-nodes-panel-pane-1 .title-bar {
+  .buffet .title-bar {
     bottom: -1px;
   }
 }
