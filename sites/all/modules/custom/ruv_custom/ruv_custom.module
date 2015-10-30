@@ -683,6 +683,9 @@ function ruv_custom_get_epnumber_range($epNumber, $noOfEpisodes){
     $endingNumber = ($noOfEpisodes <= 50)
         ? $noOfEpisodes
         : $epNumber+50;
+    if($endingNumber > $noOfEpisodes){
+        $endingNumber = $noOfEpisodes;
+    }
     $endingNumberLength = strlen($endingNumber);
 
     $range = ($epNumberlength == $endingNumberLength)
