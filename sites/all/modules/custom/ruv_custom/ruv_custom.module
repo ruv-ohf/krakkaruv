@@ -1091,3 +1091,26 @@ function ruv_custom_ctools_plugin_directory($owner, $plugin_type){
  
   }
 }
+
+/**
+ * Problem: Can't sort by episode numbers, because of sorting algorithms.  views_natural_sort did
+ * NOT work.
+ * Solution: Check to see if the string length of the total number is equal to the string length
+ * of the episode number, and if not, pad the episode number with leading zeros, using a custom
+ * function ruv_custom_add_leading_zeros
+ *
+ * @implements hook_node_presave
+ * @date 2015/10/30
+ * @author Hilmar Kári Hallbjörnsson
+ * @param $node
+ */
+function ruv_custom_node_presave($node){
+    if($node->type == 'dagskra'){
+        $ep_total_length = strlen($node->field_kringla_episode_total['und'][0]['value']);
+        $ep_number_length = strlen($node->field_kringla_episode_number['und'][0]['value']);
+
+        if($ep_number_length != $ep_total_length){
+            $node->field_kringla_episode_number['und'][0]['value'] = ruv_custom_add_leading_zeros($node->field_kringla_episode_number['und'][0]['value'], $ep_total_length);
+        }
+    }
+}
