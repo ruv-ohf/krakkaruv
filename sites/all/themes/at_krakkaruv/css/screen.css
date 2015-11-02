@@ -2090,6 +2090,10 @@ ul li, ol li {
 .buffet .title-bar.Heimar p {
   background-color: rgba(255, 209, 80, 0.9);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000377}}
+.buffet .title-bar.Krakkafréttir p {
+  background-color: rgba(255, 209, 80, 0.9);
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000382}}
 .buffet .title-bar p {
   transition: all 0.4s ease-in-out;
@@ -2175,6 +2179,10 @@ ul li, ol li {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003139}}
 .hladbords-item .hover.Heimar {
+  background-color: rgba(255, 209, 80, 0.9);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003139}}
+.hladbords-item .hover.Krakkafréttir {
   background-color: rgba(255, 209, 80, 0.9);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003145}}
