@@ -32,6 +32,7 @@
     margin: auto;
     width: 50%;
     float: left;
+    position: relative;
 
     img{
       width: 100%;
@@ -39,9 +40,50 @@
       float:left;
     }
 
+    .game-hover{
+      transition: all 0.5s ease;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+
+      .hl-button {
+        transition: all 0.5s ease;
+        margin: 60% auto;
+        max-width: 30%;
+
+        p {
+          text-align: center;
+          padding: 10px 20px;
+          color: rgba(255,255,255,0);
+          background-color: rgba(255,255,255,0);
+          font-size: 16px;
+          border: 1px solid rgba(255,255,255,0);
+        }
+      }
+    }
+
     @include breakpoint($mobile-size){
       width: 100%;
       margin-bottom: 20px;
+    }
+  }
+
+  .game-image-and-link:hover{
+    .game-hover{
+      background-color: rgba(0,0,0,.7);
+
+      .hl-button{
+        margin: 30% auto;
+
+        p {
+          text-align: center;
+          padding: 10px 20px;
+          color: rgba(0,0,0,1);
+          background-color: rgba(255,255,255,1);
+          font-size: 16px;
+          border: 1px solid rgba(255,255,255,1);
+        }
+      }
     }
   }
 
