@@ -15,5 +15,11 @@
 }
 
 .ruv-custom-banner{
-  background: orange url('/sites/all/themes/at_krakkaruv/images/krakkafrettir_alpha_border.png') center center;
+  background-color: orange;
+  height: 150px;
+  text-align: center;
+
+  img{
+    width: 100%;
+  }
 }
