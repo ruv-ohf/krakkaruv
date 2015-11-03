@@ -5717,9 +5717,14 @@ footer .region-footer {
 .ruv-custom-banner {
   background-color: orange;
   height: 150px;
-  text-align: center;
+  padding-top: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000322}}
+.ruv-custom-banner .news-banner {
+  width: 50%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000327}}
 .ruv-custom-banner img {
   width: 100%;
 }

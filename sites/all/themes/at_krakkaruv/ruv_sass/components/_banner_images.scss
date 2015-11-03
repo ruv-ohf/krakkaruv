@@ -17,7 +17,12 @@
 .ruv-custom-banner{
   background-color: orange;
   height: 150px;
-  text-align: center;
+  padding-top: 10px;
+
+  .news-banner{
+    width: 50%;
+    margin: 0 auto
+  }
 
   img{
     width: 100%;
