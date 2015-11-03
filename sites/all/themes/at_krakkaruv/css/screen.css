@@ -5713,6 +5713,11 @@ footer .region-footer {
   background: url("/sites/all/themes/at_krakkaruv/images/skapa.jpg") center center;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000317}}
+.ruv-custom-banner {
+  background: orange url("/sites/all/themes/at_krakkaruv/images/krakkafrettir_alpha_border.png") center center;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv-new\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000032}}
 .node-type-leikir .region-two-66-33-top {
   background-color: #cc406e;
