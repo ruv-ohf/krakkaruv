@@ -345,7 +345,7 @@ function drush_ruv_custom_ruv_delete_orphant_nodes(){
     $results = entity_load('node', array_keys($result['node']));
     foreach($results as $res){
       if(!isset($res->field_kringlan_expires_web[LANGUAGE_NONE]) && !isset($res->field_recording_file[LANGUAGE_NONE])){
-        //node_delete($res->nid);
+        node_delete($res->nid);
         $counter++;
       }
     }
