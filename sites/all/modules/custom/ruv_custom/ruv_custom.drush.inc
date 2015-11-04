@@ -72,6 +72,14 @@ function ruv_custom_drush_command() {
     ),
     'aliases' => array('ruv-cs'),
   );
+  $items['ruv-unpublish-expired-nodes'] = array(
+      'description' => dt('Run.'),
+      'arguments'   => array(),
+      'examples' => array(
+          'Standard example' => 'drush ruv-unpublish-expired-nodes'
+      ),
+      'aliases' => array('ruv-unpublish'),
+  );
  /* $items['ruv-delete-forms'] = array(
       'description' => dt("Runs a delete command to reduce the size of cache_form table in the database"),
       'arguments' => null,
@@ -292,4 +300,24 @@ function drush_ruv_custom_ruv_connect_sip(){
     }
   }
   drush_print('Connect successful.  Connected ' . $counter . ' nodes.');
+}
+
+function drush_ruv_custom_ruv_unpublish_expired_nodes(){
+  //
+  $query = new EntityFieldQuery();
+  $date = date('Y-m-d H:i:s');
+  $result = $query
+      ->entityCondition('entity_type', 'node')
+      ->propertyCondition('type', 'dagskra')
+      ->propertyCondition('status', 1, '=')
+      ->fieldCondition('field_kringlan_expires_web', 'value', $date, '<')
+      ->execute();
+  if (!empty($result['node'])) {
+    $results = entity_load('node', array_keys($result['node']));
+  }
+  foreach($results as $res){
+    $res->status = 0;
+    node_save($res);
+  }
+  drush_print("Unpublished " . sizeof($results) . " nodes.");
 }
