@@ -19,6 +19,9 @@
   }
   .views-row {
     margin-bottom: 16px;
+    img {
+      max-width: 100%;
+    }
   }
   .views-submit-button {
     width: 100%;
