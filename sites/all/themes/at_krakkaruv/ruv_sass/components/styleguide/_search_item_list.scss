@@ -86,3 +86,20 @@
     }
   }
 }
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+  .view-solr-leit {
+    .views-row {
+      .sri-image{
+        display: inline-block;
+        max-width: 270px;
+        vertical-align: top;
+      }
+      .sri-texts {
+        display: inline-block;
+        padding-left: 10px;
+      }
+    }
+  }
+}

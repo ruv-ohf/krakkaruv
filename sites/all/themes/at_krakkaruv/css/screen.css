@@ -5804,6 +5804,20 @@ footer .region-footer {
     padding-left: 10px;
   }
 }
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000394}}
+  .view-solr-leit .views-row .sri-image {
+    display: inline-block;
+    max-width: 270px;
+    vertical-align: top;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000399}}
+  .view-solr-leit .views-row .sri-texts {
+    display: inline-block;
+    padding-left: 10px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000031}}
 .banner-image {
   height: 200px;
