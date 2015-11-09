@@ -1,0 +1,67 @@
+.pane-solr-leit-panel-pane-1 {
+  max-width: 750px;
+  .views-exposed-widgets {
+    margin-bottom: 16px;
+    /*border: 1px solid $color-border-grey;
+    padding: 1.25em;*/
+  }
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  .pane-title {
+    color: $color-main;
+    font-size: 30px;
+  }
+}
+
+.view-solr-leit {
+  .views-submit-button {
+    width: 100%;
+    padding: 0;
+  }
+  .form-submit {
+    background-color: white;
+    border: 1px solid $color-main;
+    cursor: pointer;
+    margin-top: 0 !important;
+    color: $color-main;
+    height: 47px;
+    padding: 0;
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+  }
+  .form-submit:hover {
+    color: white;
+    background-color: $color-main;
+  }
+  #edit-leitartexti-wrapper {
+    padding: 0;
+    margin-bottom: 13px;
+    width: 100%;
+    label {
+      position: absolute;
+      left: -9999em;
+    }
+    .form-text {
+      border: 1px solid $color-border-grey;
+      height: 47px;
+      width: 100%;
+    }
+  }
+  .box {
+    margin-bottom: 24px;
+  }
+}
+
+/* Min width 480px */
+@media only screen and (min-width: 480px) {
+  .view-solr-leit {
+    #edit-leitartexti-wrapper {
+      width: 60%;
+      padding-right: 10px;
+    }
+    .views-submit-button {
+      width: 40%;
+      padding-left: 10px;
+    }
+  }
+}

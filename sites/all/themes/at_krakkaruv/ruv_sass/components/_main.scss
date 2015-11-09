@@ -4,6 +4,10 @@
  * Here we give global styles some values
  */
 
+html, body {
+  height: 100%;
+}
+
 h1, h2{
 	font-family: $font-headline;
 	font-size: 48px;

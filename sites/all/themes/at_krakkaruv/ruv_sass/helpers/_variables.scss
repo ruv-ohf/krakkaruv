@@ -2,6 +2,7 @@
 /**
  * COLOR DEFINITIONS
  */
+$color-main:                  #2fb1e4;
 $color-home:                  #FFFFFF;
 $color-home-rgb-low:          rgba(0,0,0,0.9);
 $color-home-rgb-hi:           rgba(0,0,0,0.3);
@@ -29,6 +30,7 @@ $color-light-grey:			  #c6c6c6;
 $color-ultralight-grey:		  #f7f7f7;
 $color-all-shows-black:       #282828;
 $color-dark-gray:             #404040;
+$color-border-grey:           #DCDCDC;
 
 $menu-color-array: ($color-home, $color-watch, $color-listen, $color-play, $color-create, $color-worlds);
 $title-bar-color-array-low: ($color-home-rgb-low, $color-watch-rgb-low, $color-listen-rgb-low, $color-play-rgb-low, $color-create-rgb-low, $color-worlds-rgb-low, $color-worlds-rgb-low);
