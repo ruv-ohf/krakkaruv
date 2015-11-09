@@ -91,14 +91,17 @@
 @media only screen and (min-width: 600px) {
   .view-solr-leit {
     .views-row {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
       .sri-image{
-        display: inline-block;
+        float: left;
         max-width: 270px;
-        vertical-align: top;
       }
       .sri-texts {
-        display: inline-block;
-        padding-left: 10px;
+        padding-left: 20px;
+        position: relative;
+        overflow: hidden;
       }
     }
   }

@@ -5806,16 +5806,22 @@ footer .region-footer {
 }
 /* Min width 600px */
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000394}}
-  .view-solr-leit .views-row .sri-image {
-    display: inline-block;
-    max-width: 270px;
-    vertical-align: top;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000393}}
+  .view-solr-leit .views-row {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\0000397}}
+  .view-solr-leit .views-row .sri-image {
+    float: left;
+    max-width: 270px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_search_item_list\.scss}line{font-family:\00003101}}
   .view-solr-leit .views-row .sri-texts {
-    display: inline-block;
-    padding-left: 10px;
+    padding-left: 20px;
+    position: relative;
+    overflow: hidden;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\000031}}
