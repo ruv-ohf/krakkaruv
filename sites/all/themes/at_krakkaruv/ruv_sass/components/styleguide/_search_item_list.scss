@@ -22,6 +22,24 @@
   }
   .views-row {
     margin-bottom: 16px;
+    .search-result-item {
+      background-color: $color-main;
+    }
+    .leika {
+      background-color: $color-play;
+    }
+    .Hlusta {
+      background-color: $color-listen;
+    }
+    .Heimar {
+      background-color: $color-worlds;
+    }
+    .Skapa {
+      background-color: $color-create;
+    }
+    .Horfa {
+      background-color: $color-watch;
+    }
     img {
       max-width: 100%;
       height: auto;
