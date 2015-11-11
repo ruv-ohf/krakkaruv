@@ -15,9 +15,15 @@
       transition: all 0.3s ease-in-out;
       /*vertical-align: super;*/
       /*margin-bottom: -7px;*/
-      width: 100%;
+      /*width: 100%;
       height: auto;
       overflow: hidden;
+      display: block;*/
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      top: 0px;
+      left: 0px;
       display: block;
 
       @include breakpoint($tablet-size){
@@ -111,6 +117,10 @@
 
 .hladbords-item{
   position: relative;
+  .hladbord {
+    padding-top: 56%;
+    position: relative;
+  }
   .hover{
     transition: all 0.5s ease;
     opacity: 0;
