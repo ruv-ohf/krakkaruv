@@ -24,6 +24,7 @@
     margin-bottom: 16px;
     .search-result-item {
       background-color: $color-main;
+      position: relative;
     }
     .Leika {
       background-color: $color-play;
@@ -58,6 +59,18 @@
     .sri-texts {
       color: white;
       padding: 20px 18px;
+    }
+    .sri-texts-age-and-created {
+      color: white;
+      font-size: 14px;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      left: 0px;
+      height: 42px;
+      padding: 15px 20px;
+      border-top: 1px solid white;
+      background-color: black;
     }
   }
   .views-submit-button {
@@ -124,7 +137,7 @@
       overflow: hidden;
       width: 100%;
       img {
-        border-bottom: 1px solid white;
+        border: 1px solid white;
       }
       .sri-image{
         float: left;
@@ -141,6 +154,7 @@
       .views-field, .search-result-item {
         position: relative;
         overflow: hidden;
+        padding: 25px 20px 67px 20px;
       }
       .field-content {
         position: relative;
