@@ -23,3 +23,11 @@ label{
     font-family: $font-base;
   }
 }
+
+.node-webform.article {
+  .form-managed-file {
+    .description {
+      display: none;
+    }
+  }
+}
