@@ -173,7 +173,7 @@ body {
   font-style: normal;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/_fonts\.scss}line{font-family:\0000389}}
-[class^="icon-"], [class*=" icon-"] {
+[class^="iconruv-"], [class*=" iconruv-"] {
   font-family: 'icomoon-ruv';
   speak: none;
   font-style: normal;
