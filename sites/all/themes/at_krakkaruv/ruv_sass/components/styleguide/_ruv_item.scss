@@ -1,9 +1,10 @@
 .ruv-item{
   transition: all 0.3s ease-out;
   font-family: $font-base;
-  width: 23%;
+  width: 25%;
   float: left;
-  margin-right: 2%;
+  /*margin-right: 2%;*/
+  border-right: 20px solid transparent;
   margin-bottom: 30px;
   overflow: hidden;
   display: inline-block;
@@ -123,6 +124,6 @@
 
 .article-min-height{
   .ruv-item{
-    min-height: 440px;
+    /*min-height: 440px;*/
   }
 }
