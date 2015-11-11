@@ -2,8 +2,6 @@
   max-width: 750px;
   .views-exposed-widgets {
     margin-bottom: 16px;
-    /*border: 1px solid $color-border-grey;
-    padding: 1.25em;*/
   }
   padding-left: 1.25em;
   padding-right: 1.25em;
@@ -15,7 +13,6 @@
 
 .view-solr-leit {
   .view-content {
-    /*padding: 1.25em;*/
     max-width: 750px;
     position: relative;
     margin: 0 auto;
@@ -26,21 +23,39 @@
       background-color: $color-main;
       position: relative;
       padding: 25px 20px 67px 20px;
+      .sri-texts-age-and-created {
+        background-color: #278db6;
+      }
     }
     .Leika {
       background-color: $color-play;
+      .sri-texts-age-and-created {
+        background-color: #a33358;
+      }
     }
     .Hlusta {
       background-color: $color-listen;
+      .sri-texts-age-and-created {
+        background-color: #2a9e9e;
+      }
     }
     .Heimar {
       background-color: $color-worlds;
+      .sri-texts-age-and-created {
+        background-color: #c36b2f;
+      }
     }
     .Skapa {
       background-color: $color-create;
+      .sri-texts-age-and-created {
+        background-color: #9a6cc3;
+      }
     }
     .Horfa {
       background-color: $color-watch;
+      .sri-texts-age-and-created {
+        background-color: #439543;
+      }
     }
     img {
       max-width: 100%;
@@ -71,7 +86,6 @@
       height: 42px;
       padding: 15px 20px;
       border-top: 1px solid white;
-      background-color: black;
     }
   }
   .views-submit-button {
