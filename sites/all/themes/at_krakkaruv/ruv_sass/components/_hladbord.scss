@@ -11,6 +11,13 @@
     width: 25%;
     float: left;
 
+    .field-content {
+      display: block;
+      a {
+        display: block;
+      }
+    }
+
     img{
       transition: all 0.3s ease-in-out;
       /*vertical-align: super;*/
