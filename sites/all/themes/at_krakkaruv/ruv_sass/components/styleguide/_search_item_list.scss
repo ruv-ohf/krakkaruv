@@ -22,7 +22,8 @@
     .search-result-item {
       background-color: $color-main;
       position: relative;
-      padding: 25px 20px 67px 20px;
+      /*padding: 25px 20px 67px 20px;*/
+      padding: 0 0 67px 0;
       .sri-texts-age-and-created {
         background-color: #278db6;
       }
