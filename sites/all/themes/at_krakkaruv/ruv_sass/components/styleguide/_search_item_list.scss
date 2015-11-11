@@ -25,6 +25,7 @@
     .search-result-item {
       background-color: $color-main;
       position: relative;
+      padding: 25px 20px 67px 20px;
     }
     .Leika {
       background-color: $color-play;
@@ -154,7 +155,6 @@
       .views-field, .search-result-item {
         position: relative;
         overflow: hidden;
-        padding: 25px 20px 67px 20px;
       }
       .field-content {
         position: relative;
