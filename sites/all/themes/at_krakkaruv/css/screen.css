@@ -2225,7 +2225,7 @@ ul li, ol li {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003203}}
 .hladbords-item:hover .hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003206}}
 .hladbords-item:hover .hover .hl-button {
