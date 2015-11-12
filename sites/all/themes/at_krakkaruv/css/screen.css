@@ -2496,8 +2496,8 @@ h1.worlds-header {
   }
 }
 
-/* Min width 600px */
-@media only screen and (min-width: 600px) {
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\00003236}}
   .region-two-brick-right-above .pane-node {
     padding-left: 10px;
@@ -4994,6 +4994,11 @@ label {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\0000329}}
 #edit-submitted-mynd-eda-myndband-ajax-wrapper .description {
   display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\0000335}}
+#webform-client-form-2871 input {
+  width: 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_content_pane\.scss}line{font-family:\000031}}
