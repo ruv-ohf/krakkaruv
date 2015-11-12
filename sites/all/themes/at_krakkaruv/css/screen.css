@@ -2852,6 +2852,8 @@ h1.worlds-header {
   font-family: "Gloria Hallelujah", sans-serif;
   font-size: 36px;
   margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media (max-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_panel_pane\.scss}line{font-family:\000034}}
