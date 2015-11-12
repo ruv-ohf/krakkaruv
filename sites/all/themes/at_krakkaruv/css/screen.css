@@ -2438,7 +2438,7 @@ span.Hlusta {
   background-size: cover;
   width: 100%;
   margin: 0 auto 40px;
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
   color: #282828;
   font-size: 16px;
 }
