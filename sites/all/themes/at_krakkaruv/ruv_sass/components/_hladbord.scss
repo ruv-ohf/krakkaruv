@@ -26,9 +26,9 @@
       height: auto;
       overflow: hidden;
       display: block;*/
-      width: 100%;
+      width: auto;
       position: absolute;
-      height: 100%;
+      height: 101%;
       top: 0px;
       left: 0px;
       display: block;
@@ -84,8 +84,8 @@
     position: absolute;
     bottom: 0px; /*1px;*/
 
-    &.Heim p{
-      background-color: $color-watch;
+    p{
+      background-color: $color-worlds;
     }
 
     &.Horfa p{
@@ -105,10 +105,6 @@
     }
 
     &.Heimar p{
-      background-color: $color-worlds;
-    }
-
-    &.Krakkafréttir p{
       background-color: $color-worlds;
     }
 
@@ -144,7 +140,7 @@
 .hladbords-item{
   position: relative;
   .hladbord {
-    padding-top: 54%;
+    padding-top: 56%;
     position: relative;
   }
   .hover{
