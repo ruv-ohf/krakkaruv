@@ -84,13 +84,32 @@
     position: absolute;
     bottom: 0px; /*1px;*/
 
-    @for $i from 1 through length($buffet-array) {
-      $category_name: nth($buffet-array, $i);
-      $color_name: nth($title-bar-color-array-low, $i);
+    &.Heim p{
+      background-color: $color-watch;
+    }
 
-      &.#{$category_name} p{
-        background-color: $color_name;
-      }
+    &.Horfa p{
+      background-color: $color-watch;
+    }
+
+    &.Hlusta p{
+      background-color: $color-listen;
+    }
+
+    &.Leika p{
+      background-color: $color-play;
+    }
+
+    &.Skapa p{
+      background-color: $color-create;
+    }
+
+    &.Heimar p{
+      background-color: $color-worlds;
+    }
+
+    &.Krakkafréttir p{
+      background-color: $color-worlds;
     }
 
     p{
