@@ -43,7 +43,7 @@
 
         //JS fix for first item in hladbord
 
-        var first_item_img_width = 690;
+        /*var first_item_img_width = 690;
         var first_item_img_height = 390;
 
         var first_item_img_ratio = (first_item_img_height / first_item_img_width);
@@ -52,7 +52,7 @@
 
         var first_item_img_correct_height = Math.round( hladbord_first_item_width * first_item_img_ratio) - 1;
 
-        $('.pane-hladbord-nodes-panel-pane-1 .views-row-1').height(first_item_img_correct_height);
+        $('.pane-hladbord-nodes-panel-pane-1 .views-row-1').height(first_item_img_correct_height);*/
 
     }
 
