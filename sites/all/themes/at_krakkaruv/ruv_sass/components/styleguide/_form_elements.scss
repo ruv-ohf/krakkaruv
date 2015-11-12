@@ -35,11 +35,11 @@ label{
   input {
     width: 100%;
   }
-  .form-text {
+  .form-text, .form-textarea {
     border: 1px solid $color-light-grey;
     transition: 0.3s all ease-in-out;
   }
-  .form-text:focus {
+  .form-text:focus, .form-textarea:focus {
     border-color: $color-worlds;
   }
 }

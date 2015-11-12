@@ -4996,12 +4996,12 @@ label {
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\0000338}}
-#webform-client-form-2871 .form-text {
+#webform-client-form-2871 .form-text, #webform-client-form-2871 .form-textarea {
   border: 1px solid #c6c6c6;
   transition: 0.3s all ease-in-out;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_form_elements\.scss}line{font-family:\0000342}}
-#webform-client-form-2871 .form-text:focus {
+#webform-client-form-2871 .form-text:focus, #webform-client-form-2871 .form-textarea:focus {
   border-color: #f4853a;
 }
 
