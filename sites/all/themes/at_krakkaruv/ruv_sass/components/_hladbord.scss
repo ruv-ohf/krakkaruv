@@ -165,14 +165,31 @@
       }
     }
 
-    @for $i from 1 through length($buffet-array) {
-      $category_name: nth($buffet-array, $i);
-      $color_name: nth($title-bar-color-array-low, $i);
-
-      &.#{$category_name}{
-        background-color: $color_name;
-      }
+    &{
+      background-color: $color-worlds;
     }
+
+    &.Horfa {
+      background-color: $color-watch;
+    }
+
+    &.Hlusta {
+      background-color: $color-listen;
+    }
+
+    &.Leika {
+      background-color: $color-play;
+    }
+
+    &.Skapa {
+      background-color: $color-create;
+    }
+
+    &.Heimar {
+      background-color: $color-worlds;
+    }
+
+   
 
     .views-row-1 &{
       .hl-button{
