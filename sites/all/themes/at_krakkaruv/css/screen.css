@@ -5460,8 +5460,8 @@ label {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_margins_and_paddings\.scss}line{font-family:\00003130}}
 .pad2x {
-  padding-left: 1.250em;
-  padding-right: 1.250em;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_margins_and_paddings\.scss}line{font-family:\00003131}}
