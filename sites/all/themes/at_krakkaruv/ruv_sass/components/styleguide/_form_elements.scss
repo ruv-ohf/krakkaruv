@@ -37,6 +37,10 @@ label{
   }
   .form-text {
     border: 1px solid $color-light-grey;
+    transition: 0.3s all ease-in-out;
+  }
+  .form-text:focus {
+    border-color: $color-worlds;
   }
 }
 
