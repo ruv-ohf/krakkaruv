@@ -6028,12 +6028,13 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000321}}
 .ruv-custom-banner .news-banner {
-  width: 50%;
-  margin: 0 auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000326}}
-.ruv-custom-banner img {
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000327}}
+.ruv-custom-banner img {
+  /*width: 100%;*/
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000032}}
