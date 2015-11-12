@@ -37,3 +37,10 @@ label{
   }
 }
 
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+  .block-title {
+    margin-top: -8px;
+  }
+}
+
