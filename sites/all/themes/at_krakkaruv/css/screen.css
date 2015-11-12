@@ -5695,7 +5695,7 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   width: 100%;
-  padding: 0 20px;
+  padding: 20px 20px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_footer\.scss}line{font-family:\000039}}
 footer .social-media a:hover i:before {
