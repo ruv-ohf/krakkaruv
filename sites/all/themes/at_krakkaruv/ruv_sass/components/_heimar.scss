@@ -229,3 +229,12 @@ h1.worlds-header{
 	width:100%;
   }
 }
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+  .worlds-page{
+	.news-digest{
+	  padding: 40px 10px 0px;
+	}
+  }
+}
