@@ -107,7 +107,7 @@
   }
 
   .video-pane{
-	padding-right: 20px;
+	padding-right: 10px;
 
     @include breakpoint($mobile-size){
       padding-right: 0;
@@ -227,6 +227,15 @@ h1.worlds-header{
   @include breakpoint($mobile-size)
   {
 	width:100%;
+  }
+}
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+  .region-two-brick-right-above {
+	.pane-node {
+		padding-left: 10px;
+	}
   }
 }
 
