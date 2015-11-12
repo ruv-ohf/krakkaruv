@@ -106,15 +106,7 @@
     }
   }
 
-  .video-pane{
-	padding-right: 10px;
-
-    @include breakpoint($mobile-size){
-      padding-right: 0;
-    }
-  }
-
-  .webform-pane{
+ .webform-pane{
 	padding-left: 20px;
 
 	input[type='text'],
@@ -236,6 +228,9 @@ h1.worlds-header{
 	.pane-node {
 		padding-left: 10px;
 	}
+  }
+  .video-pane{
+	padding-right: 10px;
   }
 }
 
