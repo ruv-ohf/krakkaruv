@@ -2610,14 +2610,15 @@ h1.worlds-header {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\000032}}
 .ruv-item-list .item-list-pager {
-  margin-right: 2%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\000037}}
 .ruv-item-list .pager-load-more {
   margin-bottom: 50px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item_list\.scss}line{font-family:\0000310}}
 .ruv-item-list .pager-load-more li {
   margin: 0;
 }
