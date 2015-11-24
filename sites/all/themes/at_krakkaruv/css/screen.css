@@ -1576,6 +1576,11 @@ ul li, ol li {
   margin-bottom: 8px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000339}}
+#page {
+  width: 100%;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000031}}
 #menu-bar {
   position: relative;
@@ -1998,245 +2003,604 @@ ul li, ol li {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000031}}
-.buffet {
-  font-family: "Open Sans", sans-serif;
+/*
+.buffet{
+  font-family: $font-base;
   background-color: white;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-.buffet .views-row {
-  position: relative;
-  overflow: hidden;
-  width: 25%;
-  float: left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000314}}
-.buffet .views-row .field-content {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000316}}
-.buffet .views-row .field-content a {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000321}}
-.buffet .views-row img {
-  transition: all 0.3s ease-in-out;
-  /*vertical-align: super;*/
-  /*margin-bottom: -7px;*/
-  /*width: 100%;
-  height: auto;
-  overflow: hidden;
-  display: block;*/
-  width: auto;
-  position: absolute;
-  height: 101%;
-  top: 0px;
-  left: 0px;
-  display: block;
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000321}}
-  .buffet .views-row img {
-    /*margin-bottom: -4px;*/
+  padding-top:2px;
+  padding-bottom:2px;
+  
+  .views-row{
+
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    float: left;
+
+    .field-content {
+      display: block;
+      a {
+        display: block;
+      }
+    }
+
+    img{
+      transition: all 0.3s ease-in-out;
+      width: auto;
+      position: absolute;
+      height: 101%;
+      top: 0px;
+      left: 0px;
+      display: block;
+
+    }
+
+    @include breakpoint($mobile-size){
+      width: 50%;
+    }
+
+    @include breakpoint($mobile-portrait-max){
+      width: 100%;
+    }
   }
-}
-@media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000321}}
-  .buffet .views-row img {
-    /*margin-bottom: -7px;*/
-  }
-}
-@media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-  .buffet .views-row {
+
+  .views-row-1{
     width: 50%;
+
+
+
+    @include breakpoint($mobile-size){
+      width: 100%;
+    }
+
+    @include breakpoint($mobile-portrait-max){
+      width: 100%;
+    }
+
+    .title-bar{
+      bottom: 1px;
+    }
   }
-}
-@media (max-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\000037}}
-  .buffet .views-row {
+
+  .title-bar{
+    transition: all 0.3s ease-in-out;
     width: 100%;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000354}}
-.buffet .views-row-1 {
-  width: 50%;
-  /*padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;*/
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000360}}
-.buffet .views-row-1 img {
-  /*margin-bottom: -7px;*/
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000360}}
-  .buffet .views-row-1 img {
-    /*margin-bottom: -4px;*/
-  }
-}
-@media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000354}}
-  .buffet .views-row-1 {
-    width: 100%;
-  }
-}
-@media (max-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000354}}
-  .buffet .views-row-1 {
-    width: 100%;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000376}}
-.buffet .views-row-1 .title-bar {
-  bottom: 1px;
-  /*-2px;*/
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000381}}
-.buffet .title-bar {
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  /*1px;*/
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000387}}
-.buffet .title-bar p {
-  background-color: #f4853a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000391}}
-.buffet .title-bar.Horfa p {
-  background-color: #54ba54;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000395}}
-.buffet .title-bar.Hlusta p {
-  background-color: #34c6c6;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000399}}
-.buffet .title-bar.Leika p {
-  background-color: #cc406e;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003103}}
-.buffet .title-bar.Skapa p {
-  background-color: #ab89bf;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003107}}
-.buffet .title-bar.Heimar p {
-  background-color: #f4853a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003111}}
-.buffet .title-bar p {
-  transition: all 0.4s ease-in-out;
-  display: block;
-  padding: 10px;
-  color: white;
-  font-size: 20px;
-  font-weight: 300;
-  /*text-shadow: 2px 2px 8px $color-all-shows-black;*/
-}
-@media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003111}}
-  .buffet .title-bar p {
-    padding: 14px;
-    font-size: 24px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003111}}
-  .buffet .title-bar p {
-    font-size: 14px;
-  }
-}
-@media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003111}}
-  .buffet .title-bar p {
-    font-size: 18px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\0000381}}
-  .buffet .title-bar {
-    bottom: -1px;
+    position: absolute;
+    bottom: 0px;
+
+    p{
+      background-color: $color-worlds;
+    }
+
+    &.Horfa p{
+      background-color: $color-watch;
+    }
+
+    &.Hlusta p{
+      background-color: $color-listen;
+    }
+
+    &.Leika p{
+      background-color: $color-play;
+    }
+
+    &.Skapa p{
+      background-color: $color-create;
+    }
+
+    &.Heimar p{
+      background-color: $color-worlds;
+    }
+
+    p{
+      transition: all 0.4s ease-in-out;
+      display: block;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+
+      @include breakpoint($superscreens){
+        padding: 14px;
+        font-size: 24px;
+      }
+
+      @include breakpoint($tablet-size){
+        font-size: 14px;
+      }
+
+      @include breakpoint($mobile-size){
+        font-size: 18px;
+      }
+    }
+
+    @include breakpoint($tablet-size){
+      bottom: -1px;
+    }
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003140}}
-.hladbords-item {
+.hladbords-item{
   position: relative;
+  .hladbord {
+    padding-top: 56%;
+    position: relative;
+  }
+  .hover{
+    transition: all 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    .hl-button {
+      transition: all 0.5s ease;
+      margin: 30% auto;
+      max-width: 30%;
+
+      p {
+        text-align: center;
+        padding: 10px 20px;
+        color: white;
+        font-size: 16px;
+        border: 1px solid white;
+      }
+    }
+
+    &{
+      background-color: $color-worlds;
+    }
+
+    &.Horfa {
+      background-color: $color-watch;
+    }
+
+    &.Hlusta {
+      background-color: $color-listen;
+    }
+
+    &.Leika {
+      background-color: $color-play;
+    }
+
+    &.Skapa {
+      background-color: $color-create;
+    }
+
+    &.Heimar {
+      background-color: $color-worlds;
+    }
+
+
+
+    .views-row-1 &{
+      .hl-button{
+        max-width: 15%;
+      }
+    }
+  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003142}}
-.hladbords-item .hladbord {
-  padding-top: 56%;
+
+.hladbords-item:hover{
+  .hover{
+    opacity: 0.8;
+
+    .hl-button {
+      margin: 22% auto;
+    }
+  }
+}
+
+span.Hlusta{
+  background: url('/sites/all/themes/at_krakkaruv/images/listen-icon.png') no-repeat center center;
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003196}}
+.page-frontpage .buffet, .page-frontpage .pane-hladbord-nodes-panel-pane-4 {
+  background-color: #2fb1e4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003199}}
+.page-frontpage .buffet {
+  padding: 20px 20px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003204}}
+.buffet, .pane-hladbord-nodes-panel-pane-3,
+.pane-hladbord-nodes-panel-pane-4 {
+  background-color: #f4853a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003207}}
+.buffet .view-content, .pane-hladbord-nodes-panel-pane-3 .view-content,
+.pane-hladbord-nodes-panel-pane-4 .view-content {
+  max-width: 1120px;
+  margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003146}}
-.hladbords-item .hover {
-  transition: all 0.5s ease;
-  opacity: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003212}}
+.buffet .view-content .views-row, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row,
+.pane-hladbord-nodes-panel-pane-4 .view-content .views-row {
+  background-color: white;
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003221}}
+.buffet .view-content .views-row:before, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row:before,
+.pane-hladbord-nodes-panel-pane-4 .view-content .views-row:before {
   position: absolute;
+  height: 100%;
+  background-color: white;
+  width: 1px;
   top: 0;
+  right: 0;
+  content: "";
+  display: none;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003232}}
+.buffet .view-content .views-row:after, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row:after,
+.pane-hladbord-nodes-panel-pane-4 .view-content .views-row:after {
+  position: absolute;
+  height: 1px;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: none;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003245}}
+.buffet .view-content img, .pane-hladbord-nodes-panel-pane-3 .view-content img,
+.pane-hladbord-nodes-panel-pane-4 .view-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003250}}
+.buffet .view-content .title-bar, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar {
+  width: 100%;
+  background-color: rgba(38, 142, 182, 0.8);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  height: 36px;
+  padding: 7px 15px 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003259}}
+.buffet .view-content .title-bar p, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar p,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar p {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: pre;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003265}}
+.buffet .view-content .hover, .pane-hladbord-nodes-panel-pane-3 .view-content .hover,
+.pane-hladbord-nodes-panel-pane-4 .view-content .hover {
+  position: absolute;
+  bottom: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003269}}
+.buffet .view-content .hl-button, .pane-hladbord-nodes-panel-pane-3 .view-content .hl-button,
+.pane-hladbord-nodes-panel-pane-4 .view-content .hl-button {
+  position: absolute;
   width: 100%;
   height: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003154}}
-.hladbords-item .hover .hl-button {
-  transition: all 0.5s ease;
-  margin: 30% auto;
-  max-width: 30%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003159}}
-.hladbords-item .hover .hl-button p {
+  top: 0;
+  left: 0;
   text-align: center;
-  padding: 10px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003276}}
+.buffet .view-content .hl-button .button-caption, .pane-hladbord-nodes-panel-pane-3 .view-content .hl-button .button-caption,
+.pane-hladbord-nodes-panel-pane-4 .view-content .hl-button .button-caption {
   color: white;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  margin-top: -23px;
   border: 1px solid white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003168}}
-.hladbords-item .hover {
-  background-color: #f4853a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003172}}
-.hladbords-item .hover.Horfa {
-  background-color: #54ba54;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003176}}
-.hladbords-item .hover.Hlusta {
-  background-color: #34c6c6;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003180}}
-.hladbords-item .hover.Leika {
-  background-color: #cc406e;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003184}}
-.hladbords-item .hover.Skapa {
-  background-color: #ab89bf;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003188}}
-.hladbords-item .hover.Heimar {
-  background-color: #f4853a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003195}}
-.views-row-1 .hladbords-item .hover .hl-button {
-  max-width: 15%;
+  padding: 9px 27px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003203}}
-.hladbords-item:hover .hover {
-  opacity: 0.8;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003206}}
-.hladbords-item:hover .hover .hl-button {
-  margin: 22% auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003293}}
+.buffet {
+  padding: 12px 20px 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003212}}
-span.Hlusta {
-  background: url("/sites/all/themes/at_krakkaruv/images/listen-icon.png") no-repeat center center;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003296}}
+.pane-hladbord-nodes-panel-pane-3,
+.pane-hladbord-nodes-panel-pane-4 {
+  padding: 0 20px 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003300}}
+.pane-hladbord-nodes-panel-pane-3 .view-content .views-row:last-child,
+.pane-hladbord-nodes-panel-pane-4 .view-content .views-row:last-child {
+  border-bottom: 1px solid white;
 }
 
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003309}}
+  .page-frontpage .buffet {
+    padding: 40px 20px 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003316}}
+  .buffet .view-content .views-row, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row {
+    width: 50%;
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003320}}
+  .buffet .view-content .title-bar, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .title-bar {
+    height: 42px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003322}}
+  .buffet .view-content .title-bar p, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar p,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .title-bar p {
+    font-size: 16px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003329}}
+  .buffet .view-content {
+    border: 1px solid white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003331}}
+  .buffet .view-content .views-row-5 {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003334}}
+  .buffet .view-content .views-row-2, .buffet .view-content .views-row-4 {
+    border-left: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003338}}
+  .buffet .view-content .views-row-1:before, .buffet .view-content .views-row-3:before {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003343}}
+  .buffet .view-content .views-row-1:after, .buffet .view-content .views-row-2:after, .buffet .view-content .views-row-3:after, .buffet .view-content .views-row-4:after {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003349}}
+  .pane-hladbord-nodes-panel-pane-3,
+  .pane-hladbord-nodes-panel-pane-4 {
+    padding: 0 20px 40px 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003352}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content,
+  .pane-hladbord-nodes-panel-pane-4 .view-content {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003356}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-2, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-4,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-2,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-4 {
+    border-left: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003359}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row:last-child,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row:last-child {
+    border-bottom: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003363}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-1:before, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-3:before,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-1:before,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-3:before {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003368}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-1:after, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-2:after,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-1:after,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-2:after {
+    display: block;
+  }
+}
+/* Min width 740px */
+@media only screen and (min-width: 740px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003380}}
+  .buffet .view-content .views-row-3, .buffet .view-content .views-row-4, .buffet .view-content .views-row-5 {
+    width: 33.33333333333333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003384}}
+  .buffet .view-content .views-row-3:after, .buffet .view-content .views-row-4:after {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003389}}
+  .buffet .view-content .views-row-4:before {
+    display: block;
+  }
+}
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003400}}
+  .page-frontpage .buffet {
+    padding: 80px 20px 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003407}}
+  .buffet .view-content .title-bar, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .title-bar {
+    height: 49px;
+    padding-top: 9px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003410}}
+  .buffet .view-content .title-bar p, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar p,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .title-bar p {
+    font-size: 17px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003418}}
+  .buffet .view-content .views-row {
+    width: 25%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003421}}
+  .buffet .view-content .views-row-1.views-row {
+    float: left;
+    width: 50%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003426}}
+  .buffet .view-content .views-row-1:after {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003431}}
+  .buffet .view-content .views-row-2:before {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003436}}
+  .buffet .view-content .views-row-3:before {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003441}}
+  .buffet .view-content .views-row-3:after {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003447}}
+  .pane-hladbord-nodes-panel-pane-3,
+  .pane-hladbord-nodes-panel-pane-4 {
+    padding: 0 20px 80px 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003451}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row {
+    width: 25%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003455}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-1:after, .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-2:after,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-1:after,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-2:after {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003460}}
+  .pane-hladbord-nodes-panel-pane-3 .view-content .views-row-2:before,
+  .pane-hladbord-nodes-panel-pane-4 .view-content .views-row-2:before {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003471}}
+.buffet .view-content .title-bar.Horfa, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar.Horfa,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar.Horfa {
+  background-color: rgba(67, 149, 67, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003474}}
+.buffet .view-content .title-bar.Hlusta, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar.Hlusta,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar.Hlusta {
+  background-color: rgba(42, 158, 158, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003477}}
+.buffet .view-content .title-bar.Leika, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar.Leika,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar.Leika {
+  background-color: rgba(163, 51, 88, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003480}}
+.buffet .view-content .title-bar.Skapa, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar.Skapa,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar.Skapa {
+  background-color: rgba(154, 108, 195, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_hladbord\.scss}line{font-family:\00003483}}
+.buffet .view-content .title-bar.Heimar, .pane-hladbord-nodes-panel-pane-3 .view-content .title-bar.Heimar,
+.pane-hladbord-nodes-panel-pane-4 .view-content .title-bar.Heimar {
+  background-color: rgba(195, 107, 47, 0.8);
+}
+
+/*.buffet, .pane-hladbord-nodes-panel-pane-3 {
+  background-color: $color-worlds;
+  .view-content {
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    .views-row {
+      background-color: white;
+      float: left;
+      width: 25%;
+      position: relative;
+      &:before {
+        position: absolute;
+        height: 100%;
+        background-color: white;
+        width: 1px;
+        top: 0;
+        right: 0;
+        content: "";
+      }
+      &:after {
+        position: absolute;
+        height: 1px;
+        background-color: white;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        content: "";
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      .title-bar, .hover {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+.buffet {
+  padding-top: 12px;
+  .view-content {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    .views-row-1.views-row {
+      float: left;
+      width: 50%;
+    }
+    .views-row-3, .views-row-5 {
+      &:before {
+        display: none;
+      }
+    }
+    .views-row-1, .views-row-4, .views-row-5 {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+.pane-hladbord-nodes-panel-pane-3 {
+  padding-bottom: 40px;
+  .view-content {
+    border: 1px solid white;
+    .views-row-4 {
+      &:before {
+        display: none;
+      }
+    }
+    .views-row-1, .views-row-2, .views-row-3, .views-row-4 {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}*/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_heimar\.scss}line{font-family:\000031}}
 .worlds-wrapper {
   background: url("/sites/all/themes/at_krakkaruv/images/heimar-background.jpg") center center;
@@ -6050,7 +6414,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000317}}
 .ruv-custom-banner {
   background-color: #f4853a;
-  padding: 10px;
+  padding-top: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000321}}
 .ruv-custom-banner .news-banner {
@@ -6060,9 +6424,27 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000327}}
 .ruv-custom-banner img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000334}}
+  .ruv-custom-banner {
+    padding-top: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000336}}
+  .ruv-custom-banner img {
+    max-width: 420px;
+  }
+}
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_banner_images\.scss}line{font-family:\0000344}}
+  .ruv-custom-banner {
+    padding-top: 52px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_leikur\.scss}line{font-family:\000032}}
 .node-type-leikir .region-two-66-33-top {
   background-color: #cc406e;
@@ -6707,6 +7089,83 @@ footer .region-footer {
   .two-brick .panel-row .region {
     width: 100%;
   }
+}
+
+/*
+==============================================
+Slide Down and Up again on hover
+==============================================
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000036}}
+.buffet a:hover .title-bar,
+.pane-hladbord-nodes-panel-pane-3 a:hover .title-bar,
+.pane-hladbord-nodes-panel-pane-4 a:hover .title-bar {
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 50px, 0);
+  transition-delay: 0s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000314}}
+.buffet .title-bar,
+.pane-hladbord-nodes-panel-pane-3 .title-bar,
+.pane-hladbord-nodes-panel-pane-4 .title-bar {
+  transition: transform .2s ease-in-out;
+  transition-delay: 0.22s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000321}}
+.buffet .hover,
+.pane-hladbord-nodes-panel-pane-3 .hover,
+.pane-hladbord-nodes-panel-pane-4 .hover {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  border: 0 solid rgba(23, 44, 47, 0.8);
+  transition: all 0.34s ease-in-out;
+  transition-delay: 0s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000336}}
+.buffet a:hover .hover,
+.pane-hladbord-nodes-panel-pane-3 a:hover .hover,
+.pane-hladbord-nodes-panel-pane-4 a:hover .hover {
+  opacity: 1;
+  border: 160px solid rgba(23, 44, 47, 0.8);
+  transition-delay: 0.16s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000344}}
+.buffet .hl-button,
+.pane-hladbord-nodes-panel-pane-3 .hl-button,
+.pane-hladbord-nodes-panel-pane-4 .hl-button {
+  opacity: 0;
+  transition: all 0.24s ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000349}}
+.buffet .hl-button .button-caption,
+.pane-hladbord-nodes-panel-pane-3 .hl-button .button-caption,
+.pane-hladbord-nodes-panel-pane-4 .hl-button .button-caption {
+  transform: scale(0, 0);
+  transition: all 0.20s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000355}}
+.buffet a:hover .hl-button,
+.pane-hladbord-nodes-panel-pane-3 a:hover .hl-button,
+.pane-hladbord-nodes-panel-pane-4 a:hover .hl-button {
+  opacity: 1;
+  transition-delay: 0.35s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000360}}
+.buffet a:hover .hl-button .button-caption,
+.pane-hladbord-nodes-panel-pane-3 a:hover .hl-button .button-caption,
+.pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {
+  transform: scale(1, 1);
+  transition-delay: 0.35s;
 }
 
 /*# sourceMappingURL=screen.css.map */

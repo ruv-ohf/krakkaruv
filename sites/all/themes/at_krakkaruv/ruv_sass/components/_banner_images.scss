@@ -16,7 +16,7 @@
 
 .ruv-custom-banner{
   background-color: $color-worlds;
-  padding: 10px;
+  padding-top: 15px;
 
   .news-banner{
     width: 100%;
@@ -25,6 +25,23 @@
   }
 
   img{
-    max-width: 100%;
+    max-width: 90%;
+  }
+}
+
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+  .ruv-custom-banner{
+    padding-top: 25px;
+    img{
+      max-width: 420px;
+    }
+  }
+}
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+  .ruv-custom-banner{
+    padding-top: 52px;
   }
 }
