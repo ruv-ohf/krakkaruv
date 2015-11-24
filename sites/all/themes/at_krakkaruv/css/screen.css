@@ -7096,9 +7096,16 @@ footer .region-footer {
 Slide Down and Up again on hover
 ==============================================
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
+.buffet .hl-button,
+.pane-hladbord-nodes-panel-pane-3 .hl-button,
+.pane-hladbord-nodes-panel-pane-4 .hl-button {
+  opacity: 0;
+}
+
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000316}}
   .buffet a:hover .title-bar,
   .pane-hladbord-nodes-panel-pane-3 a:hover .title-bar,
   .pane-hladbord-nodes-panel-pane-4 a:hover .title-bar {
@@ -7107,7 +7114,7 @@ Slide Down and Up again on hover
     transition-delay: 0s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000324}}
   .buffet .title-bar,
   .pane-hladbord-nodes-panel-pane-3 .title-bar,
   .pane-hladbord-nodes-panel-pane-4 .title-bar {
@@ -7115,7 +7122,7 @@ Slide Down and Up again on hover
     transition-delay: 0.22s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000331}}
   .buffet .hover,
   .pane-hladbord-nodes-panel-pane-3 .hover,
   .pane-hladbord-nodes-panel-pane-4 .hover {
@@ -7131,7 +7138,7 @@ Slide Down and Up again on hover
     transition-delay: 0s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000346}}
   .buffet a:hover .hover,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hover,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hover {
@@ -7140,14 +7147,14 @@ Slide Down and Up again on hover
     transition-delay: 0.16s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000354}}
   .buffet .hl-button,
   .pane-hladbord-nodes-panel-pane-3 .hl-button,
   .pane-hladbord-nodes-panel-pane-4 .hl-button {
     opacity: 0;
     transition: all 0.24s ease-in-out;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000359}}
   .buffet .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-3 .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-4 .hl-button .button-caption {
@@ -7155,14 +7162,14 @@ Slide Down and Up again on hover
     transition: all 0.20s ease-in-out;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000365}}
   .buffet a:hover .hl-button,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button {
     opacity: 1;
     transition-delay: 0.35s;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000370}}
   .buffet a:hover .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {

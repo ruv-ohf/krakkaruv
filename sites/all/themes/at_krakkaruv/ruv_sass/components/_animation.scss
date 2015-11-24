@@ -4,6 +4,12 @@ Slide Down and Up again on hover
 ==============================================
 */
 
+.buffet .hl-button,
+.pane-hladbord-nodes-panel-pane-3 .hl-button,
+.pane-hladbord-nodes-panel-pane-4 .hl-button {
+  opacity: 0;
+}
+
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
 
