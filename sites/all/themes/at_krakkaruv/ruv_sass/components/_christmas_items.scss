@@ -26,14 +26,65 @@
     .image-wrapper a {
       padding-top: 0;
       img {
-        margin-left: 22px;
+        margin-left: 1px;
       }
     }
   }
   li:nth-child(3) {
     .image-wrapper a {
       img {
-        margin-left: -29px;
+        margin-left: -32px;
+      }
+    }
+  }
+  li:nth-child(5) {
+    .image-wrapper a {
+      img {
+        margin-left: 22px;
+      }
+    }
+  }
+}
+
+/* Min width 480px */
+@media only screen and (min-width: 480px) {
+  .christmas-items {
+    position: relative;
+    min-height: 1000px;
+    li {
+      position: absolute;
+    }
+    li:nth-child(1){
+      top: -109px;
+      left: 50%;
+      margin-left: -44px;
+    }
+    li:nth-child(2){
+      top: -212px;
+      left: 50%;
+      margin-left: 109px;
+    }
+    li:nth-child(3){
+      top: -110px;
+      left: 50%;
+      margin-left: -188px;
+    }
+    li:nth-child(4){
+      top: 410px;
+      left: 50%;
+      margin-left: -140px;
+      span {
+        img {
+          margin-left: 70px;
+        }
+      }
+    }
+    li:nth-child(5){
+      top: 410px;
+      left: 50%;
+      margin-left: -7px;
+      span {
+        display: none;
       }
     }
   }
