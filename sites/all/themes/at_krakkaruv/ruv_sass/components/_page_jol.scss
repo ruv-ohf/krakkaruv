@@ -1,0 +1,58 @@
+.page-jol {
+  .warning {
+    display: none;
+  }
+  background-color: #dc002a;
+  #menu-bar {
+    background-color: white;
+    padding-top: 33px;
+    padding-bottom: 6px;
+    position: relative;
+    z-index: 1;
+    &:after {
+      height: 80px;
+      width: 100%;
+      background-color: #008000;
+      visibility: visible;
+      position: absolute;
+      z-index: -1;
+      background: url(images/christmas/snowballs.png) no-repeat top center;
+    }
+    .block-title {
+      position: absolute;
+    }
+    .menu {
+      margin: 0;
+    }
+  }
+  .worlds-header {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+  }
+  #footer {
+    background-color: white;
+    position: relative;
+    &:before {
+      position: absolute;
+      height: 224px;
+      width: 100%;
+      background: url(images/christmas/trees-bg.png) repeat-x top center;
+      visibility: visible;
+      left: 0;
+      top: -224px;
+      content: "";
+    }
+    &:after {
+      position: fixed;
+      height: 800px;
+      width: 100%;
+      background-color: white;
+      visibility: visible;
+      left: 0;
+    }
+  }
+  #columns {
+    padding-bottom: 280px;
+  }
+}

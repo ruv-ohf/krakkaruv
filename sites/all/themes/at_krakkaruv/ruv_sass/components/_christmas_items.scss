@@ -1,0 +1,40 @@
+.christmas-items {
+  max-width: 768px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  h2, h2 a {
+    color: white;
+    font-size: 20px;
+  }
+  .image-wrapper {
+    position: relative;
+    span {
+      position: absolute;
+      left: 50%;
+      margin-left: -384px;
+    }
+  }
+  li {
+    .image-wrapper a {
+      padding-top: 79px;
+      display: block;
+    }
+  }
+  li:first-child {
+    .image-wrapper a {
+      padding-top: 0;
+      img {
+        margin-left: 22px;
+      }
+    }
+  }
+  li:nth-child(3) {
+    .image-wrapper a {
+      img {
+        margin-left: -29px;
+      }
+    }
+  }
+}
