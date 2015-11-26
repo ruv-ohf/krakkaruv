@@ -1,7 +1,7 @@
 /*
-==============================================
-Slide Down and Up again on hover
-==============================================
+==========================================================
+  Animation for Hlaðborð on Frontpage and Krakka Fréttir
+==========================================================
 */
 
 .buffet .hl-button,
@@ -72,5 +72,28 @@ Slide Down and Up again on hover
       transition-delay: 0.35s;
     }
   }
-
 }
+
+/*
+==========================================================
+  Animation for krakkaruv.is/jol
+==========================================================
+*/
+
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+  .christmas-items {
+    li {
+      .image-wrapper a {
+        transition: all 0.35s ease-in-out;
+      }
+    }
+    li {
+      .image-wrapper a:hover {
+        transform: translate3d(0px, 30px, 0px);
+        transition-delay: 0.16s;
+      }
+    }
+  }
+}
+

@@ -7092,9 +7092,9 @@ footer .region-footer {
 }
 
 /*
-==============================================
-Slide Down and Up again on hover
-==============================================
+==========================================================
+  Animation for Hla­bor­ on Frontpage and Krakka FrÚttir
+==========================================================
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
 .buffet .hl-button,
@@ -7175,6 +7175,23 @@ Slide Down and Up again on hover
   .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {
     transform: scale(1, 1);
     transition-delay: 0.35s;
+  }
+}
+/*
+==========================================================
+  Animation for krakkaruv.is/jol
+==========================================================
+*/
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000387}}
+  .christmas-items li .image-wrapper a {
+    transition: all 0.35s ease-in-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000392}}
+  .christmas-items li .image-wrapper a:hover {
+    transform: translate3d(0px, 30px, 0px);
+    transition-delay: 0.16s;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_jol\.scss}line{font-family:\000031}}
@@ -7463,20 +7480,21 @@ Slide Down and Up again on hover
     left: 177px;
     margin: 0;
     top: -85px;
+    overflow: visible;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003199}}
   .christmas-items li:nth-child(3) {
     left: 322px;
     margin: 0;
     top: -81px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003204}}
   .christmas-items li:nth-child(4) {
     top: 102px;
     left: 465px;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003209}}
   .christmas-items li:nth-child(5) {
     top: 163px;
     left: 587px;
