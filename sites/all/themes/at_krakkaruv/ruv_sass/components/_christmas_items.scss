@@ -30,17 +30,77 @@
       }
     }
   }
+  li:nth-child(1) {
+    .image-wrapper a {
+      img {
+        margin-top: -105px;
+      }
+    }
+  }
+  li:nth-child(2) {
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+    span {
+      margin-top: -39px;
+      background-color: #dc002a;
+      img {
+        display: block;
+      }
+    }
+    .image-wrapper a {
+      img {
+        margin-top: -219px;
+      }
+    }
+  }
   li:nth-child(3) {
+    position: relative;
+    z-index: 3;
+    background-color: #dc002a;
+    span {
+      margin-top: -38px;
+      background-color: #dc002a;
+      img {
+        display: block;
+      }
+    }
     .image-wrapper a {
       img {
         margin-left: -32px;
+        margin-top: -121px;
+      }
+    }
+  }
+  li:nth-child(4) {
+    position: relative;
+    z-index: 2;
+    background-color: #dc002a;
+    span {
+      margin-top: -38px;
+      background-color: #dc002a;
+      img {
+        display: block;
+      }
+    }
+    .image-wrapper a {
+      img {
+        margin-top: -202px;
       }
     }
   }
   li:nth-child(5) {
+    span {
+      margin-top: -38px;
+      background-color: #dc002a;
+      img {
+        display: block;
+      }
+    }
     .image-wrapper a {
       img {
         margin-left: 22px;
+        margin-top: -221px;
       }
     }
   }

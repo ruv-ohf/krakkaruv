@@ -40,7 +40,7 @@
       background: url(images/christmas/trees-bg.png) repeat-x top center;
       visibility: visible;
       left: 0;
-      top: -224px;
+      top: -140px;
       content: "";
     }
     &:after {
@@ -51,8 +51,12 @@
       visibility: visible;
       left: 0;
     }
+    .region-footer {
+      position: relative;
+      z-index: 4;
+    }
   }
   #columns {
-    padding-bottom: 280px;
+    padding-bottom: 208px;
   }
 }
