@@ -7252,6 +7252,13 @@ Slide Down and Up again on hover
   padding-bottom: 208px;
 }
 
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_page_jol\.scss}line{font-family:\0000367}}
+  .page-jol #columns {
+    padding-bottom: 0;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\000031}}
 .christmas-items {
   max-width: 768px;
@@ -7438,6 +7445,42 @@ Slide Down and Up again on hover
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003173}}
   .christmas-items li:nth-child(5) .image-wrapper a img {
     margin-top: -264px !important;
+  }
+}
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003185}}
+  .christmas-items li span {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003189}}
+  .christmas-items li:nth-child(1) {
+    left: 67px;
+    top: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003193}}
+  .christmas-items li:nth-child(2) {
+    left: 177px;
+    margin: 0;
+    top: -85px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003198}}
+  .christmas-items li:nth-child(3) {
+    left: 322px;
+    margin: 0;
+    top: -81px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003203}}
+  .christmas-items li:nth-child(4) {
+    top: 102px;
+    left: 465px;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\00003208}}
+  .christmas-items li:nth-child(5) {
+    top: 163px;
+    left: 587px;
+    margin: 0px;
   }
 }
 

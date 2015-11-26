@@ -177,3 +177,38 @@
     }
   }
 }
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+  .christmas-items {
+    li {
+      span {
+        display: none;
+      }
+    }
+    li:nth-child(1) {
+      left: 67px;
+      top: 5px;
+    }
+    li:nth-child(2) {
+      left: 177px;
+      margin: 0;
+      top: -85px;
+    }
+    li:nth-child(3) {
+      left: 322px;
+      margin: 0;
+      top: -81px;
+    }
+    li:nth-child(4) {
+      top: 102px;
+      left: 465px;
+      margin: 0;
+    }
+    li:nth-child(5) {
+      top: 163px;
+      left: 587px;
+      margin: 0px;
+    }
+  }
+}
