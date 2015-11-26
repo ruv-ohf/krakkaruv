@@ -110,13 +110,16 @@
 @media only screen and (min-width: 480px) {
   .christmas-items {
     position: relative;
-    min-height: 1000px;
+    min-height: 745px;
     li {
       position: absolute !important;
-      background-color: transparent !important;
       span {
         margin-top: 0 !important;
-        background-color: transparent !important;
+      }
+      .image-wrapper {
+        span {
+          top: -68px;
+        }
       }
       .image-wrapper a {
         img {
@@ -125,19 +128,24 @@
       }
     }
     li:nth-child(1){
+      background-color: #dc002a;
       top: -109px;
       left: 50%;
       margin-left: -44px;
+      z-index: 3;
     }
     li:nth-child(2){
       top: -212px;
       left: 50%;
       margin-left: 109px;
+      z-index: 3;
     }
     li:nth-child(3){
       top: -110px;
       left: 50%;
       margin-left: -188px;
+      z-index: 3;
+      padding-bottom: 30px;
     }
     li:nth-child(4){
       top: 410px;
@@ -148,6 +156,11 @@
           margin-left: 70px;
         }
       }
+      .image-wrapper a {
+        img {
+          margin-top: -185px !important;
+        }
+      }
     }
     li:nth-child(5){
       top: 410px;
@@ -155,6 +168,11 @@
       margin-left: -7px;
       span {
         display: none;
+      }
+      .image-wrapper a {
+        img {
+          margin-top: -264px !important;
+        }
       }
     }
   }
