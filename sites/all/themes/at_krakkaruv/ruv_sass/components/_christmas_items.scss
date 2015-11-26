@@ -112,7 +112,17 @@
     position: relative;
     min-height: 1000px;
     li {
-      position: absolute;
+      position: absolute !important;
+      background-color: transparent !important;
+      span {
+        margin-top: 0 !important;
+        background-color: transparent !important;
+      }
+      .image-wrapper a {
+        img {
+          margin-top: 0 !important;
+        }
+      }
     }
     li:nth-child(1){
       top: -109px;
