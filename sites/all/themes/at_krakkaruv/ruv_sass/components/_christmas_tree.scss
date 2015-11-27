@@ -1,7 +1,7 @@
 .view-dagatal {
   position: relative;
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 480px;
   height: 800px;
   .title {
     height: 0;
@@ -290,3 +290,150 @@
     display: block;
   }
 }
+
+/* Min width 581px */
+/*@media only screen and (min-width: 581px) {
+  .views-row-9 {
+    position: absolute;
+    top: -114px;
+    left: 25% !important;
+    display: block;
+    height: 230px;
+    background-position: 8px -2px;
+  }
+  .views-row-15 {
+    position: absolute;
+    top: -114px;
+    right: 32px;
+    display: block;
+    height: 230px;
+    background-position: 8px -2px;
+  }
+  .views-row-17 {
+    position: absolute;
+    top: -140px !important;
+    left: 33.33% !important;
+    margin-left: -33px;
+    display: block;
+    height: 230px;
+    background-position: 8px -2px;
+  }
+  .views-row-13 {
+    position: absolute;
+    top: -140px !important;
+    left: 66.66% !important;
+    margin-left: -33px;
+    display: block;
+    height: 230px;
+    background-position: 8px -2px;
+  }
+  .views-row-20 {
+    position: absolute;
+    top: 88px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-22 {
+    position: absolute;
+    top: 62px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-11 {
+    position: absolute;
+    top: 232px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-1 {
+    position: absolute;
+    top: 232px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-5 {
+    position: absolute;
+    top: 206px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-16 {
+    position: absolute;
+    top: 375px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-24 {
+    position: absolute;
+    top: 375px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-8 {
+    position: absolute;
+    top: 349px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-19 {
+    position: absolute;
+    top: 518px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-2 {
+    position: absolute;
+    top: 518px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-21 {
+    position: absolute;
+    top: 492px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-10 {
+    position: absolute;
+    top: 661px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-18 {
+    position: absolute;
+    top: 661px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-14 {
+    position: absolute;
+    top: 635px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-4 {
+    position: absolute;
+    top: 805px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-6 {
+    position: absolute;
+    top: 805px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-23 {
+    position: absolute;
+    top: 779px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }*
+
+}*/
