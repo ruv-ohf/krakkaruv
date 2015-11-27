@@ -2,6 +2,7 @@
   position: relative;
   margin: 0 auto;
   max-width: 768px;
+  height: 1000px;
   .title {
     height: 0;
     width: 0;
@@ -145,5 +146,52 @@
       background: linear-gradient(135deg, #13a449 0%,#0d7534 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13a449', endColorstr='#0d7534',GradientType=1 );
     }
+  }
+  .views-row {
+    display: none;
+  }
+  .views-row-9 {
+    position: absolute;
+    top: -92px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-15 {
+    position: absolute;
+    top: -92px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-17 {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-13 {
+    position: absolute;
+    top: 81px;
+    left: 32px;
+    display: block;
+  }
+  .views-row-20 {
+    position: absolute;
+    top: 81px;
+    right: 32px;
+    display: block;
+  }
+  .views-row-22 {
+    position: absolute;
+    top: 81px;
+    left: 50%;
+    margin-left: -33px;
+    display: block;
+  }
+  .views-row-11 {
+    position: absolute;
+    top: 260px;
+    left: 32px;
+    display: block;
   }
 }
