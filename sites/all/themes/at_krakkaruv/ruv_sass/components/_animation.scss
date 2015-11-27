@@ -97,3 +97,37 @@
   }
 }
 
+/*
+==========================================================
+  Animation for krakkaruv.is/jol/joladagatal
+==========================================================
+*/
+
+.view-dagatal {
+  a {
+    .christmas-ball {
+      background: linear-gradient(139deg, #ffffff, #9d9c9d);
+      background-size: 400% 400%;
+
+      -webkit-animation: AnimationName 13s ease infinite;
+      -moz-animation: AnimationName 13s ease infinite;
+      animation: AnimationName 13s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+      @-moz-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+      @keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+    }
+  }
+}

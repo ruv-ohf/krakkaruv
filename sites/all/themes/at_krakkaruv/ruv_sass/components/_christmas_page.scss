@@ -1,3 +1,8 @@
+/*
+==========================================================
+  Page Layout for krakkaruv.is/jol
+==========================================================
+*/
 .page-jol {
   .warning {
     display: none;
@@ -60,6 +65,34 @@
     padding-bottom: 208px;
   }
 }
+
+/*
+==========================================================
+  Page Layout for krakkaruv.is/jol/joladagatal
+==========================================================
+*/
+
+.page-jol-joladagatal {
+  #columns {
+    padding-top: 112px;
+    margin-bottom: 160px;
+  }
+  #page-title {
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+/*
+==========================================================
+  Page Layout for krakkaruv.is/jol
+==========================================================
+*/
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
