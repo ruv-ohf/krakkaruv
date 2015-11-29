@@ -18,8 +18,7 @@
       width: 66px;
       height: 66px;
       text-align: center;
-      left: 0px;
-      z-index: 1;
+      left: 0;
       font-size: 28px;
       font-weight: 700;
       font-family: $font-base;
@@ -32,8 +31,8 @@
       width: 100%;
       border-radius: 50%;
       position: absolute;
-      left: 0px;
-      bottom: 0px;
+      left: 0;
+      bottom: 0;
     }
     .christmas-ball {
       opacity: 0;
