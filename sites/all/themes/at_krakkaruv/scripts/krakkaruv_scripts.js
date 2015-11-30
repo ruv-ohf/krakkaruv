@@ -39,7 +39,7 @@
 
         var menuheight = Math.round($(window).width() * vidratio);
 
-        $('.front #menu-bar').height(menuheight);
+        //$('.front #menu-bar').height(menuheight);
 
         //JS fix for first item in hladbord
 
