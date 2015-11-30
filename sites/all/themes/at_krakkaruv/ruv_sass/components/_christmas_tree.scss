@@ -315,110 +315,124 @@
     height: 880px;
     max-width: 754px;
     background: url(images/christmas/christmas-tree.png) no-repeat scroll center top;
+
+    .views-row {
+      background: none !important;
+    }
+    .view-content {
+      .views-row-9 {
+        top: -71px;
+        left: 344px;
+      }
+      .views-row-17 {
+        top: 7px;
+        left: 342px;
+      }
+      .views-row-22 {
+        top: 286px;
+        left: 332px;
+      }
+      .views-row-13 {
+        top: 152px;
+        left: 293px;
+      }
+      .views-row-15 {
+        top: 26px;
+        right: 299px;
+      }
+      .views-row-20 {
+        top: 167px;
+        right: 297px;
+      }
+      .views-row-5 {
+        top: 251px;
+        left: 497px;
+      }
+      .views-row-11 {
+        top: 279px;
+        left: 388px;
+      }
+      .views-row-7 {
+        top: 244px;
+        right: 460px;
+      }
+      .views-row-1 {
+        top: 392px;
+        right: 523px;
+      }
+      .views-row-16 {
+        top: 449px;
+        left: 251px;
+      }
+      .views-row-24 {
+        top: 395px;
+        right: 360px;
+      }
+      .views-row-8 {
+        top: 446px;
+        left: 438px;
+      }
+      .views-row-19 {
+        top: 385px;
+        left: 472px;
+      }
+      .views-row-21 {
+        top: 424px;
+        left: 589px;
+      }
+      .views-row-4 {
+        top: 576px;
+        left: 79px;
+      }
+      .views-row-14 {
+        top: 531px;
+        left: 200px;
+      }
+      .views-row-10 {
+        top: 617px;
+        left: 221px;
+      }
+      .views-row-6 {
+        top: 557px;
+        right: 410px;
+      }
+      .views-row-12 {
+        top: 557px;
+        left: 405px;
+      }
+      .views-row-12 {
+        top: 559px;
+        left: 408px;
+      }
+      .views-row-2 {
+        top: 634px;
+        right: 245px;
+      }
+      .views-row-3 {
+        top: 556px;
+        left: 471px;
+      }
+      .views-row-23 {
+        top: 519px;
+        left: 589px;
+      }
+      .views-row-18 {
+        top: 584px;
+        right: 70px;
+      }
+    }
   }
-  .views-row {
-    background: none !important;
-  }
-  .view-content {
-    .views-row-9 {
-      top: -71px;
-      left: 344px;
-    }
-    .views-row-17 {
-      top: 7px;
-      left: 342px;
-    }
-    .views-row-22 {
-      top: 286px;
-      left: 332px;
-    }
-    .views-row-13 {
-      top: 152px;
-      left: 293px;
-    }
-    .views-row-15 {
-      top: 26px;
-      right: 299px;
-    }
-    .views-row-20 {
-      top: 167px;
-      right: 297px;
-    }
-    .views-row-5 {
-      top: 251px;
-      left: 497px;
-    }
-    .views-row-11 {
-      top: 279px;
-      left: 388px;
-    }
-    .views-row-7 {
-      top: 244px;
-      right: 460px;
-    }
-    .views-row-1 {
-      top: 392px;
-      right: 523px;
-    }
-    .views-row-16 {
-      top: 449px;
-      left: 251px;
-    }
-    .views-row-24 {
-      top: 395px;
-      right: 360px;
-    }
-    .views-row-8 {
-      top: 446px;
-      left: 438px;
-    }
-    .views-row-19 {
-      top: 385px;
-      left: 472px;
-    }
-    .views-row-21 {
-      top: 424px;
-      left: 589px;
-    }
-    .views-row-4 {
-      top: 576px;
-      left: 79px;
-    }
-    .views-row-14 {
-      top: 531px;
-      left: 200px;
-    }
-    .views-row-10 {
-      top: 617px;
-      left: 221px;
-    }
-    .views-row-6 {
-      top: 557px;
-      right: 410px;
-    }
-    .views-row-12 {
-      top: 557px;
-      left: 405px;
-    }
-    .views-row-12 {
-      top: 559px;
-      left: 408px;
-    }
-    .views-row-2 {
-      top: 634px;
-      right: 245px;
-    }
-    .views-row-3 {
-      top: 556px;
-      left: 471px;
-    }
-    .views-row-23 {
-      top: 519px;
-      left: 589px;
-    }
-    .views-row-18 {
-      top: 584px;
-      right: 70px;
-    }
+}
+
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+  .christmas-ball-hover {
+    background: url(images/christmas/christmas-ball-hover.png) no-repeat scroll left top;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    z-index: 3;
+    top: 0;
+    left: 0;
   }
 }

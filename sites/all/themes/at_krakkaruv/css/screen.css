@@ -7199,47 +7199,43 @@ footer .region-footer {
   Animation for krakkaruv.is/jol/joladagatal
 ==========================================================
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003108}}
-.view-dagatal a .christmas-ball {
-  background: linear-gradient(139deg, #ffffff, #9d9c9d);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 13s ease infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003107}}
+.view-dagatal a {
+    /*.christmas-ball {
+      background: linear-gradient(139deg, #ffffff, #9d9c9d);
+      background-size: 400% 400%;
+
+      -webkit-animation: AnimationName 13s ease infinite;
+      -moz-animation: AnimationName 13s ease infinite;
+      animation: AnimationName 13s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+      @-moz-keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+      @keyframes AnimationName {
+        0%{background-position:10% 0%}
+        50%{background-position:91% 100%}
+        100%{background-position:10% 0%}
+      }
+    }*/
 }
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 10% 0%;
-  }
-  50% {
-    background-position: 91% 100%;
-  }
-  100% {
-    background-position: 10% 0%;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003134}}
+.view-dagatal a .christmas-ball-hover {
+  transition: all 0.24s ease-in-out;
+  opacity: 0;
 }
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 10% 0%;
-  }
-  50% {
-    background-position: 91% 100%;
-  }
-  100% {
-    background-position: 10% 0%;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003143}}
+.view-dagatal a:hover .christmas-ball-hover {
+  opacity: 1;
 }
-@keyframes AnimationName {
-  0% {
-    background-position: 10% 0%;
-  }
-  50% {
-    background-position: 91% 100%;
-  }
-  100% {
-    background-position: 10% 0%;
-  }
-}
+
 /*
 ==========================================================
   Page Layout for krakkaruv.is/jol
@@ -7922,136 +7918,147 @@ footer .region-footer {
     max-width: 754px;
     background: url(images/christmas/christmas-tree.png) no-repeat scroll center top;
   }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003319}}
-  .views-row {
+  .view-dagatal .views-row {
     background: none !important;
   }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003323}}
-  .view-content .views-row-9 {
+  .view-dagatal .view-content .views-row-9 {
     top: -71px;
     left: 344px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003327}}
-  .view-content .views-row-17 {
+  .view-dagatal .view-content .views-row-17 {
     top: 7px;
     left: 342px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003331}}
-  .view-content .views-row-22 {
+  .view-dagatal .view-content .views-row-22 {
     top: 286px;
     left: 332px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003335}}
-  .view-content .views-row-13 {
+  .view-dagatal .view-content .views-row-13 {
     top: 152px;
     left: 293px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003339}}
-  .view-content .views-row-15 {
+  .view-dagatal .view-content .views-row-15 {
     top: 26px;
     right: 299px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003343}}
-  .view-content .views-row-20 {
+  .view-dagatal .view-content .views-row-20 {
     top: 167px;
     right: 297px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003347}}
-  .view-content .views-row-5 {
+  .view-dagatal .view-content .views-row-5 {
     top: 251px;
     left: 497px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003351}}
-  .view-content .views-row-11 {
+  .view-dagatal .view-content .views-row-11 {
     top: 279px;
     left: 388px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003355}}
-  .view-content .views-row-7 {
+  .view-dagatal .view-content .views-row-7 {
     top: 244px;
     right: 460px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003359}}
-  .view-content .views-row-1 {
+  .view-dagatal .view-content .views-row-1 {
     top: 392px;
     right: 523px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003363}}
-  .view-content .views-row-16 {
+  .view-dagatal .view-content .views-row-16 {
     top: 449px;
     left: 251px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003367}}
-  .view-content .views-row-24 {
+  .view-dagatal .view-content .views-row-24 {
     top: 395px;
     right: 360px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003371}}
-  .view-content .views-row-8 {
+  .view-dagatal .view-content .views-row-8 {
     top: 446px;
     left: 438px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003375}}
-  .view-content .views-row-19 {
+  .view-dagatal .view-content .views-row-19 {
     top: 385px;
     left: 472px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003379}}
-  .view-content .views-row-21 {
+  .view-dagatal .view-content .views-row-21 {
     top: 424px;
     left: 589px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003383}}
-  .view-content .views-row-4 {
+  .view-dagatal .view-content .views-row-4 {
     top: 576px;
     left: 79px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003387}}
-  .view-content .views-row-14 {
+  .view-dagatal .view-content .views-row-14 {
     top: 531px;
     left: 200px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003391}}
-  .view-content .views-row-10 {
+  .view-dagatal .view-content .views-row-10 {
     top: 617px;
     left: 221px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003395}}
-  .view-content .views-row-6 {
+  .view-dagatal .view-content .views-row-6 {
     top: 557px;
     right: 410px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003399}}
-  .view-content .views-row-12 {
+  .view-dagatal .view-content .views-row-12 {
     top: 557px;
     left: 405px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003403}}
-  .view-content .views-row-12 {
+  .view-dagatal .view-content .views-row-12 {
     top: 559px;
     left: 408px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003407}}
-  .view-content .views-row-2 {
+  .view-dagatal .view-content .views-row-2 {
     top: 634px;
     right: 245px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003411}}
-  .view-content .views-row-3 {
+  .view-dagatal .view-content .views-row-3 {
     top: 556px;
     left: 471px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003415}}
-  .view-content .views-row-23 {
+  .view-dagatal .view-content .views-row-23 {
     top: 519px;
     left: 589px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003419}}
-  .view-content .views-row-18 {
+  .view-dagatal .view-content .views-row-18 {
     top: 584px;
     right: 70px;
+  }
+}
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003429}}
+  .christmas-ball-hover {
+    background: url(images/christmas/christmas-ball-hover.png) no-repeat scroll left top;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    z-index: 3;
+    top: 0;
+    left: 0;
   }
 }
 
