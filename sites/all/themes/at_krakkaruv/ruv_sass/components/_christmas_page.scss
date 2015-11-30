@@ -68,7 +68,7 @@
 .christmas-wishes {
   #columns {
     padding-top: 100px;
-    padding-borrom: 160px !important;
+    padding-borrom: 160px;
     .panels-ipe-portlet-content {
       h2 {
         color: white;
@@ -114,6 +114,11 @@
   .page-jol {
     #columns {
       padding-bottom: 0;
+    }
+  }
+  .christmas-wishes {
+    #columns {
+      padding-borrom: 160px;
     }
   }
 }
