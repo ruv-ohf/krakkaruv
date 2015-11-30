@@ -128,13 +128,6 @@
           background-size: 25px;
         }
     }
-    .not-front {
-      .menu-item-1347 {
-        a:before {
-          background-size: 34px !important;
-        }
-      }
-    }
 
     // Setting the hover states of the menu items.
     @for $i from 1 through length($menu-array){
@@ -227,6 +220,14 @@
 
     nav{
       margin-bottom: 0;
+    }
+  }
+}
+
+.not-front {
+  .menu-item-1347 {
+    a:before {
+      background-size: 34px !important;
     }
   }
 }
