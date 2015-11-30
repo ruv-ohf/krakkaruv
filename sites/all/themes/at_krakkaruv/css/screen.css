@@ -2071,7 +2071,7 @@ ul li, ol li {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003229}}
-.not-front .menu-item-1347 a:before {
+.not-front #menu-bar ul .menu-item-1347 a:before {
   background-size: 34px !important;
 }
 
