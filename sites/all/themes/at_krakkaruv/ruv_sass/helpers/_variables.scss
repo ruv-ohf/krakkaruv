@@ -19,6 +19,7 @@ $color-create:                #ab89bf;
 $color-create-rgb-low:        rgba(171,137,191,0.9);
 $color-create-rgb-hi:         rgba(171,137,191,0.3);
 $color-worlds:                #f4853a;
+$color-christmas:             #dc002a;
 $color-worlds-text:           #E8B936;
 $color-worlds-rgb-low:        rgba(255,209,80,0.9);
 $color-worlds-rgb-hi:         rgba(255,209,80,0.3);
@@ -32,10 +33,10 @@ $color-all-shows-black:       #282828;
 $color-dark-gray:             #404040;
 $color-border-grey:           #DCDCDC;
 
-$menu-color-array: ($color-home, $color-watch, $color-listen, $color-play, $color-create, $color-worlds);
+$menu-color-array: ($color-home, $color-watch, $color-listen, $color-play, $color-create, $color-worlds, $color-christmas);
 $title-bar-color-array-low: ($color-home-rgb-low, $color-watch-rgb-low, $color-listen-rgb-low, $color-play-rgb-low, $color-create-rgb-low, $color-worlds-rgb-low, $color-worlds-rgb-low);
 $title-bar-color-array-hi:  ($color-home-rgb-hi, $color-watch-rgb-hi, $color-listen-rgb-hi, $color-play-rgb-hi, $color-create-rgb-hi, $color-worlds-rgb-hi);
-$menu-array: ('home','watch', 'listen', 'play', 'create', 'worlds');
+$menu-array: ('home','watch', 'listen', 'play', 'create', 'worlds', 'christmas');
 $buffet-array: ('Heim','Horfa', 'Hlusta', 'Leika', 'Skapa', 'Heimar', 'Krakkafréttir');
 /**
  * FONT DEFINITIONS

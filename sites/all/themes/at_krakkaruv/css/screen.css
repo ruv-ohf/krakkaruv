@@ -1882,96 +1882,137 @@ ul li, ol li {
 #menu-bar ul li.worlds a:not(.active-trail):hover {
   border-bottom: 5px solid #f4853a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003103}}
+#menu-bar ul li.christmas a:before {
+  background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-button.svg") no-repeat center center;
+  background-size: 120px 120px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003103}}
+  #menu-bar ul li.christmas a:before {
+    background-size: 90px 90px;
+  }
+}
+@media (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003103}}
+  #menu-bar ul li.christmas a:before {
+    background-size: 45px 45px;
+  }
+}
+@media (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003103}}
+  #menu-bar ul li.christmas a:before {
+    background-size: 30px 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003120}}
+#menu-bar ul li.christmas a:not(.active-trail):hover {
+  border-bottom: 5px solid #dc002a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003126}}
+#menu-bar ul .menu-item-1345 a:before {
+  background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-present-button.svg") no-repeat center center;
+  background-size: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.home.active-trail {
   border-bottom: 5px solid #FFFFFF;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.home.active-trail a {
   color: #FFFFFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.watch.active-trail {
   border-bottom: 5px solid #54ba54;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.watch.active-trail a {
   color: #54ba54;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.listen.active-trail {
   border-bottom: 5px solid #34c6c6;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.listen.active-trail a {
   color: #34c6c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.play.active-trail {
   border-bottom: 5px solid #cc406e;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.play.active-trail a {
   color: #cc406e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.create.active-trail {
   border-bottom: 5px solid #ab89bf;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.create.active-trail a {
   color: #ab89bf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
 #menu-bar ul li.worlds.active-trail {
   border-bottom: 5px solid #f4853a;
   border-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
 #menu-bar ul li.worlds.active-trail a {
   color: #f4853a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003136}}
+#menu-bar ul li.christmas.active-trail {
+  border-bottom: 5px solid #dc002a;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003140}}
+#menu-bar ul li.christmas.active-trail a {
+  color: #dc002a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003147}}
 .not-front #menu-bar ul {
   margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003150}}
 .not-front #menu-bar ul li {
   margin-right: 40px;
 }
 @media (max-width: 560px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003150}}
   .not-front #menu-bar ul li {
     margin-right: 20px;
   }
 }
 @media (max-width: 380px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003150}}
   .not-front #menu-bar ul li {
     margin-right: 5px;
   }
 }
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003162}}
   .not-front #menu-bar ul li:first-child {
     margin-left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003167}}
 .not-front #menu-bar ul li:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003171}}
 .not-front #menu-bar ul a {
   font-size: 20px;
 }
 @media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003171}}
   .not-front #menu-bar ul a {
     line-height: 0;
     font-size: 0;
@@ -1979,7 +2020,7 @@ ul li, ol li {
     padding-bottom: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003181}}
 .not-front #menu-bar ul a:before {
   height: 60px;
   width: 60px;
@@ -1988,47 +2029,61 @@ ul li, ol li {
   margin-bottom: 15px;
 }
 @media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003181}}
   .not-front #menu-bar ul a:before {
     margin-bottom: 0;
   }
 }
 @media (max-width: 460px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003181}}
   .not-front #menu-bar ul a:before {
     height: 40px;
     width: 40px;
     background-size: 40px 40px !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003201}}
 .not-front #menu-bar {
   margin: 0 auto;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003205}}
 .not-front #menu-bar #block-block-1 {
   position: absolute;
   left: 20px;
   top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003210}}
 .not-front #menu-bar #block-block-1 img {
   width: 150px;
 }
 @media (max-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003205}}
   .not-front #menu-bar #block-block-1 {
     display: block;
     margin: 0;
     top: -45px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003221}}
 .not-front #menu-bar nav {
   margin-bottom: 0;
 }
 
+/* Min width 770px */
+@media only screen and (min-width: 770px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003231}}
+  #menu-bar .menu-item-1345 a:before {
+    background-size: 48px !important;
+  }
+}
+/* Min width 1025px */
+@media only screen and (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003242}}
+  #menu-bar .menu-item-1345 a:before {
+    background-size: 64px !important;
+  }
+}
 /*
 .buffet{
   font-family: $font-base;

@@ -122,6 +122,12 @@
         }
       }
     }
+    .menu-item-1345 {
+        a:before {
+          background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-present-button.svg") no-repeat center center;
+          background-size: 25px;
+        }
+    }
 
     // Setting the hover states of the menu items.
     @for $i from 1 through length($menu-array){
@@ -217,5 +223,28 @@
     }
   }
 }
+
+/* Min width 770px */
+@media only screen and (min-width: 770px) {
+  #menu-bar{
+    .menu-item-1345 {
+      a:before {
+        background-size: 48px !important;
+      }
+    }
+  }
+}
+
+/* Min width 1025px */
+@media only screen and (min-width: 1025px) {
+  #menu-bar{
+    .menu-item-1345 {
+      a:before {
+        background-size: 64px !important;
+      }
+    }
+  }
+}
+
 
 
