@@ -7614,8 +7614,8 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000329}}
 .view-dagatal .views-row .christmas-ball, .view-dagatal .views-row .christmas-ball-2, .view-dagatal .views-row .christmas-ball-bg {
-  height: 100%;
-  width: 100%;
+  height: 66px;
+  width: 66px;
   border-radius: 50%;
   position: absolute;
   left: 0;
