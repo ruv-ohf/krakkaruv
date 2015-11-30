@@ -7416,12 +7416,12 @@ footer .region-footer {
   padding-bottom: 160px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000373}}
-.christmas-wishes #columns .panels-ipe-portlet-content h2 {
+.christmas-wishes #columns .region-two-brick-right-above h2 {
   color: white;
   font-size: 36px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000377}}
-.christmas-wishes #columns .panels-ipe-portlet-content label, .christmas-wishes #columns .panels-ipe-portlet-content #edit-submitted-myndband-upload, .christmas-wishes #columns .panels-ipe-portlet-content .description {
+.christmas-wishes #columns .region-two-brick-right-above label, .christmas-wishes #columns .region-two-brick-right-above #edit-submitted-myndband-upload, .christmas-wishes #columns .region-two-brick-right-above .description {
   color: white;
 }
 
