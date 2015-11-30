@@ -7629,10 +7629,10 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000341}}
 .view-dagatal .views-row .christmas-ball-2 {
   background: #d11aa3;
-  background: -moz-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
-  background: -webkit-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
-  background: linear-gradient(135deg, #d11aa3 0%, #86216d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11aa3', endColorstr='#86216d',GradientType=1 );
+  /*background: -moz-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
+  background: -webkit-linear-gradient(-45deg, #d11aa3 0%,#86216d 100%);
+  background: linear-gradient(135deg, #d11aa3 0%,#86216d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11aa3', endColorstr='#86216d',GradientType=1 );*/
   opacity: 1;
   z-index: 2;
 }
@@ -7663,69 +7663,85 @@ footer .region-footer {
 .view-dagatal .views-row .unpublished .date {
   opacity: 0.25;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000378}}
-.view-dagatal .views-row-4 .christmas-ball-2, .view-dagatal .views-row-9 .christmas-ball-2, .view-dagatal .views-row-21 .christmas-ball-2, .view-dagatal .views-row-22 .christmas-ball-2 {
-  background: #d11aa3;
-  background: -moz-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
-  background: -webkit-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
-  background: linear-gradient(135deg, #d11aa3 0%, #86216d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11aa3', endColorstr='#86216d',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000377}}
+.view-dagatal .views-row-4, .view-dagatal .views-row-9, .view-dagatal .views-row-21, .view-dagatal .views-row-22 {
+  /*.christmas-ball-2 {
+    background: #d11aa3;
+    background: -moz-linear-gradient(-45deg, #d11aa3 0%, #86216d 100%);
+    background: -webkit-linear-gradient(-45deg, #d11aa3 0%,#86216d 100%);
+    background: linear-gradient(135deg, #d11aa3 0%,#86216d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11aa3', endColorstr='#86216d',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000387}}
-.view-dagatal .views-row-10 .christmas-ball-2, .view-dagatal .views-row-11 .christmas-ball-2, .view-dagatal .views-row-17 .christmas-ball-2 {
-  background: #61bff6;
-  background: -moz-linear-gradient(-45deg, #61bff6 0%, #2f97d4 100%);
-  background: -webkit-linear-gradient(-45deg, #61bff6 0%, #2f97d4 100%);
-  background: linear-gradient(135deg, #61bff6 0%, #2f97d4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61bff6', endColorstr='#2f97d4',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000386}}
+.view-dagatal .views-row-10, .view-dagatal .views-row-11, .view-dagatal .views-row-17 {
+  /*.christmas-ball-2 {
+    background: #61bff6;
+    background: -moz-linear-gradient(-45deg, #61bff6 0%, #2f97d4 100%);
+    background: -webkit-linear-gradient(-45deg, #61bff6 0%,#2f97d4 100%);
+    background: linear-gradient(135deg, #61bff6 0%,#2f97d4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61bff6', endColorstr='#2f97d4',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000396}}
-.view-dagatal .views-row-3 .christmas-ball-2, .view-dagatal .views-row-15 .christmas-ball-2, .view-dagatal .views-row-16 .christmas-ball-2 {
-  background: #b8ea2e;
-  background: -moz-linear-gradient(-45deg, #b8ea2e 0%, #99c422 100%);
-  background: -webkit-linear-gradient(-45deg, #b8ea2e 0%, #99c422 100%);
-  background: linear-gradient(135deg, #b8ea2e 0%, #99c422 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8ea2e', endColorstr='#99c422',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\0000395}}
+.view-dagatal .views-row-3, .view-dagatal .views-row-15, .view-dagatal .views-row-16 {
+  /*.christmas-ball-2 {
+    background: #b8ea2e;
+    background: -moz-linear-gradient(-45deg, #b8ea2e 0%, #99c422 100%);
+    background: -webkit-linear-gradient(-45deg, #b8ea2e 0%,#99c422 100%);
+    background: linear-gradient(135deg, #b8ea2e 0%,#99c422 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8ea2e', endColorstr='#99c422',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003105}}
-.view-dagatal .views-row-5 .christmas-ball-2, .view-dagatal .views-row-13 .christmas-ball-2, .view-dagatal .views-row-23 .christmas-ball-2, .view-dagatal .views-row-24 .christmas-ball-2 {
-  background: #ec1317;
-  background: -moz-linear-gradient(-45deg, #ec1317 0%, #c11518 100%);
-  background: -webkit-linear-gradient(-45deg, #ec1317 0%, #c11518 100%);
-  background: linear-gradient(135deg, #ec1317 0%, #c11518 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1317', endColorstr='#c11518',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003104}}
+.view-dagatal .views-row-5, .view-dagatal .views-row-13, .view-dagatal .views-row-23, .view-dagatal .views-row-24 {
+  /*.christmas-ball-2 {
+    background: #ec1317;
+    background: -moz-linear-gradient(-45deg, #ec1317 0%, #c11518 100%);
+    background: -webkit-linear-gradient(-45deg, #ec1317 0%,#c11518 100%);
+    background: linear-gradient(135deg, #ec1317 0%,#c11518 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1317', endColorstr='#c11518',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003114}}
-.view-dagatal .views-row-1 .christmas-ball-2, .view-dagatal .views-row-6 .christmas-ball-2, .view-dagatal .views-row-20 .christmas-ball-2 {
-  background: #f1c807;
-  background: -moz-linear-gradient(-45deg, #f1c807 0%, #d4b006 100%);
-  background: -webkit-linear-gradient(-45deg, #f1c807 0%, #d4b006 100%);
-  background: linear-gradient(135deg, #f1c807 0%, #d4b006 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1c807', endColorstr='#d4b006',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003113}}
+.view-dagatal .views-row-1, .view-dagatal .views-row-6, .view-dagatal .views-row-20 {
+  /*.christmas-ball-2 {
+    background: #f1c807;
+    background: -moz-linear-gradient(-45deg, #f1c807 0%, #d4b006 100%);
+    background: -webkit-linear-gradient(-45deg, #f1c807 0%,#d4b006 100%);
+    background: linear-gradient(135deg, #f1c807 0%,#d4b006 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1c807', endColorstr='#d4b006',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003123}}
-.view-dagatal .views-row-8 .christmas-ball-2, .view-dagatal .views-row-18 .christmas-ball-2 {
-  background: #1592d0;
-  background: -moz-linear-gradient(-45deg, #1592d0 0%, #1174a6 100%);
-  background: -webkit-linear-gradient(-45deg, #1592d0 0%, #1174a6 100%);
-  background: linear-gradient(135deg, #1592d0 0%, #1174a6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1592d0', endColorstr='#1174a6',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003122}}
+.view-dagatal .views-row-8, .view-dagatal .views-row-18 {
+  /*.christmas-ball-2 {
+    background: #1592d0;
+    background: -moz-linear-gradient(-45deg, #1592d0 0%, #1174a6 100%);
+    background: -webkit-linear-gradient(-45deg, #1592d0 0%,#1174a6 100%);
+    background: linear-gradient(135deg, #1592d0 0%,#1174a6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1592d0', endColorstr='#1174a6',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003132}}
-.view-dagatal .views-row-2 .christmas-ball-2, .view-dagatal .views-row-14 .christmas-ball-2, .view-dagatal .views-row-19 .christmas-ball-2 {
-  background: #d39f58;
-  background: -moz-linear-gradient(-45deg, #d39f58 0%, #b88b4d 100%);
-  background: -webkit-linear-gradient(-45deg, #d39f58 0%, #b88b4d 100%);
-  background: linear-gradient(135deg, #d39f58 0%, #b88b4d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d39f58', endColorstr='#b88b4d',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003131}}
+.view-dagatal .views-row-2, .view-dagatal .views-row-14, .view-dagatal .views-row-19 {
+  /*.christmas-ball-2 {
+    background: #d39f58;
+    background: -moz-linear-gradient(-45deg, #d39f58 0%, #b88b4d 100%);
+    background: -webkit-linear-gradient(-45deg, #d39f58 0%,#b88b4d 100%);
+    background: linear-gradient(135deg, #d39f58 0%,#b88b4d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d39f58', endColorstr='#b88b4d',GradientType=1 );
+  }*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003141}}
-.view-dagatal .views-row-7 .christmas-ball-2, .view-dagatal .views-row-12 .christmas-ball-2 {
-  background: #13a449;
-  background: -moz-linear-gradient(-45deg, #13a449 0%, #0d7534 100%);
-  background: -webkit-linear-gradient(-45deg, #13a449 0%, #0d7534 100%);
-  background: linear-gradient(135deg, #13a449 0%, #0d7534 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13a449', endColorstr='#0d7534',GradientType=1 );
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003140}}
+.view-dagatal .views-row-7, .view-dagatal .views-row-12 {
+  /*.christmas-ball-2 {
+    background: #13a449;
+    background: -moz-linear-gradient(-45deg, #13a449 0%, #0d7534 100%);
+    background: -webkit-linear-gradient(-45deg, #13a449 0%,#0d7534 100%);
+    background: linear-gradient(135deg, #13a449 0%,#0d7534 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13a449', endColorstr='#0d7534',GradientType=1 );
+  }*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_tree\.scss}line{font-family:\00003149}}
 .view-dagatal .views-row {
