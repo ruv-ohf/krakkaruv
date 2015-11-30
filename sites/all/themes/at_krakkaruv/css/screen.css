@@ -1910,7 +1910,7 @@ ul li, ol li {
   border-bottom: 5px solid #dc002a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003126}}
-#menu-bar ul .menu-item-1345 a:before {
+#menu-bar ul .menu-item-1347 a:before {
   background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-present-button.svg") no-repeat center center;
   background-size: 25px;
 }
@@ -2073,14 +2073,14 @@ ul li, ol li {
 /* Min width 770px */
 @media only screen and (min-width: 770px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003231}}
-  #menu-bar .menu-item-1345 a:before {
+  #menu-bar .menu-item-1347 a:before {
     background-size: 48px !important;
   }
 }
 /* Min width 1025px */
 @media only screen and (min-width: 1025px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\00003242}}
-  #menu-bar .menu-item-1345 a:before {
+  #menu-bar .menu-item-1347 a:before {
     background-size: 64px !important;
   }
 }
