@@ -6,6 +6,11 @@
 .page-jol-banner {
   .radio-player-wrapper {
     background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
+    height: 300px;
+  }
+  .block-content {
+    height: 300px;
+    background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
   }
   .radio-player-logo {
     display: none;
