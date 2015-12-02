@@ -12,15 +12,13 @@
       color: white;
     }
     .view-content {
-      a:hover {
-        img {
-          border: 1px solid white;
-        }
+      a {
+        display: block;
+        border: 1px solid white;
       }
       img {
         display: block;
         margin: 0;
-        border: 1px solid white;
       }
       .ruv-item-newest .title-bar {
         background-color: rgba(0, 0, 0, 0.4);
