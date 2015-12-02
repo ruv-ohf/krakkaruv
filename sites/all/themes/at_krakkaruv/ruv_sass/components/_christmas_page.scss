@@ -12,6 +12,11 @@
       color: white;
     }
     .view-content {
+      a:hover {
+        img {
+          border: 1px solid white;
+        }
+      }
       img {
         display: block;
         margin: 0;
@@ -22,6 +27,7 @@
         border-left: 1px solid white;
         border-bottom: 1px solid white;
         border-right: 1px solid white;
+        padding: 14px 12px;
       }
     }
   }
