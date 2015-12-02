@@ -132,12 +132,13 @@
     }
   }
   .hero-image {
-    background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
+    background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
     height: 300px;
     border-bottom: 1px solid white;
     .inner {
       height: 300px;
-      background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
+      background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
+
     }
   }
 }
