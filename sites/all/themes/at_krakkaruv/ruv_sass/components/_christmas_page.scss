@@ -7,6 +7,10 @@
   .radio-player-wrapper {
     background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
     height: 300px;
+    .radio-player-inner-wrapper {
+      width: 80%;
+      padding-top: 193px;
+    }
   }
   .pane-custom.pane-1 .block-content {
     height: 300px;
