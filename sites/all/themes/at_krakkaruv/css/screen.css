@@ -7345,21 +7345,22 @@ footer .region-footer {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000315}}
-.page-jol .pane-term-list-panel-pane-1 .view-content a {
-  display: block;
+.page-jol .pane-term-list-panel-pane-1 .view-content .views-field {
   border: 1px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000318}}
+.page-jol .pane-term-list-panel-pane-1 .view-content a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000321}}
 .page-jol .pane-term-list-panel-pane-1 .view-content img {
   display: block;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000325}}
 .page-jol .pane-term-list-panel-pane-1 .view-content .ruv-item-newest .title-bar {
   background-color: rgba(0, 0, 0, 0.4);
-  border-left: 1px solid white;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
+  width: auto;
   padding: 14px 12px;
 }
 

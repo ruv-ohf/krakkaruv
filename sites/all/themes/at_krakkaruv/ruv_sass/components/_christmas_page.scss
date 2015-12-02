@@ -12,9 +12,11 @@
       color: white;
     }
     .view-content {
+      .views-field {
+        border: 1px solid white;
+      }
       a {
         display: block;
-        border: 1px solid white;
       }
       img {
         display: block;
@@ -22,9 +24,7 @@
       }
       .ruv-item-newest .title-bar {
         background-color: rgba(0, 0, 0, 0.4);
-        border-left: 1px solid white;
-        border-bottom: 1px solid white;
-        border-right: 1px solid white;
+        width: auto;
         padding: 14px 12px;
       }
     }
