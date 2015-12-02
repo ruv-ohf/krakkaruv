@@ -7341,7 +7341,7 @@ footer .region-footer {
   height: 300px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000311}}
-.page-jol-banner .block-content {
+.page-jol-banner .pane-custom.pane-1 .block-content {
   height: 300px;
   background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
 }
