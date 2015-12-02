@@ -4,14 +4,6 @@
 ==========================================================
 */
 
-.christmas-wishes {
-  .hero-image {
-    background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
-    height: 300px;
-    border-bottom: 1px solid white;
-  }
-}
-
 .page-jol {
   .pane-term-list-panel-pane-1 {
     margin-top: 42px;
@@ -129,8 +121,6 @@
 }
 .christmas-wishes {
   #columns {
-    padding-top: 100px;
-    padding-bottom: 160px;
     .region-two-brick-right-above {
       h2 {
         color: white;
@@ -141,7 +131,17 @@
       }
     }
   }
+  .hero-image {
+    background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
+    height: 300px;
+    border-bottom: 1px solid white;
+    .inner {
+      height: 300px;
+      background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
+    }
+  }
 }
+
 
 /*
 ==========================================================
