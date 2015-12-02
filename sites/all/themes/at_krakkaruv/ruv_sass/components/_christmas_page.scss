@@ -9,7 +9,10 @@
     height: 300px;
     .radio-player-inner-wrapper {
       width: 80%;
-      padding-top: 193px;
+      max-width: 1100px;
+      padding-top: 260px;
+      position: relative;
+      overflow: hidden;
     }
   }
   .pane-custom.pane-1 .block-content {
@@ -150,7 +153,7 @@
 @media only screen and (min-width: 1100px) {
   .page-jol-banner {
     .radio-player-wrapper {
-      background: url(images/christmas/banner-subpages-large-radio.jpg) no-repeat top center;
+      background: url(images/christmas/banner-subpages-large-utvarp.jpg) no-repeat top center;
     }
   }
 }
