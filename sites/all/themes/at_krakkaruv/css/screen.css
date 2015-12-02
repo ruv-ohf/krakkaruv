@@ -7471,7 +7471,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003124}}
 .christmas-wishes #columns .panel-row {
   margin-top: 42px;
-  margin-bottom: 160px !important;
+  /*margin-bottom: 160px !important;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003129}}
 .christmas-wishes #columns .region-two-brick-right-above h2 {
@@ -7485,7 +7485,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003138}}
 .christmas-wishes .hero-image {
   background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
-  height: 300px;
+  height: 301px;
   border-bottom: 1px solid white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003142}}
