@@ -14,6 +14,7 @@
     .view-content {
       .views-field {
         border: 1px solid white;
+        position: relative;
       }
       a {
         display: block;
@@ -24,7 +25,6 @@
       }
       .ruv-item-newest .title-bar {
         background-color: rgba(0, 0, 0, 0.4);
-        width: auto;
         padding: 14px 12px;
       }
     }
