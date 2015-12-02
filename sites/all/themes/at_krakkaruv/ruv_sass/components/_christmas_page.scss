@@ -8,6 +8,16 @@
   .pane-term-list-panel-pane-1 {
     margin-top: 42px;
     margin-bottom: 160px !important;
+    .pane-title {
+      color: white;
+    }
+    .view-content {
+      img {
+        display: block;
+        margin: 0;
+        border: 1px solid white;
+      }
+    }
   }
 }
 .page-jol-banner {
