@@ -7368,15 +7368,15 @@ footer .region-footer {
 .page-jol-banner .radio-player-wrapper {
   background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
   height: 300px;
+  border-bottom: 1px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000338}}
 .page-jol-banner .radio-player-wrapper .radio-player-inner-wrapper {
   width: 80%;
   max-width: 1100px;
   padding-top: 259px;
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000346}}
 .page-jol-banner .pane-custom.pane-1 .block-content {
