@@ -122,13 +122,14 @@
 .christmas-wishes {
   #columns {
     .region-two-brick-left-above {
-      border: 1px solid white;
       margin-bottom: 30px;
+      .region-inner {
+        border: 1px solid white;
+      }
     }
     .region-two-brick-right-above {
       .pane-title {
         font-size: 26px;
-        /*font-size: 36px;*/
       }
     }
     form {
@@ -141,6 +142,7 @@
       input {
         width: 100%;
         border: none;
+        color: #282828;
       }
       .form-required {
         color: white;
@@ -193,6 +195,21 @@
   }
 }
 
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+  .christmas-wishes {
+    #columns {
+      .region-two-brick-right-above {
+        .pane-title {
+          font-size: 21px;
+        }
+      }
+      .region-two-brick-left-above {
+        padding-right: 10px;
+      }
+    }
+  }
+}
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
@@ -204,6 +221,11 @@
   .christmas-wishes {
     #columns {
       padding-bottom: 160px;
+      .region-two-brick-right-above {
+        .pane-title {
+          font-size: 26px;
+        }
+      }
     }
     .hero-image {
       .inner {
@@ -214,6 +236,19 @@
   .page-jol-banner {
     .radio-player-wrapper {
       background: url(images/christmas/banner-subpages-medium-radio.jpg) no-repeat top center;
+    }
+  }
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+  .christmas-wishes {
+    #columns {
+      .region-two-brick-right-above {
+        .pane-title {
+          font-size: 36px;
+        }
+      }
     }
   }
 }
