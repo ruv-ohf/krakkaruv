@@ -121,6 +121,10 @@
 }
 .christmas-wishes {
   #columns {
+    .panel-row {
+      margin-top: 42px;
+      margin-bottom: 160px !important;
+    }
     .region-two-brick-right-above {
       h2 {
         color: white;
