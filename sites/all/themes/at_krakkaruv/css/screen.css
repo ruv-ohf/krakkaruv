@@ -7548,7 +7548,7 @@ footer .region-footer {
 @media only screen and (min-width: 581px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003203}}
   .christmas-wishes #columns .region-two-brick-right-above .pane-title {
-    font-size: 21px;
+    font-size: 19px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003207}}
   .christmas-wishes #columns .region-two-brick-left-above {
@@ -7580,8 +7580,8 @@ footer .region-footer {
     background: url(images/christmas/banner-subpages-medium-radio.jpg) no-repeat top center;
   }
 }
-/* Min width 768px */
-@media only screen and (min-width: 768px) {
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003248}}
   .christmas-wishes #columns .region-two-brick-right-above .pane-title {
     font-size: 36px;

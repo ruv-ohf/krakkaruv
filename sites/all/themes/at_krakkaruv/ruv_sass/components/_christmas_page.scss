@@ -201,7 +201,7 @@
     #columns {
       .region-two-brick-right-above {
         .pane-title {
-          font-size: 21px;
+          font-size: 19px;
         }
       }
       .region-two-brick-left-above {
@@ -240,8 +240,8 @@
   }
 }
 
-/* Min width 768px */
-@media only screen and (min-width: 768px) {
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
   .christmas-wishes {
     #columns {
       .region-two-brick-right-above {
