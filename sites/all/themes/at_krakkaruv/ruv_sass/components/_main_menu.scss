@@ -131,6 +131,10 @@
         border-bottom: 5px solid #DC002A ;
       }
     }
+    .menu-item-1347.active-trail {
+      border-bottom: 5px solid #DC002A;
+      border-radius: 0px;
+    }
 
     // Setting the hover states of the menu items.
     @for $i from 1 through length($menu-array){
