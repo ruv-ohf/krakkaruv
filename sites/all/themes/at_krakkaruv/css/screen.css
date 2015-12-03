@@ -7383,12 +7383,12 @@ footer .region-footer {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 14px 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000331}}
-.page-jol .pane-term-list-panel-pane-1 footer .site-footer {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000332}}
+.page-jol footer .site-footer {
   border-top: 1px solid #808080;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000335}}
-.page-jol .pane-term-list-panel-pane-1 footer .icon-ruv, .page-jol .pane-term-list-panel-pane-1 footer .block-content, .page-jol .pane-term-list-panel-pane-1 footer a {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000336}}
+.page-jol footer .icon-ruv, .page-jol footer .block-content, .page-jol footer a {
   color: #808080;
 }
 
