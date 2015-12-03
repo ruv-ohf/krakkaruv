@@ -7529,7 +7529,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003179}}
 .timaflakkid-jol .pane-node-list-panel-pane-6 {
-  margin-top: 309px;
+  padding-top: 309px;
   margin-bottom: 160px !important;
   position: relative;
 }
