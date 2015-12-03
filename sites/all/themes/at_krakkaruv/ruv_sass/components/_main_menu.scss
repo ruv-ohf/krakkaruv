@@ -227,7 +227,18 @@
 .not-front #menu-bar ul {
   .menu-item-1347 {
     a:before {
-      background-size: 34px !important;
+      background-size: 22px !important;
+    }
+  }
+}
+
+/* Min width 461px */
+@media only screen and (min-width: 461px) {
+  #menu-bar{
+    .menu-item-1347 {
+      a:before {
+        background-size: 30px !important;
+      }
     }
   }
 }
