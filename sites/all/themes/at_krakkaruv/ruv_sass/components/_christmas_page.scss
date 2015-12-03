@@ -180,12 +180,6 @@
     margin-top: 309px;
     margin-bottom: 160px !important;
     position: relative;
-    &:before {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 1px;
-    }
   }
   .view-content {
     .views-field {
@@ -194,10 +188,17 @@
     }
   }
   .one-column {
+    position: relative;
     margin: 0;
     background: url(images/christmas/banner-subpages-timaflakk-bg-repeat2.jpg) repeat-x top center;
     .region-one-main {
       background: url(images/christmas/timaflakk.jpg) no-repeat top center;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
     }
   }
 }
