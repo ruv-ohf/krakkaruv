@@ -7570,7 +7570,7 @@ footer .region-footer {
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003217}}
-.jolamyndbond-jol .region-inner .pane-node-list-panel-pane-6 section {
+.jolamyndbond-jol .region-inner .pane-node-list-panel-pane-6, .jolamyndbond-jol section {
   padding-top: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003220}}
