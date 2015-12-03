@@ -123,10 +123,13 @@
       }
     }
     .menu-item-1347 {
-        a:before {
-          background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-present-button.svg") no-repeat center center;
-          background-size: 25px;
-        }
+      a:before {
+        background: #dc002a url("/sites/all/themes/at_krakkaruv/images/christmas-present-button.svg") no-repeat center center;
+        background-size: 25px;
+      }
+      a:not(.active-trail):hover{
+        border-bottom: 5px solid #DC002A ;
+      }
     }
 
     // Setting the hover states of the menu items.
