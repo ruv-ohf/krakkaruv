@@ -7443,7 +7443,7 @@ footer .region-footer {
   position: absolute;
   height: 224px;
   width: 100%;
-  background: url(images/christmas/trees-bg.png) repeat-x top center;
+  background: url(images/christmas/trees-bg.png) repeat-x center -1px;
   visibility: visible;
   left: 0;
   top: -140px;
