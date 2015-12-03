@@ -179,6 +179,13 @@
   .pane-node-list-panel-pane-6 {
     margin-top: 309px;
     margin-bottom: 160px !important;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
+    }
   }
   .view-content {
     .views-field {
