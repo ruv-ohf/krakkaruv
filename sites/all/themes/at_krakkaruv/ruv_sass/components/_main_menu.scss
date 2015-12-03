@@ -234,7 +234,7 @@
 
 /* Min width 461px */
 @media only screen and (min-width: 461px) {
-  #menu-bar{
+  .not-front #menu-bar ul {
     .menu-item-1347 {
       a:before {
         background-size: 30px !important;
