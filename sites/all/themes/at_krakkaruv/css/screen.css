@@ -7529,7 +7529,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003179}}
 .timaflakkid-jol .pane-node-list-panel-pane-6 {
-  margin-top: 42px;
+  margin-top: 309px;
   margin-bottom: 160px !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003184}}
@@ -7540,7 +7540,6 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003189}}
 .timaflakkid-jol .one-column {
   margin: 0;
-  text-align: center;
   background: url(images/christmas/timaflakk.jpg) no-repeat top center;
 }
 
@@ -7549,12 +7548,12 @@ footer .region-footer {
   Page Layout for krakkaruv.is/jol/joladagatal
 ==========================================================
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003202}}
 .page-jol-joladagatal #columns {
   padding-top: 112px;
   margin-bottom: 160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003206}}
 .page-jol-joladagatal #page-title {
   color: #FFF;
   position: relative;
@@ -7567,55 +7566,55 @@ footer .region-footer {
 
 /* Min width 581px */
 @media only screen and (min-width: 581px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003222}}
   .christmas-wishes #columns .region-two-brick-right-above .pane-title {
     font-size: 19px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003226}}
   .christmas-wishes #columns .region-two-brick-left-above {
     padding-right: 10px;
   }
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003236}}
   .page-jol #columns {
     padding-bottom: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003241}}
   .christmas-wishes #columns {
     padding-bottom: 160px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003244}}
   .christmas-wishes #columns .region-two-brick-right-above .pane-title {
     font-size: 26px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003250}}
   .christmas-wishes .hero-image .inner {
     background: url(images/christmas/banner-subpages-medium-wishes3.jpg) no-repeat top center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003256}}
   .page-jol-banner .radio-player-wrapper {
     background: url(images/christmas/banner-subpages-medium-radio.jpg) no-repeat top center;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003267}}
   .christmas-wishes #columns .region-two-brick-right-above .pane-title {
     font-size: 36px;
   }
 }
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003278}}
   .page-jol-banner .radio-player-wrapper {
     background: url(images/christmas/banner-subpages-large-radio-5.jpg) no-repeat top center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003284}}
   .christmas-wishes .hero-image .inner {
     background: url(images/christmas/banner-subpages-large-wishes5.jpg) no-repeat top center;
   }
