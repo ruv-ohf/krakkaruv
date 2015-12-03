@@ -7388,8 +7388,8 @@ footer .region-footer {
   border-top: 1px solid #808080;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000336}}
-.page-jol footer .icon-ruv, .page-jol footer .block-content, .page-jol footer a {
-  color: #808080;
+.page-jol footer .icon, .page-jol footer .block-content, .page-jol footer a {
+  color: #808080 !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000342}}
