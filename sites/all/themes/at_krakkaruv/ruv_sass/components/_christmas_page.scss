@@ -209,10 +209,13 @@
   }
 }
 .jolamyndbond-jol {
-  .region-inner > .pane-node-list-panel-pane-6 {
+  .region-inner .pane-node-list-panel-pane-6 {
     padding-top: 309px;
     margin-bottom: 160px !important;
     position: relative;
+  }
+  .region-inner .pane-node-list-panel-pane-6 section{
+    padding-top: 0;
   }
   .one-column {
     margin-bottom: 180px;
