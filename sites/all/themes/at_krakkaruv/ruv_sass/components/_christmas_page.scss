@@ -192,7 +192,7 @@
     margin: 0;
     background: url(images/christmas/banner-subpages-timaflakk-bg-repeat2.jpg) repeat-x top center;
     .region-one-main {
-      background: url(images/christmas/timaflakk.jpg) no-repeat top center;
+      background: url(images/christmas/timaflakk-small.jpg) no-repeat top center;
     }
     .block-inner {
       padding-top: 38px;
@@ -272,6 +272,13 @@
   .page-jol-banner {
     .radio-player-wrapper {
       background: url(images/christmas/banner-subpages-medium-radio.jpg) no-repeat top center;
+    }
+  }
+  .timaflakkid-jol {
+    .one-column {
+      .region-one-main {
+        background: url(images/christmas/timaflakk2.jpg) no-repeat top center;
+      }
     }
   }
 }
