@@ -7564,7 +7564,7 @@ footer .region-footer {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003212}}
-.jolamyndbond-jol .pane-node-list-panel-pane-6 {
+.jolamyndbond-jol .region-inner > .pane-node-list-panel-pane-6 {
   padding-top: 309px;
   margin-bottom: 160px !important;
   position: relative;
