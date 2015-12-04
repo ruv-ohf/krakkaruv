@@ -4,7 +4,7 @@
 ==========================================================
 */
 
-.jol-items {
+.page-jol.jol-items {
    background-image: none;
 }
 
@@ -51,7 +51,7 @@
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-   .jol-items {
+   .page-jol.jol-items {
       background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
    }
 }

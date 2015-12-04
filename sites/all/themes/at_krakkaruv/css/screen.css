@@ -1385,7 +1385,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 ==========================================================
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
-.jol-items {
+.page-jol.jol-items {
   background-image: none;
 }
 
@@ -1449,7 +1449,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000354}}
-  .jol-items {
+  .page-jol.jol-items {
     background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
   }
 }
