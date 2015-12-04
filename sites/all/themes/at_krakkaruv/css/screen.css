@@ -3103,7 +3103,7 @@ h1.worlds-header {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/styleguide\/_ruv_item\.scss}line{font-family:\000032}}
-.ruv-item-list .view-content {
+.ruv-item-list .view-content, .view-spilari .view-content {
   font-size: 0;
 }
 
