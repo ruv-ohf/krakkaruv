@@ -161,6 +161,9 @@
 /* Min width 1001px */
 @media only screen and (min-width: 1001px) {
   .front{
+    #page {
+      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/banner-frontpage-bg-repeat.jpg') repeat-x top center;
+    }
     #menu-bar {
       height: 790px;
       background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-large2.jpg') no-repeat top center;
