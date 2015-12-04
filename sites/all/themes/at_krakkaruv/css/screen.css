@@ -1396,6 +1396,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-animation: snow 20s linear infinite;
   -ms-animation: snow 20s linear infinite;
   animation: snow 20s linear infinite;
+  -webkit-transform: translateZ(0);
 }
 
 @keyframes snow {
@@ -1439,7 +1440,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   Animation for Hla­bor­ on Frontpage and Krakka FrÚttir
 ==========================================================
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000347}}
 .buffet .hl-button,
 .pane-hladbord-nodes-panel-pane-3 .hl-button,
 .pane-hladbord-nodes-panel-pane-4 .hl-button {
@@ -1448,14 +1449,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000355}}
   .page-jol.jol-items {
     background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
   }
 }
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000363}}
   .buffet a:hover .title-bar,
   .pane-hladbord-nodes-panel-pane-3 a:hover .title-bar,
   .pane-hladbord-nodes-panel-pane-4 a:hover .title-bar {
@@ -1464,7 +1465,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition-delay: 0s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000371}}
   .buffet .title-bar,
   .pane-hladbord-nodes-panel-pane-3 .title-bar,
   .pane-hladbord-nodes-panel-pane-4 .title-bar {
@@ -1472,7 +1473,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition-delay: 0.22s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000378}}
   .buffet .hover,
   .pane-hladbord-nodes-panel-pane-3 .hover,
   .pane-hladbord-nodes-panel-pane-4 .hover {
@@ -1488,7 +1489,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition-delay: 0s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000393}}
   .buffet a:hover .hover,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hover,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hover {
@@ -1497,14 +1498,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition-delay: 0.16s;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003101}}
   .buffet .hl-button,
   .pane-hladbord-nodes-panel-pane-3 .hl-button,
   .pane-hladbord-nodes-panel-pane-4 .hl-button {
     opacity: 0;
     transition: all 0.24s ease-in-out;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003106}}
   .buffet .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-3 .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-4 .hl-button .button-caption {
@@ -1512,14 +1513,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition: all 0.20s ease-in-out;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003112}}
   .buffet a:hover .hl-button,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button {
     opacity: 1;
     transition-delay: 0.35s;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003117}}
   .buffet a:hover .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button .button-caption,
   .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {
@@ -1534,11 +1535,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 */
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003134}}
   .christmas-items li .image-wrapper a {
     transition: all 0.35s ease-in-out;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003139}}
   .christmas-items li .image-wrapper a:hover {
     transform: translate3d(0px, 30px, 0px);
     transition-delay: 0.16s;
@@ -1549,20 +1550,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   Animation for krakkaruv.is/jol/joladagatal
 ==========================================================
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003156}}
 .view-dagatal a .christmas-ball-hover {
   transition: all 0.24s ease-in-out;
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003165}}
 .view-dagatal a:hover .christmas-ball-hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003170}}
 .view-dagatal a .date {
   transition: all 0.24s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003175}}
 .view-dagatal a:hover .date {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
