@@ -1386,55 +1386,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
 .page-jol.jol-items {
-  background-image: none;
+  /*background-image: none;*/
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000311}}
 .page-jol {
-  background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
+  /*background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
   -webkit-animation: snow 20s linear infinite;
   -moz-animation: snow 20s linear infinite;
   -ms-animation: snow 20s linear infinite;
   animation: snow 20s linear infinite;
-  -webkit-transform: translateZ(0);
+  -webkit-transform: translateZ(0);*/
 }
 
-@keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
+/*@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
+
 @-moz-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
+
 @-webkit-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  50% {
-    background-color: #DC002A;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-    background-color: #DC002A;
-  }
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-color:#DC002A;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#DC002A;}
 }
+
 @-ms-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
-}
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}*/
 /*
 ==========================================================
   Animation for Hla­bor­ on Frontpage and Krakka FrÚttir

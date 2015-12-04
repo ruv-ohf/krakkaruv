@@ -5,19 +5,19 @@
 */
 
 .page-jol.jol-items {
-   background-image: none;
+   /*background-image: none;*/
 }
 
 .page-jol {
-   background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
+   /*background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
    -webkit-animation: snow 20s linear infinite;
    -moz-animation: snow 20s linear infinite;
    -ms-animation: snow 20s linear infinite;
    animation: snow 20s linear infinite;
-   -webkit-transform: translateZ(0);
+   -webkit-transform: translateZ(0);*/
 }
 
-@keyframes snow {
+/*@keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
@@ -36,7 +36,7 @@
 @-ms-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
+}*/
 
 /*
 ==========================================================
