@@ -3,11 +3,16 @@
 /* =========================================================================== */
 .front{
   #menu-bar{
-    /*padding-top:15%;*/
-    height: 390px;
+     height: 390px;
     background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-small2.jpg') no-repeat top center;
   }
-
+  .one-column {
+    border-top: 1px solid white;
+  }
+  .frontpage-worlds {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
   #block-block-1{
     text-align: center;
     width: 70%;
