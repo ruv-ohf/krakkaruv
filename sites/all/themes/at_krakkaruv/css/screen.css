@@ -1379,6 +1379,194 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-left: 100%;
   }
 }
+/*
+==========================================================
+  Snow animation for jol section
+==========================================================
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
+.jol-items {
+  background-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000311}}
+.page-jol {
+  background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+@-moz-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+@-webkit-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  50% {
+    background-color: #DC002A;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: #DC002A;
+  }
+}
+@-ms-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+/*
+==========================================================
+  Animation for Hla­bor­ on Frontpage and Krakka FrÚttir
+==========================================================
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000346}}
+.buffet .hl-button,
+.pane-hladbord-nodes-panel-pane-3 .hl-button,
+.pane-hladbord-nodes-panel-pane-4 .hl-button {
+  opacity: 0;
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000354}}
+  .jol-items {
+    background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
+  }
+}
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000362}}
+  .buffet a:hover .title-bar,
+  .pane-hladbord-nodes-panel-pane-3 a:hover .title-bar,
+  .pane-hladbord-nodes-panel-pane-4 a:hover .title-bar {
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    transition-delay: 0s;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000370}}
+  .buffet .title-bar,
+  .pane-hladbord-nodes-panel-pane-3 .title-bar,
+  .pane-hladbord-nodes-panel-pane-4 .title-bar {
+    transition: transform .2s ease-in-out;
+    transition-delay: 0.22s;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000377}}
+  .buffet .hover,
+  .pane-hladbord-nodes-panel-pane-3 .hover,
+  .pane-hladbord-nodes-panel-pane-4 .hover {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    border: 0 solid rgba(23, 44, 47, 0.8);
+    transition: all 0.34s ease-in-out;
+    transition-delay: 0s;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000392}}
+  .buffet a:hover .hover,
+  .pane-hladbord-nodes-panel-pane-3 a:hover .hover,
+  .pane-hladbord-nodes-panel-pane-4 a:hover .hover {
+    opacity: 1;
+    border: 160px solid rgba(23, 44, 47, 0.8);
+    transition-delay: 0.16s;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003100}}
+  .buffet .hl-button,
+  .pane-hladbord-nodes-panel-pane-3 .hl-button,
+  .pane-hladbord-nodes-panel-pane-4 .hl-button {
+    opacity: 0;
+    transition: all 0.24s ease-in-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003105}}
+  .buffet .hl-button .button-caption,
+  .pane-hladbord-nodes-panel-pane-3 .hl-button .button-caption,
+  .pane-hladbord-nodes-panel-pane-4 .hl-button .button-caption {
+    transform: scale(0, 0);
+    transition: all 0.20s ease-in-out;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003111}}
+  .buffet a:hover .hl-button,
+  .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button,
+  .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button {
+    opacity: 1;
+    transition-delay: 0.35s;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003116}}
+  .buffet a:hover .hl-button .button-caption,
+  .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button .button-caption,
+  .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {
+    transform: scale(1, 1);
+    transition-delay: 0.35s;
+  }
+}
+/*
+==========================================================
+  Animation for krakkaruv.is/jol
+==========================================================
+*/
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003133}}
+  .christmas-items li .image-wrapper a {
+    transition: all 0.35s ease-in-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003138}}
+  .christmas-items li .image-wrapper a:hover {
+    transform: translate3d(0px, 30px, 0px);
+    transition-delay: 0.16s;
+  }
+}
+/*
+==========================================================
+  Animation for krakkaruv.is/jol/joladagatal
+==========================================================
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003155}}
+.view-dagatal a .christmas-ball-hover {
+  transition: all 0.24s ease-in-out;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003164}}
+.view-dagatal a:hover .christmas-ball-hover {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003169}}
+.view-dagatal a .date {
+  transition: all 0.24s ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003174}}
+.view-dagatal a:hover .date {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
 /* =============================================================================
  *  Front page
 /* =========================================================================== */
@@ -7199,182 +7387,6 @@ footer .region-footer {
   .two-brick .panel-row .region {
     width: 100%;
   }
-}
-
-/*
-==========================================================
-  Snow animation for jol section
-==========================================================
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\000037}}
-.page-jol {
-  background-image: url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png"), url("/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png");
-  -webkit-animation: snow 20s linear infinite;
-  -moz-animation: snow 20s linear infinite;
-  -ms-animation: snow 20s linear infinite;
-  animation: snow 20s linear infinite;
-}
-
-@keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
-}
-@-moz-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
-}
-@-webkit-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  50% {
-    background-color: #DC002A;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-    background-color: #DC002A;
-  }
-}
-@-ms-keyframes snow {
-  0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px;
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px;
-  }
-}
-/*
-==========================================================
-  Animation for Hla­bor­ on Frontpage and Krakka FrÚttir
-==========================================================
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000342}}
-.buffet .hl-button,
-.pane-hladbord-nodes-panel-pane-3 .hl-button,
-.pane-hladbord-nodes-panel-pane-4 .hl-button {
-  opacity: 0;
-}
-
-/* Min width 1100px */
-@media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000351}}
-  .buffet a:hover .title-bar,
-  .pane-hladbord-nodes-panel-pane-3 a:hover .title-bar,
-  .pane-hladbord-nodes-panel-pane-4 a:hover .title-bar {
-    -webkit-transform: translate3d(0, 50px, 0);
-    transform: translate3d(0, 50px, 0);
-    transition-delay: 0s;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000359}}
-  .buffet .title-bar,
-  .pane-hladbord-nodes-panel-pane-3 .title-bar,
-  .pane-hladbord-nodes-panel-pane-4 .title-bar {
-    transition: transform .2s ease-in-out;
-    transition-delay: 0.22s;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000366}}
-  .buffet .hover,
-  .pane-hladbord-nodes-panel-pane-3 .hover,
-  .pane-hladbord-nodes-panel-pane-4 .hover {
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    border: 0 solid rgba(23, 44, 47, 0.8);
-    transition: all 0.34s ease-in-out;
-    transition-delay: 0s;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000381}}
-  .buffet a:hover .hover,
-  .pane-hladbord-nodes-panel-pane-3 a:hover .hover,
-  .pane-hladbord-nodes-panel-pane-4 a:hover .hover {
-    opacity: 1;
-    border: 160px solid rgba(23, 44, 47, 0.8);
-    transition-delay: 0.16s;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000389}}
-  .buffet .hl-button,
-  .pane-hladbord-nodes-panel-pane-3 .hl-button,
-  .pane-hladbord-nodes-panel-pane-4 .hl-button {
-    opacity: 0;
-    transition: all 0.24s ease-in-out;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\0000394}}
-  .buffet .hl-button .button-caption,
-  .pane-hladbord-nodes-panel-pane-3 .hl-button .button-caption,
-  .pane-hladbord-nodes-panel-pane-4 .hl-button .button-caption {
-    transform: scale(0, 0);
-    transition: all 0.20s ease-in-out;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003100}}
-  .buffet a:hover .hl-button,
-  .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button,
-  .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button {
-    opacity: 1;
-    transition-delay: 0.35s;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003105}}
-  .buffet a:hover .hl-button .button-caption,
-  .pane-hladbord-nodes-panel-pane-3 a:hover .hl-button .button-caption,
-  .pane-hladbord-nodes-panel-pane-4 a:hover .hl-button .button-caption {
-    transform: scale(1, 1);
-    transition-delay: 0.35s;
-  }
-}
-/*
-==========================================================
-  Animation for krakkaruv.is/jol
-==========================================================
-*/
-/* Min width 1100px */
-@media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003122}}
-  .christmas-items li .image-wrapper a {
-    transition: all 0.35s ease-in-out;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003127}}
-  .christmas-items li .image-wrapper a:hover {
-    transform: translate3d(0px, 30px, 0px);
-    transition-delay: 0.16s;
-  }
-}
-/*
-==========================================================
-  Animation for krakkaruv.is/jol/joladagatal
-==========================================================
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003144}}
-.view-dagatal a .christmas-ball-hover {
-  transition: all 0.24s ease-in-out;
-  opacity: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003153}}
-.view-dagatal a:hover .christmas-ball-hover {
-  opacity: 1;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003158}}
-.view-dagatal a .date {
-  transition: all 0.24s ease-in-out;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_animation\.scss}line{font-family:\00003163}}
-.view-dagatal a:hover .date {
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 /*

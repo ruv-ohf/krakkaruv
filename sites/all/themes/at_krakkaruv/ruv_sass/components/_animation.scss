@@ -4,6 +4,10 @@
 ==========================================================
 */
 
+.jol-items {
+   background-image: none;
+}
+
 .page-jol {
    background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
    -webkit-animation: snow 20s linear infinite;
@@ -43,6 +47,13 @@
 .pane-hladbord-nodes-panel-pane-3 .hl-button,
 .pane-hladbord-nodes-panel-pane-4 .hl-button {
   opacity: 0;
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+   .jol-items {
+      background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
+   }
 }
 
 /* Min width 1100px */
