@@ -4,8 +4,8 @@
 .front{
   #menu-bar{
     /*padding-top:15%;*/
-    height: 293px;
-    background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-488.jpg') no-repeat top center;
+    height: 390px;
+    background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-small2.jpg') no-repeat top center;
   }
 
   #block-block-1{
@@ -148,32 +148,22 @@
 }
 }
 
-/* Min width 768px */
-@media only screen and (min-width: 489px) {
+/* Min width 601px */
+@media only screen and (min-width: 601px) {
   .front{
     #menu-bar {
-      height: 389px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-650.jpg') no-repeat top center;
+      height: 500px;
+      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-medium2.jpg') no-repeat top center;
     }
   }
 }
 
-/* Min width 651px */
-@media only screen and (min-width: 651px) {
-  .front{
-    #menu-bar {
-      height: 516px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-tablet.jpg') no-repeat top center;
-    }
-  }
-}
-
-/* Min width 835px */
-@media only screen and (min-width: 835px) {
+/* Min width 1001px */
+@media only screen and (min-width: 1001px) {
   .front{
     #menu-bar {
       height: 790px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat top center;
+      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-large2.jpg') no-repeat top center;
     }
   }
 }
