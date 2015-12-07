@@ -4,7 +4,13 @@
 ==========================================================
 */
 
-html[data-useragent*='MSIE 10.0'] .page-jol, #canvas { display: none; }
+.ie10 {
+   .page-jol {
+         #canvas {
+            display: none;
+         }
+    }
+}
 
 .ie9 {
    .page-jol {
