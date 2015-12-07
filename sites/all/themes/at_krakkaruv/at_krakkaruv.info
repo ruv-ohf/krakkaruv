@@ -76,6 +76,7 @@
   ;scripts[] = scripts/masonry.pkgd.min.js
 
 
+
 ;----------// Regions
 
   regions[sidebar_first]     = Sidebar first
@@ -475,6 +476,7 @@
   settings[custom_css] = ''
 
   ; Custom JS
+  scripts[] = scripts/snowfall.js
   scripts[] = 'scripts/krakkaruv_scripts.js'
 
 ; Information added by Drupal.org packaging script on 2014-03-23
