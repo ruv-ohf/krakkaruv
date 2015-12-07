@@ -7658,7 +7658,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003266}}
 .jolamyndbond-jol .one-column .region-one-main {
-  background: url(images/christmas/jolamyndbond-small.jpg) no-repeat top center;
+  background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003269}}
 .jolamyndbond-jol .one-column:before {
@@ -7767,7 +7767,7 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003383}}
   .jolamyndbond-jol .one-column .region-one-main {
-    background: url(images/christmas/jolamyndbond2.jpg) no-repeat top center;
+    background: url(images/christmas/banner-subpages-medium-myndbond.jpg) no-repeat top center;
   }
 }
 /* Min width 1024px */
@@ -7787,6 +7787,11 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003412}}
   .christmas-wishes .hero-image .inner {
     background: url(images/christmas/banner-subpages-large-wishes5.jpg) no-repeat top center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\00003419}}
+  .jolamyndbond-jol .one-column .region-one-main {
+    background: url(images/christmas/banner-subpages-large-myndbond.jpg) no-repeat top center;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_items\.scss}line{font-family:\000031}}
