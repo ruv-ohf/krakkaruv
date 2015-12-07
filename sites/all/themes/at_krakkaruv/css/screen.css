@@ -7392,9 +7392,10 @@ footer .region-footer {
   pointer-events: none;
   top: 0;
   left: 0;
-  /*background: white; 
-  opacity: 0; 
-  filter: Alpha(opacity=0);*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000317}}
+.page-jol #canvas:hover {
+  z-index: -1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/franze\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_christmas_page\.scss}line{font-family:\0000322}}
 .page-jol .pane-term-list-panel-pane-1 {
