@@ -14,10 +14,8 @@
          pointer-events: none;
          top: 0;
          left: 0;
-         &:hover {
-            z-index: -1;
-         }
-     }
+         background: url(images/christmas/falling-snow-bg.png) no-repeat -24px -24px;
+       }
       background-color: #DC002A;
       .pane-term-list-panel-pane-1 {
       margin-top: 42px;
