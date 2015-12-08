@@ -78,7 +78,16 @@ function ruv_custom_drush_command() {
       'examples' => array(
           'Standard example' => 'drush ruv-unpublish-expired-nodes'
       ),
-      'aliases' => array('ruv-unpublish'),
+      'aliases' => array('ruv-unpublish-eps'),
+  );
+
+  $items['ruv-unpublish-empty_shows'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush drush_ruv_custom_ruv_unpublish_empty_shows'
+    ),
+    'aliases' => array('ruv-unpublish-shows'),
   );
   $items['ruv-delete-orphant-nodes'] = array(
       'description' => dt('Run.'),
@@ -88,6 +97,7 @@ function ruv_custom_drush_command() {
       ),
       'aliases' => array('ruv-del-orphant'),
   );
+
  /* $items['ruv-delete-forms'] = array(
       'description' => dt("Runs a delete command to reduce the size of cache_form table in the database"),
       'arguments' => null,
@@ -310,6 +320,13 @@ function drush_ruv_custom_ruv_connect_sip(){
   drush_print('Connect successful.  Connected ' . $counter . ' nodes.');
 }
 
+/**
+ * Finds all nodes that are published and have expires_on_web less than the day
+ * today (nodes are expired), and unpublish them.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ * @throws \Exception
+ */
 function drush_ruv_custom_ruv_unpublish_expired_nodes(){
   //
   $query = new EntityFieldQuery();
@@ -319,21 +336,70 @@ function drush_ruv_custom_ruv_unpublish_expired_nodes(){
       ->propertyCondition('type', 'dagskra')
       ->propertyCondition('status', 1, '=')
       ->fieldCondition('field_kringlan_expires_web', 'value', $date, '<')
+      ->propertyOrderBy('title')
       ->execute();
   if (!empty($result['node'])) {
     $results = entity_load('node', array_keys($result['node']));
+
+    foreach($results as $res){
+      $res->status = 0;
+      drush_print($res->title . " : " .
+        $res->field_kringla_episode_number[LANGUAGE_NONE][0]['value'] . " - " .
+        $res->field_kringla_episode_total[LANGUAGE_NONE][0]['value']
+      );
+      node_save($res);
+      _ruv_custom_create_redirect(url('node/' . $res->nid), 'node/3400');
+    }
+
+    drush_print("Unpublished " . sizeof($results) . " nodes.");
   }
-  foreach($results as $res){
-    $res->status = 0;
-    node_save($res);
+  else{
+    drush_print("No nodes were unpublished.");
   }
-  drush_print("Unpublished " . sizeof($results) . " nodes.");
+}
+
+/**
+ * Finds all shows (þættir) that are displayed in the program list, searches
+ * for nodes that have that taxonomy term id, and if there is none, it un-publishes
+ * the Taxonomy term.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ */
+function drush_ruv_custom_ruv_unpublish_empty_shows() {
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'taxonomy_term')
+    ->propertyCondition('vid', 4, '=')
+    ->fieldCondition('field_not_in_program_list', 'value', 1, '=')
+    ->execute();
+
+  $zero_counter = 0;
+  foreach ($result['taxonomy_term'] as $show) {
+    $quer = new EntityFieldQuery();
+    $res = $quer
+      ->entityCondition('entity_type', 'node')
+      ->propertyCondition('type', 'dagskra')
+      ->propertyCondition('status', 1, '=')
+      ->fieldCondition('field_thaettir_term_ref', 'tid', array($show->tid), 'IN')
+      ->propertyOrderBy('title')
+      ->execute();
+
+    if (empty($res['node'])) {
+      $tax = taxonomy_term_load($show->tid);
+      $tax->field_not_in_program_list[LANGUAGE_NONE][0]['value'] = 0;
+      $tax->field_not_scheduled[LANGUAGE_NONE][0]['value'] = 1;
+      taxonomy_term_save($tax);
+      _ruv_custom_create_redirect(url('taxonomy/term/'.$show->tid), 'node/3400');
+      $zero_counter++;
+    }
+  }
+
+  drush_print("Fjöldi sería sem var afbirt: $zero_counter");
 }
 
 function drush_ruv_custom_ruv_delete_orphant_nodes(){
   //
   $query = new EntityFieldQuery();
-  $date = date('Y-m-d H:i:s');
   $result = $query
       ->entityCondition('entity_type', 'node')
       ->propertyCondition('type', 'dagskra')
@@ -351,4 +417,47 @@ function drush_ruv_custom_ruv_delete_orphant_nodes(){
     }
   }
   drush_print("There were $counter nodes removed");
+}
+
+/**
+ * Creates redirects from a node path to a fixed page (eg. content not available)
+ * If there is a / in front of the path, it will remove that.
+ *
+ * @param $from string The path for the node
+ * @param $to string The path it should redirect to
+ * @param string $lang
+ * @throws \Exception
+ * @author Hilmar Kári Hallbjörnsson
+ */
+function _ruv_custom_create_redirect($from, $to, $lang = LANGUAGE_NONE){
+  $from = _ruv_custom_clean_url($from);
+  $redirect = new stdClass();
+
+  redirect_object_prepare(
+    $redirect,
+    array(
+      'source' => $from,
+      'source_options' => array(),
+      'redirect' => $to,
+      'redirect_options' => array(),
+      'language' => $lang,
+    )
+  );
+
+  //Lets see if there is a redirect available, and if it is, delete it.
+  $available = redirect_load_by_hash(redirect_hash($redirect));
+  if($available){
+    redirect_delete($available->rid);
+  }
+
+  redirect_save($redirect);
+  drush_print("Created redirect: From $from and To $to");
+}
+
+function _ruv_custom_clean_url($from){
+  $pos = strpos($from, '/');
+  if ($pos !== false) {
+    return substr_replace($from,'',$pos,strlen('/'));
+  }
+  return $from;
 }
