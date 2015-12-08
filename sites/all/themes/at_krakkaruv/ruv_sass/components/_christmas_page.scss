@@ -4,12 +4,38 @@
 ==========================================================
 */
 
+.ie10 {
+   .page-jol {
+         #canvas {
+            display: none;
+         }
+    }
+}
+
+.ie9 {
+   .page-jol {
+         #canvas {
+            display: none;
+         }
+    }
+}
 .page-jol {
-  .pane-term-list-panel-pane-1 {
-    margin-top: 42px;
-    margin-bottom: 160px !important;
-    .pane-title {
-      color: white;
+    #canvas {
+         display: block;
+         position: fixed;
+         z-index: 5;
+         width: 100%;
+         height: 100%;
+         pointer-events: none;
+         top: 0;
+         left: 0;
+       }
+      background-color: #DC002A;
+      .pane-term-list-panel-pane-1 {
+      margin-top: 42px;
+      margin-bottom: 160px !important;
+      .pane-title {
+         color: white;
     }
     .view-content {
       .views-field {
@@ -69,7 +95,7 @@
   .warning {
     display: none;
   }
-  background-color: #dc002a;
+  
   #menu-bar {
     background-color: white;
     padding-top: 33px;
@@ -234,11 +260,11 @@
   }
 
   .one-column {
-    background: url(images/christmas/banner-subpages-myndbond-bg-repeat2.jpg) repeat-x top center;
+    background: url(images/christmas/banner-subpages-bg-repeat.jpg) repeat-x top center;
     padding-bottom: 172px;
     position: relative;
     .region-one-main {
-      background: url(images/christmas/jolamyndbond-small.jpg) no-repeat top center;
+      background: url(images/christmas/banner-subpages-small.jpg) no-repeat top center;
     }
     &:before {
       position: absolute;
@@ -355,7 +381,7 @@
   .jolamyndbond-jol {
     .one-column {
       .region-one-main {
-        background: url(images/christmas/jolamyndbond2.jpg) no-repeat top center;
+        background: url(images/christmas/banner-subpages-medium-myndbond.jpg) no-repeat top center;
       }
     }
   }
@@ -385,6 +411,13 @@
     .hero-image {
       .inner {
         background: url(images/christmas/banner-subpages-large-wishes5.jpg) no-repeat top center;
+      }
+    }
+  }
+  .jolamyndbond-jol {
+    .one-column {
+      .region-one-main {
+        background: url(images/christmas/banner-subpages-large-myndbond.jpg) no-repeat top center;
       }
     }
   }

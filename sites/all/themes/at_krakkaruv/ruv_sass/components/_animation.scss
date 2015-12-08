@@ -1,5 +1,45 @@
 /*
 ==========================================================
+  Snow animation for jol section
+==========================================================
+*/
+
+.page-jol.jol-items {
+   /*background-image: none;*/
+}
+
+.page-jol {
+   /*background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
+   -webkit-animation: snow 20s linear infinite;
+   -moz-animation: snow 20s linear infinite;
+   -ms-animation: snow 20s linear infinite;
+   animation: snow 20s linear infinite;
+   -webkit-transform: translateZ(0);*/
+}
+
+/*@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-color:#DC002A;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#DC002A;}
+}
+
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}*/
+
+/*
+==========================================================
   Animation for Hlaðborð on Frontpage and Krakka Fréttir
 ==========================================================
 */
@@ -8,6 +48,13 @@
 .pane-hladbord-nodes-panel-pane-3 .hl-button,
 .pane-hladbord-nodes-panel-pane-4 .hl-button {
   opacity: 0;
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+   /*.page-jol.jol-items {
+      background-image: url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow3.png'), url('/sites/all/themes/at_krakkaruv/css/images/christmas/snow2.png');
+   }*/
 }
 
 /* Min width 1100px */
@@ -104,32 +151,7 @@
 */
 
 .view-dagatal {
-  a {
-    /*.christmas-ball {
-      background: linear-gradient(139deg, #ffffff, #9d9c9d);
-      background-size: 400% 400%;
-
-      -webkit-animation: AnimationName 13s ease infinite;
-      -moz-animation: AnimationName 13s ease infinite;
-      animation: AnimationName 13s ease infinite;
-
-      @-webkit-keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
-      }
-      @-moz-keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
-      }
-      @keyframes AnimationName {
-        0%{background-position:10% 0%}
-        50%{background-position:91% 100%}
-        100%{background-position:10% 0%}
-      }
-    }*/
-  }
+ 
   a {
     .christmas-ball-hover {
       transition: all 0.24s ease-in-out;
