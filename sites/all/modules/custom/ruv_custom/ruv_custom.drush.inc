@@ -90,12 +90,19 @@ function ruv_custom_drush_command() {
     'aliases' => array('ruv-unpublish-shows'),
   );
   $items['ruv-delete-orphant-nodes'] = array(
-      'description' => dt('Run.'),
-      'arguments'   => array(),
-      'examples' => array(
-          'Standard example' => 'drush ruv-unpublish-expired-nodes'
-      ),
-      'aliases' => array('ruv-del-orphant'),
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush ruv-unpublish-expired-nodes'
+    ),
+    'aliases' => array('ruv-del-orphant'),
+  );
+  $items['ruv-remove-dead-files'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush ruv-remove-dead-files'
+    ),
   );
 
  /* $items['ruv-delete-forms'] = array(
@@ -397,6 +404,44 @@ function drush_ruv_custom_ruv_unpublish_empty_shows() {
   drush_print("Fjöldi sería sem var afbirt: $zero_counter");
 }
 
+/**
+ * Finds files in a folder that are not in use anymore, based on the database
+ * table: file_managed, which is pruned by SQL statements.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ */
+function drush_ruv_custom_ruv_remove_dead_files(){
+  $files_deleted = 0;
+  $dir = "sites/default/files";
+  $dh  = opendir($dir);
+
+  //Building the file array of all jpegs
+  while (false !== ($filename = readdir($dh))) {
+    if(strstr($filename, '.jpg')){
+      $files[] = $filename;
+    }
+  }
+
+  $query = db_query("SELECT filename FROM file_managed");
+  $record = $query->fetchAll();
+
+  $active_files_array = [];
+  foreach($record as $r){
+    if(strstr($r->filename, '.jpg')){
+      $active_files_array[] = $r->filename;
+    }
+  }
+
+  $to_be_deleted = [];
+  foreach($files as $file){
+    if(!in_array($file, $active_files_array)){
+      unlink($dir . "/" . $file);
+      $files_deleted++;
+    }
+  }
+  drush_print("Files deleted: $files_deleted");
+}
+
 function drush_ruv_custom_ruv_delete_orphant_nodes(){
   //
   $query = new EntityFieldQuery();
@@ -418,6 +463,9 @@ function drush_ruv_custom_ruv_delete_orphant_nodes(){
   }
   drush_print("There were $counter nodes removed");
 }
+
+
+
 
 /**
  * Creates redirects from a node path to a fixed page (eg. content not available)
@@ -454,6 +502,9 @@ function _ruv_custom_create_redirect($from, $to, $lang = LANGUAGE_NONE){
   drush_print("Created redirect: From $from and To $to");
 }
 
+/**
+ * Helper function to clean the slash in front of a path
+ */
 function _ruv_custom_clean_url($from){
   $pos = strpos($from, '/');
   if ($pos !== false) {
@@ -461,3 +512,4 @@ function _ruv_custom_clean_url($from){
   }
   return $from;
 }
+
