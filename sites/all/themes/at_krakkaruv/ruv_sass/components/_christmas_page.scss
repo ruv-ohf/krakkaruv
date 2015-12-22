@@ -19,6 +19,15 @@
          }
     }
 }
+.page-jol.page-jol-jolakvedjur .columns{
+    padding-top: 100px;
+    .views-field-title {
+      padding: 0 20px;
+    }
+}
+.page-jol .columns h1, .page-jol .columns h2, .page-jol .columns h3{
+  color: white;
+}
 .page-jol {
     #canvas {
          display: block;
