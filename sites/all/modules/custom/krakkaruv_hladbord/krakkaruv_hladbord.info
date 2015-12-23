@@ -1,0 +1,5 @@
+name = KrakkaRÚV hlaðborð
+description = "Vinnur með bæði sjálfvirkar og handinnsettar færslur í hlaðborð KrakkaRÚV"
+package = RÚV
+core = 7.x
+files[] = krakkaruv_hladbord.module

@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: drupalviking
+ * Date: 23/12/15
+ * Time: 11:12
+ */
+
+/**
+ * Implements hook_menu()
+ */
+function krakkaruv_hladbord_menu(){
+  $items['hladbord-page'] = array(
+    'page callback' => 'hladbord_page',
+    'access arguments' => array('access content'),
+    'type' =>MENU_CALLBACK
+  );
+
+  return $items;
+}
+
+function hladbord_page(){
+  return "Hello world";
+}
