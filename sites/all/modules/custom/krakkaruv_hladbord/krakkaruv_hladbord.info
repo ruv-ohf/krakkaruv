@@ -1,5 +1,8 @@
+; $Id$
 name = KrakkaRÚV hlaðborð
 description = "Vinnur með bæði sjálfvirkar og handinnsettar færslur í hlaðborð KrakkaRÚV"
-package = RÚV
+package = RUV
 core = 7.x
+configure = admin/config/hladbord
 files[] = krakkaruv_hladbord.module
+files[] = krakkaruv_hladbord.admin.inc

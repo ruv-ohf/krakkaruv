@@ -10,15 +10,30 @@
  * Implements hook_menu()
  */
 function krakkaruv_hladbord_menu(){
-  $items['hladbord-page'] = array(
-    'page callback' => 'hladbord_page',
-    'access arguments' => array('access content'),
-    'type' =>MENU_CALLBACK
+  //Module settings
+  $items['admin/settings/hladbord'] = array(
+    'title' => 'Hlaðborð',
+    'description' => 'Allar stillingar fyrir hlaðborðið',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('krakkaruv_hladbord_admin_settings'),
+    'access arguments' => array('access administration pages'),
+    'file' => 'krakkaruv_hladbord.admin.inc',
+    'file path' => drupal_get_path('module', 'krakkaruv_hladbord'),
   );
 
   return $items;
 }
 
-function hladbord_page(){
-  return "Hello world";
+/**
+ * Implements hook_help().
+ */
+function krakkaruv_hladbord_help($path, $arg) {
+  switch ($path) {
+    case 'admin/settings/krakkaruv_hladbord':
+      return t('Settings for the Hladbord page.');
+
+    case 'admin/help#krakkaruv_hladbord':
+      $output = '<p>' . t('Settings for the Hladbord page') . '</p>';
+      return $output;
+  }
 }
