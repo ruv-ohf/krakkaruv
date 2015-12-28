@@ -3,6 +3,6 @@ name = KrakkaRÚV hlaðborð
 description = "Vinnur með bæði sjálfvirkar og handinnsettar færslur í hlaðborð KrakkaRÚV"
 package = RUV
 core = 7.x
-configure = admin/config/hladbord
+configure = admin/config/content/hladbord
 files[] = krakkaruv_hladbord.module
 files[] = krakkaruv_hladbord.admin.inc
