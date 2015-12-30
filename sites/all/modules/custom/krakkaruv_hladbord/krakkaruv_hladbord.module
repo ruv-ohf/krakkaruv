@@ -67,8 +67,16 @@ function krakkaruv_hladbord_permission() {
 
 /**
  * Implements hook_corn().
+ */
+
+function krakkaruv_hladbord_cron(){
+  krakkaruv_hladbord_assemble_hladbord();
+}
+
+/**
+ * Assembles the Hlaðborð
  *
- * @todo When cron is run, rebuild the Hlaðborð based on the settings
+ * @author Hilmar Kári Hallbjörnsson (drupalviking)
  */
 function krakkaruv_hladbord_assemble_hladbord(){
   $watch_number = variable_get('krakkaruv_hladbord_number_of_watch_nodes');
@@ -113,6 +121,13 @@ function krakkaruv_hladbord_assemble_hladbord(){
   }
 }
 
+/**
+ * Helper function.  Adds an element to the nodequeue by DB Manipulation.
+ *
+ * @param $nid int The ID of the node being added
+ * @param $pos int The posistion in the queue
+ * @author Hilmar Kári Hallbjörnsson (drupalviking)
+ */
 function _krakkaruv_hladbord_element_to_queue($nid, $pos){
   db_update('nodequeue_nodes')
     ->fields(array(
@@ -126,6 +141,15 @@ function _krakkaruv_hladbord_element_to_queue($nid, $pos){
     ->execute();
 }
 
+/**
+ * Helper function
+ * Array_merge doesn't work as planned, so I wrote this one instead
+ *
+ * @param $first array First array
+ * @param $second array Second array
+ * @return array Merged array
+ * @author Hilmar Kári Hallbjörnsson (drupalviking)
+ */
 function _krakkaruv_hladbord_merge_arrays($first, $second){
   foreach($second as $value){
     $first[] = $value;
@@ -134,6 +158,19 @@ function _krakkaruv_hladbord_merge_arrays($first, $second){
   return $first;
 }
 
+/**
+ * Helper function
+ *
+ * Since most of the Entity Field Queries have the same code, I abstracted into
+ * one function, for readability.
+ *
+ * @param $content_type string Content type machine name
+ * @param null $category int Category constant (WATCH or LISTEN)
+ * @param null $tags int If $content_type is of type myndband, tags might be
+ *        needed to narrow the selection down
+ * @param int $limit int How many items do you want
+ * @return array
+ */
 function _krakkaruv_hladbord_query_generator($content_type, $category = null, $tags = null, $limit = 9){
   $query = new EntityFieldQuery();
   $result = $query

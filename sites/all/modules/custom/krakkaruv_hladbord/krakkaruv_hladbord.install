@@ -24,36 +24,6 @@ function krakkaruv_hladbord_install() {
 function krakkaruv_hladbord_uninstall() {
   variable_del('krakkaruv_hladbord_number_of_watch_nodes');
   variable_del('krakkaruv_hladbord_number_of_listen_nodes');
-  variable_del('krakkaruv_hladbord_number_of_create_nodes');
-  variable_del('krakkaruv_hladbord_number_of_computer_games_nodes');
-  variable_del('krakkaruv_hladbord_number_of_outdoor_games_nodes');
   variable_del('krakkaruv_hladbord_first_place_tax');
+  variable_del('krakkaruv_hladbord_fixed_places');
 }
-
-/**
- * Implements hook_schema().
- */
-/* function krakkaruv_hladbord_schema() {
-  $schema['hladbord_entries'] = array(
-    'description' => 'TODO: please describe this table!',
-    'fields' => array(
-      'hlid' => array(
-        'description' => 'Unique id',
-        'type' => 'int',
-        'not null' => TRUE,
-      ),
-      'nid' => array(
-        'description' => 'Id of the node to be displayed',
-        'type' => 'int',
-        'not null' => TRUE,
-      ),
-      'position' => array(
-        'description' => 'Where in Hlaðborð is the node to be displayed',
-        'type' => 'int',
-        'not null' => TRUE,
-      ),
-    ),
-    'primary key' => array('hlid'),
-  );
-}
-*/
