@@ -1,8 +1,6 @@
 <?php
 define('WATCH', 313);
 define('LISTEN', 312);
-define('CREATE', 315);
-define('PLAY', 314);
 /**
  * Created by PhpStorm.
  * User: drupalviking
@@ -73,11 +71,88 @@ function krakkaruv_hladbord_permission() {
  * @todo When cron is run, rebuild the Hlaðborð based on the settings
  */
 function krakkaruv_hladbord_assemble_hladbord(){
-  $watch = variable_get('krakkaruv_hladbord_number_of_watch_nodes');
-  $listen = variable_get('krakkaruv_hladbord_number_of_listen_nodes');
-  $create = variable_get('krakkaruv_hladbord_number_of_create_nodes');
-  $computer_games = variable_get('krakkaruv_hladbord_number_of_computer_games_nodes');
-  $outdoot_games = variable_get('krakkaruv_hladbord_number_of_outdoor_games_nodes');
-  $first_place = variable_get('krakkaruv_hladbord_first_place_tax');
+  $watch_number = variable_get('krakkaruv_hladbord_number_of_watch_nodes');
+  $listen_number = variable_get('krakkaruv_hladbord_number_of_listen_nodes');
+  $first_place_number = variable_get('krakkaruv_hladbord_first_place_tax');
+  $fixed_places = explode(',', variable_get('krakkaruv_hladbord_fixed_places'));
+  if(strlen($fixed_places[0])==0){
+    $fixed_places = null;
+  }
 
+  $watch_nodes_array = _krakkaruv_hladbord_query_generator('dagskra', WATCH, null, $watch_number);
+  $listen_nodes_array = _krakkaruv_hladbord_query_generator('dagskra', LISTEN, null, $listen_number);
+
+  $nodequeue = nodequeue_load_nodes(1, false, 0, 0, true);
+
+  if(!in_array(1, $fixed_places)){
+    $first_place = ($first_place_number == WATCH)
+      ? array_shift($watch_nodes_array)
+      : array_shift($listen_nodes_array);
+  }
+  else{
+    $first_place = $nodequeue[0];
+    array_shift($fixed_places);
+  }
+
+  $merged_array = _krakkaruv_hladbord_merge_arrays($watch_nodes_array, $listen_nodes_array);
+  shuffle($merged_array);
+
+  //nodequeue_queue_clear(1);
+
+  for($a = 1; $a <= 9; $a++){
+    if($a == 1){
+      _krakkaruv_hladbord_element_to_queue($first_place->nid, $a);
+    }
+    elseif(in_array($a, $fixed_places)){
+      _krakkaruv_hladbord_element_to_queue($nodequeue[$a-1]->nid, $a);
+    }
+    else{
+      $element = array_shift($merged_array);
+      _krakkaruv_hladbord_element_to_queue($element->nid, $a);
+    }
+  }
+}
+
+function _krakkaruv_hladbord_element_to_queue($nid, $pos){
+  db_update('nodequeue_nodes')
+    ->fields(array(
+      'qid' => 1,
+      'sqid' => 1,
+      'nid' => $nid,
+      'position' => $pos,
+      'timestamp' => time()
+    ))
+    ->condition('position', $pos, '=')
+    ->execute();
+}
+
+function _krakkaruv_hladbord_merge_arrays($first, $second){
+  foreach($second as $value){
+    $first[] = $value;
+  }
+
+  return $first;
+}
+
+function _krakkaruv_hladbord_query_generator($content_type, $category = null, $tags = null, $limit = 9){
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->propertyCondition('type', $content_type)
+    ->propertyCondition('status', 1, '=')
+    ->propertyOrderBy('created', 'DESC');
+
+  if($category){
+    $result = $result->fieldCondition('field_category', 'tid', $category, '=');
+  }
+
+  if($tags){
+    $result = $result->fieldCondition('field_tog_term_ref', 'tid', $tags, '=');
+  }
+
+  $result = $result
+    ->range(0, $limit)
+    ->execute();
+
+  return array_values(entity_load('node', array_keys($result['node'])));
 }

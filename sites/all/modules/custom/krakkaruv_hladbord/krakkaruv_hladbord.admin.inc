@@ -29,26 +29,19 @@ function krakkaruv_hladbord_admin_settings() {
     '#description' => t('Defines how many listen nodes will be pulled to the Hlaðborð.'),
     '#required' => TRUE,
   );
-  $form['krakkaruv_hladbord_number_of_create_nodes'] = array(
-    '#type' => 'select',
-    '#title' => t('Number of "create" nodes'),
-    '#options' => drupal_map_assoc(range(0, 9)),
-    '#default_value' => variable_get('krakkaruv_hladbord_number_of_create_nodes', 0),
-    '#description' => t('Defines how many create nodes will be pulled to the Hlaðborð.'),
-    '#required' => TRUE,
-  );
-  $form['krakkaruv_hladbord_number_of_computer_games_nodes'] = array(
-    '#type' => 'select',
-    '#title' => t('Number of "computer game" nodes'),
-    '#options' => drupal_map_assoc(range(0, 9)),
-    '#default_value' => variable_get('krakkaruv_hladbord_number_of_computer_games_nodes', 0),
-    '#description' => t('Defines how many computer game nodes will be pulled to the Hlaðborð.'),
-    '#required' => TRUE,
+  $form['krakkaruv_hladbord_fixed_places'] = array(
+    '#type' => 'textfield',
+    '#title' => t('What places are "fixed"'),
+    '#default_value' => variable_get('krakkaruv_hladbord_fixed_places', ''),
+    '#description' => t('A comma seperated list of hlaðborð-places that are fixed (will not be replaced).
+        Be aware though! If you have a fixed node that will also appear in the newest feed, only the
+        first item will show!'),
+    '#required' => FALSE,
   );
   $form['krakkaruv_hladbord_first_place_tax'] = array(
     '#type' => 'select',
     '#title' => t('Which taxonomy will sit in first place'),
-    '#options' => array(WATCH => 'Horfa', LISTEN => 'Hlusta', CREATE => 'Skapa', PLAY => 'Leika'),
+    '#options' => array(WATCH => 'Horfa', LISTEN => 'Hlusta'),
     '#default_value' => variable_get('krakkaruv_hladbord_first_place_tax', WATCH),
     '#description' => t('Defines which taxonomy term will be in the first place for the Hlaðborð.'),
     '#required' => TRUE,

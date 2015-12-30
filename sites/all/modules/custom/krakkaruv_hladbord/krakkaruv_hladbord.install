@@ -33,7 +33,7 @@ function krakkaruv_hladbord_uninstall() {
 /**
  * Implements hook_schema().
  */
-function krakkaruv_hladbord_schema() {
+/* function krakkaruv_hladbord_schema() {
   $schema['hladbord_entries'] = array(
     'description' => 'TODO: please describe this table!',
     'fields' => array(
@@ -56,3 +56,4 @@ function krakkaruv_hladbord_schema() {
     'primary key' => array('hlid'),
   );
 }
+*/
