@@ -1,0 +1,29 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * Install, update and uninstall functions for the trails module
+ *
+ * Download the schema module to auto-generate a schema array for a table:
+ * http://drupal.org/project/schema.
+ *
+ * In this file, we're adding hook_install(), hook_uninstall() and hook_schema(). Notice
+ * the variable_del()'s in hook_uninstall.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function krakkaruv_hladbord_install() {
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function krakkaruv_hladbord_uninstall() {
+  variable_del('krakkaruv_hladbord_number_of_watch_nodes');
+  variable_del('krakkaruv_hladbord_number_of_listen_nodes');
+  variable_del('krakkaruv_hladbord_first_place_tax');
+  variable_del('krakkaruv_hladbord_fixed_places');
+}
