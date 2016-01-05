@@ -177,6 +177,7 @@ function _krakkaruv_hladbord_query_generator($content_type, $category = null, $t
     ->entityCondition('entity_type', 'node')
     ->propertyCondition('type', $content_type)
     ->propertyCondition('status', 1, '=')
+    ->fieldCondition('field_recording_file', 'value', 'null', '!=')
     ->propertyOrderBy('created', 'DESC');
 
   if($category){
