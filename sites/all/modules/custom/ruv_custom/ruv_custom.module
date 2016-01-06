@@ -720,11 +720,15 @@ function ruv_custom_add_video_player_w_playlist($playlistNr = false, $epNumber, 
 
   //If there are episode number range, choose Episode Playlist, if the playlist
   //is horfa, choose Blanda, else choose what ever playlist based on thaettir term
-  $playlistString = ($epNumberRange)
-    ? $base_path . "ep-playlist/" . $playlistNr . "/" . $epNumberRange
-    : ($playlistNr == 313)
-      ? $base_path . "blanda/" . $playlistNr
-      : $base_path . "playlist/" . $playlistNr;
+  if($epNumberRange){
+    $playlistString = $base_path . "ep-playlist/" . $playlistNr . "/" . $epNumberRange;
+  }
+  elseif($playlistNr == 313){
+    $playlistString = $base_path . "blanda/" . $playlistNr;
+  }
+  else{
+    $playlistString = $base_path . "playlist/" . $playlistNr;
+  }
 
   echo ruv_custom_add_jw("7");
 
