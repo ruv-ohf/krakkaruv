@@ -3,8 +3,8 @@
 /* =========================================================================== */
 .front{
   #menu-bar{
-     height: 390px;
-    background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-small2.jpg') no-repeat top center;
+    height: 390px;
+    background: url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-small.jpg') no-repeat top center;
   }
   .one-column {
     border-top: 1px solid white;
@@ -158,7 +158,7 @@
   .front{
     #menu-bar {
       height: 500px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-medium2.jpg') no-repeat top center;
+      background: url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg') no-repeat top center;
     }
   }
 }
@@ -166,12 +166,12 @@
 /* Min width 1001px */
 @media only screen and (min-width: 1001px) {
   .front{
-    #page {
+    /*#page {
       background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/banner-frontpage-bg-repeat.jpg') repeat-x top center;
-    }
+    }*/
     #menu-bar {
       height: 790px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image-large4.jpg') no-repeat top center;
+      background: url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg.jpg') no-repeat top center;
     }
   }
 }
