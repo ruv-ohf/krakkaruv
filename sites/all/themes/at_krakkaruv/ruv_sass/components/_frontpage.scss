@@ -21,6 +21,7 @@
 
     img{
       width: 60%;
+      max-width: 768px;
     }
   }
 
@@ -158,7 +159,7 @@
   .front{
     #menu-bar {
       height: 500px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg') no-repeat top center;
+      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg') no-repeat top center;
     }
   }
 }
@@ -171,7 +172,7 @@
     }*/
     #menu-bar {
       height: 790px;
-      background: url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg') no-repeat top center;
+      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg') no-repeat top center;
     }
   }
 }

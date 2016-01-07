@@ -1721,7 +1721,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\00003159}}
   .front #menu-bar {
     height: 500px;
-    background: url("/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg") no-repeat top center;
+    background: #000000 url("/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg") no-repeat top center;
   }
 }
 /* Min width 1001px */
@@ -1735,7 +1735,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\00003172}}
   .front #menu-bar {
     height: 790px;
-    background: url("/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg") no-repeat top center;
+    background: #000000 url("/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg") no-repeat top center;
   }
 }
 /** 
