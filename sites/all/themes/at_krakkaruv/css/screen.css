@@ -8548,8 +8548,10 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000032}}
 .page-taxonomy-term-1002 .field-name-field-image-banner {
   text-align: center;
+  height: 350px;
+  background: url(images/aevar-banner-bg.jpg) repeat-x center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000036}}
 .page-taxonomy-term-1002 .field-name-field-image-banner img {
   width: auto;
 }
