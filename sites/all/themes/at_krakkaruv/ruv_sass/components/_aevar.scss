@@ -31,7 +31,9 @@
 .page-taxonomy-term-1002 {
     .worlds-diary {
         .views-field-title, .views-field-field-summary {
-            border: none;
+            .field-content {
+                border: none;
+            }
         }
     }
 }
