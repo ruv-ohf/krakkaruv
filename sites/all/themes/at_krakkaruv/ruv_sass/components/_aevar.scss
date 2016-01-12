@@ -39,10 +39,12 @@
         }
     }
     #webform-client-form-1379 {
-        color: white;
-        background-color: transparent;
-        border: 1px solid white;
-        padding: 10px 30px;
+        .webform-submit {
+            color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            padding: 10px 30px;
+        }
     }
 }
 
