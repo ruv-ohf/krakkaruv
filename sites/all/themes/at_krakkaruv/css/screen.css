@@ -8546,26 +8546,31 @@ footer .region-footer {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000032}}
+.page-taxonomy-term-1002 .region-inner {
+  background-color: #222c2f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000038}}
 .page-taxonomy-term-1002 .field-name-field-image-banner {
   text-align: center;
   height: 350px;
   margin: 0;
   background: url(images/aevar-banner-bg.jpg) repeat-x center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000313}}
 .page-taxonomy-term-1002 .field-name-field-image-banner img {
   width: auto;
   margin-left: -1000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000321}}
 .page-taxonomy-term-1002 .pane-taxonomy-term-field-image-banner {
   border-bottom: 1px solid #FFF;
 }
 
 /* Min width 700px */
 @media only screen and (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000330}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: -748px;
@@ -8573,7 +8578,7 @@ footer .region-footer {
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000342}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: -256px;
@@ -8581,7 +8586,7 @@ footer .region-footer {
 }
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000354}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: -240px;
@@ -8589,7 +8594,7 @@ footer .region-footer {
 }
 /* Min width 1200px */
 @media only screen and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000366}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: -200px;
@@ -8597,7 +8602,7 @@ footer .region-footer {
 }
 /* Min width 1300px */
 @media only screen and (min-width: 1300px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000378}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: -160px;
@@ -8605,7 +8610,7 @@ footer .region-footer {
 }
 /* Min width 1400px */
 @media only screen and (min-width: 1400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000390}}
   .page-taxonomy-term-1002 .field-name-field-image-banner img {
     width: auto;
     margin-left: 0;
