@@ -8545,5 +8545,13 @@ footer .region-footer {
     left: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000032}}
+.page-taxonomy-term-1002 .field-name-field-image-banner {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000034}}
+.page-taxonomy-term-1002 .field-name-field-image-banner img {
+  width: auto;
+}
 
 /*# sourceMappingURL=screen.css.map */
