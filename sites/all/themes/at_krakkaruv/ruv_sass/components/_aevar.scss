@@ -19,7 +19,7 @@
 .page-taxonomy-term-1002 {
     #footer {
         background-color: #222c2f;
-        .icon, .inline {
+        .icon, .inline, a {
             color: white;
         }
         #block-block-2 {
@@ -30,6 +30,8 @@
 
 .page-taxonomy-term-1002 {
     .worlds-diary {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
         .views-field-title, .views-field-field-summary {
             .field-content {
                 border: none;
