@@ -8584,8 +8584,8 @@ footer .region-footer {
 .page-taxonomy-term-1002 .worlds-diary .views-field-title .field-content, .page-taxonomy-term-1002 .worlds-diary .views-field-field-summary .field-content {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000340}}
-.page-taxonomy-term-1002 .worlds-diary .webform-submit {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000341}}
+.page-taxonomy-term-1002 #webform-client-form-1379 {
   color: white;
   background-color: transparent;
   border: 1px solid white;
