@@ -2,11 +2,18 @@
     .field-name-field-image-banner {
         text-align: center;
         height: 350px;
+        margin: 0;
         background: url(images/aevar-banner-bg.jpg) repeat-x center center;
         img {
             width: auto;
             margin-left: -1000px;
         }
+    }
+}
+
+.page-taxonomy-term-1002 {
+    .pane-taxonomy-term-field-image-banner {
+        border-bottom: 1px solid #FFF;
     }
 }
 
