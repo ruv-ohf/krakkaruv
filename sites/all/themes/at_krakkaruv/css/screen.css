@@ -8727,16 +8727,24 @@ footer .region-footer {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000329}}
+.page-taxonomy-term-1367 .view-id-node_list .views-field-field-summary p {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000333}}
 .page-taxonomy-term-1367 .view-id-node_list .views-field-title {
   background-color: rgba(255, 255, 255, 0.6);
   margin: 0px;
   padding: 16px 16px 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000337}}
+.page-taxonomy-term-1367 .view-id-node_list .views-field-title a {
+  font-size: 18px;
+}
 
 /* Min width 1200px */
 @media only screen and (min-width: 1700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000348}}
   .page-taxonomy-term-1367 .field-name-field-image-banner img {
     margin-left: 0;
   }
