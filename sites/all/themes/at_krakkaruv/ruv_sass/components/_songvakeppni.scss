@@ -4,12 +4,18 @@
         background: #152530 url(images/songvakeppnin-bg-repeat.jpg) repeat-x center center;
         img {
             width: auto;
+            margin-left: -383px;
         }
     }
 }
 
 /* Min width 1200px */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1700px) {
   .page-taxonomy-term-1367 {
-  }
+         .field-name-field-image-banner {
+            img {
+                margin-left: 0;
+            }
+        }
+    } 
 }
