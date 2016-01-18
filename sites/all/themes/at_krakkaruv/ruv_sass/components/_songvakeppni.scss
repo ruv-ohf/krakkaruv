@@ -1,6 +1,6 @@
 .page-taxonomy-term-1367 {
     .pane-title {
-        color: white;
+        color: white !important;
     }
     #block-system-main {
         background-color: #142630;
@@ -19,6 +19,9 @@
         }
     }
     .view-id-node_list {
+        .views-row {
+            min-height: 440px;
+        }
         .views-field-field-image {
             padding: 2px;
             background-color: rgba(255, 255, 255, 0.6);
