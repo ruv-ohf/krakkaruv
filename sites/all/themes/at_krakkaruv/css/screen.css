@@ -8696,7 +8696,7 @@ footer .region-footer {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000032}}
-.eurovision-2016 .page-wrapper {
+.eurovision-2016 #page-wrapper {
   background: #03140d url(css/images/songvakeppnin-2016/bg.jpg) no-repeat center center fixed;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000035}}
@@ -8705,7 +8705,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000038}}
 .eurovision-2016 #block-system-main {
-  background-color: #142630;
+  /*background-color: #142630;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000311}}
 .eurovision-2016 .field-name-field-image-banner {
