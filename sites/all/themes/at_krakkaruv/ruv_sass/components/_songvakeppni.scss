@@ -60,8 +60,11 @@
         }
     }
     #footer {
-        a, div {
+        a, div, i {
             color: white;
+        }
+        .site-footer {
+            border-color: white;
         }
     }
 }
