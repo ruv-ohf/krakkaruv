@@ -1,4 +1,18 @@
 .eurovision-2016 {
+    #menu-bar {
+        ul {
+            margin-top: 0px;
+            padding-top: 20px;
+            background-color: rgba(198, 9, 49, 0.3);
+            border-bottom: 1px solid rgba(249, 187, 200, 0.4);
+            a {
+                color: white;
+                &:before {
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
     #page-wrapper {
         background: #03140d url(images/songvakeppnin-2016/bg.jpg) no-repeat center center fixed;
     }
