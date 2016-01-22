@@ -36,6 +36,11 @@
         }
     }
     .view-id-node_list {
+        .field-content {
+            a, p {
+                color: white;
+            }
+        }
         .views-row {
             min-height: 440px;
         }
