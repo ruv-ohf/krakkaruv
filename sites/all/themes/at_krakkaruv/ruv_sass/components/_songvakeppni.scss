@@ -40,20 +40,28 @@
             min-height: 440px;
         }
         .views-field-field-image {
-            padding: 2px;
-            background-color: rgba(255, 255, 255, 0.6);
+            border-left: 1px solid rgba(255, 255, 255, 0.6);
+            border-top: 1px solid rgba(255, 255, 255, 0.6);
+            border-right: 1px solid rgba(255, 255, 255, 0.6);
+            /*padding: 2px;
+            background-color: rgba(255, 255, 255, 0.6);*/
         }
         .views-field-field-summary {
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(84, 186, 84, 0.4);
             padding: 16px;
+            border-left: 1px solid rgba(255, 255, 255, 0.6);
+            border-right: 1px solid rgba(255, 255, 255, 0.6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
             p {
                 font-size: 14px;
             }
         }
         .views-field-title {
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(84, 186, 84, 0.4);
             margin: 0px;
             padding: 16px 16px 0px;
+            border-left: 1px solid rgba(255, 255, 255, 0.6);
+            border-right: 1px solid rgba(255, 255, 255, 0.6);
             a {
                 font-size: 18px;
             }
