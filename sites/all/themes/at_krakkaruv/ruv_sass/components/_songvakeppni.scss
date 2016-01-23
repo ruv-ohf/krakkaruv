@@ -29,6 +29,10 @@
                 padding: 16px;
                 background-color: rgba(88, 208, 255, 0.4);
                 border: 1px solid rgba(111, 231, 251, 0.6);
+                + p {
+                    font-weight: 500;
+                    font-size: 17px;
+                }
             }
         }
     }
@@ -167,7 +171,7 @@
                 .intro-text {
                     margin-left: 12px;
                     p {
-                        font-size: 22px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -181,6 +185,35 @@
         }
     }
 }
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+    .eurovision-2016.page-node {
+        .block-content {
+            .views-field-views-conditional {
+                float: left;
+                width: 50%;
+                .field-content {
+                    margin-right: 12px;
+                    padding: 20px;
+                }
+            }
+            .views-field-field-summary {
+                float: right;
+                .intro-text {
+                    padding: 20px;
+                }
+            }
+            .views-field-field-body {
+                .main-text {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+
 
 /* Min width 1700px */
 @media only screen and (min-width: 1700px) {
