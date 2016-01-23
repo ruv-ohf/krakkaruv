@@ -21,6 +21,7 @@
                 border-top: 1px solid rgba(111, 231, 251, 0.6);
                 border-right: 1px solid rgba(111, 231, 251, 0.6);
                 border-left: 1px solid rgba(111, 231, 251, 0.6);
+                margin-bottom: 25px;
             }
         }
         .views-field-field-body {
@@ -51,7 +52,6 @@
         img {
             display: block;
             margin: 30px auto;
-            width: 168px;
         }
     }
 
@@ -106,9 +106,9 @@
         .views-field-field-summary {
             background-color: rgba(84, 186, 84, 0.4);
             padding: 16px;
-            border-left: 1px solid rgba(255, 255, 255, 0.6);
-            border-right: 1px solid rgba(255, 255, 255, 0.6);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            border-left: 1px solid rgba(113, 241, 113, 0.6);
+            border-right: 1px solid rgba(113, 241, 113, 0.6);
+            border-bottom: 1px solid rgba(113, 241, 113, 0.6);
             p {
                 font-size: 14px;
             }
@@ -117,8 +117,8 @@
             background-color: rgba(84, 186, 84, 0.4);
             margin: 0px;
             padding: 16px 16px 0px;
-            border-left: 1px solid rgba(255, 255, 255, 0.6);
-            border-right: 1px solid rgba(255, 255, 255, 0.6);
+            border-left: 1px solid rgba(113, 241, 113, 0.6);
+            border-right: 1px solid rgba(113, 241, 113, 0.6);
             a {
                 font-size: 18px;
             }
@@ -144,6 +144,8 @@
         font-weight: 500;
         padding: 16px;
         background-color: rgba(84, 186, 84, 0.4);
+        border: 1px solid rgba(113, 241, 113, 0.6);
+        margin-bottom: 25px;
     }
     p.node-created {
        display: none;
