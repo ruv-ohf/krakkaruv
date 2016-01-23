@@ -1,3 +1,13 @@
+.logged-in.eurovision-2016 {
+    #tasks {
+        max-width: 1099px;
+        position: relative;
+        margin: 0px auto;
+    }
+    .action-links a {
+        color: white;
+    }
+}
 .eurovision-2016 {
     #menu-bar {
         ul {
@@ -77,7 +87,7 @@
         }
     }
 
-    .views-field-title h1, .intro-text p, .main-text p, .node-created {
+    .views-field-title h1, .intro-text p, .main-text p, p.node-created {
         color: white;
     }
     .views-field-title h1 {
