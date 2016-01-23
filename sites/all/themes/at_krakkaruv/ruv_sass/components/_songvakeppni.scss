@@ -152,10 +152,40 @@
     }
 }
 
-/* Min width 1200px */
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+    .eurovision-2016 {
+        .views-field-title h1 {
+            font-size: 26px;
+        }
+    }
+    .eurovision-2016.page-node {
+        .block-content {
+            .views-field-field-summary {
+                float: left;
+                width: 50%;
+            }
+            .views-field-field-body {
+                float: right;
+                width: 50%;
+                .intro-text {
+                    margin-left: 12px;
+                    p {
+                        font-size: 22px;
+                    }
+                }
+                .main-text {
+                    margin-left: 13px;
+                }
+            }
+        }
+    }
+}
+
+/* Min width 1700px */
 @media only screen and (min-width: 1700px) {
-  .page-taxonomy-term-1367 {
-         .field-name-field-image-banner {
+    .page-taxonomy-term-1367 {
+        .field-name-field-image-banner {
             img {
                 margin-left: 0;
             }
