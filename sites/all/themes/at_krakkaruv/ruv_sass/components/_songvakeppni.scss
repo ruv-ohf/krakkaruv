@@ -19,9 +19,7 @@
     .pane-title {
         color: white !important;
     }
-    #block-system-main {
-        /*background-color: #142630;*/
-    }
+   
     .field-name-field-image-banner {
         text-align: center;
         background: #152530 url(images/songvakeppnin-bg-repeat.jpg) repeat-x center center;
@@ -48,8 +46,6 @@
             border-left: 1px solid rgba(255, 255, 255, 0.6);
             border-top: 1px solid rgba(255, 255, 255, 0.6);
             border-right: 1px solid rgba(255, 255, 255, 0.6);
-            /*padding: 2px;
-            background-color: rgba(255, 255, 255, 0.6);*/
         }
         .views-field-field-summary {
             background-color: rgba(84, 186, 84, 0.4);
@@ -78,6 +74,13 @@
         }
         .site-footer {
             border-color: white;
+        }
+    }
+
+    .page-node {
+        h1, .intro-text p {
+            color: white;
+            font-size: 36px;
         }
     }
 }
