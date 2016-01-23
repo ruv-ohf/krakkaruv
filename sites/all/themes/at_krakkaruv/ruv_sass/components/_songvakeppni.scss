@@ -77,8 +77,10 @@
         }
     }
 
-    h1, .intro-text p {
+    .views-field-title h1, .intro-text p {
         color: white;
+    }
+    .views-field-title h1 {
         font-size: 36px;
     }
 }
