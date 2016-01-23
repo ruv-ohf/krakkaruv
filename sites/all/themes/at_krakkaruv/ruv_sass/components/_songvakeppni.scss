@@ -29,7 +29,7 @@
                 padding: 16px;
                 background-color: rgba(88, 208, 255, 0.4);
                 border: 1px solid rgba(111, 231, 251, 0.6);
-                + p {
+                p:nth-child(1) {
                     font-weight: 500;
                     font-size: 17px;
                 }
