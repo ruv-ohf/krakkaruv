@@ -18,7 +18,9 @@
                 font-weight: 500;
                 background-color: rgba(88, 208, 255, 0.5);
                 padding: 16px;
-                border: 1px solid rgba(111, 231, 251, 0.6);
+                border-top: 1px solid rgba(111, 231, 251, 0.6);
+                border-right: 1px solid rgba(111, 231, 251, 0.6);
+                border-left: 1px solid rgba(111, 231, 251, 0.6);
             }
         }
         .views-field-field-body {
@@ -131,7 +133,7 @@
         }
     }
 
-    .views-field-title h1, .intro-text p, .main-text p, .view p.node-created {
+    .views-field-title h1, .intro-text p, .main-text p {
         color: white;
     }
     .views-field-title h1 {
@@ -140,11 +142,11 @@
         margin-bottom: 4px;
         font-family: $font-base;
         font-weight: 500;
+        padding: 16px;
+        background-color: rgba(84, 186, 84, 0.4);
     }
     p.node-created {
-        font-family: $font-base;
-        font-size: 12px;
-        margin-bottom: 30px;
+       display: none;
     }
 }
 
