@@ -106,11 +106,14 @@
             min-height: 400px;
             .views-field-title {
                 margin-bottom: 20px;
+                padding-bottom: 0;
                 h2 {
                     color: white;
                     font-size: 18px;
                     margin: 0;
                     font-family: $font-base;
+                    line-height: normal;
+                    text-align: left;
                 }
             }
         }
