@@ -115,7 +115,8 @@
             }
             .image-wrapper {
                 img:hover {
-                    transform: unset;
+                    transform: inherit;
+                    transition: none;
                 }
             }
             .summary {
