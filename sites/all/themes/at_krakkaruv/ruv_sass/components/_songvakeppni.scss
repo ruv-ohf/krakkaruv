@@ -105,7 +105,7 @@
             padding: 20px;
             min-height: 400px;
             .views-field-title {
-                margin-bottom: 20px;
+                margin-bottom: 20px !important;
                 padding-bottom: 0 !important;
                 color: white;
                 font-size: 18px;
@@ -114,6 +114,9 @@
                 line-height: normal;
                 text-align: left;
                 }
+            }
+            .summary {
+                font-size: 14px;
             }
         .views-row {
             /*min-height: 440px;*/
