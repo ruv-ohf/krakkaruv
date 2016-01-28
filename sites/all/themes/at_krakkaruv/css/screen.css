@@ -8799,14 +8799,20 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003102}}
 .eurovision-2016 .view-id-node_list .views-row:hover {
   transform: unset;
+  transition: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003105}}
+.eurovision-2016 .view-id-node_list .views-row:hover img {
+  transform: unset;
+  transition: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003110}}
 .eurovision-2016 .view-id-node_list .views-row-inner {
   background-color: rgba(84, 186, 84, 0.4);
   border: 1px solid rgba(113, 241, 113, 0.6);
   padding: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003114}}
 .eurovision-2016 .view-id-node_list .views-row-inner .views-field-title {
   margin: 20px 0;
   padding-bottom: 0 !important;
@@ -8815,11 +8821,6 @@ footer .region-footer {
   font-family: "Open Sans", sans-serif;
   line-height: normal;
   text-align: left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003120}}
-.eurovision-2016 .view-id-node_list a:hover img {
-  transform: unset;
-  transition: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003125}}
 .eurovision-2016 .view-id-node_list .summary {

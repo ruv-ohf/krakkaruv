@@ -101,6 +101,11 @@
         }
         .views-row:hover {
             transform: unset;
+            transition: none;
+            img {
+                transform: unset;
+                transition: none;
+            }
         }
         .views-row-inner {
             background-color: rgba(84, 186, 84, 0.4);
@@ -116,12 +121,7 @@
                 text-align: left;
                 }
             }
-            a:hover {
-                img {
-                    transform: unset;
-                    transition: none;
-                }
-            }
+            
             .summary {
                 font-size: 14px;
             }
