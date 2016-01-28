@@ -8806,7 +8806,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003107}}
 .eurovision-2016 .view-id-node_list .views-row-inner .views-field-title {
   margin-bottom: 20px;
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003110}}
 .eurovision-2016 .view-id-node_list .views-row-inner .views-field-title h2 {
