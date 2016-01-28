@@ -8801,7 +8801,7 @@ footer .region-footer {
   background-color: rgba(84, 186, 84, 0.4);
   border: 1px solid rgba(113, 241, 113, 0.6);
   padding: 20px;
-  min-height: 400px;
+  /*min-height: 400px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003107}}
 .eurovision-2016 .view-id-node_list .views-row-inner .views-field-title {
