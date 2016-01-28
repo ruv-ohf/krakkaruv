@@ -72,11 +72,23 @@
     <?php print $polyfills; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
+<!-- Begin comScore Inline Tag 1.1302.13 --> 
+<script type="text/javascript"> 
+// <![CDATA[
+function udm_(e){var t="comScore=",n=document,r=n.cookie,i="",s="indexOf",o="substring",u="length",a=2048,f,l="&ns_",c="&",h,p,d,v,m=window,g=m.encodeURIComponent||escape;if(r[s](t)+1)for(d=0,p=r.split(";"),v=p[u];d<v;d++)h=p[d][s](t),h+1&&(i=c+unescape(p[d][o](h+t[u])));e+=l+"_t="+ +(new Date)+l+"c="+(n.characterSet||n.defaultCharset||"")+"&c8="+g(n.title)+i+"&c7="+g(n.URL)+"&c9="+g(n.referrer),e[u]>a&&e[s](c)>0&&(f=e[o](0,a-8).lastIndexOf(c),e=(e[o](0,f)+l+"cut="+g(e[o](f+1)))[o](0,a)),n.images?(h=new Image,m.ns_p||(ns_p=h),h.src=e):n.write("<","p","><",'img src="',e,'" height="1" width="1" alt="*"',"><","/p",">")};
+udm_('http'+(document.location.href.charAt(4)=='s'?'s://sb':'://b')+'.scorecardresearch.com/b?c1=2&c2=19986860&ns_vsite=krakkaruv.is&ns_vsection=<?php print $head_title; ?>');
+// ]]>
+</script>
+<noscript><p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=19986860&amp;ns_vsite=krakkaruv.is&amp;ns_vsection=<?php print $head_title; ?>" height="1" width="1" alt="*"></p></noscript> 
+<!-- End comScore Inline Tag -->
 <div id="skip-link" class="nocontent">
     <a href="<?php print $skip_link_target; ?>" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
 </div>
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
+<!-- Begin comScore Inline Tag 1.1302.13 -->
+<script type="text/javascript" language="JavaScript1.3" src="http://b.scorecardresearch.com/c2/19986860/cs.js"></script>
+<!-- End comScore Inline Tag -->
 </body>
 </html>
