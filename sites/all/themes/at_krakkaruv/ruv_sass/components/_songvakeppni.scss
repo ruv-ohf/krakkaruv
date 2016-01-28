@@ -99,7 +99,10 @@
                 color: white;
             }
         }
-         .views-row-inner {
+        .views-row:hover {
+            transform: unset;
+        }
+        .views-row-inner {
             background-color: rgba(84, 186, 84, 0.4);
             border: 1px solid rgba(113, 241, 113, 0.6);
             padding: 20px;
@@ -113,9 +116,9 @@
                 text-align: left;
                 }
             }
-            .image-wrapper {
-                img:hover {
-                    transform: inherit;
+            a:hover {
+                img {
+                    transform: unset;
                     transition: none;
                 }
             }
