@@ -108,17 +108,19 @@
             }
         }
         .views-row-inner {
+            a {
             background-color: rgba(84, 186, 84, 0.4);
             border: 1px solid rgba(113, 241, 113, 0.6);
             padding: 20px;
-            .views-field-title {
-                margin: 20px 0;
-                padding-bottom: 0 !important;
-                color: white;
-                font-size: 18px;
-                font-family: $font-base;
-                line-height: normal;
-                text-align: left;
+                .views-field-title {
+                    margin: 20px 0;
+                    padding-bottom: 0 !important;
+                    color: white;
+                    font-size: 18px;
+                    font-family: $font-base;
+                    line-height: normal;
+                    text-align: left;
+                    }
                 }
             }
             
