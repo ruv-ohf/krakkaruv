@@ -36,10 +36,6 @@
             }
         }
     }
-    .views-row-inner {
-        background-color: rgba(84, 186, 84, 0.4);
-        border: 1px solid rgba(113, 241, 113, 0.6);
-    }
 }
 .logged-in.eurovision-2016 {
     #tasks {
@@ -102,6 +98,10 @@
             a, p {
                 color: white;
             }
+        }
+         .views-row-inner {
+            background-color: rgba(84, 186, 84, 0.4);
+            border: 1px solid rgba(113, 241, 113, 0.6);
         }
         .views-row {
             /*min-height: 440px;*/
