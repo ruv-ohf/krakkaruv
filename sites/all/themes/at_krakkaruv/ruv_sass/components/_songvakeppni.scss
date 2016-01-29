@@ -50,7 +50,7 @@
 .eurovision-2016 {
     .news-digest {
         padding-top: 0;
-        .pane-title {
+        /*.pane-title {
             text-align: left;
             max-width: 1140px;
             position: relative;
@@ -58,7 +58,7 @@
             font-size: 28px;
             line-height: 45px;
             padding: 0px 0px 13px 10px;
-        }
+        }*/
     }
     .songvakeppnin-logo {
         position: relative;
@@ -88,11 +88,9 @@
     }
     #page-wrapper {
         background: #03140d url(images/songvakeppnin-2016/bg.jpg) no-repeat center center fixed;
+        padding-bottom: 200px;
     }
-    .pane-title {
-        color: white !important;
-    }
-   
+      
     .field-name-field-image-banner {
         text-align: center;
         background: #152530 url(images/songvakeppnin-bg-repeat.jpg) repeat-x center center;
@@ -129,15 +127,6 @@
             border: 1px solid rgba(113, 241, 113, 0.6);
             padding: 20px;
             min-height: 354px;
-                .views-field-title {
-                    margin: 20px 0;
-                    padding-bottom: 0 !important;
-                    color: white;
-                    font-size: 18px;
-                    font-family: $font-base;
-                    line-height: normal;
-                    text-align: left;
-                    }
                 }
             }
             
@@ -151,11 +140,6 @@
                 font-size: 14px;
             }
         }
-        .views-field-title {
-            a {
-                font-size: 18px;
-            }
-        }
     }
     #footer {
         a, div, i {
@@ -166,10 +150,10 @@
         }
     }
 
-    .views-field-title h1, .intro-text p, .main-text p {
+    .views-field-title h1, .intro-text p, .main-text p, .pane-title {
         color: white;
     }
-    .views-field-title h1 {
+    .views-field-title h1, .pane-title {
         font-size: 20px;
         line-height: 1.4;
         margin-bottom: 4px;
@@ -199,7 +183,7 @@
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
     .eurovision-2016 {
-        .views-field-title h1 {
+        .views-field-title h1, .pane-title {
             font-size: 26px;
         }
         .view-id-node_list {
