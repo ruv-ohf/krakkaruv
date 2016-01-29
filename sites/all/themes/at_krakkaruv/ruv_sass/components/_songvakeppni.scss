@@ -156,7 +156,6 @@
     .views-field-title h1, h2.pane-title {
         font-size: 20px;
         line-height: 1.4;
-        margin-bottom: 4px;
         font-family: $font-base;
         font-weight: 500;
         padding: 16px;
@@ -175,7 +174,7 @@
     h2.pane-title {
         max-width: 1140px;
         position: relative;
-        margin: 0 auto 25px auto;
+        margin: 50px auto 25px auto;
     }
     p.node-created {
        display: none;
