@@ -48,17 +48,13 @@
     }
 }
 .eurovision-2016 {
+    .view-node-list {
+        position: relative;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
     .news-digest {
         padding-top: 0;
-        /*.pane-title {
-            text-align: left;
-            max-width: 1140px;
-            position: relative;
-            margin: 0px auto;
-            font-size: 28px;
-            line-height: 45px;
-            padding: 0px 0px 13px 10px;
-        }*/
     }
     .songvakeppnin-logo {
         position: relative;
