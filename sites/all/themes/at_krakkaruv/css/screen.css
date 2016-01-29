@@ -8848,11 +8848,11 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003152}}
 .eurovision-2016 .views-field-title h1, .eurovision-2016 h2.pane-title {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.4;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  padding: 16px;
+  padding: 4px 16px 8px 16px;
   background-color: rgba(84, 186, 84, 0.4);
   border: 1px solid rgba(113, 241, 113, 0.6);
   margin-bottom: 25px;
@@ -8886,9 +8886,11 @@ footer .region-footer {
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003194}}
-  .eurovision-2016 .views-field-title h1, .eurovision-2016 h2.pane-title {
-    font-size: 26px;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003193}}
+  .eurovision-2016 {
+    /*.views-field-title h1, h2.pane-title {
+        font-size: 22px;
+    }*/
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003198}}
   .eurovision-2016 .view-id-node_list .views-row {

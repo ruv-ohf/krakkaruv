@@ -150,11 +150,11 @@
         color: white;
     }
     .views-field-title h1, h2.pane-title {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1.4;
         font-family: $font-base;
         font-weight: 500;
-        padding: 16px;
+        padding: 4px 16px 8px 16px;
         background-color: rgba(84, 186, 84, 0.4);
         border: 1px solid rgba(113, 241, 113, 0.6);
         margin-bottom: 25px;
@@ -191,9 +191,9 @@
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
     .eurovision-2016 {
-        .views-field-title h1, h2.pane-title {
-            font-size: 26px;
-        }
+        /*.views-field-title h1, h2.pane-title {
+            font-size: 22px;
+        }*/
         .view-id-node_list {
             .views-row {
                 width: 33.33333333333333%;
