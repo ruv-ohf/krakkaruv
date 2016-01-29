@@ -167,6 +167,9 @@
     h2.views-field-title {
         font-size: 18px;
         font-family: $font-base;
+        text-align: left;
+        line-height: normal;
+        margin-bottom: 12px;
     }
     p.node-created {
        display: none;
