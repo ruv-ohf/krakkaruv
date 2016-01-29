@@ -38,6 +38,10 @@
     }
 }
 .logged-in.eurovision-2016 {
+    .pad2x {
+        padding-left: 0;
+        padding-right: 0;
+    }
     #tasks {
         max-width: 1099px;
         position: relative;
