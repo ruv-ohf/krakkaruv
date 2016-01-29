@@ -67,7 +67,7 @@
         display: block;
         img {
             display: block;
-            margin: 30px auto;
+            margin: 30px auto -20px auto;
             max-width: 100%;
         }
     }
@@ -163,6 +163,7 @@
         background-color: rgba(84, 186, 84, 0.4);
         border: 1px solid rgba(113, 241, 113, 0.6);
         margin-bottom: 25px;
+        margin-top: 50px;
     }
     h2.views-field-title {
         font-size: 18px;
