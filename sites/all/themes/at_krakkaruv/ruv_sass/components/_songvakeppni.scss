@@ -48,14 +48,27 @@
     }
 }
 .eurovision-2016 {
+    .news-digest {
+        padding-top: 0;
+        .pane-title {
+            text-align: left;
+            max-width: 1140px;
+            position: relative;
+            margin: 0px auto;
+            font-size: 28px;
+            line-height: 45px;
+            padding: 0px 0px 13px 10px;
+        }
+    }
     .songvakeppnin-logo {
         position: relative;
         margin: 0 auto;
-        width: 253px;
+        width: 200px;
         display: block;
         img {
             display: block;
             margin: 30px auto;
+            max-width: 100%;
         }
     }
 
@@ -99,6 +112,9 @@
                 color: white;
             }
         }
+        .views-row {
+            width: 100%;
+        }
         .views-row:hover {
             transform: unset;
             transition: none;
@@ -128,30 +144,13 @@
                 font-size: 14px;
                 color: white;
             }
-        .views-row {
-            /*min-height: 440px;*/
-        }
-        .views-field-field-image {
-            /*border-left: 1px solid rgba(113, 241, 113, 0.6);
-            border-top: 1px solid rgba(113, 241, 113, 0.6);
-            border-right: 1px solid rgba(113, 241, 113, 0.6);*/
-        }
+               
         .views-field-field-summary {
-            /*background-color: rgba(84, 186, 84, 0.4);
-            padding: 16px;
-            border-left: 1px solid rgba(113, 241, 113, 0.6);
-            border-right: 1px solid rgba(113, 241, 113, 0.6);
-            border-bottom: 1px solid rgba(113, 241, 113, 0.6);*/
             p {
                 font-size: 14px;
             }
         }
         .views-field-title {
-            /*background-color: rgba(84, 186, 84, 0.4);
-            margin: 0px;
-            padding: 16px 16px 0px;
-            border-left: 1px solid rgba(113, 241, 113, 0.6);
-            border-right: 1px solid rgba(113, 241, 113, 0.6);*/
             a {
                 font-size: 18px;
             }
@@ -182,6 +181,17 @@
     }
     p.node-created {
        display: none;
+    }
+}
+
+/* Min width 480px */
+@media only screen and (min-width: 480px) {
+    .eurovision-2016 {
+        .view-id-node_list {
+            .views-row {
+                width: 50%;
+            }
+        }
     }
 }
 
