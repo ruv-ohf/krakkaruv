@@ -8698,9 +8698,9 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000032}}
 .eurovision-2016.page-node .block-content {
   position: relative;
-  max-width: 1100px;
+  /*max-width: 1100px;*/
   margin: 0 auto;
-  padding: 0 16px;
+  /*padding: 0 16px;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000038}}
 .eurovision-2016.page-node .block-content .views-field-views-conditional .field-content {
