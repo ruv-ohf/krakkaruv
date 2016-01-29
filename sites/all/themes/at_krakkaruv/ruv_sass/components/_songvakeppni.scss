@@ -3,7 +3,6 @@
         position: relative;
         max-width: 1140px;
         margin: 0 auto;
-        /*padding: 0 16px;*/
         .views-field-views-conditional {
             .field-content {
                 display: block;
@@ -190,15 +189,51 @@
                 width: 50%;
             }
         }
+
+        #page-wrapper:before {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 75px;
+            height: 62px;
+            background: transparent url(images/songvakeppnin-2016/kristall-top-min.png) no-repeat;
+            content: "";
+            z-index: 1000;
+            background-size: 100%;
+        }
+
+        #page-wrapper:after {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 71px;
+            height: 76px;
+            background: transparent url(images/songvakeppnin-2016/kristall-bottom-min.png) no-repeat;
+            content: "";
+            z-index: 1000;
+            background-size: 100%;
+        }
+    }
+}
+
+/* Min width 581px */
+@media only screen and (min-width: 581px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 84px;
+            height: 68px;
+        }
+        #page-wrapper:after {
+            width: 96px;
+            height: 97px;
+        }
     }
 }
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
     .eurovision-2016 {
-        /*.views-field-title h1, h2.pane-title {
-            font-size: 22px;
-        }*/
+        
         .view-id-node_list {
             .views-row {
                 width: 33.33333333333333%;
@@ -259,10 +294,90 @@
                 width: 25%;
             }
         }
+        #main-container:before {
+            width: 95px;
+            height: 68px;
+            right: -17px;
+        }
+    }
+}
+
+/* Min width 1200px */
+@media only screen and (min-width: 1200px) {
+    .eurovision-2016 {
+        
+        #page-wrapper:before {
+            width: 123px;
+            height: 107px;
+            right: -22px;
+        }
+
+        #page-wrapper:after {
+            width: 127px;
+            height: 131px;
+        }
     }
 }
 
 
+/* Min width 1300px */
+@media only screen and (min-width: 1300px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 146px;
+            top: 1px;
+            height: 125px;
+        }
+
+        #page-wrapper:after {
+            width: 127px;
+        }
+    }
+}
+
+/* Min width 1400px */
+@media only screen and (min-width: 1400px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 212px;
+            top: 0;
+            height: 175px;
+            z-index: 2000;
+        }
+        #page-wrapper:after {
+            width: 212px;
+            height: 175px;
+        }
+    }
+}
+
+/* Min width 1500px */
+@media only screen and (min-width: 1500px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 254px;
+            height: 182px;
+        }
+        #page-wrapper:after {
+            width: 244px;
+            height: 324px;
+        }
+    }
+}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 300px;
+            height: 218px;
+        }
+        #page-wrapper:after {
+            width: 307px;
+            height: 318px;
+        }
+    }
+}
 
 /* Min width 1700px */
 @media only screen and (min-width: 1700px) {
@@ -273,4 +388,39 @@
             }
         }
     } 
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 300px;
+            height: 218px;
+        }
+        #page-wrapper:after {
+            width: 354px;
+            height: 405px;
+        }
+    }
+}
+
+/* Min width 1800px */
+@media only screen and (min-width: 1800px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 400px;
+            height: 278px;
+        }
+    }
+}
+
+/* Min width 1920px */
+@media only screen and (min-width: 1920px) {
+    .eurovision-2016 {
+        #page-wrapper:before {
+            width: 478px;
+            height: 340px;
+        }
+        #page-wrapper:after {
+            width: 400px;
+            height: 518px;
+            bottom: -26px;
+        }
+    }
 }
