@@ -8909,11 +8909,11 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003210}}
 .eurovision-2016 .euro-wrapper:nth-child(2) .euro {
-  background: transparent url(images/songvakeppnin-2016/myndbandasamkeppni.jpg) no-repeat center center;
+  background: transparent url(images/songvakeppnin-2016/myndbandasamkeppni-bg.jpg) no-repeat center center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003215}}
 .eurovision-2016 .euro-wrapper:nth-child(3) .euro {
-  background: transparent url(images/songvakeppnin-2016/um-keppnina.jpg) no-repeat center center;
+  background: transparent url(images/songvakeppnin-2016/um-keppnina-bg.jpg) no-repeat center center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003220}}
 .eurovision-2016 .euro-wrapper:nth-child(4) .euro {
