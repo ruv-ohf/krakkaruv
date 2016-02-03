@@ -179,6 +179,13 @@
     p.node-created {
        display: none;
     }
+    .euro-wrapper {
+        .euro {
+            display: block;
+            background-color: rgba(146,144,208,0.4);
+            color: white;
+        }
+    }
 }
 
 /* Min width 480px */
