@@ -179,6 +179,11 @@
     p.node-created {
        display: none;
     }
+    .euro-container {
+        position: relative;
+        overflow: hidden;
+        margin-top: 60px;
+    }
     .euro-wrapper {
         margin-bottom: 20px;
         .link-wrapper {
