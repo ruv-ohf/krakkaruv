@@ -182,13 +182,15 @@
     .euro-wrapper {
         .link-wrapper {
             border: 1px solid rgba(194, 193, 248, 0.6);
+            background-color: rgba(146,144,208,0.4);
         }
         .euro {
             display: block;
             background-color: rgba(146,144,208,0.4);
             color: white;
             position: relative;
-            height: 398px;
+            height: 358px;
+            margin: 20px;
             span {
                 position: absolute;
                 width: 100%;
