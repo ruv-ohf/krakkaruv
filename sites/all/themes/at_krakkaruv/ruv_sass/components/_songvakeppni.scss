@@ -180,10 +180,14 @@
        display: none;
     }
     .euro-wrapper {
+        .link-wrapper {
+            border: 1px solid rgba(194, 193, 248, 0.6);
+        }
         .euro {
             display: block;
             background-color: rgba(146,144,208,0.4);
             color: white;
+            position: relative;
         }
     }
 }
