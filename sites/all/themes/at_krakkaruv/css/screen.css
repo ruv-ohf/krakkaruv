@@ -8903,6 +8903,13 @@ footer .region-footer {
   position: relative;
   height: 358px;
   margin: 20px;
+  /*.overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent url(images/songvakeppnin-2016/overlay.png) repeat-x top left;
+      z-index: 1;
+  }*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003200}}
 .eurovision-2016 .euro-wrapper .euro .euro-border {
@@ -8915,14 +8922,6 @@ footer .region-footer {
   line-height: 44px;
   font-size: 18px;
   z-index: 2;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003211}}
-.eurovision-2016 .euro-wrapper .euro .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: transparent url(images/songvakeppnin-2016/overlay.png) repeat-x top left;
-  z-index: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003221}}
 .eurovision-2016 .euro-wrapper:nth-child(1) .euro {
