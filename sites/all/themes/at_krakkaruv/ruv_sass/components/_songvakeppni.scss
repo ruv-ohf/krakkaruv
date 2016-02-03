@@ -281,6 +281,12 @@
             float: left;
             width: 50%;
         }
+        .euro-wrapper:nth-child(odd) {
+            border-right: 10px solid transparent;
+        }
+        .euro-wrapper:nth-child(even) {
+            border-left: 10px solid transparent;
+        }
     }
 }
 
