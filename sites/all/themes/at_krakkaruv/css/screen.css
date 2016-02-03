@@ -8920,35 +8920,35 @@ footer .region-footer {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: -moz-linear-gradient(top, rgba(196, 200, 233, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
-  background: -webkit-linear-gradient(top, rgba(196, 200, 233, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
-  background: linear-gradient(to bottom, rgba(196, 200, 233, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c4c8e9', endColorstr='#998991d4',GradientType=0 );
+  background: -moz-linear-gradient(top, rgba(137, 145, 212, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
+  background: -webkit-linear-gradient(top, rgba(137, 145, 212, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(137, 145, 212, 0.4) 0%, rgba(137, 145, 212, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668991d4', endColorstr='#998991d4',GradientType=0 );
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003222}}
 .eurovision-2016 .euro-wrapper:nth-child(1) .euro {
   background: rgba(146, 144, 208, 0.4) url(images/songvakeppnin-2016/login-bg.jpg) no-repeat center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003227}}
 .eurovision-2016 .euro-wrapper:nth-child(2) .euro {
   background: rgba(146, 144, 208, 0.4) url(images/songvakeppnin-2016/myndbandasamkeppni-bg.jpg) no-repeat center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003232}}
 .eurovision-2016 .euro-wrapper:nth-child(3) .euro {
   background: rgba(146, 144, 208, 0.4) url(images/songvakeppnin-2016/um-keppnina-bg.jpg) no-repeat center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003237}}
 .eurovision-2016 .euro-wrapper:nth-child(4) .euro {
   background: rgba(146, 144, 208, 0.4) url(images/songvakeppnin-2016/bakvid-tjoldin.jpg) no-repeat center center;
 }
 
 /* Min width 480px */
 @media only screen and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003247}}
   .eurovision-2016 .view-id-node_list .views-row {
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003252}}
   .eurovision-2016 #page-wrapper:before {
     position: fixed;
     top: 0;
@@ -8960,7 +8960,7 @@ footer .region-footer {
     z-index: 1000;
     background-size: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003264}}
   .eurovision-2016 #page-wrapper:after {
     position: fixed;
     bottom: 0;
@@ -8975,12 +8975,12 @@ footer .region-footer {
 }
 /* Min width 581px */
 @media only screen and (min-width: 581px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003281}}
   .eurovision-2016 #page-wrapper:before {
     width: 84px;
     height: 68px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003285}}
   .eurovision-2016 #page-wrapper:after {
     width: 96px;
     height: 97px;
@@ -8988,80 +8988,80 @@ footer .region-footer {
 }
 /* Min width 598px */
 @media only screen and (min-width: 598px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003295}}
   .eurovision-2016 .euro-wrapper {
     float: left;
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003299}}
   .eurovision-2016 .euro-wrapper:nth-child(odd) {
     border-right: 10px solid transparent;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003302}}
   .eurovision-2016 .euro-wrapper:nth-child(even) {
     border-left: 10px solid transparent;
   }
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003313}}
   .eurovision-2016 .view-id-node_list .views-row {
     width: 33.33333333333333%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003320}}
   .eurovision-2016.page-node .block-content .views-field-field-summary {
     float: left;
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003323}}
   .eurovision-2016.page-node .block-content .views-field-field-summary .intro-text {
     margin-left: 12px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003325}}
   .eurovision-2016.page-node .block-content .views-field-field-summary .intro-text p {
     font-size: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003330}}
   .eurovision-2016.page-node .block-content .views-field-field-body {
     float: right;
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003333}}
   .eurovision-2016.page-node .block-content .views-field-field-body .main-text {
     margin-left: 13px;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003345}}
   .eurovision-2016.page-node .block-content .views-field-views-conditional {
     float: left;
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003348}}
   .eurovision-2016.page-node .block-content .views-field-views-conditional .field-content {
     margin-right: 12px;
     padding: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003353}}
   .eurovision-2016.page-node .block-content .views-field-field-summary {
     float: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003355}}
   .eurovision-2016.page-node .block-content .views-field-field-summary .intro-text {
     padding: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003360}}
   .eurovision-2016.page-node .block-content .views-field-field-body .main-text {
     padding: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003368}}
   .eurovision-2016 .view-id-node_list .views-row {
     width: 25%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003372}}
   .eurovision-2016 #main-container:before {
     width: 95px;
     height: 68px;
@@ -9070,13 +9070,13 @@ footer .region-footer {
 }
 /* Min width 1200px */
 @media only screen and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003384}}
   .eurovision-2016 #page-wrapper:before {
     width: 123px;
     height: 107px;
     right: -22px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003390}}
   .eurovision-2016 #page-wrapper:after {
     width: 127px;
     height: 131px;
@@ -9084,27 +9084,27 @@ footer .region-footer {
 }
 /* Min width 1300px */
 @media only screen and (min-width: 1300px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003401}}
   .eurovision-2016 #page-wrapper:before {
     width: 146px;
     top: 1px;
     height: 125px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003407}}
   .eurovision-2016 #page-wrapper:after {
     width: 127px;
   }
 }
 /* Min width 1400px */
 @media only screen and (min-width: 1400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003416}}
   .eurovision-2016 #page-wrapper:before {
     width: 212px;
     top: 0;
     height: 175px;
     z-index: 2000;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003422}}
   .eurovision-2016 #page-wrapper:after {
     width: 212px;
     height: 175px;
@@ -9112,12 +9112,12 @@ footer .region-footer {
 }
 /* Min width 1500px */
 @media only screen and (min-width: 1500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003432}}
   .eurovision-2016 #page-wrapper:before {
     width: 254px;
     height: 182px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003436}}
   .eurovision-2016 #page-wrapper:after {
     width: 244px;
     height: 324px;
@@ -9125,12 +9125,12 @@ footer .region-footer {
 }
 /* Min width 1600px */
 @media only screen and (min-width: 1600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003446}}
   .eurovision-2016 #page-wrapper:before {
     width: 300px;
     height: 218px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003450}}
   .eurovision-2016 #page-wrapper:after {
     width: 307px;
     height: 318px;
@@ -9138,17 +9138,17 @@ footer .region-footer {
 }
 /* Min width 1700px */
 @media only screen and (min-width: 1700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003461}}
   .page-taxonomy-term-1367 .field-name-field-image-banner img {
     margin-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003467}}
   .eurovision-2016 #page-wrapper:before {
     width: 300px;
     height: 218px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003471}}
   .eurovision-2016 #page-wrapper:after {
     width: 354px;
     height: 405px;
@@ -9156,7 +9156,7 @@ footer .region-footer {
 }
 /* Min width 1800px */
 @media only screen and (min-width: 1800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003481}}
   .eurovision-2016 #page-wrapper:before {
     width: 400px;
     height: 278px;
@@ -9164,12 +9164,12 @@ footer .region-footer {
 }
 /* Min width 1920px */
 @media only screen and (min-width: 1920px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003491}}
   .eurovision-2016 #page-wrapper:before {
     width: 478px;
     height: 340px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\00003495}}
   .eurovision-2016 #page-wrapper:after {
     width: 400px;
     height: 518px;
