@@ -257,6 +257,7 @@
                     content: "";
                     width: 141px;
                     height: 145px;
+                    display: none;
                 }
                 &:before {
                     left: -20px;
@@ -274,6 +275,7 @@
                 content: "";
                 width: 141px;
                 height: 145px;
+                display: none;
             }
             &:before {
                left: -20px;
@@ -340,6 +342,24 @@
             content: "";
             z-index: 1000;
             background-size: 100%;
+        }
+    }
+}
+
+/* Min width 500px */
+@media only screen and (min-width: 500px) {
+    .eurovision-2016 {
+        .euro-wrapper {
+            .euro {
+                &:before, &:after {
+                    display: block;
+                }
+                .euro-border {
+                    &:before, &:after {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }
