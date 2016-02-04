@@ -258,6 +258,16 @@
                     width: 141px;
                     height: 145px;
                 }
+                &:before {
+                    left: -20px;
+                    bottom: -20px;
+                    background: url(images/songvakeppnin-2016/frame-kristall-bottom-left.png) no-repeat top left;
+                }
+                &:after {
+                    right: -20px;
+                    bottom: -20px;
+                    background: url(images/songvakeppnin-2016/frame-kristall-bottom-right.png) no-repeat top left;
+                }
             }
             &:before, &:after {
                 position: absolute;
@@ -266,12 +276,12 @@
                 height: 145px;
             }
             &:before {
-               left: -19px;
+               left: -20px;
                top: -20px;
                background: url(images/songvakeppnin-2016/frame-kristall-top-left.png) no-repeat top left;
             }
             &:after {
-               right: -19px;
+               right: -20px;
                top: -20px;
                background: url(images/songvakeppnin-2016/frame-kristall-top-right.png) no-repeat top left;
             }
