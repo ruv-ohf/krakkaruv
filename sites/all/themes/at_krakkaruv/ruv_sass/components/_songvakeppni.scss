@@ -4,12 +4,12 @@
             margin-top: 20px;
             font-weight: 500;
         }
-        .view-id-node_list .views-row-inner a {
+        .views-row-inner a {
             min-height: 306px;
         }
     }
     .pager-next {
-        display: inline-block;
+        display: inline-block !important;
         a {
             border-color: white;
             color: white;

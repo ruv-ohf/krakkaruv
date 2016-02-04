@@ -8701,12 +8701,12 @@ footer .region-footer {
   font-weight: 500;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\000037}}
-.eurovision-2016 .view-display-id-panel_pane_19 .view-id-node_list .views-row-inner a {
+.eurovision-2016 .view-display-id-panel_pane_19 .views-row-inner a {
   min-height: 306px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000311}}
 .eurovision-2016 .pager-next {
-  display: inline-block;
+  display: inline-block !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_songvakeppni\.scss}line{font-family:\0000313}}
 .eurovision-2016 .pager-next a {
