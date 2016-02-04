@@ -253,13 +253,20 @@
                 font-size: 18px;
                 z-index: 2;
             }
-            /*.overlay {
+            &:before, &:after {
                 position: absolute;
-                width: 100%;
-                height: 100%;
-                background: transparent url(images/songvakeppnin-2016/overlay.png) repeat-x top left;
-                z-index: 1;
-            }*/
+                content: "";
+                width: 141px;
+                height: 145px;
+            }
+            &:before {
+               left: 1px;
+               top: 1px;
+            }
+            &:before {
+               right: 1px;
+               top: 1px;
+            }
         }
     }
     .euro-wrapper:nth-child(1) {
