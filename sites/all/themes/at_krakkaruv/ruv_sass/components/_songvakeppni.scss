@@ -1,3 +1,10 @@
+.eurovision-2016.view-display-id-panel_pane_19 {
+    .h2.views-field-title {
+        margin-top: 20px;
+        font-weight: 500;
+    }
+}
+
 .page-songvakeppnin-myndbandasamkeppnin {
     .row-1 {
         padding-top: 50px;
@@ -166,11 +173,12 @@
             }
         }
         .views-row-inner {
-            a {
-            background-color: rgba(146, 144, 208, 0.4);
-            border: 1px solid rgba(194, 193, 248, 0.6);
-            padding: 20px;
-            min-height: 354px;
+                a {
+                    background-color: rgba(146, 144, 208, 0.4);
+                    border: 1px solid rgba(194, 193, 248, 0.6);
+                    padding: 20px;
+                    min-height: 354px;
+                    display: block;
                 }
             }
             
