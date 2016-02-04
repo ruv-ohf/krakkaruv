@@ -4,6 +4,26 @@
             margin-top: 20px;
             font-weight: 500;
         }
+        .view-id-node_list .views-row-inner a {
+            min-height: 306px;
+        }
+        .pager-next {
+            a {
+                margin-top: 4px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .pager-next {
+        a {
+            border-color: white;
+            color: white;
+        }
+
+        a:hover {
+            background-color: white;
+            color: #404040;
+        }
     }
 }
 
