@@ -23,8 +23,14 @@
             }
             .webform-submit, #edit-submitted-myndband-upload-button {
                 width: 100%;
+                color: white;
+                border: 1px solid #56b9d0;
+                background-color: #204a5d;
+            }
+            .webform-submit:hover, #edit-submitted-myndband-upload-button:hover {
+                border-color: white;
+                background-color: white;
                 color: #757575;
-                border: none;
             }
         }
         .region-two-brick-left-above {
