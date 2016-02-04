@@ -6,6 +6,10 @@
         .pane-title {
             margin-top: 0;
             text-align: center;
+            margin-bottom: 20px;
+        }
+        .webform-pane {
+            padding-left: 10px;
         }
         form {
             background-color: rgba(88, 208, 255, 0.5);
@@ -17,7 +21,7 @@
             .description {
                 display: none;
             }
-            .webform-submit, #edit-submitted-myndband-upload-button--5 {
+            .webform-submit, #edit-submitted-myndband-upload {
                 width: 100%;
             }
         }
