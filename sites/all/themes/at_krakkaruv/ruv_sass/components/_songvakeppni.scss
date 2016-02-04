@@ -252,6 +252,12 @@
                 line-height: 44px;
                 font-size: 18px;
                 z-index: 2;
+                &:before, &:after {
+                    position: absolute;
+                    content: "";
+                    width: 141px;
+                    height: 145px;
+                }
             }
             &:before, &:after {
                 position: absolute;
