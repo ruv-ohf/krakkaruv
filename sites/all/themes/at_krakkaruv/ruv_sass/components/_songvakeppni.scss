@@ -384,6 +384,16 @@
         .euro-wrapper {
             float: left;
             width: 50%;
+            .euro {
+                &:before, &:after {
+                    display: none;
+                }
+                .euro-border {
+                    &:before, &:after {
+                        display: none;
+                    }
+                }
+            }
         }
         .euro-wrapper:nth-child(odd) {
             border-right: 10px solid transparent;
@@ -462,6 +472,18 @@
             width: 95px;
             height: 68px;
             right: -17px;
+        }
+        .euro-wrapper {
+            .euro {
+                &:before, &:after {
+                    display: block;
+                }
+                .euro-border {
+                    &:before, &:after {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }
