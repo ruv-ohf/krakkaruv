@@ -1,8 +1,11 @@
 .page-songvakeppnin-myndbandasamkeppnin {
     .row-1 {
         padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
         .pane-title {
             margin-top: 0;
+            text-align: center;
         }
         form {
             background-color: rgba(88, 208, 255, 0.5);
@@ -10,6 +13,12 @@
             padding: 20px;
             label, span, .description, #edit-submitted-myndband-upload {
                 color: white;
+            }
+            .description {
+                display: none;
+            }
+            .webform-submit, #edit-submitted-myndband-upload-button--5 {
+                width: 100%;
             }
         }
         .region-two-brick-left-above {
