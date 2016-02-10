@@ -5,7 +5,13 @@
         overflow: hidden;
         width: 100%;
         .bg-image {
-
+            position: absolute;
+            width: 480px;
+            height: 100%;
+            z-index: 2;
+            left: 50%;
+            margin-left: -240px;
+            background: #d3a764 url(images/oskudagur/bg-small.jpg) repeat-x top left;
         }
         .bg-repeat {
             position: absolute;

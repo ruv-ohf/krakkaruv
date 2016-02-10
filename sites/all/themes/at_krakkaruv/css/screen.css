@@ -9317,7 +9317,17 @@ footer .region-footer {
   overflow: hidden;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\000037}}
+.page-oskudagur .banner .bg-image {
+  position: absolute;
+  width: 480px;
+  height: 100%;
+  z-index: 2;
+  left: 50%;
+  margin-left: -240px;
+  background: #d3a764 url(images/oskudagur/bg-small.jpg) repeat-x top left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000316}}
 .page-oskudagur .banner .bg-repeat {
   position: absolute;
   width: 100%;
