@@ -9367,7 +9367,7 @@ footer .region-footer {
   }
 }
 /* Min width 768px */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000377}}
   .page-oskudagur .banner .bg-image {
     left: 50%;
