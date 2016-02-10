@@ -6,6 +6,9 @@
         width: 100%;
         background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
         border-bottom: 1px solid white;
+        .btn-large {
+            display: none;
+        }
     }
 }
 
@@ -44,6 +47,16 @@
 
 /* Min width 480px */
 @media only screen and (min-width: 480px) {
+    .front {
+        .banner {
+            .btn-large {
+                display: block;
+            }
+            .btn-small {
+                display: none;
+            }
+        }
+    }
     .page-oskudagur {
         .banner {
             .bg-image {
