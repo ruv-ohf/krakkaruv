@@ -9318,20 +9318,25 @@ footer .region-footer {
   width: 100%;
   background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
   border-bottom: 1px solid white;
+  text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000310}}
+.front .banner a {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000313}}
 .front .banner .btn-large {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000320}}
 .page-oskudagur .banner {
   height: 350px;
   position: relative;
   overflow: hidden;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000325}}
 .page-oskudagur .banner .bg-image {
   position: absolute;
   width: 480px;
@@ -9340,7 +9345,7 @@ footer .region-footer {
   left: 0;
   background: #d3a764 url(images/oskudagur/bg-small.jpg) repeat-x top left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000333}}
 .page-oskudagur .banner .bg-repeat {
   position: absolute;
   width: 50%;
@@ -9349,7 +9354,7 @@ footer .region-footer {
   left: 0;
   background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000341}}
 .page-oskudagur .banner .bg-repeat2 {
   position: absolute;
   width: 50%;
@@ -9361,16 +9366,16 @@ footer .region-footer {
 
 /* Min width 480px */
 @media only screen and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000356}}
   .front .banner .btn-large {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000359}}
   .front .banner .btn-small {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000366}}
   .page-oskudagur .banner .bg-image {
     width: 768px;
     left: -158px;
@@ -9379,28 +9384,28 @@ footer .region-footer {
 }
 /* Min width 600px */
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000379}}
   .page-oskudagur .banner .bg-image {
     left: -90px;
   }
 }
 /* Min width 700px */
 @media only screen and (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000391}}
   .page-oskudagur .banner .bg-image {
     left: -66px;
   }
 }
 /* Min width 720px */
 @media only screen and (min-width: 720px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\00003102}}
   .page-oskudagur .banner .bg-image {
     left: 0;
   }
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\00003113}}
   .page-oskudagur .banner .bg-image {
     left: 50%;
     margin-left: -800px;
