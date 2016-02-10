@@ -9310,5 +9310,21 @@ footer .region-footer {
     bottom: -26px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\000032}}
+.page-oskudagur .banner {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_oskudagur\.scss}line{font-family:\0000310}}
+.page-oskudagur .banner .bg-repeat {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
+}
 
 /*# sourceMappingURL=screen.css.map */
