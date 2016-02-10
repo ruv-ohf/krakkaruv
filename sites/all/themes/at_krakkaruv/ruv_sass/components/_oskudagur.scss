@@ -14,11 +14,19 @@
         }
         .bg-repeat {
             position: absolute;
-            width: 100%;
+            width: 50%;
             height: 100%;
-            top: 0px;
-            left: 0px;
+            top: 0;
+            left: 0;
             background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
+        }
+        .bg-repeat2 {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            background: #d3a764 url(images/oskudagur/bg-repeat2.jpg) repeat-x top left;
         }
     }
 }
