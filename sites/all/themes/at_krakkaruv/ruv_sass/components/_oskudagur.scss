@@ -1,3 +1,14 @@
+.front {
+    .banner {
+        position: relative;
+        overflow: hidden;
+        height: 120px;
+        width: 100%;
+        background: #d3a764 url(images/oskudagur/bg-repeat.jpg) repeat-x top left;
+        border-bottom: 1px solid white;
+    }
+}
+
 .page-oskudagur {
     .banner {
         height: 350px;
