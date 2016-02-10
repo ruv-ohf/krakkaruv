@@ -9372,6 +9372,7 @@ footer .region-footer {
   .page-oskudagur .banner .bg-image {
     left: 50%;
     margin-left: -800px;
+    width: 1600px;
     background: #d3a764 url(images/oskudagur/bg-large.jpg) repeat-x top left;
   }
 }
