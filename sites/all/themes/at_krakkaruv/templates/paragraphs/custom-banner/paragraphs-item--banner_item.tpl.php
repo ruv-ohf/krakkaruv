@@ -5,5 +5,5 @@
 	    print render($content);
     ?>
 
-	<?php print render($content['field_min_width_size']); ?>
+	<div class="min-width-size"><?php print render($content['field_min_width_size']); ?></div>
 </div>
