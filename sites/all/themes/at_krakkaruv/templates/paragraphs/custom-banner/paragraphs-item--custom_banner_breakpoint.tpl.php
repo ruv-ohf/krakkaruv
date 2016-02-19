@@ -4,7 +4,7 @@
 ?>
 
 <style>
-	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>) {
+	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items {
 			background-color: red;
 		}
