@@ -10,6 +10,7 @@ $atom = scald_atom_load($atom_id);
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
 	$image_url = image_style_url('thumbnails', $atom->file_source);
+	print render($image_url);
 ?>
 
 <?php
@@ -21,7 +22,7 @@ if(!empty($atom)) {
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items {
-			background: #071815 url(<?php print $image_url; ?>); ?>) no-repeat center center;
+			background: #071815 url(); ?>) no-repeat center center;
 			height: 250px;
 		}
 	}
