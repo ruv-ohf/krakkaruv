@@ -18,14 +18,13 @@ if(!empty($atom)) {
 	hide($content['field_custom_banner_height']);
 	hide($content['field_custom_banner_image']);
 	hide($content['field_background_repeat']);
-	hide($content['field_breakpoint']);
-	print render($content);
+	print render($content['field_breakpoint']);
 ?>
 
 <style>
 	
 	.paragraphs-items {
-		height: <?php ($content['field_custom_banner_height']);?>;
+		height: <?php ($content['field_custom_banner_height']);?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 
