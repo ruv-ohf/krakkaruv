@@ -18,7 +18,7 @@ if(!empty($atom)) {
 	hide($content['field_custom_banner_height']);
 	hide($content['field_custom_banner_image']);
 	hide($content['field_background_repeat']);
-	print $content;
+	print render($content);
 ?>
 
 <style>
