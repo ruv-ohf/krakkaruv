@@ -2,8 +2,10 @@
 	hide($content['field_min_width_size']);
 	hide($content['field_custom_banner_image']);
 	print render($content);
-	print render (file_create_url($content->field_custom_banner_image['und'][0]['uri'])); 
 ?>
+
+<pre>
+<?php print_r($content->field_custom_banner_image); ?>
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
