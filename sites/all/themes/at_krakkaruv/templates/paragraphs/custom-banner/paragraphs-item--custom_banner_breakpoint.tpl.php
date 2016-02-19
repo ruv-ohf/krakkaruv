@@ -14,7 +14,7 @@
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items {
-			background: #071815 url(<?php print drupal_realpath(render($content['field_custom_banner_image'])); ?>) no-repeat center center;
+			background: #071815 url(<?php print image_style_url('thumbnails'(render($content['field_custom_banner_image']))); ?>) no-repeat center center;
 			height: 250px;
 		}
 	}
