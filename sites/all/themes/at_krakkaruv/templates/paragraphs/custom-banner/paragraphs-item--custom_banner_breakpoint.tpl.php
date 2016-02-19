@@ -4,6 +4,9 @@ $image_url = '';
 //Til að fá atom id
 $atom_id = $content['field_custom_banner_image']['#items'][0]['sid'];
 
+//til að ná í atom
+$atom = scald_atom_load($atom_id);
+
 ?>
 
 <?php
