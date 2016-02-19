@@ -1,5 +1,5 @@
 <?php
-	$image_url = $fields['field_custom_banner_image']->content;
+	$image_url = $content['field_custom_banner_image'];
     $speaker_image_url = "'$image_url'";
 	hide($content['field_min_width_size']);
 	hide($content['field_custom_banner_image']);
