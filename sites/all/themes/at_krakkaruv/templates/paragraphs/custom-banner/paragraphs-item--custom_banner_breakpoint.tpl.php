@@ -5,7 +5,7 @@
 ?>
 
 <pre>
-<?php print_r($content); ?>
+<?php print_r($content['field_custom_banner_image']); ?>
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
