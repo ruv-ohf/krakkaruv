@@ -2,7 +2,7 @@
 	hide($content['field_min_width_size']);
 	hide($content['field_custom_banner_image']);
 	print render($content);
-	print render (file_create_url($node->field_custom_banner_image['und'][0]['uri'])); 
+	print render (file_create_url($content->field_custom_banner_image['und'][0]['uri'])); 
 ?>
 
 <style>
