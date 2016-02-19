@@ -1,4 +1,4 @@
-<div class="paragraphs-item">
+<div class="paragraphs-items">
   <?php
     print $content;
   ?>
