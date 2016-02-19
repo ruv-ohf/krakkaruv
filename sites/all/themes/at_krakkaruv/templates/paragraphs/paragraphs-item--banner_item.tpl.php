@@ -1,4 +1,4 @@
 <div class="paragraphs-item">
   <?/*php print render($content); */?>
-  <? php print render($content['field_min_width_size']); ?>
+  <?php print render($content['field_min_width_size']); ?>
 </div>
