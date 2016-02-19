@@ -5,7 +5,7 @@
 ?>
 
 <pre>
-<?php print_r($node->field_custom_banner_image); ?>
+<?php print_r($content); ?>
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
