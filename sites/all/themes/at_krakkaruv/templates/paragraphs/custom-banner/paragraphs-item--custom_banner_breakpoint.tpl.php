@@ -24,6 +24,7 @@ if(!empty($atom)) {
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items {
 			height: 250px;
+			background: url(<?php print $image_url; ?>) no-repeat center center;
 		}
 	}
 </style>
