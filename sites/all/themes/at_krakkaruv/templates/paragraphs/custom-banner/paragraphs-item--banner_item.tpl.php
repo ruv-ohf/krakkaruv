@@ -23,7 +23,7 @@ if(!empty($atom)) {
 <style>
 	
 	.paragraphs-items {
-		height: <?php ($content['field_custom_banner_height']);?>px;
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 
