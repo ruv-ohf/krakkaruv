@@ -10,7 +10,7 @@ $atom = scald_atom_load($atom_id);
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
 	$image_url = image_style_url('thumbnails', $atom->file_source);
-	print render($content->image_url);
+	//print render($content->image_url);
 ?>
 
 <?php
