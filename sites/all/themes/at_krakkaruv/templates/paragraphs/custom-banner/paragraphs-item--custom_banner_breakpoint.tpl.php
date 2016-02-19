@@ -1,7 +1,7 @@
 <?php
 
   $my_image_url = file_create_url($field_custom_banner_image[0]['uri']);
-  $my_image_style = image_style_url($style, $field_custom_banner_image['und'][0]['uri']);
+  $my_image_style = image_style_url($style, render($content($field_custom_banner_image['und'][0]['uri']));
   //print render($my_image_url);
   print render($my_image_style);
 ?>
