@@ -1,8 +1,8 @@
 <?php
 
   $my_image_url = file_create_url($field_custom_banner_image[0]['uri']);
-  $my_image_style = image_style_url($field_custom_banner_image[0]['uri']);
-  print render($my_image_url);
+  $my_image_style = image_style_url("thumbnails",$field_custom_banner_image[0]['uri']);
+  //print render($my_image_url);
   print render($my_image_style);
 ?>
 
