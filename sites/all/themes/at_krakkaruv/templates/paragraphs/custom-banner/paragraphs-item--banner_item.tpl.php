@@ -27,7 +27,11 @@ if(!empty($atom)) {
 		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
+	.bg-repeat {
+		background: url(<?php print render($content['field_background_repeat']); ?>) repeat-x left top;
+	}
 
 </style>
 
 <?php print render($content['field_breakpoint']); ?>
+<span class="bg-repeat"></span>
