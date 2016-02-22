@@ -21,7 +21,7 @@ if(!empty($atom)) {
 
 ?>
 
-<h1>Position</h1>
+<img src="<?php print$image_url; ?>">
 
 <style>
 	.paragraphs-items-field-absolute-positioned-elemen {
