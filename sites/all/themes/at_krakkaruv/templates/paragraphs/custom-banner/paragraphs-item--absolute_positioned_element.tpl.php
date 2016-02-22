@@ -19,7 +19,7 @@ if(!empty($atom)) {
 
 <?php $index = 0; ?>
 
-<div class="absolute-image-<?php print $index; ?>"></div>
+<div class="absolute-image-<?php print $index++; ?>"></div>
 
 <style>
 	.absolute-image {
