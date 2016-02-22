@@ -19,10 +19,6 @@ if(!empty($atom)) {
 	hide($content['field_custom_banner_image']);
 ?>
 
-<div class="content"<?php print $content_attributes; ?>>
-    <?php print render($content); ?>
-</div>
-
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items {
