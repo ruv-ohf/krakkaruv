@@ -17,6 +17,12 @@ if(!empty($atom)) {
 
 ?>
 
-<div class="absolute-image"><img src="<?php print$image_url; ?>"></div>
+<div class="absolute-image"></div>
 
-<h1><?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?></h1>
+<style>
+	.absolute-image {
+		background: url(<?php print $image_url; ?>) no-repeat center center;
+		width: 	<?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>;
+		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>;
+	}
+</style>
