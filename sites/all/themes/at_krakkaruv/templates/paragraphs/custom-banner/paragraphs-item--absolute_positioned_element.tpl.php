@@ -15,13 +15,6 @@ if(!empty($atom)) {
 	$image_url = image_style_url('hero_image_subpage', $atom->file_source);
 }
 
-$index = 0;
-foreach($image_url as $key=>$val)
-{
-    echo "<h1>Index is $index\n</h1>";
-    $index++;
-}
-
 ?>
 
 <div class="absolute-image"></div>
