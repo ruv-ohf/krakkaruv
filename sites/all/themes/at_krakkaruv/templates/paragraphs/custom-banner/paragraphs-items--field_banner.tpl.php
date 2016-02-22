@@ -1,3 +1,3 @@
-<div class="paragraphs-items">
+<div class="paragraphs-items test">
   <?php print $content; ?>
 </div>
