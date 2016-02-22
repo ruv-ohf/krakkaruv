@@ -22,7 +22,7 @@ if(!empty($atom)) {
 <style>
 	.absolute-image {
 		background: url(<?php print $image_url; ?>) no-repeat center center;
-		width: 	<?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>;
-		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>;
+		width: 	<?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 	}
 </style>
