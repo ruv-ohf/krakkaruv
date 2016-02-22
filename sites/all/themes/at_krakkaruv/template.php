@@ -106,5 +106,5 @@ function at_krakkaruv_preprocess_paragraphs_items(&$vars, $hook) {
   $vars['classes_array'] = "";
 
   // You can now add the classes you want in this array
-  //$vars['classes_array'][] = "paragraphsWrapper paragraphsWrapperStyleLead";
+  $vars['classes_array'][] = "paragraphs-items paragraphs-items-2";
 }
