@@ -14,7 +14,11 @@ if(!empty($atom)) {
 
 ?>
 
-<div class="cool"><?php print render($content); ?></div>
+<?php
+	hide($content['field_min_width_size']);
+	hide($content['field_custom_banner_image']);
+	print render($content);
+?>
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {

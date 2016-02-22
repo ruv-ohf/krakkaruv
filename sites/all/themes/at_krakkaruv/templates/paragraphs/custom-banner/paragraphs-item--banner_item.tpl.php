@@ -14,7 +14,14 @@ if(!empty($atom)) {
 
 ?>
 
-<?php print render($content); ?>
+<?php
+	hide($content['field_custom_banner_height']);
+	hide($content['field_custom_banner_image']);
+	hide($content['field_background_repeat']);
+	hide($content['field_breakpoint']);
+?>
+
+<?php print render($content['field_breakpoint']); ?>
 
 <style>
 	
