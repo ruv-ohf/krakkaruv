@@ -27,6 +27,7 @@ if(!empty($atom2)) {
 	hide($content['field_background_repeat']);
 	hide($content['field_breakpoint']);
 	hide($content['field_custom_css']);
+	hide($content['field_custom_banner_hlekkur']);
 ?>
 
 <style>
@@ -42,6 +43,10 @@ if(!empty($atom2)) {
 	<?php print render($content['field_custom_css']); ?>
 
 </style>
+
+<?php if ($content['field_custom_banner_hlekkur']): ?>
+	<h1>virkar</h1>
+<?php endif; ?>
 
 <div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
 
