@@ -20,6 +20,10 @@ if(!empty($atom)) {
 	//hide($content['field_background_repeat']);
 ?>
 
+  <div class="content"<?php print $content_attributes; ?>>
+    <?php print render($content); ?>
+  </div>
+
 <style>
 	
 	.paragraphs-items {
