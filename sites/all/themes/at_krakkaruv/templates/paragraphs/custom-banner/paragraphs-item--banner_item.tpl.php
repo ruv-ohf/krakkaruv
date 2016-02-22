@@ -41,7 +41,7 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 	}
 
-	.paragraphs-items-wrapper a {
+	.paragraphs-item-wrapper a {
 		display: block;
 	}
 
