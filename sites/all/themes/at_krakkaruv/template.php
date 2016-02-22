@@ -99,12 +99,3 @@ function at_krakkaruv_process_page(&$variables) {
         drupal_add_js(drupal_get_path('theme', 'at_krakkaruv') . '/scripts/remove_cookie.js');
     }
 }
-
-function at_krakkaruv_preprocess_paragraphs_items(&$vars, $hook) {
-  
-  // This will remove all the current classes
-  $vars['classes_array'] = "";
-
-  // You can now add the classes you want in this array
-  $vars['classes_array'][] = "paragraphs-items" : "paragraphs-items-2";
-}
