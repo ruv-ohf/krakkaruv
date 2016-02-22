@@ -1,3 +1,5 @@
+<?php hide($content); ?>
+
 <?php
 $image_url = '';
 
