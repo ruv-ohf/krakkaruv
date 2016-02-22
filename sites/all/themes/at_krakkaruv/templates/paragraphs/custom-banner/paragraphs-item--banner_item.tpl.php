@@ -41,6 +41,10 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 	}
 
+	.paragraphs-items-wrapper-inner a {
+		display: block;
+	}
+
 	<?php print render($content['field_custom_css']); ?>
 
 </style>
