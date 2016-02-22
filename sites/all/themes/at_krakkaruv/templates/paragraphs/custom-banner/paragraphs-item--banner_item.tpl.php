@@ -26,6 +26,7 @@ if(!empty($atom2)) {
 	hide($content['field_custom_banner_image']);
 	hide($content['field_background_repeat']);
 	hide($content['field_breakpoint']);
+	hide($content['field_custom_css']);
 ?>
 
 <style>
@@ -37,6 +38,8 @@ if(!empty($atom2)) {
 	.paragraphs-items-wrapper-inner {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 	}
+
+	<?php print render($content['field_custom_css']); ?>
 
 </style>
 
