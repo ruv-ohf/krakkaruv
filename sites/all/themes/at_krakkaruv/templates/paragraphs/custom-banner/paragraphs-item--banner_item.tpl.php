@@ -33,11 +33,11 @@ if(!empty($atom2)) {
 		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
-	.bg-repeat {
+	.paragraphs-items-wrapper-inner {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 	}
 
 </style>
 
-<?php print render($content['field_breakpoint']); ?>
-<span class="bg-repeat"></span>
+<div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
+
