@@ -20,4 +20,4 @@ if(!empty($atom)) {
 <div class="absolute-image"><img src="<?php print$image_url; ?>"></div>
 
 <pre>
-<?php print_r($atom['scald_thumbnail']['und'][0]['metadata']['height']); ?>
+<?php print_r($atom->['scald_thumbnail']['und'][0]['metadata']['height']); ?>
