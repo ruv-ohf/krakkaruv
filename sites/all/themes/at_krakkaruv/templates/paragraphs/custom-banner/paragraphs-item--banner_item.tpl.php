@@ -28,5 +28,3 @@ if(!empty($atom)) {
 	}
 
 </style>
-
-<?php print render($content); ?>
