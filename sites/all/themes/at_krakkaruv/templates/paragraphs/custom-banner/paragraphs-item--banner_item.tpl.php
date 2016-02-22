@@ -20,11 +20,11 @@ if(!empty($atom2)) {
 	$image_url2 = image_style_url('hero_image_subpage', $atom2->file_source);
 }
 
-if(!empty($hlekkur)) {
-   print "<h1>virkar</h1>";
-}
-
 ?>
+
+<?php if ($hlekkur): ?>
+	<h1>Hlekkur</h1>
+<?php endif; ?>
 
 <?php
 	hide($content['field_custom_banner_height']);
