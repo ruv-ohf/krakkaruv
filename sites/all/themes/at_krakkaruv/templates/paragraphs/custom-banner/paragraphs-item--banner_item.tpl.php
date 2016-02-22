@@ -47,7 +47,7 @@ if(!empty($atom2)) {
 
 
 <?php if ($hlekkur): ?>
-	<a href="<?php print $hlekkur; ?>"><div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div></a>
+	<a href="<?php print render($hlekkur); ?>"><div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div></a>
 <?php else: ?>
 	<div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
 <?php endif; ?>
