@@ -51,7 +51,7 @@ if(!empty($atom2)) {
 		display: block;
 	}
 
-	.paragraphs-items-field-absolute-positioned-elemen {
+	.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 		position: absolute;
 	}
 

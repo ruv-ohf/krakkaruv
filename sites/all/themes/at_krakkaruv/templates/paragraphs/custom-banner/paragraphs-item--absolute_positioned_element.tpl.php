@@ -17,4 +17,4 @@ if(!empty($atom)) {
 
 ?>
 
-<img src="<?php print$image_url; ?>">
+<div class="absolute-image"><img src="<?php print$image_url; ?>"></div>
