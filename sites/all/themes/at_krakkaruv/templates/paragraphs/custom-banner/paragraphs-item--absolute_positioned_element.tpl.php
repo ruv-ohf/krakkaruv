@@ -1,8 +1,4 @@
 <?php hide($content['field_custom_banner_image']); ?>
-<?php hide($content['field_custom_banner_top_position']); ?>
-<?php hide($content['field_cm_banner_right_position']); ?>
-<?php hide($content['field_cm_banner_bottom_position']); ?>
-<?php hide($content['field_cm_banner_left_position']); ?>
 
 <?php
 
@@ -22,12 +18,3 @@ if(!empty($atom)) {
 ?>
 
 <img src="<?php print$image_url; ?>">
-
-<style>
-	.paragraphs-items-field-absolute-positioned-elemen {
-		top: <?php print render($content['field_custom_banner_top_position']); ?>;
-		right: <?php print render($content['field_cm_banner_right_position']); ?>;
-		bottom: <?php print render($content['field_cm_banner_bottom_position']); ?>;
-		left: <?php print render($content['field_cm_banner_left_position']); ?>;
-	}
-</style>
