@@ -43,10 +43,16 @@ if(!empty($atom2)) {
 	}
 	.paragraphs-items-wrapper-inner {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
+		position: relative;
+		overflow: hidden;
 	}
 
 	.paragraphs-item-wrapper a {
 		display: block;
+	}
+
+	.paragraphs-items-field-absolute-positioned-elemen {
+		position: absolute;
 	}
 
 	<?php print render($content['field_custom_css']); ?>
