@@ -55,13 +55,13 @@ if(!empty($atom2)) {
 	<a href="<?php print render($hlekkur); ?>">
 		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_breakpoint']); ?>
-			<span><?php print render($content['field_absolute_positioned_elemen']); ?></span>
+			<?php print render($content['field_absolute_positioned_elemen']); ?>
 		</div>
 	</a>
 <?php else: ?>
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_breakpoint']); ?>
-		<span><?php print render($content['field_absolute_positioned_elemen']); ?></span>
+		<?php print render($content['field_absolute_positioned_elemen']); ?>
 	</div>
 <?php endif; ?>
 
