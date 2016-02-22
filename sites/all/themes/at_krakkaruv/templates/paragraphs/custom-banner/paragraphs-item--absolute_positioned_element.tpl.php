@@ -20,4 +20,4 @@ if(!empty($atom)) {
 <div class="absolute-image"><img src="<?php print$image_url; ?>"></div>
 
 <pre>
-<?php print_r($content['field_custom_banner_image']['#items']); ?>
+<?php print_r($content['field_custom_banner_image']); ?>
