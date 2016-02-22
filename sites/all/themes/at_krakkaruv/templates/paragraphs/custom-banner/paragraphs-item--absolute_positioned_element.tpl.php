@@ -15,11 +15,16 @@ if(!empty($atom)) {
 	$image_url = image_style_url('hero_image_subpage', $atom->file_source);
 }
 
+$index = 0;
+foreach($image_url as $key=>$val)
+{
+    echo "<h1>Index is $index\n</h1>";
+    $index++;
+}
+
 ?>
 
-<?php $index = 0; ?>
-
-<div class="absolute-image-<?php print $index; ?>"></div>
+<div class="absolute-image"></div>
 
 <style>
 	.absolute-image {
@@ -28,5 +33,3 @@ if(!empty($atom)) {
 		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 	}
 </style>
-
-<?php $index++; ?>
