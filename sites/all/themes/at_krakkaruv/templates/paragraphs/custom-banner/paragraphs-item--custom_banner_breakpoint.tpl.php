@@ -1,4 +1,5 @@
-<?php hide($content); ?>
+<?php hide($content['field_custom_banner_image']); ?>
+<?php hide($content['field_min_width_size']); ?>
 
 <?php
 $image_url = '';
