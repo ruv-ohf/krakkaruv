@@ -21,8 +21,6 @@ if(!empty($atom)) {
 	hide($content['field_breakpoint']);
 ?>
 
-<?php print render($content['field_breakpoint']); ?>
-
 <style>
 	
 	.paragraphs-items {
@@ -31,3 +29,5 @@ if(!empty($atom)) {
 	}
 
 </style>
+
+<?php print render($content['field_breakpoint']); ?>
