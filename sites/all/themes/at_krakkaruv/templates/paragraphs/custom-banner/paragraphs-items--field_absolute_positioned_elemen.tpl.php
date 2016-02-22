@@ -1,1 +1,1 @@
-<h1>image</h1>
+<?php print $content; ?>
