@@ -1,10 +1,11 @@
 <?php
-$image_url = '';
+$image_url 	= '';
 $image_url2 = '';
 
 //Til að fá atom id
-$atom_id = $content['field_custom_banner_image']['#items'][0]['sid'];
-$atom_id2 = $content['field_background_repeat']['#items'][0]['sid'];
+$atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
+$atom_id2 	= $content['field_background_repeat']['#items'][0]['sid'];
+$hlekkur 	= $content['field_custom_banner_hlekkur'];
 
 //til að ná í atom
 $atom = scald_atom_load($atom_id);
@@ -17,6 +18,10 @@ if(!empty($atom)) {
 if(!empty($atom2)) {
         //Til að ná í myndaurlið í réttum stíl
 	$image_url2 = image_style_url('hero_image_subpage', $atom2->file_source);
+}
+
+if(!empty($hlekkur)) {
+   print "<h1>virkar</h1>";
 }
 
 ?>
@@ -44,11 +49,6 @@ if(!empty($atom2)) {
 
 </style>
 
-<?php
-if(!empty($content['field_custom_banner_hlekkur'])) {
-   print "<h1>virkar</h1>";
-}
-?>
 
 <div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
 
