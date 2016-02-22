@@ -34,7 +34,7 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.bg-repeat {
-		background: url(<?php print image_url2; ?>) repeat-x left top;
+		background: url(<?php print $image_url2; ?>) repeat-x left top;
 	}
 
 </style>
