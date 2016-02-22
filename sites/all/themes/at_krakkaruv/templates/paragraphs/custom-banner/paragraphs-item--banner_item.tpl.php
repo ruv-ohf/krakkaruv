@@ -22,10 +22,6 @@ if(!empty($atom2)) {
 
 ?>
 
-<?php if ($hlekkur): ?>
-	<h1>Hlekkur</h1>
-<?php endif; ?>
-
 <?php
 	hide($content['field_custom_banner_height']);
 	hide($content['field_custom_banner_image']);
@@ -50,5 +46,9 @@ if(!empty($atom2)) {
 </style>
 
 
-<div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
+<?php if ($hlekkur): ?>
+	<a href="<?php print $hlekkur; ?>"><div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div></a>
+<?php else; ?>
+	<div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
+<?php endif; ?>
 
