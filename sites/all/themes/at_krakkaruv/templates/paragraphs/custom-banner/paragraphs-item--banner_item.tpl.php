@@ -1,5 +1,6 @@
 <?php
 $image_url = '';
+$image_url2 = '';
 
 //Til að fá atom id
 $atom_id = $content['field_custom_banner_image']['#items'][0]['sid'];
