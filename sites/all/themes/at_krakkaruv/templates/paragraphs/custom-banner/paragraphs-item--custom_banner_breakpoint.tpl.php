@@ -19,7 +19,7 @@ if(!empty($atom)) {
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
-		.paragraphs-items {
+		.paragraphs-items-field-breakpoint {
 			background: url(<?php print $image_url; ?>) no-repeat center center;
 		}
 	}

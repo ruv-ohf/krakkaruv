@@ -37,7 +37,7 @@ if(!empty($atom2)) {
 
 <style>
 	
-	.paragraphs-items {
+	.paragraphs-items-field-breakpoint {
 		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
