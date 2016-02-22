@@ -1,5 +1,3 @@
 <div class="paragraphs-items">
-  <?php
-    print $content;
-  ?>
+  <?php print $content; ?>
 </div>
