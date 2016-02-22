@@ -2,13 +2,14 @@
 <?php hide($content['field_custom_banner_top_position']); ?>
 
 <?php
-$image_url = '';
+
+$image_url 	= '';
 
 //Til að fá atom id
-$atom_id = $content['field_custom_banner_image']['#items'][0]['sid'];
+$atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
 
 //til að ná í atom
-$atom = scald_atom_load($atom_id);
+$atom 		= scald_atom_load($atom_id);
 
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
@@ -20,9 +21,7 @@ if(!empty($atom)) {
 <h1>Position</h1>
 
 <style>
-	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
-		.paragraphs-items-field-absolute-positioned-elemen {
-			top: <?php print render($content['field_custom_banner_top_position']); ?>;
-		}
+	.paragraphs-items-field-absolute-positioned-elemen {
+		top: <?php print render($content['field_custom_banner_top_position']); ?>;
 	}
 </style>
