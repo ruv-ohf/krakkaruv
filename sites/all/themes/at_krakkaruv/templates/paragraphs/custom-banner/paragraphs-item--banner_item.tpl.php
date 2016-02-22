@@ -1,15 +1,18 @@
 <?php
 $image_url 	= '';
 $image_url2 = '';
+$image_url3 = '';
 
 //Til að fá atom id
-$atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
-$atom_id2 	= $content['field_background_repeat']['#items'][0]['sid'];
-$hlekkur 	= $content['field_custom_banner_hlekkur'];
+$atom_id 			= $content['field_custom_banner_image']['#items'][0]['sid'];
+$atom_id2 			= $content['field_background_repeat']['#items'][0]['sid'];
+$hlekkur 			= $content['field_custom_banner_hlekkur'];
+$absolute_element 	= $content['field_absolute_positioned_elemen'];
 
 //til að ná í atom
 $atom = scald_atom_load($atom_id);
 $atom2 = scald_atom_load($atom_id2);
+$atom3 = scald_atom_load($absolute_element);
 
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
@@ -18,6 +21,11 @@ if(!empty($atom)) {
 if(!empty($atom2)) {
         //Til að ná í myndaurlið í réttum stíl
 	$image_url2 = image_style_url('hero_image_subpage', $atom2->file_source);
+}
+
+if(!empty($atom3)) {
+        //Til að ná í myndaurlið í réttum stíl
+	$image_url3 = image_style_url('hero_image_subpage', $atom3->file_source);
 }
 
 ?>
@@ -55,13 +63,13 @@ if(!empty($atom2)) {
 	<a href="<?php print render($hlekkur); ?>">
 		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_breakpoint']); ?>
-			<?php print render($content['field_absolute_positioned_elemen']); ?>
+			<?php print $image_url3; ?>
 		</div>
 	</a>
 <?php else: ?>
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_breakpoint']); ?>
-		<?php print render($content['field_absolute_positioned_elemen']); ?>
+		<?php print $image_url3; ?>
 	</div>
 <?php endif; ?>
 
