@@ -29,6 +29,7 @@ if(!empty($atom2)) {
 	hide($content['field_breakpoint']);
 	hide($content['field_custom_css']);
 	hide($content['field_custom_banner_hlekkur']);
+	hide($content['field_absolute_positioned_elemen']);
 ?>
 
 <style>
@@ -51,8 +52,16 @@ if(!empty($atom2)) {
 
 
 <?php if ($hlekkur): ?>
-	<a href="<?php print render($hlekkur); ?>"><div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div></a>
+	<a href="<?php print render($hlekkur); ?>">
+		<div class="paragraphs-items-wrapper-inner">
+			<?php print render($content['field_breakpoint']); ?>
+			<span><?php print render($content['field_absolute_positioned_elemen']); ?></span>
+		</div>
+	</a>
 <?php else: ?>
-	<div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
+	<div class="paragraphs-items-wrapper-inner">
+		<?php print render($content['field_breakpoint']); ?>
+		<span><?php print render($content['field_absolute_positioned_elemen']); ?></span>
+	</div>
 <?php endif; ?>
 
