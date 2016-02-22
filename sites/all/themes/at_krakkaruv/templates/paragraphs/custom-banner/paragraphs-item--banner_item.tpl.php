@@ -44,9 +44,11 @@ if(!empty($atom2)) {
 
 </style>
 
-<?php if ($content['field_custom_banner_hlekkur']): ?>
-	<h1>virkar</h1>
-<?php endif; ?>
+<?php
+if(!empty($content['field_custom_banner_hlekkur'])) {
+   print "<h1>virkar</h1>";
+}
+?>
 
 <div class="paragraphs-items-wrapper-inner"><?php print render($content['field_breakpoint']); ?></div>
 
