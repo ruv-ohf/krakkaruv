@@ -30,4 +30,4 @@ if(!empty($atom)) {
 
 </style>
 
-<?php print render($content['field_breakpoint']); ?>
+<div class="cool"><?php print render($content['field_breakpoint']); ?></div>
