@@ -1,3 +1,1 @@
-<span class="banner-image-absolute">
-  <?php print $content; ?>
-</span>
+<h1>virkar</h1>
