@@ -1,6 +1,5 @@
 <?php
 
-$image_height 		= $content['field_custom_banner_height']);
 $hlekkur 			= $content['field_custom_banner_hlekkur'];
 
 $image_url 	= '';
