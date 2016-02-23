@@ -21,8 +21,6 @@ if(!empty($atom)) {
 <div class="absolute-image" style="background: url(<?php print $image_url; ?>) no-repeat center center;
 width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
-position: absolute;"></div>
-
-<p><?php print render($content['field_cm_banner_element_position']); ?></p>
+position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>"></div>
 
 
