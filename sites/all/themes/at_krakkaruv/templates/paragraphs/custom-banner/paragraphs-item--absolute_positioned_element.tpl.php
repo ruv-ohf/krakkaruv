@@ -23,13 +23,13 @@ if(!empty($atom)) {
 
 <?php if ($breakpoint): ?>
 
-	<div class="@media only screen and (min-width: <?php print $breakpoint; ?>px) {
+	<div class="absolute-image" style="@media only screen and (min-width: <?php print $breakpoint; ?>px) {
 	background: url(<?php print $image_url; ?>) no-repeat center center;
 	width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 	height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 	position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>
 }"></div>
-	
+
 <?php else: ?>
 
 	<div class="absolute-image" style="background: url(<?php print $image_url; ?>) no-repeat center center;
