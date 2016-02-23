@@ -35,45 +35,59 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_absolute_positioned_elemen']);
 ?>
 
-<style>
-	
-	.paragraphs-items-field-breakpoint {
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
-		background: url(<?php print $image_url; ?>) no-repeat center center;
-	}
-	.paragraphs-items-wrapper-inner {
-		background: url(<?php print $image_url2; ?>) repeat-x left top;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.paragraphs-item-wrapper a {
-		display: block;
-	}
-
-	.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
-		position: absolute;
-	}
-
-	
-</style>
-
 
 <?php if ($hlekkur): ?>
+
 	<a href="<?php print render($hlekkur); ?>">
 		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_absolute_positioned_elemen']); ?>
 			<?php print render($content['field_breakpoint']); ?>
 		</div>
 	</a>
+	<style>
+		.paragraphs-items-field-breakpoint {
+			height: <?php print render($content['field_custom_banner_height']); ?>px;
+			background: url(<?php print $image_url; ?>) no-repeat center center;
+		}
+		.paragraphs-item-wrapper a {
+			display: block;
+		}
+		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+			position: absolute;
+		}
+	</style>
+
 <?php elseif ($breakpoint): ?>
+
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
 	</div>
+	<style>
+		.paragraphs-items-field-breakpoint {
+			height: <?php print render($content['field_custom_banner_height']); ?>px;
+			background: url(<?php print $image_url; ?>) no-repeat center center;
+		}
+		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+			position: absolute;
+		}
+	</style>
 
 <?php else: ?>
-	<h1>No break</h1>
+
+	<div class="paragraphs-items-wrapper-inner">
+		<?php print render($content['field_absolute_positioned_elemen']); ?>
+	</div>
+	<style>
+		.paragraphs-items-wrapper-inner {
+			background: url(<?php print $image_url2; ?>) repeat-x left top;
+			position: relative;
+			overflow: hidden;
+		}
+		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+			position: absolute;
+		}
+	</style>
 	
 <?php endif; ?>
 
