@@ -22,7 +22,7 @@ if(!empty($atom)) {
 
 ?>
 
-<?php if ($breakpoint): ?>
+<?php if ($breakpoint) && ($breakpoint_max): ?>
 
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
