@@ -1,3 +1,4 @@
+<?php $counter = 1; ?>
 <?php hide($content['field_custom_banner_image']); ?>
 
 <?php
