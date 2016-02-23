@@ -32,7 +32,7 @@ if(!empty($atom)) {
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>
+					<?php print render($content['field_cm_banner_element_position']); ?>;
 				}
 			}
 		</style>
@@ -48,7 +48,7 @@ if(!empty($atom)) {
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>
+					<?php print render($content['field_cm_banner_element_position']); ?>;
 				}
 			}
 		</style>
@@ -64,7 +64,7 @@ if(!empty($atom)) {
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>
+					<?php print render($content['field_cm_banner_element_position']); ?>;
 				}
 			}
 		</style>
