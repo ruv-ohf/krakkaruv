@@ -49,6 +49,7 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 		position: relative;
 		overflow: hidden;
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
 	}
 
 	.paragraphs-item-wrapper a {
