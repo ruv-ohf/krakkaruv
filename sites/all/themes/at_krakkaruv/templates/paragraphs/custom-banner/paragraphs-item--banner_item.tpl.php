@@ -83,8 +83,11 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
+		.paragraphs-item-wrapper {
+			background: url(<?php print $image_url2; ?>) repeat-x top left;
+		}
 		.paragraphs-items-wrapper-inner {
-			background: url(<?php print $image_url; ?>) repeat-x left top;
+			background: url(<?php print $image_url; ?>) no-repeat center center;
 			position: relative;
 			overflow: hidden;
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
