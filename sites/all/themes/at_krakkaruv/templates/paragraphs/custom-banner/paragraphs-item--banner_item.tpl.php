@@ -1,7 +1,4 @@
 <?php
-
-$hlekkur 			= $content['field_custom_banner_hlekkur'];
-
 $image_url 	= '';
 $image_url2 = '';
 //$image_url3 = '';
@@ -9,7 +6,7 @@ $image_url2 = '';
 //Til að fá atom id
 $atom_id 			= $content['field_custom_banner_image']['#items'][0]['sid'];
 $atom_id2 			= $content['field_background_repeat']['#items'][0]['sid'];
-
+$hlekkur 			= $content['field_custom_banner_hlekkur'];
 //$absolute_element 	= $content['field_absolute_positioned_elemen']['#items'][0]['sid'];
 
 //til að ná í atom
@@ -40,13 +37,13 @@ if(!empty($atom2)) {
 <style>
 	
 	.paragraphs-items-field-breakpoint {
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.paragraphs-items-wrapper-inner {
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 		position: relative;
 		overflow: hidden;
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
 	}
 
 	.paragraphs-item-wrapper a {
