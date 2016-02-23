@@ -1,4 +1,3 @@
-<?php $counter = 1; ?>
 <?php hide($content['field_custom_banner_image']); ?>
 
 <?php
@@ -18,13 +17,8 @@ if(!empty($atom)) {
 
 ?>
 
-<div class="absolute-image <?php print $counter; ?>"></div>
-<?php $counter++; ?>
-
-<style>
-	.absolute-image {
+<div class="absolute-image" style=".absolute-image {
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 		width: 	<?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
-	}
-</style>
+	}"></div>
