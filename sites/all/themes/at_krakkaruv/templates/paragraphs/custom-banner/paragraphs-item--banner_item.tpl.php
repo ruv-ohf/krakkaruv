@@ -35,6 +35,11 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_absolute_positioned_elemen']);
 ?>
 
+<style>
+	.paragraphs-items-wrapper-inner {
+		position: relative;
+	}
+</style>
 
 <?php if ($hlekkur): ?>
 
