@@ -17,7 +17,8 @@ if(!empty($atom)) {
 
 ?>
 
-<div class="absolute-image"></div>
+<div class="absolute-image <?php print $counter; ?>"></div>
+<?php $counter++; ?>
 
 <style>
 	.absolute-image {
