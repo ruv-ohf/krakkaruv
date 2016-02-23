@@ -30,7 +30,6 @@ if(!empty($atom2)) {
 	hide($content['field_custom_banner_image']);
 	hide($content['field_background_repeat']);
 	hide($content['field_breakpoint']);
-	hide($content['field_custom_css']);
 	hide($content['field_custom_banner_hlekkur']);
 	hide($content['field_absolute_positioned_elemen']);
 ?>
@@ -42,6 +41,7 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.paragraphs-items-wrapper-inner {
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 		position: relative;
 		overflow: hidden;
@@ -55,8 +55,7 @@ if(!empty($atom2)) {
 		position: absolute;
 	}
 
-	<?php print render($content['field_custom_css']); ?>
-
+	
 </style>
 
 
