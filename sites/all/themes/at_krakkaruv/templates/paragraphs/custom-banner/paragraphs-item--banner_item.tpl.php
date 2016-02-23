@@ -31,7 +31,9 @@ if(!empty($atom2)) {
 	hide($content['field_absolute_positioned_elemen']);
 ?>
 
-<style>
+
+<?php if ($hlekkur): ?>
+	<style>
 	
 	.paragraphs-items-field-breakpoint {
 		height: <?php print render($content['field_custom_banner_height']); ?>px;
@@ -54,9 +56,6 @@ if(!empty($atom2)) {
 
 	
 </style>
-
-
-<?php if ($hlekkur): ?>
 	<a href="<?php print render($hlekkur); ?>">
 		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_absolute_positioned_elemen']); ?>
@@ -64,6 +63,25 @@ if(!empty($atom2)) {
 		</div>
 	</a>
 <?php else: ?>
+		<style>
+	
+	.paragraphs-items-field-breakpoint {
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
+		background: url(<?php print $image_url; ?>) no-repeat center center;
+	}
+	.paragraphs-items-wrapper-inner {
+		height: <?php print render($content['field_custom_banner_height']); ?>px;
+		background: url(<?php print $image_url2; ?>) repeat-x left top;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+		position: absolute;
+	}
+
+	
+</style>
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
