@@ -54,6 +54,22 @@ if(!empty($atom)) {
 		</style>
 	</div>
 
+<?php if ($breakpoint_max): ?>
+
+	<div class="absolute-image-<?php print $atom_id; ?>">
+		<style>
+			@media only screen and (max-width: " . render($breakpoint_max); ?>px){
+				.absolute-image-<?php print $atom_id; ?> {
+					background: url(<?php print $image_url; ?>) no-repeat center center;
+					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+					position: absolute; 
+					<?php print render($content['field_cm_banner_element_position']); ?>
+				}
+			}
+		</style>
+	</div>
+
 <?php else: ?>
 
 	<div class="absolute-image" style="background: url(<?php print $image_url; ?>) no-repeat center center;
