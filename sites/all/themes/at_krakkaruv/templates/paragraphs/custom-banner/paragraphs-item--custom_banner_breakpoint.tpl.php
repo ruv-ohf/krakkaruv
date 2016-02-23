@@ -1,6 +1,7 @@
 <?php hide($content['field_custom_banner_image']); ?>
 <?php hide($content['field_min_width_size']); ?>
 <?php hide($content['field_custom_css']); ?>
+<?php hide($content['field_cm_banner_element_position']); ?>
 
 <?php
 $image_url = '';
@@ -23,6 +24,6 @@ if(!empty($atom)) {
 		.paragraphs-items-field-breakpoint {
 			background: url(<?php print $image_url; ?>) no-repeat center center;
 		}
-		<?php print render($content['field_custom_css']); ?>
+		<?php print render($content['field_cm_banner_element_position']); ?>
 	}
 </style>
