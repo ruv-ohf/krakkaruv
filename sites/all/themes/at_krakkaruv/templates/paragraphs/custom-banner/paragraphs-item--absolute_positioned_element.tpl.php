@@ -37,6 +37,7 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
+<?php endif; ?>
 
 <?php elseif ($breakpoint): ?>
 
@@ -53,6 +54,7 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
+<?php endif; ?>
 
 <?php elseif ($breakpoint_max): ?>
 
@@ -69,6 +71,7 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
+<?php endif; ?>
 
 <?php else: ?>
 
