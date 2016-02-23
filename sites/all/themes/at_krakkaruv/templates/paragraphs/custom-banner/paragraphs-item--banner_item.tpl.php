@@ -26,9 +26,6 @@ if(!empty($atom2)) {
 ?>
 
 <?php
-	hide($content['field_custom_banner_height']);
-	hide($content['field_custom_banner_image']);
-	hide($content['field_background_repeat']);
 	hide($content['field_breakpoint']);
 	hide($content['field_custom_banner_hlekkur']);
 	hide($content['field_absolute_positioned_elemen']);
