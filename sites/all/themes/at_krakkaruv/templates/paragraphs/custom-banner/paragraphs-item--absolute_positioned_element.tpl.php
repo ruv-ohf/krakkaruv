@@ -23,14 +23,19 @@ if(!empty($atom)) {
 
 <?php if ($breakpoint): ?>
 
-	<div class="absolute-image" style="@media only screen and (min-width: <?php print render($breakpoint); ?>px) {
-	{
-		background: url(<?php print $image_url; ?>) no-repeat center center;
-		width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-		height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
-		position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>
-	}
-}"></div>
+	<div class="absolute-image image-brakpoint">
+		<style>
+			@media only screen and (min-width: <?php print render($breakpoint); ?>px) {
+				.image-breakpoint {
+					background: url(<?php print $image_url; ?>) no-repeat center center;
+					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+					position: absolute; 
+					<?php print render($content['field_cm_banner_element_position']); ?>
+				}
+			}
+		</style>
+	</div>
 
 <?php else: ?>
 
