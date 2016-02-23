@@ -1,6 +1,5 @@
 <?php $breakpoint 			= $content['field_cm_ban_element_breakpoint']; ?>
 <?php $breakpoint_media 	= "and (min-width: ";$content['field_cm_ban_element_breakpoint'];"px)"; ?>
-<?//php $breakpoint_media2 	= "px)"; ?>
 <?php $breakpoint_max 		= $content['field_cm_ban_el_breakpoint_max']; ?>
 
 <?php hide($content['field_custom_banner_image']); ?>
