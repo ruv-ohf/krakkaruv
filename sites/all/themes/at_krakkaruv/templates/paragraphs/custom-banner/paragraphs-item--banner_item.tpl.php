@@ -1,4 +1,8 @@
 <?php
+
+$image_height 		= $content['field_custom_banner_height']);
+$hlekkur 			= $content['field_custom_banner_hlekkur'];
+
 $image_url 	= '';
 $image_url2 = '';
 //$image_url3 = '';
@@ -6,7 +10,7 @@ $image_url2 = '';
 //Til að fá atom id
 $atom_id 			= $content['field_custom_banner_image']['#items'][0]['sid'];
 $atom_id2 			= $content['field_background_repeat']['#items'][0]['sid'];
-$hlekkur 			= $content['field_custom_banner_hlekkur'];
+
 //$absolute_element 	= $content['field_absolute_positioned_elemen']['#items'][0]['sid'];
 
 //til að ná í atom
@@ -26,21 +30,22 @@ if(!empty($atom2)) {
 ?>
 
 <?php
+	hide($content['field_custom_banner_height']);
+	hide($content['field_custom_banner_image']);
+	hide($content['field_background_repeat']);
 	hide($content['field_breakpoint']);
 	hide($content['field_custom_banner_hlekkur']);
 	hide($content['field_absolute_positioned_elemen']);
 ?>
 
-
-<?php if ($hlekkur): ?>
-	<style>
+<style>
 	
 	.paragraphs-items-field-breakpoint {
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
+		height: <?php print render($image_height); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.paragraphs-items-wrapper-inner {
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
+		height: <?php print render($image_height); ?>px;
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 		position: relative;
 		overflow: hidden;
@@ -56,6 +61,9 @@ if(!empty($atom2)) {
 
 	
 </style>
+
+
+<?php if ($hlekkur): ?>
 	<a href="<?php print render($hlekkur); ?>">
 		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_absolute_positioned_elemen']); ?>
@@ -63,25 +71,6 @@ if(!empty($atom2)) {
 		</div>
 	</a>
 <?php else: ?>
-		<style>
-	
-	.paragraphs-items-field-breakpoint {
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
-		background: url(<?php print $image_url; ?>) no-repeat center center;
-	}
-	.paragraphs-items-wrapper-inner {
-		height: <?php print render($content['field_custom_banner_height']); ?>px;
-		background: url(<?php print $image_url2; ?>) repeat-x left top;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
-		position: absolute;
-	}
-
-	
-</style>
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
