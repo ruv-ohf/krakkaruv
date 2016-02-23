@@ -87,6 +87,7 @@ $breakpoint = $content['field_breakpoint'];
 			background: url(<?php print $image_url2; ?>) repeat-x left top;
 			position: relative;
 			overflow: hidden;
+			height: <?php print render($content['field_custom_banner_height']); ?>px;
 		}
 		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
