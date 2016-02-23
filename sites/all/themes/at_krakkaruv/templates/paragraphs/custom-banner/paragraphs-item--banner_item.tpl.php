@@ -37,9 +37,6 @@ if(!empty($atom2)) {
 	hide($content['field_absolute_positioned_elemen']);
 ?>
 
-<h1><?php print render($content['field_custom_banner_height']); ?></h1>
-<h1><?php print render($content['field_custom_banner_height']); ?></h1>
-
 <style>
 	
 	.paragraphs-items-field-breakpoint {
