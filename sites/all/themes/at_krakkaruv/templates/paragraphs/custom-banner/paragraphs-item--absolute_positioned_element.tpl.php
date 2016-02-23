@@ -1,6 +1,7 @@
 <?php $breakpoint 			= $content['field_cm_ban_element_breakpoint']; ?>
-<?php $breakpoint_media 	= "and (min-width: "; ?>
-<?php $breakpoint_media2 	= "px)"; ?>
+<?php $breakpoint_media 	= "and (min-width: ";$content['field_cm_ban_element_breakpoint'];"px)"; ?>
+<?//php $breakpoint_media2 	= "px)"; ?>
+<?php $breakpoint_max 		= $content['field_cm_ban_el_breakpoint_max']; ?>
 
 <?php hide($content['field_custom_banner_image']); ?>
 <?php hide($content['field_cm_banner_element_position']); ?>
@@ -27,7 +28,7 @@ if(!empty($atom)) {
 
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
-			@media only screen <?php print $breakpoint_media; ?><?php print render($breakpoint); ?><?php print $breakpoint_media2; ?> {
+			@media only screen <?php print $breakpoint_media; ?> {
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat center center;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
