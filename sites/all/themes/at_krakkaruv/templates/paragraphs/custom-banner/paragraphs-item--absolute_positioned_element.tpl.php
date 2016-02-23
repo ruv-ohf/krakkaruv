@@ -17,7 +17,7 @@ $atom 		= scald_atom_load($atom_id);
 
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
-	$image_url = image_style_url('hero_image_subpage', $atom->file_source);
+	$image_url = image_style_url('custom_banner', $atom->file_source);
 }
 
 ?>

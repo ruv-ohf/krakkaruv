@@ -39,6 +39,9 @@ $breakpoint = $content['field_breakpoint'];
 	.paragraphs-items-wrapper-inner {
 		position: relative;
 	}
+	.paragraphs-item-wrapper {
+		background: url(<?php print $image_url2; ?>) repeat-x top left;
+	}
 </style>
 
 <?php if ($hlekkur): ?>
@@ -83,9 +86,6 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.paragraphs-item-wrapper {
-			background: url(<?php print $image_url2; ?>) repeat-x top left;
-		}
 		.paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat center center;
 			position: relative;
