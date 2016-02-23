@@ -45,7 +45,7 @@ if(!empty($atom2)) {
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.paragraphs-items-wrapper-inner {
-		height: <?php print render($image_height); ?>px;
+		height: px;
 		background: url(<?php print $image_url2; ?>) repeat-x left top;
 		position: relative;
 		overflow: hidden;
