@@ -14,11 +14,11 @@ $atom2 	= scald_atom_load($atom_id2);
 
 if(!empty($atom)) {
         //Til að ná í myndaurlið í réttum stíl
-	$image_url = image_style_url('original', $atom->file_source);
+	$image_url = image_style_url('default', $atom->file_source);
 }
 if(!empty($atom2)) {
         //Til að ná í myndaurlið í réttum stíl
-	$image_url2 = image_style_url('original', $atom2->file_source);
+	$image_url2 = image_style_url('default', $atom2->file_source);
 }
 
 $hlekkur 	= $content['field_custom_banner_hlekkur'];
