@@ -37,7 +37,6 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
-<?php endif; ?>
 
 <?php elseif ($breakpoint): ?>
 
@@ -54,7 +53,6 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
-<?php endif; ?>
 
 <?php elseif ($breakpoint_max): ?>
 
@@ -71,14 +69,10 @@ if(!empty($atom)) {
 			}
 		</style>
 	</div>
-<?php endif; ?>
 
 <?php else: ?>
 
-	<div class="absolute-image" style="background: url(<?php print $image_url; ?>) no-repeat center center;
-	width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-	height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
-	position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>">
+	
 
 <?php endif; ?>
 
