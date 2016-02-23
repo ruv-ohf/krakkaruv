@@ -38,6 +38,7 @@ if(!empty($atom2)) {
 ?>
 
 <h1><?php print render($content['field_custom_banner_height']); ?></h1>
+<h1><?php print render($content['field_custom_banner_height']); ?></h1>
 
 <style>
 	
