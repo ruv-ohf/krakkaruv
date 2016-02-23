@@ -38,12 +38,6 @@ $breakpoint = $content['field_breakpoint'];
 
 <?php if ($hlekkur): ?>
 
-	<a href="<?php print render($hlekkur); ?>">
-		<div class="paragraphs-items-wrapper-inner">
-			<?php print render($content['field_absolute_positioned_elemen']); ?>
-			<?php print render($content['field_breakpoint']); ?>
-		</div>
-	</a>
 	<style>
 		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
@@ -57,12 +51,15 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
+	<a href="<?php print render($hlekkur); ?>">
+		<div class="paragraphs-items-wrapper-inner">
+			<?php print render($content['field_absolute_positioned_elemen']); ?>
+			<?php print render($content['field_breakpoint']); ?>
+		</div>
+	</a>
+	
 <?php elseif ($breakpoint): ?>
 
-	<div class="paragraphs-items-wrapper-inner">
-		<?php print render($content['field_absolute_positioned_elemen']); ?>
-		<?php print render($content['field_breakpoint']); ?>
-	</div>
 	<style>
 		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
@@ -73,11 +70,13 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
-<?php else: ?>
-
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
+		<?php print render($content['field_breakpoint']); ?>
 	</div>
+	
+<?php else: ?>
+
 	<style>
 		.paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url2; ?>) repeat-x left top;
@@ -88,6 +87,11 @@ $breakpoint = $content['field_breakpoint'];
 			position: absolute;
 		}
 	</style>
+
+	<div class="paragraphs-items-wrapper-inner">
+		<?php print render($content['field_absolute_positioned_elemen']); ?>
+	</div>
+	
 	
 <?php endif; ?>
 
