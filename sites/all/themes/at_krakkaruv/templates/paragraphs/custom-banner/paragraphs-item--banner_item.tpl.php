@@ -49,7 +49,7 @@ $breakpoint = $content['field_breakpoint'];
 	<style>
 		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
-			background: url(<?php print $image_url; ?>) no-repeat center center;
+			background: url(<?php print $image_url; ?>) no-repeat;
 		}
 		.paragraphs-item-wrapper a {
 			display: block;
@@ -71,7 +71,7 @@ $breakpoint = $content['field_breakpoint'];
 	<style>
 		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
-			background: url(<?php print $image_url; ?>) no-repeat center center;
+			background: url(<?php print $image_url; ?>) no-repeat;
 		}
 		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
@@ -87,7 +87,7 @@ $breakpoint = $content['field_breakpoint'];
 
 	<style>
 		.paragraphs-items-wrapper-inner {
-			background: url(<?php print $image_url; ?>) no-repeat center center;
+			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
 			height: <?php print render($content['field_custom_banner_height']); ?>px;

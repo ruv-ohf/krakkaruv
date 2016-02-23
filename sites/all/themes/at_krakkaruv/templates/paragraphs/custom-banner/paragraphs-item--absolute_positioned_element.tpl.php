@@ -28,7 +28,7 @@ if(!empty($atom)) {
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) <?php print "and (max-width: " . render($breakpoint_max); ?>px){
 				.absolute-image-<?php print $atom_id; ?> {
-					background: url(<?php print $image_url; ?>) no-repeat center center;
+					background: url(<?php print $image_url; ?>) no-repeat;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
@@ -44,7 +44,7 @@ if(!empty($atom)) {
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) {
 				.absolute-image-<?php print $atom_id; ?> {
-					background: url(<?php print $image_url; ?>) no-repeat center center;
+					background: url(<?php print $image_url; ?>) no-repeat;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
@@ -60,7 +60,7 @@ if(!empty($atom)) {
 		<style>
 			@media only screen <?php print "and (max-width: " . render($breakpoint_max); ?>px){
 				.absolute-image-<?php print $atom_id; ?> {
-					background: url(<?php print $image_url; ?>) no-repeat center center;
+					background: url(<?php print $image_url; ?>) no-repeat;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
@@ -72,7 +72,7 @@ if(!empty($atom)) {
 
 <?php else: ?>
 
-	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat center center;
+	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
 	width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 	height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 	position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>">
