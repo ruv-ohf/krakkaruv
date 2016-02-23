@@ -27,7 +27,7 @@ if(!empty($atom)) {
 
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
-			@media only screen <?php print $breakpoint; ?> {
+			@media only screen <?php print render($breakpoint); ?> {
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat center center;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
