@@ -19,7 +19,6 @@ if(!empty($atom)) {
 
 ?>
 
-<?php //print render($content['field_absolute_positioned_elemen']); ?>
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {

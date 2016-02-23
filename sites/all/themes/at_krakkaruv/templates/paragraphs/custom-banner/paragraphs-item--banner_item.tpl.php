@@ -6,8 +6,6 @@ $image_url2 = '';
 //Til að fá atom id
 $atom_id 			= $content['field_custom_banner_image']['#items'][0]['sid'];
 $atom_id2 			= $content['field_background_repeat']['#items'][0]['sid'];
-$hlekkur 			= $content['field_custom_banner_hlekkur'];
-//$absolute_element 	= $content['field_absolute_positioned_elemen']['#items'][0]['sid'];
 
 //til að ná í atom
 $atom 	= scald_atom_load($atom_id);
@@ -22,6 +20,9 @@ if(!empty($atom2)) {
         //Til að ná í myndaurlið í réttum stíl
 	$image_url2 = image_style_url('hero_image_subpage', $atom2->file_source);
 }
+
+$hlekkur 	= $content['field_custom_banner_hlekkur'];
+$breakpoint = $content['field_breakpoint'];
 
 ?>
 
@@ -65,10 +66,14 @@ if(!empty($atom2)) {
 			<?php print render($content['field_breakpoint']); ?>
 		</div>
 	</a>
-<?php else: ?>
+<?php elseif ($breakpoint): ?>
 	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
 	</div>
+
+<?php else: ?>
+	<h1>No break</h1>
+	
 <?php endif; ?>
 
