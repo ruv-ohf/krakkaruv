@@ -1,5 +1,4 @@
-<?php $breakpoint 			= $content['field_cm_ban_element_breakpoint']; ?>
-<?php $breakpoint_media 	= "and (min-width: <?php print render($breakpoint); ?>px)"; ?>
+<?php $breakpoint 			= "and (min-width: "$content['field_cm_ban_element_breakpoint'];"px)" ?>
 <?php $breakpoint_max 		= $content['field_cm_ban_el_breakpoint_max']; ?>
 
 
@@ -28,7 +27,7 @@ if(!empty($atom)) {
 
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
-			@media only screen <?php print $breakpoint_media; ?> {
+			@media only screen <?php print $breakpoint; ?> {
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat center center;
 					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
