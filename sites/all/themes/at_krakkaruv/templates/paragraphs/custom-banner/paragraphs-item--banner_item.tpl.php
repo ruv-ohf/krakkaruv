@@ -41,7 +41,6 @@ if(!empty($atom2)) {
 <style>
 	
 	.paragraphs-items-field-breakpoint {
-		height: <?php print render($image_height); ?>px;
 		background: url(<?php print $image_url; ?>) no-repeat center center;
 	}
 	.paragraphs-items-wrapper-inner {
