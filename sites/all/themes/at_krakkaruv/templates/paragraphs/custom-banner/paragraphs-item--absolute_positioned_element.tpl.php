@@ -28,10 +28,6 @@ if(!empty($atom)) {
 
 <?php if (($breakpoint)&&($breakpoint_max)): ?>
 
-	<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
-
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) <?php print "and (max-width: " . render($breakpoint_max); ?>px){
@@ -39,7 +35,14 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php print render($content['field_cm_ban_element_size']); ?>;
+					
+					<?php if ($element_size): ?>
+						<?php print render($content['field_cm_ban_element_size']); ?>;
+					<?php else: ?>
+						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+					<?php endif; ?>
+					
 					background-size: contain;
 				}
 			}
@@ -48,10 +51,6 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint): ?>
 
-	<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
-
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) {
@@ -59,7 +58,14 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php print render($content['field_cm_ban_element_size']); ?>;
+
+					<?php if ($element_size): ?>
+						<?php print render($content['field_cm_ban_element_size']); ?>;
+					<?php else: ?>
+						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+					<?php endif; ?>
+
 					background-size: contain;
 				}
 			}
@@ -68,10 +74,6 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint_max): ?>
 
-	<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
-
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (max-width: " . render($breakpoint_max); ?>px){
@@ -79,7 +81,14 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php print render($content['field_cm_ban_element_size']); ?>;
+
+					<?php if ($element_size): ?>
+						<?php print render($content['field_cm_ban_element_size']); ?>;
+					<?php else: ?>
+						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+					<?php endif; ?>
+
 					background-size: contain;
 				}
 			}
@@ -88,12 +97,15 @@ if(!empty($atom)) {
 
 <?php else: ?>
 
-	<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
-
 	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
-	<?php print render($content['field_cm_ban_element_size']); ?>;
+		
+		<?php if ($element_size): ?>
+			<?php print render($content['field_cm_ban_element_size']); ?>;
+		<?php else: ?>
+			width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
+			height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+		<?php endif; ?>
+		
 	background-size: contain;
 	position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>">
 	</div>
