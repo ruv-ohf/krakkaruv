@@ -51,6 +51,7 @@ $breakpoint = $content['field_breakpoint'];
 		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
+			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
 		.paragraphs-item-wrapper a {
 			display: block;

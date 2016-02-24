@@ -1,9 +1,12 @@
 <?php $breakpoint = $content['field_cm_ban_element_breakpoint']; ?>
 <?php $breakpoint_max = $content['field_cm_ban_el_breakpoint_max']; ?>
 
-<?php hide($content['field_custom_banner_image']); ?>
-<?php hide($content['field_cm_banner_element_position']); ?>
-<?php hide($content['field_cm_ban_element_breakpoint']); ?>
+<?php 
+	hide($content['field_custom_banner_image']);
+	hide($content['field_cm_banner_element_position']);
+	hide($content['field_cm_ban_element_breakpoint']);
+	hide($content['field_cm_ban_element_size']);
+?>
 
 <?php
 
@@ -29,10 +32,9 @@ if(!empty($atom)) {
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) <?php print "and (max-width: " . render($breakpoint_max); ?>px){
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
-					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_ban_element_size']); ?>;
 				}
 			}
 		</style>
@@ -45,10 +47,9 @@ if(!empty($atom)) {
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) {
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
-					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_ban_element_size']); ?>;
 				}
 			}
 		</style>
@@ -61,10 +62,9 @@ if(!empty($atom)) {
 			@media only screen <?php print "and (max-width: " . render($breakpoint_max); ?>px){
 				.absolute-image-<?php print $atom_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
-					width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-					height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_ban_element_size']); ?>;
 				}
 			}
 		</style>
@@ -73,8 +73,7 @@ if(!empty($atom)) {
 <?php else: ?>
 
 	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
-	width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
-	height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
+	<?php print render($content['field_cm_ban_element_size']); ?>;
 	position: absolute; <?php print render($content['field_cm_banner_element_position']); ?>">
 	</div>
 
