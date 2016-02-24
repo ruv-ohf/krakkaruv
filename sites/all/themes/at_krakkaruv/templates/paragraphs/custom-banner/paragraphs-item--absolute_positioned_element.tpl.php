@@ -88,6 +88,10 @@ if(!empty($atom)) {
 
 <?php else: ?>
 
+	<?php if ($element_size): ?>
+						<h1>Element size is used</h1>
+					<?php endif; ?>
+
 	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
 	<?php print render($content['field_cm_ban_element_size']); ?>;
 	background-size: contain;
