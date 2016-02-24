@@ -14,7 +14,7 @@
 $image_url 	= '';
 
 //Til að fá atom id
-$test = $content['field_custom_banner_image'];
+$test = $content['field_custom_banner_image']['#object']['item_id'];
 $atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
 
 //til að ná í atom
