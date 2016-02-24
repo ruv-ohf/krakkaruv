@@ -28,6 +28,10 @@ if(!empty($atom)) {
 
 <?php if (($breakpoint)&&($breakpoint_max)): ?>
 
+	<?php if ($element_size): ?>
+						<h1>Element size is used</h1>
+					<?php endif; ?>
+
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) <?php print "and (max-width: " . render($breakpoint_max); ?>px){
@@ -35,9 +39,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
@@ -47,6 +48,10 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint): ?>
 
+	<?php if ($element_size): ?>
+						<h1>Element size is used</h1>
+					<?php endif; ?>
+
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) {
@@ -54,9 +59,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
@@ -66,6 +68,10 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint_max): ?>
 
+	<?php if ($element_size): ?>
+						<h1>Element size is used</h1>
+					<?php endif; ?>
+
 	<div class="absolute-image-<?php print $atom_id; ?>">
 		<style>
 			@media only screen <?php print "and (max-width: " . render($breakpoint_max); ?>px){
@@ -73,9 +79,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
