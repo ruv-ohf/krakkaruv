@@ -1,7 +1,9 @@
-<?php hide($content['field_custom_banner_image']); ?>
-<?php hide($content['field_min_width_size']); ?>
-<?php hide($content['field_custom_css']); ?>
-<?php //hide($content['field_absolute_positioned_elemen']); ?>
+<?php 
+	hide($content['field_custom_banner_image']);
+	hide($content['field_min_width_size']);
+	hide($content['field_custom_css']);
+	hide($content['field_cm_banner_image_position']);
+?>
 
 <?php
 $image_url = '';
@@ -24,6 +26,7 @@ if(!empty($atom)) {
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
 		.paragraphs-items-field-breakpoint {
 			background: url(<?php print $image_url; ?>) no-repeat;
+			background-position: <?php print render($content['field_custom_banner_height']); ?>;
 		}
 	}
 </style>
