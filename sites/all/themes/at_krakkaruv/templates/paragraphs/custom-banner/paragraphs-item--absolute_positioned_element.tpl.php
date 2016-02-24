@@ -114,7 +114,7 @@ if(!empty($atom)) {
 <?php endif; ?>
 
 <pre>
-<?php print_r($test); ?>
+<?php print_r($data); ?>
 
 
 
