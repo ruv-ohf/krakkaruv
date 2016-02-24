@@ -14,7 +14,7 @@
 $image_url 	= '';
 
 //Til að fá atom id
-$test = $content['field_custom_banner_image']['#object']->item_id;
+$banner_image_item_id = $content['field_custom_banner_image']['#object']->item_id;
 $atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
 
 //til að ná í atom
@@ -29,10 +29,10 @@ if(!empty($atom)) {
 
 <?php if (($breakpoint)&&($breakpoint_max)): ?>
 
-	<div class="absolute-image-<?php print $atom_id; ?>">
+	<div class="absolute-image-<?php print $banner_image_item_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) <?php print "and (max-width: " . render($breakpoint_max); ?>px){
-				.absolute-image-<?php print $atom_id; ?> {
+				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
@@ -52,10 +52,10 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint): ?>
 
-	<div class="absolute-image-<?php print $atom_id; ?>">
+	<div class="absolute-image-<?php print $banner_image_item_id; ?>">
 		<style>
 			@media only screen <?php print "and (min-width: " . render($breakpoint); ?>px) {
-				.absolute-image-<?php print $atom_id; ?> {
+				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
@@ -75,10 +75,10 @@ if(!empty($atom)) {
 
 <?php elseif ($breakpoint_max): ?>
 
-	<div class="absolute-image-<?php print $atom_id; ?>">
+	<div class="absolute-image-<?php print $banner_image_item_id; ?>">
 		<style>
 			@media only screen <?php print "and (max-width: " . render($breakpoint_max); ?>px){
-				.absolute-image-<?php print $atom_id; ?> {
+				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
@@ -98,7 +98,7 @@ if(!empty($atom)) {
 
 <?php else: ?>
 
-	<div class="absolute-image-<?php print $atom_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
+	<div class="absolute-image-<?php print $banner_image_item_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
 		
 		<?php if ($element_size): ?>
 			<?php print render($content['field_cm_ban_element_size']); ?>;
@@ -112,9 +112,6 @@ if(!empty($atom)) {
 	</div>
 
 <?php endif; ?>
-
-<pre>
-<?php print_r($test); ?>
 
 
 
