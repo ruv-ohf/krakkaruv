@@ -1,6 +1,5 @@
-<?php $breakpoint 		= $content['field_cm_ban_element_breakpoint']; ?>
-<?php $breakpoint_max 	= $content['field_cm_ban_el_breakpoint_max']; ?>
-<?php $element_size 	= $content['field_cm_ban_element_size']; ?>
+<?php $breakpoint = $content['field_cm_ban_element_breakpoint']; ?>
+<?php $breakpoint_max = $content['field_cm_ban_el_breakpoint_max']; ?>
 
 <?php 
 	hide($content['field_custom_banner_image']);
@@ -35,9 +34,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
@@ -54,9 +50,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
@@ -73,9 +66,6 @@ if(!empty($atom)) {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
 					<?php print render($content['field_cm_banner_element_position']); ?>;
-					<?php if ($element_size): ?>
-						<h1>Element size is used</h1>
-					<?php endif; ?>
 					<?php print render($content['field_cm_ban_element_size']); ?>;
 					background-size: contain;
 				}
