@@ -14,6 +14,7 @@
 $image_url 	= '';
 
 //Til að fá atom id
+$test = $content['field_custom_banner_image']['#items'];
 $atom_id 	= $content['field_custom_banner_image']['#items'][0]['sid'];
 
 //til að ná í atom
@@ -113,7 +114,7 @@ if(!empty($atom)) {
 <?php endif; ?>
 
 <pre>
-<?php print_r($atom_id); ?>
+<?php print_r($test); ?>
 
 
 
