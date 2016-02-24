@@ -35,7 +35,7 @@ if(!empty($atom)) {
 				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_banner_element_position']); ?>
 					
 					<?php if ($element_size): ?>
 						<?php print render($content['field_cm_ban_element_size']); ?>
@@ -58,7 +58,7 @@ if(!empty($atom)) {
 				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_banner_element_position']); ?>
 
 					<?php if ($element_size): ?>
 						<?php print render($content['field_cm_ban_element_size']); ?>
@@ -81,7 +81,7 @@ if(!empty($atom)) {
 				.absolute-image-<?php print $banner_image_item_id; ?> {
 					background: url(<?php print $image_url; ?>) no-repeat;
 					position: absolute; 
-					<?php print render($content['field_cm_banner_element_position']); ?>;
+					<?php print render($content['field_cm_banner_element_position']); ?>
 
 					<?php if ($element_size): ?>
 						<?php print render($content['field_cm_ban_element_size']); ?>
