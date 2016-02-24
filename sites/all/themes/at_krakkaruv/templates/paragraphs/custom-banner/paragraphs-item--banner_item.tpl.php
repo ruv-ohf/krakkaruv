@@ -34,6 +34,7 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_custom_banner_hlekkur']);
 	hide($content['field_absolute_positioned_elemen']);
 	hide($content['field_cm_banner_image_position']);
+	hide($content['field_cm_custom_banner_border']);
 ?>
 
 <style>
@@ -52,6 +53,7 @@ $breakpoint = $content['field_breakpoint'];
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
+			<?php print render($content['field_cm_custom_banner_border']); ?>
 		}
 		.paragraphs-item-wrapper a {
 			display: block;
@@ -75,6 +77,7 @@ $breakpoint = $content['field_breakpoint'];
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
+			<?php print render($content['field_cm_custom_banner_border']); ?>
 		}
 		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
@@ -95,6 +98,7 @@ $breakpoint = $content['field_breakpoint'];
 			overflow: hidden;
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
+			<?php print render($content['field_cm_custom_banner_border']); ?>
 		}
 		.paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
