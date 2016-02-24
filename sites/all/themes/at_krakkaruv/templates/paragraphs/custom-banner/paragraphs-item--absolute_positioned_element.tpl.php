@@ -38,7 +38,7 @@ if(!empty($atom)) {
 					<?php print render($content['field_cm_banner_element_position']); ?>;
 					
 					<?php if ($element_size): ?>
-						<?php print render($content['field_cm_ban_element_size']); ?>;
+						<?php print render($content['field_cm_ban_element_size']); ?>
 					<?php else: ?>
 						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
@@ -61,7 +61,7 @@ if(!empty($atom)) {
 					<?php print render($content['field_cm_banner_element_position']); ?>;
 
 					<?php if ($element_size): ?>
-						<?php print render($content['field_cm_ban_element_size']); ?>;
+						<?php print render($content['field_cm_ban_element_size']); ?>
 					<?php else: ?>
 						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
@@ -84,7 +84,7 @@ if(!empty($atom)) {
 					<?php print render($content['field_cm_banner_element_position']); ?>;
 
 					<?php if ($element_size): ?>
-						<?php print render($content['field_cm_ban_element_size']); ?>;
+						<?php print render($content['field_cm_ban_element_size']); ?>
 					<?php else: ?>
 						width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 						height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
@@ -101,7 +101,7 @@ if(!empty($atom)) {
 	<div class="absolute-image-<?php print $banner_image_item_id; ?>" style="background: url(<?php print $image_url; ?>) no-repeat;
 		
 		<?php if ($element_size): ?>
-			<?php print render($content['field_cm_ban_element_size']); ?>;
+			<?php print render($content['field_cm_ban_element_size']); ?>
 		<?php else: ?>
 			width: <?php print($atom->scald_thumbnail['und'][0]['metadata']['width']); ?>px;
 			height: <?php print($atom->scald_thumbnail['und'][0]['metadata']['height']); ?>px;
