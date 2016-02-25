@@ -9541,7 +9541,7 @@ footer .region-footer {
   position: relative;
   overflow: hidden;
   margin-top: 40px;
-  padding: 46px 0px;
+  padding: 46px 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003109}}
 .profill #block-system-main .region-two-66-33-bottom .pane-title, .profill #block-system-main .region-two-66-33-bottom p {
@@ -9614,7 +9614,11 @@ footer .region-footer {
     margin-bottom: 20px;
     margin-top: -8px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003181}}
+  .profill #block-system-main .region-two-66-33-bottom {
+    padding: 46px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003185}}
   .profill .region-wrapper {
     padding-left: 0;
     padding-right: 0;
