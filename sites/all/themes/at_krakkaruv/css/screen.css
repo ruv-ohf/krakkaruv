@@ -9434,4 +9434,13 @@ footer .region-footer {
   padding-top: 20px;
 }
 
+/* Min width 1180px */
+@media only screen and (min-width: 1180px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000327}}
+  .profill .region-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /*# sourceMappingURL=screen.css.map */

@@ -18,3 +18,15 @@
         }
     }
 }
+
+
+
+/* Min width 1180px */
+@media only screen and (min-width: 1180px) {
+    .profill {
+        .region-wrapper {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
