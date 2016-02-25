@@ -1,26 +1,28 @@
-.profill {
-    .node-custom-banners {
-        .paragraphs-item-wrapper {
-            position: relative;
+.node-custom-banners {
+    .paragraphs-item-wrapper {
+        position: relative;
             &:before, &:after {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 18px;
-                background: transparent url(images/samfes/fancy-shadow.png) no-repeat top center;
-                z-index: 2;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 18px;
+            background: transparent url(images/samfes/fancy-shadow.png) no-repeat top center;
+            z-index: 2;
+        }
+        &:before {
+            top: 0;
+            left: 0;
             }
-            &:before {
-                top: 0;
-                left: 0;
-            }
-            &:after {
-                bottom: 1px;
-                left: 0;
-                background: transparent url(images/samfes/fancy-shadow2.png) no-repeat top center;
-            }
+        &:after {
+            bottom: 1px;
+            left: 0;
+            background: transparent url(images/samfes/fancy-shadow2.png) no-repeat top center;
         }
     }
+}
+
+.profill {
+    
     .region-wrapper {
         position: relative;
         overflow: hidden;
