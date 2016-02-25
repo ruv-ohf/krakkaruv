@@ -1,5 +1,5 @@
 .profill {
-    .region-wrapper {
+    #block-system-main {
         position: relative;
         overflow: hidden;
         img {
@@ -45,7 +45,7 @@
 /* Min width 1180px */
 @media only screen and (min-width: 1180px) {
     .profill {
-        .region-wrapper {
+        #block-system-main {
             padding-left: 0;
             padding-right: 0;
         }
