@@ -70,9 +70,12 @@
             }
         }
         .region-two-66-33-bottom {
-                background-color: #EAEAEA;
+                background-color: #63717B;
                 position: relative;
                 overflow: hidden;
+            .pane-title, p {
+                color: #FFFFFF;
+            }
             .panel-pane {
                 width: 100%;
                 position: relative;
