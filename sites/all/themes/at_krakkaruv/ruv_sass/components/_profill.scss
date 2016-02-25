@@ -158,6 +158,9 @@
                 }
                 .views-field-field-image {
                     border: 4px solid #EAEAEA;
+                    .field-content {
+                       padding: 0;
+                    }
                 }
                 .view-content {
                     margin-left: -10px;
