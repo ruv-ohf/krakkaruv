@@ -7,4 +7,14 @@
             height: auto;
         }
     }
+    .pane-node-title {
+        .block-content {
+            position: relative;
+            max-width: 1140px;
+            margin: 0px auto;
+            h1, h2, {
+                padding-top: 20px;
+            }
+        }
+    }
 }

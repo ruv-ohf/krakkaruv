@@ -9423,5 +9423,15 @@ footer .region-footer {
   max-width: 100%;
   height: auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000311}}
+.profill .pane-node-title .block-content {
+  position: relative;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000315}}
+.profill .pane-node-title .block-content h1, .profill .pane-node-title .block-content h2 {
+  padding-top: 20px;
+}
 
 /*# sourceMappingURL=screen.css.map */
