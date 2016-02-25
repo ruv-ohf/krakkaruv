@@ -9418,5 +9418,10 @@ footer .region-footer {
   position: relative;
   overflow: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\000035}}
+.profill .region-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=screen.css.map */
