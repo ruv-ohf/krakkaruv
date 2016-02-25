@@ -109,6 +109,10 @@
             .pane-title, p {
                 color: #FFFFFF;
             }
+            .pane-title {
+                padding: 0;
+                text-align: left;
+            }
             .panel-pane {
                 width: 100%;
                 position: relative;
