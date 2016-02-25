@@ -53,6 +53,10 @@
         }
         .region-two-66-33-second {
             .pane-node-field-image {
+                transform: rotateZ(-3deg);
+                margin-right: 6px;
+                margin-bottom: 20px;
+                margin-top: -8px;
                 padding: 20px;
                 border: 1px solid #dcdcdc;
                 background-color: #FFFFFF;
@@ -93,6 +97,9 @@
             }
             .region-two-66-33-second {
                 padding-left: 20px;
+                .pane-node-field-image {
+                    margin-bottom: 40px;
+                }
             }
         }
         .region-wrapper {
