@@ -9444,7 +9444,7 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000334}}
   .pane-node-title .block-content h1, .pane-node-title .block-content h2 {
-    padding: 30px 20px 0 20px;
+    padding: 30px 0 0 0;
   }
 }
 
