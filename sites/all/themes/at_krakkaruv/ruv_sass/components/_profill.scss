@@ -1,9 +1,4 @@
 .profill {
-    #menu-bar {
-        -webkit-box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.48);
-        -moz-box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.48);
-        box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.48);
-    }
     .region-wrapper {
         position: relative;
         overflow: hidden;
@@ -91,6 +86,19 @@
                 margin-bottom: 35px;
                 margin-top: 20px;
                 margin-left: 10px;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                position: relative;
+                &:before, &:after {
+                    content:"";
+                    position:absolute; 
+                    z-index:-1;
+                    box-shadow:0 0 20px rgba(0,0,0,0.8);
+                    top:50%;
+                    bottom:0;
+                    left:10px;
+                    right:10px;
+                    border-radius:100px / 10px;
+                }
             }
             .panel-pane {
                 padding: 20px;
