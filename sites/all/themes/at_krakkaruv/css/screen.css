@@ -9431,7 +9431,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000315}}
 .profill .pane-node-title .block-content h1, .profill .pane-node-title .block-content h2 {
-  padding-top: 20px;
+  padding: 30px 20px 0 20px;
 }
 
 /* Min width 1180px */
@@ -9440,6 +9440,11 @@ footer .region-footer {
   .profill .region-wrapper {
     padding-left: 0;
     padding-right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000334}}
+  .pane-node-title .block-content h1, .pane-node-title .block-content h2 {
+    padding: 30px 20px 0 20px;
   }
 }
 
