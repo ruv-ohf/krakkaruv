@@ -132,6 +132,10 @@
                 .view-content {
                     margin-left: -10px;
                     margin-right: -10px;
+                    .field-content {
+                        padding-left: 4px;
+                        padding-right: 4px;
+                    }
                 }
             }
         }
