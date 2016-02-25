@@ -56,6 +56,12 @@
                 border: 1px solid #dcdcdc;
                 background-color: #FFFFFF;
             }
+            .panel-pane {
+                padding: 13px 0;
+            }
+            .panel-pane:first-child {
+                padding-top: 0;
+            }
         }
         .region-two-66-33-second {
             .pane-node-field-image.panel-pane {
