@@ -9414,7 +9414,7 @@ footer .region-footer {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\000032}}
-.profill .menu {
+.profill #menu-bar {
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.48);
   box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.48);
