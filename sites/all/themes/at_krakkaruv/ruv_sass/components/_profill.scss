@@ -7,9 +7,6 @@
         position: relative;
         overflow: hidden;
         background-color: #F7F7F7;
-        .pane-node-title {
-            background-color: #EAEAEA;
-        }
         img {
             max-width: 100%;
             height: auto;
@@ -39,6 +36,7 @@
             font-weight: $font-weight-bold;
         }
         .pane-node-title {
+             background-color: #63717B;
             .block-content {
                 position: relative;
                 max-width: 1140px;
