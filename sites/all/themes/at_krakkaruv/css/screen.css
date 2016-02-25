@@ -9413,5 +9413,10 @@ footer .region-footer {
     background: #d3a764 url(images/oskudagur/bg-large.jpg) repeat-x top left;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\000032}}
+.profill .region-wrapper {
+  position: relative;
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=screen.css.map */
