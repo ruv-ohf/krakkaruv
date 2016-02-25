@@ -9485,7 +9485,7 @@ footer .region-footer {
   background-color: #FFFFFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000361}}
-.profill #block-system-main .region-two-66-33-second .pane-node-field-image {
+.profill #block-system-main .region-two-66-33-second .pane-node-field-image.panel-pane {
   transform: rotateZ(-3deg);
   padding: 20px;
   border: 1px solid #dcdcdc;
