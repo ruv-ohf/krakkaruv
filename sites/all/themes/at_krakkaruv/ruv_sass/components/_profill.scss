@@ -67,13 +67,16 @@
             }
         }
         .region-two-66-33-bottom {
+                background-color: #63717B;
+                position: relative;
+                overflow: hidden;
             .panel-pane {
                 width: 100%;
                 position: relative;
                 overflow: hidden;
                 padding: 0;
-                margin: 0;
-                background-color: #63717B;
+                max-width: 1140px;
+                margin: 0px auto;
             }
         }
     }
