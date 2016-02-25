@@ -9499,6 +9499,11 @@ footer .region-footer {
   .profill #block-system-main .region-two-66-33-second {
     padding-left: 20px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000383}}
+  .profill .region-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */
