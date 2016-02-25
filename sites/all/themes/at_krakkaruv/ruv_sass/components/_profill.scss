@@ -64,7 +64,7 @@
                 border: 1px solid #dcdcdc;
                 background-color: #FFFFFF;
                 margin-right: 10px;
-                margin-bottom: 20px;
+                margin-bottom: 35px;
                 margin-top: 20px;
                 margin-left: 10px;
             }
@@ -72,6 +72,14 @@
                 padding: 20px;
                 border: 1px solid #dcdcdc;
                 background-color: #EAEAEA;
+                margin-bottom: 26px;
+            }
+            .panel-pane:last-child {
+                margin-bottom: 0;
+            }
+            .field-label {
+                font-size: 22px;
+                margin-bottom: 6px;
             }
         }
         .region-two-66-33-bottom {
