@@ -2,15 +2,21 @@
     .node-custom-banners {
         .paragraphs-item-wrapper {
             position: relative;
-            &:before {
+            &:before, &:after {
                 content: "";
                 position: absolute;
-                top: 0;
-                left: 0;
                 width: 100%;
                 height: 8px;
                 background: transparent url(images/samfes/fancy-shadow.png) no-repeat top center;
                 z-index: 2;
+            }
+            &:before {
+                top: 0;
+                left: 0;
+            }
+            &:after {
+                bottom: 0;
+                left: 0;
             }
         }
     }
