@@ -9473,39 +9473,40 @@ footer .region-footer {
 .profill #block-system-main .region-two-66-33-first .region-inner {
   padding: 20px;
   border: 1px solid #dcdcdc;
+  background-color: #FFFFFF;
 }
 
 /* Min width 770px */
 @media only screen and (min-width: 770px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000361}}
   .profill #block-system-main .region-two-66-33-first {
     padding-right: 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000364}}
   .profill #block-system-main .region-two-66-33-second {
     padding-left: 10px;
   }
 }
 /* Min width 1180px */
 @media only screen and (min-width: 1180px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000374}}
   .profill #block-system-main {
     padding-left: 0;
     padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000379}}
   .profill #block-system-main .pane-node-title .block-content h1, .profill #block-system-main .pane-node-title .block-content h2 {
     padding: 30px 0 0 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000384}}
   .profill #block-system-main .region-two-66-33-first {
     padding-right: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000387}}
   .profill #block-system-main .region-two-66-33-second {
     padding-left: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000391}}
   .profill .region-wrapper {
     padding-left: 0;
     padding-right: 0;
