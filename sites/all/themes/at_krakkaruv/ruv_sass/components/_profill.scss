@@ -42,7 +42,19 @@
     }
 }
 
-
+/* Min width 770px */
+@media only screen and (min-width: 770px) {
+    .profill {
+        #block-system-main {
+            .region-two-66-33-first {
+                padding-right: 20px;
+            }
+            .region-two-66-33-second {
+                padding-left: 20px;
+            }
+        }
+    }
+}
 
 /* Min width 1180px */
 @media only screen and (min-width: 1180px) {
