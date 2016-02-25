@@ -9519,7 +9519,7 @@ footer .region-footer {
   margin-bottom: 35px;
   margin-top: 20px;
   margin-left: 10px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0px -2px 14px rgba(0, 0, 0, 0.08) inset;
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000392}}
