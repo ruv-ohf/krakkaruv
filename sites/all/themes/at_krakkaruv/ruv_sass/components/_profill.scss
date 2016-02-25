@@ -62,6 +62,15 @@
             .panel-pane:first-child {
                 padding-top: 0;
             }
+            ul {
+                margin-top: 0;
+            }
+            p, ul, ol {
+                margin-bottom: 26px;
+            }
+            p:last-child, ul:last-child, ol:last-child {
+                margin-bottom: 0;
+            }
         }
         .region-two-66-33-second {
             .pane-node-field-image.panel-pane {
