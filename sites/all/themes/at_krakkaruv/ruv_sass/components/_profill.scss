@@ -27,14 +27,14 @@
         h1, h2, h3, h4, h5, h6 {
             line-height: 1.1;
         }
-    }
-    .pane-node-title {
-        .block-content {
-            position: relative;
-            max-width: 1140px;
-            margin: 0px auto;
-            h1, h2, {
-                padding: 30px 20px 0 20px;
+        .pane-node-title {
+            .block-content {
+                position: relative;
+                max-width: 1140px;
+                margin: 0px auto;
+                h1, h2, {
+                    padding: 30px 20px 0 20px;
+                }
             }
         }
     }
@@ -48,11 +48,11 @@
         #block-system-main {
             padding-left: 0;
             padding-right: 0;
-        }
-         .pane-node-title {
-            .block-content {
-                h1, h2, {
-                    padding: 30px 0 0 0;
+            .pane-node-title {
+                .block-content {
+                    h1, h2, {
+                        padding: 30px 0 0 0;
+                    }
                 }
             }
         }

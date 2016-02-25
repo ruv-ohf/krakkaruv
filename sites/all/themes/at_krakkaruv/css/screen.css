@@ -9451,14 +9451,14 @@ footer .region-footer {
 .profill #block-system-main h1, .profill #block-system-main h2, .profill #block-system-main h3, .profill #block-system-main h4, .profill #block-system-main h5, .profill #block-system-main h6 {
   line-height: 1.1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000332}}
-.profill .pane-node-title .block-content {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000331}}
+.profill #block-system-main .pane-node-title .block-content {
   position: relative;
   max-width: 1140px;
   margin: 0px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000336}}
-.profill .pane-node-title .block-content h1, .profill .pane-node-title .block-content h2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000335}}
+.profill #block-system-main .pane-node-title .block-content h1, .profill #block-system-main .pane-node-title .block-content h2 {
   padding: 30px 20px 0 20px;
 }
 
@@ -9469,8 +9469,8 @@ footer .region-footer {
     padding-left: 0;
     padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000354}}
-  .profill .pane-node-title .block-content h1, .profill .pane-node-title .block-content h2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000353}}
+  .profill #block-system-main .pane-node-title .block-content h1, .profill #block-system-main .pane-node-title .block-content h2 {
     padding: 30px 0 0 0;
   }
 }
