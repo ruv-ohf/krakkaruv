@@ -9604,7 +9604,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003161}}
 .profill #block-system-main .region-two-66-33-bottom .view-node-list .views-field-field-image .field-content {
-  padding: 0;
+  padding: 0 !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003165}}
 .profill #block-system-main .region-two-66-33-bottom .view-node-list .view-content {
