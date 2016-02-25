@@ -88,17 +88,17 @@
                 margin-left: 10px;
                 box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
                 position: relative;
-                &:before, &:after {
-                    content:"";
-                    position:absolute; 
-                    z-index:-1;
-                    box-shadow:0 0 20px rgba(0,0,0,0.8);
-                    top:50%;
-                    bottom:0;
-                    left:10px;
-                    right:10px;
-                    border-radius:100px / 10px;
-                }
+            }
+            .pane-node-field-image.panel-pane:before, .pane-node-field-image.panel-pane:after {
+                content:"";
+                position:absolute; 
+                z-index:-1;
+                box-shadow:0 0 20px rgba(0,0,0,0.8);
+                top:50%;
+                bottom:0;
+                left:10px;
+                right:10px;
+                border-radius:100px / 10px;
             }
             .panel-pane {
                 padding: 20px;
