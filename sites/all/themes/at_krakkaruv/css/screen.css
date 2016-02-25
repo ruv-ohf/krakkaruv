@@ -9433,7 +9433,7 @@ footer .region-footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000317}}
 .profill .node-custom-banners .paragraphs-item-wrapper:after {
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   background: transparent url(images/samfes/fancy-shadow2.png) no-repeat top center;
 }
