@@ -9439,7 +9439,7 @@ footer .region-footer {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000326}}
-.profill .region-wrapper {
+.profill .region-wrapper, .profill .view-node-list {
   position: relative;
   overflow: hidden;
 }
@@ -9660,7 +9660,7 @@ footer .region-footer {
     padding: 46px 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003222}}
-  .profill .region-wrapper {
+  .profill .region-wrapper, .profill .view-node-list {
     padding-left: 0;
     padding-right: 0;
   }
