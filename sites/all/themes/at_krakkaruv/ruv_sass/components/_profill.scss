@@ -22,8 +22,18 @@
 }
 
 .profill {
+    .pane-node-list-panel-pane-23 {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 60px 0 60px 0;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+.profill {
     
-    .region-wrapper, .view-node-list {
+    .region-wrapper {
         position: relative;
         overflow: hidden;
     }
@@ -219,7 +229,7 @@
                 padding: 46px 0;
             }
         }
-        .region-wrapper, .view-node-list {
+        .region-wrapper {
             padding-left: 0;
             padding-right: 0;
         }
