@@ -30,6 +30,9 @@
         overflow: hidden;
         .profile-item {
             a {
+               display: block;
+            }
+            .image-wrapper {
                 padding: 20px;
                 background-color: #FFFFFF;
                 margin-right: 10px;
