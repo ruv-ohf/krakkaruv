@@ -23,7 +23,7 @@
 
 .profill {
     
-    .region-wrapper, .view-node-list {
+    .region-wrapper {
         position: relative;
         overflow: hidden;
     }
@@ -219,7 +219,7 @@
                 padding: 46px 0;
             }
         }
-        .region-wrapper, .view-node-list {
+        .region-wrapper {
             padding-left: 0;
             padding-right: 0;
         }
