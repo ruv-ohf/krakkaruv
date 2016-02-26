@@ -45,9 +45,9 @@
                 img {
                     border: 1px solid rgb(233, 231, 231);
                 }
-                p {
-                    padding: 0 20px;
-                }
+            }
+            p.title {
+                padding: 0 20px;
             }
         }
     }
@@ -206,6 +206,18 @@
                         padding-right: 4px;
                     }
                 }
+            }
+        }
+    }
+}
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+    .profill {
+        .pane-node-list-panel-pane-23 {
+            .profile-item {
+                float: left;
+                width: 50%;
             }
         }
     }
