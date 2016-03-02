@@ -43,11 +43,11 @@ $banner_id_name = render($banner_id);
 <div class="<?php print $banner_id_name; ?>">
 
 <style>
-	.<?php print $banner_id_name; ?> .paragraphs-items-wrapper-inner {
+	.<?php print $banner_id_name; ?> {
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
-	.<?php print $banner_id_name; ?> .paragraphs-item-wrapper {
+	.<?php print $banner_id_name; ?> {
 		background: url(<?php print $image_url2; ?>) repeat-x top left;
 	}
 </style>
