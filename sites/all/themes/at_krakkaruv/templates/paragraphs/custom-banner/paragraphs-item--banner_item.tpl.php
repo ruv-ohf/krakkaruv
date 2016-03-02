@@ -23,6 +23,7 @@ if(!empty($atom2)) {
 
 $hlekkur 	= $content['field_custom_banner_hlekkur'];
 $breakpoint = $content['field_breakpoint'];
+$banner_id = $content['field_cm_banner_id_name'];
 ?>
 
 <?php
@@ -34,11 +35,11 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_absolute_positioned_elemen']);
 	hide($content['field_cm_banner_image_position']);
 	hide($content['field_cm_custom_banner_border']);
+	hide($content['field_cm_banner_id_name']);
 ?>
 
-<h1><?php print render($content['field_cm_banner_id_name']); ?></h1>
 
-<div class="">
+<div class="<?php print render($banner_id); ?>">
 
 <style>
 	.paragraphs-items-wrapper-inner {
