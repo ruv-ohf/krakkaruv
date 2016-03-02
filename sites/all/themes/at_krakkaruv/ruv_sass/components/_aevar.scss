@@ -8,6 +8,8 @@
         overflow: hidden;
         .block-inner {
             max-width: 1140px;
+            position: relative;
+            margin: 0 auto;
         }
         .block-content {
             position: relative;
