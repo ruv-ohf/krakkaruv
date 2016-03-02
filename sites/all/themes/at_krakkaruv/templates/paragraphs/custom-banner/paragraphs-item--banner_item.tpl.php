@@ -38,11 +38,11 @@ $breakpoint = $content['field_breakpoint'];
 ?>
 
 <style>
-	.paragraphs-items-wrapper-inner.<?php print $atom_id; ?>.<?php print $atom_id2; ?> {
+	.paragraphs-items-wrapper-inner {
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
-	.paragraphs-item-wrapper.<?php print $atom_id; ?>.<?php print $atom_id2; ?> {
+	.paragraphs-item-wrapper {
 		background: url(<?php print $image_url2; ?>) repeat-x top left;
 	}
 </style>
@@ -50,7 +50,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php if ($hlekkur): ?>
 
 	<style>
-		.paragraphs-items-field-breakpoint.<?php print $atom_id; ?>.<?php print $atom_id2; ?> {
+		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -64,7 +64,7 @@ $breakpoint = $content['field_breakpoint'];
 	</style>
 
 	<a href="<?php print render($hlekkur); ?>">
-		<div class="paragraphs-items-wrapper-inner <?php print $atom_id; ?> <?php print $atom_id2; ?>">
+		<div class="paragraphs-items-wrapper-inner <?php print $atom_id; ?>">
 			<?php print render($content['field_absolute_positioned_elemen']); ?>
 			<?php print render($content['field_breakpoint']); ?>
 		</div>
@@ -73,7 +73,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php elseif ($breakpoint): ?>
 
 	<style>
-		.paragraphs-items-field-breakpoint.<?php print $atom_id; ?>.<?php print $atom_id2; ?> {
+		.paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -83,7 +83,7 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
-	<div class="paragraphs-items-wrapper-inner <?php print $atom_id; ?> <?php print $atom_id2; ?>">
+	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
 	</div>
@@ -91,7 +91,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.paragraphs-items-wrapper-inner.<?php print $atom_id; ?>.<?php print $atom_id2; ?> {
+		.paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
@@ -103,7 +103,7 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
-	<div class="paragraphs-items-wrapper-inner <?php print $atom_id; ?> <?php print $atom_id2; ?>">
+	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 	</div>
 	
