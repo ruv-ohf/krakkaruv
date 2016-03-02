@@ -48,7 +48,7 @@ $banner_id_name = render($banner_id);
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
 	.<?php print $banner_id_name; ?> {
-		background: url(<?php print $image_url2; ?>) repeat-x top left;
+		background: url(<?php print $image_url2; ?>) repeat-x bottom left;
 	}
 </style>
 
