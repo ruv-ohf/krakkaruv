@@ -37,14 +37,14 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_cm_custom_banner_border']);
 ?>
 
-<div class="atom-id-<?php print $atom; ?>">
+<div class="atom-id-<?php print $atom_id; ?>">
 
 <style>
-	.atom-id-<?php print $atom; ?> .paragraphs-items-wrapper-inner {
+	.atom-id-<?php print $atom_id; ?> .paragraphs-items-wrapper-inner {
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
-	.atom-id-<?php print $atom; ?> .paragraphs-item-wrapper {
+	.atom-id-<?php print $atom_id; ?> .paragraphs-item-wrapper {
 		background: url(<?php print $image_url2; ?>) repeat-x top left;
 	}
 </style>
@@ -52,15 +52,15 @@ $breakpoint = $content['field_breakpoint'];
 <?php if ($hlekkur): ?>
 
 	<style>
-		.atom-id-<?php print $atom; ?> .paragraphs-items-field-breakpoint {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
-		.atom-id-<?php print $atom; ?> .paragraphs-item-wrapper a {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-item-wrapper a {
 			display: block;
 		}
-		.atom-id-<?php print $atom; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
 		}
 	</style>
@@ -75,12 +75,12 @@ $breakpoint = $content['field_breakpoint'];
 <?php elseif ($breakpoint): ?>
 
 	<style>
-		.atom-id-<?php print $atom; ?> .paragraphs-items-field-breakpoint {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
-		.atom-id-<?php print $atom; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
 		}
 	</style>
@@ -93,14 +93,14 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.atom-id-<?php print $atom; ?> .paragraphs-items-wrapper-inner {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
-		.atom-id-<?php print $atom; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
+		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
 			position: absolute;
 		}
 	</style>
