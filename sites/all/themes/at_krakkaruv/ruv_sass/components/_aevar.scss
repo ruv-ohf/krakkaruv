@@ -7,9 +7,10 @@
         position: relative;
         overflow: hidden;
         .block-inner {
-            width: 100%;
+            max-width: 1140px;
             position: relative;
             margin: 0 auto;
+            background-color: #2f3f7a;
         }
         .block-content {
             position: relative;
