@@ -9,7 +9,7 @@
         h2, h3, h4, h5, h6 {
             font-family: $font-base;
             line-height: 1.2;
-            margin-bottom: 6px;
+            margin-bottom: 0;
         }
         p {
             margin-bottom: 25px;
@@ -19,6 +19,7 @@
         position: relative;
         overflow: hidden;
         background-color: #2f3f7a;
+        border-bottom: 1px solid #FFFFFF;
         .block-inner {
             max-width: 1140px;
             position: relative;
