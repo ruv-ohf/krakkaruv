@@ -23,6 +23,7 @@ if(!empty($atom2)) {
 
 $hlekkur 	= $content['field_custom_banner_hlekkur'];
 $breakpoint = $content['field_breakpoint'];
+$banner_id  = $content['field_cm_banner_id_name'];
 ?>
 
 <?php
