@@ -1,7 +1,5 @@
 <?php
 
-$node = menu_get_object();
-
 $image_url 	= '';
 $image_url2 = '';
 //$image_url3 = '';
@@ -26,6 +24,7 @@ if(!empty($atom2)) {
 
 $hlekkur 	= $content['field_custom_banner_hlekkur'];
 $breakpoint = $content['field_breakpoint'];
+$banner_id  = $content['field_cm_banner_id_name'];
 
 ?>
 
@@ -38,6 +37,7 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_absolute_positioned_elemen']);
 	hide($content['field_cm_banner_image_position']);
 	hide($content['field_cm_custom_banner_border']);
+	hide($content['field_cm_banner_id_name']);
 ?>
 
 <div class="node-id-<?php print $node->nid; ?>">
@@ -55,7 +55,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php if ($hlekkur): ?>
 
 	<style>
-		.node-id-<?php print $node->nid; ?> .paragraphs-items-field-breakpoint {
+		.<?php print $banner_id; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -78,7 +78,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php elseif ($breakpoint): ?>
 
 	<style>
-		.node-id-<?php print $node->nid; ?> .paragraphs-items-field-breakpoint {
+		.<?php print $banner_id; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -96,7 +96,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.node-id-<?php print $node->nid; ?> .paragraphs-items-wrapper-inner {
+		.<?php print $banner_id; ?> .paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
