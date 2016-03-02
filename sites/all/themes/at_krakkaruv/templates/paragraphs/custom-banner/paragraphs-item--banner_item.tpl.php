@@ -38,7 +38,7 @@ $breakpoint = $content['field_breakpoint'];
 ?>
 
 <style>
-	.paragraphs-items-wrapper-inner.atom-id-<?php print $atom_id; ?> {
+	.paragraphs-items-wrapper-inner {
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
@@ -64,7 +64,7 @@ $breakpoint = $content['field_breakpoint'];
 	</style>
 
 	<a href="<?php print render($hlekkur); ?>">
-		<div class="paragraphs-items-wrapper-inner atom-id-<?php print $atom_id; ?>">
+		<div class="paragraphs-items-wrapper-inner">
 			<?php print render($content['field_absolute_positioned_elemen']); ?>
 			<?php print render($content['field_breakpoint']); ?>
 		</div>
@@ -83,7 +83,7 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
-	<div class="paragraphs-items-wrapper-inner atom-id-<?php print $atom_id; ?>">
+	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 		<?php print render($content['field_breakpoint']); ?>
 	</div>
@@ -91,7 +91,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.paragraphs-items-wrapper-inner.atom-id-<?php print $atom_id; ?> {
+		.paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
@@ -103,7 +103,7 @@ $breakpoint = $content['field_breakpoint'];
 		}
 	</style>
 
-	<div class="paragraphs-items-wrapper-inner atom-id-<?php print $atom_id; ?>">
+	<div class="paragraphs-items-wrapper-inner">
 		<?php print render($content['field_absolute_positioned_elemen']); ?>
 	</div>
 	
