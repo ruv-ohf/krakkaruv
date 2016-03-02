@@ -24,7 +24,6 @@ if(!empty($atom2)) {
 
 $hlekkur 	= $content['field_custom_banner_hlekkur'];
 $breakpoint = $content['field_breakpoint'];
-$banner_id  = $content['field_cm_banner_id_name'];
 
 ?>
 
@@ -55,7 +54,7 @@ $banner_id  = $content['field_cm_banner_id_name'];
 <?php if ($hlekkur): ?>
 
 	<style>
-		.<?php print $banner_id; ?> .paragraphs-items-field-breakpoint {
+		.<?php print render($content['field_cm_banner_id_name']); ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -78,7 +77,7 @@ $banner_id  = $content['field_cm_banner_id_name'];
 <?php elseif ($breakpoint): ?>
 
 	<style>
-		.<?php print $banner_id; ?> .paragraphs-items-field-breakpoint {
+		.<?php print render($content['field_cm_banner_id_name']); ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -96,7 +95,7 @@ $banner_id  = $content['field_cm_banner_id_name'];
 <?php else: ?>
 
 	<style>
-		.<?php print $banner_id; ?> .paragraphs-items-wrapper-inner {
+		.<?php print render($content['field_cm_banner_id_name']); ?> .paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
