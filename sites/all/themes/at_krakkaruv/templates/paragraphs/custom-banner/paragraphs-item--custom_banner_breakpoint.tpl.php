@@ -6,6 +6,7 @@
 ?>
 
 <?php
+$node = menu_get_object();
 $image_url = '';
 
 //Til að fá atom id
@@ -24,7 +25,7 @@ if(!empty($atom)) {
 
 <style>
 	@media only screen and (min-width: <?php print render($content['field_min_width_size']); ?>px) {
-		.paragraphs-items-field-breakpoint {
+		.node-id-<?php print $node->nid; ?> .paragraphs-items-field-breakpoint {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
