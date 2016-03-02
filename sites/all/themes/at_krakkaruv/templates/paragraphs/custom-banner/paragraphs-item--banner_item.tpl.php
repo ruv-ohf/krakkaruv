@@ -44,7 +44,7 @@ $breakpoint = $content['field_breakpoint'];
 <h1></h1>
 <h1></h1>
 <pre>
-<?php print_r($node); ?>
+<?php print_r($node->nid); ?>
 
 <style>
 	.paragraphs-items-wrapper-inner {
