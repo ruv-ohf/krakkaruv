@@ -1,16 +1,20 @@
 .aevar-floskuskeyti {
+    .ruv-at-panel {
+        background-color: #222c2f;
+    }
     .region-wrapper {
         position: relative;
         overflow: hidden;
+        color: #FFFFFF;
     }
     .full-width {
         position: relative;
         overflow: hidden;
+        background-color: #2f3f7a;
         .block-inner {
             max-width: 1140px;
             position: relative;
             margin: 0 auto;
-            background-color: #2f3f7a;
         }
         .block-content {
             position: relative;

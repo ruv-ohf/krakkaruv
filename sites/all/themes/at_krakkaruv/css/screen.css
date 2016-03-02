@@ -8559,14 +8559,14 @@ footer .region-footer {
 .aevar-floskuskeyti .full-width {
   position: relative;
   overflow: hidden;
+  background-color: #2f3f7a;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000310}}
 .aevar-floskuskeyti .full-width .block-inner {
   max-width: 1140px;
   position: relative;
   margin: 0 auto;
-  background-color: #2f3f7a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000315}}
 .aevar-floskuskeyti .full-width .block-content {
