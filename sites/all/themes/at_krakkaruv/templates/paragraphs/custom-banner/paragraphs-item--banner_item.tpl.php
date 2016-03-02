@@ -39,7 +39,7 @@ $banner_id = $content['field_cm_banner_id_name'];
 ?>
 
 
-<div class="<?php print render($banner_id); ?>">
+<div class="<?php print $banner_id; ?>">
 
 <style>
 	.paragraphs-items-wrapper-inner {
