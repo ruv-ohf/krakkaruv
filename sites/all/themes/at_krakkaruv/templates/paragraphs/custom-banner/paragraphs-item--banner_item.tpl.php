@@ -47,7 +47,7 @@ $banner_id_name = render($banner_id);
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
-	.paragraphs-item-wrapper {
+	.<?php print $banner_id_name; ?>.paragraphs-item-wrapper {
 		background: url(<?php print $image_url2; ?>) repeat-x top left;
 	}
 </style>
@@ -55,7 +55,7 @@ $banner_id_name = render($banner_id);
 <?php if ($hlekkur): ?>
 
 	<style>
-		.paragraphs-items-field-breakpoint {
+		.<?php print $banner_id_name; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
