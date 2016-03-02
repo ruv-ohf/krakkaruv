@@ -175,6 +175,18 @@
     }
 }
 
+/* Min width 770px */
+@media only screen and (min-width: 770px) {
+    .aevar-floskuskeyti {
+        .region-two-66-33-first {
+            padding-right: 10px;
+        }
+        .region-two-66-33-second {
+            padding-left: 10px;
+        }
+    }
+}
+
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
   .page-taxonomy-term-1002 {
@@ -211,6 +223,12 @@
         .region-wrapper {
             padding-right: 0;
             padding-left: 0;
+        }
+        .region-two-66-33-first {
+            padding-right: 20px;
+        }
+        .region-two-66-33-second {
+            padding-left: 20px;
         }
     }
 }
