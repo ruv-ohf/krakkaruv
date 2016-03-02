@@ -6,6 +6,14 @@
         position: relative;
         overflow: hidden;
         color: #FFFFFF;
+        h2, h3, h4, h5, h6 {
+            font-family: $font-base;
+            line-height: 1.2;
+            margin-bottom: 6px;
+        }
+        p {
+            margin-bottom: 25px;
+        }
     }
     .full-width {
         position: relative;
