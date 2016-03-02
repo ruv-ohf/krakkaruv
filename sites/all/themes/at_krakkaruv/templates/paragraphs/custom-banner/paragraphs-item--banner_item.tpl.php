@@ -55,7 +55,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php if ($hlekkur): ?>
 
 	<style>
-		.paragraphs-items-field-breakpoint {
+		.node-id-<?php print $node->nid; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -78,7 +78,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php elseif ($breakpoint): ?>
 
 	<style>
-		.paragraphs-items-field-breakpoint {
+		.node-id-<?php print $node->nid; ?> .paragraphs-items-field-breakpoint {
 			height: <?php print render($content['field_custom_banner_height']); ?>px;
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
@@ -96,7 +96,7 @@ $breakpoint = $content['field_breakpoint'];
 <?php else: ?>
 
 	<style>
-		.paragraphs-items-wrapper-inner {
+		.node-id-<?php print $node->nid; ?> .paragraphs-items-wrapper-inner {
 			background: url(<?php print $image_url; ?>) no-repeat;
 			position: relative;
 			overflow: hidden;
