@@ -34,7 +34,6 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_absolute_positioned_elemen']);
 	hide($content['field_cm_banner_image_position']);
 	hide($content['field_cm_custom_banner_border']);
-	hide($content['field_cm_banner_id_name']);
 ?>
 
 <div class="<?php print render($content['field_cm_banner_id_name']); ?>">
