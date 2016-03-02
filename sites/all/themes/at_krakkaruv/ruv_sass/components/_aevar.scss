@@ -3,7 +3,12 @@
         position: relative;
         overflow: hidden;
     }
-    .region-two-66-33-first {
+    .full-width {
+        position: relative;
+        overflow: hidden;
+        .block-inner {
+            max-width: 1140px;
+        }
         .block-content {
             position: relative;
             padding-bottom: 56.25%;
