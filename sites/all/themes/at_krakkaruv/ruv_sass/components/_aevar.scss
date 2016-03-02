@@ -15,6 +15,7 @@
             max-width: 1140px;
             position: relative;
             margin: 0 auto;
+            padding: 60px 20px;
         }
         .block-content {
             position: relative;
@@ -27,6 +28,7 @@
                 left: 0;
                 width: 100% !important;
                 height: 100% !important;
+                border: 1px solid #FFFFFF;
             }
         }
         width: 100%;
@@ -173,6 +175,18 @@
             img {
                 width: auto;
                 margin-left: -240px;
+            }
+        }
+    }
+}
+
+/* Min width 1180px */
+@media only screen and (min-width: 1180px) {
+    .aevar-floskuskeyti {
+        .full-width {
+            .block-inner {
+                padding-right: 0;
+                padding-left: 0;
             }
         }
     }
