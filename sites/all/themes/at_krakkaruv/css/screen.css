@@ -8588,7 +8588,7 @@ footer .region-footer {
   left: 0;
   width: 100% !important;
   height: 100% !important;
-  border: 1px solid #95aae2;
+  border: 5px solid rgba(255, 255, 255, 0.3);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_aevar\.scss}line{font-family:\0000336}}
 .aevar-floskuskeyti .region-two-66-33-second {
