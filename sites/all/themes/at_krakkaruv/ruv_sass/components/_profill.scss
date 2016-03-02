@@ -21,6 +21,13 @@
     }
 }
 
+.profill-list-view {
+    .view-content {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
 .profill {
     .pane-node-list-panel-pane-23 {
         max-width: 1140px;
@@ -50,10 +57,6 @@
                 padding: 0 20px;
             }
         }
-    }
-    .view-content {
-        margin-left: -10px;
-        margin-right: -10px;
     }
 }
 
@@ -239,6 +242,13 @@
 
 /* Min width 1180px */
 @media only screen and (min-width: 1180px) {
+
+    .profill-list-view {
+        .view-content {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+    }
     .profill {
         .pane-node-list-panel-pane-23 {
             padding-left: 0;
