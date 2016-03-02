@@ -2,10 +2,17 @@
     .ruv-at-panel {
         background-color: #222c2f;
     }
+    .region-two-66-33-second {
+        .video-pane {
+            padding: 0px;
+            border: 5px solid rgba(255, 255, 255, 0.6);
+        }
+    }
     .region-wrapper {
         position: relative;
         overflow: hidden;
         color: #FFFFFF;
+        padding: 60px 20px;
         h2, h3, h4, h5, h6 {
             font-family: $font-base;
             line-height: 1.2;
@@ -13,6 +20,9 @@
         }
         p {
             margin-bottom: 25px;
+        }
+        p:last-of-type {
+            margin-bottom: 0;
         }
     }
     .full-width {
@@ -197,6 +207,10 @@
                 padding-right: 0;
                 padding-left: 0;
             }
+        }
+        .region-wrapper {
+            padding-right: 0;
+            padding-left: 0;
         }
     }
 }
