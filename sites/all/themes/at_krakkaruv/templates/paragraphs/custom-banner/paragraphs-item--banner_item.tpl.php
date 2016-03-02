@@ -1,7 +1,6 @@
 <?php
 
-global $node;
-$nid = $node->nid;
+$node = menu_get_object();
 
 $image_url 	= '';
 $image_url2 = '';
@@ -45,7 +44,7 @@ $breakpoint = $content['field_breakpoint'];
 <h1></h1>
 <h1></h1>
 <pre>
-<?php print_r($nid); ?>
+<?php print_r($node); ?>
 
 <style>
 	.paragraphs-items-wrapper-inner {
