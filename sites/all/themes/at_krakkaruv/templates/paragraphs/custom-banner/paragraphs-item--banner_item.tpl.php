@@ -40,11 +40,7 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_cm_custom_banner_border']);
 ?>
 
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<pre>
-<?php print_r($node->nid); ?>
+<div class="node-id-<?php print $node->nid; ?>">
 
 <style>
 	.paragraphs-items-wrapper-inner {
@@ -118,4 +114,6 @@ $breakpoint = $content['field_breakpoint'];
 	
 	
 <?php endif; ?>
+
+</div>
 
