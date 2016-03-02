@@ -44,7 +44,7 @@ $breakpoint = $content['field_breakpoint'];
 		position: relative;
 		<?php print render($content['field_cm_custom_banner_border']); ?>
 	}
-	.atom-id-<?php print $atom_id; ?> .paragraphs-item-wrapper {
+	.atom-id-<?php print $atom_id; ?> {
 		background: url(<?php print $image_url2; ?>) repeat-x top left;
 	}
 </style>
@@ -57,7 +57,7 @@ $breakpoint = $content['field_breakpoint'];
 			background: url(<?php print $image_url; ?>) no-repeat;
 			background-position: <?php print render($content['field_cm_banner_image_position']); ?>;
 		}
-		.atom-id-<?php print $atom_id; ?> .paragraphs-item-wrapper a {
+		.atom-id-<?php print $atom_id; ?> a {
 			display: block;
 		}
 		.atom-id-<?php print $atom_id; ?> .paragraphs-items-field-absolute-positioned-elemen .absolute-image {
