@@ -26,6 +26,9 @@ $breakpoint = $content['field_breakpoint'];
 
 ?>
 
+<pre>
+<?php print_r($image_url); ?>
+
 <?php
 	hide($content['field_custom_banner_height']);
 	hide($content['field_custom_banner_image']);
