@@ -36,7 +36,9 @@ $breakpoint = $content['field_breakpoint'];
 	hide($content['field_cm_custom_banner_border']);
 ?>
 
-<div class="<?php print render($content['field_cm_banner_id_name']); ?>">
+<h1><?php print render($content['field_cm_banner_id_name']); ?></h1>
+
+<div class="">
 
 <style>
 	.paragraphs-items-wrapper-inner {
