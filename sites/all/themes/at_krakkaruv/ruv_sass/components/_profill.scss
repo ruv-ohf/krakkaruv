@@ -32,6 +32,9 @@
     .view-node-list {
         .view-content {
             font-size: 16px !important;
+            .active {
+                display: none;
+            }
         }
     }
     .pane-node-list-panel-pane-23 {
