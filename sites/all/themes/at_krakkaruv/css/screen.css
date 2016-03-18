@@ -9898,6 +9898,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000351}}
 .ungir-frettamenn form .webform-component-radios label {
   margin: 0;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=screen.css.map */
