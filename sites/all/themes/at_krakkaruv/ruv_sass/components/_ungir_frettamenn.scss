@@ -9,5 +9,25 @@
 		max-width: 1140px;
 		border: 1px solid #326771;
 		background-color: #A3C4BC;
+		padding: 10px 20px;
 	}
+	.block-content {
+		padding: 0 20px;
+	}
+
+	#edit-submitted-myndband-upload {
+		margin: 0;
+    	width: 100%;
+    	padding: 0;
+    	border: 0;
+	}
+
+	form {
+		.form-text {
+			width: 100%;
+			border: 1px solid #326771;
+			background-color: rgba(255,255,255,0.6);
+		}
+	}
+
 }
