@@ -1,5 +1,20 @@
 .ungir-frettamenn {
 	.one-column {
+		.text-box {
+			display: block;
+			position: relative;
+			max-width: 1024px;
+			margin: 0px auto;
+			h2 {
+				font-family: open sans;
+				font-size: 26px;
+				font-weight: 600;
+				line-height: 1.2;
+			}
+			p {
+				margin-bottom: 24px;
+			}
+		}
 		background-color: #f1f3f9;
 	}
 	#webform-client-form-4561 {
