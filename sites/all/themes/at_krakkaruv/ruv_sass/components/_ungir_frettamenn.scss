@@ -6,7 +6,7 @@
 		position: relative;
 		margin: 50px auto;
 		background-color: #f1f3f9;
-		max-width: 1140px;
+		max-width: 1024px;
 		border: 1px solid #326771;
 		background-color: #A3C4BC;
 		padding: 10px 20px;
@@ -47,6 +47,7 @@
 		}
 		.description {
 			line-height: 1.4;
+			font-size: 14px;
 		}
 		.webform-component-radios {
 			label {
@@ -55,6 +56,29 @@
 			}
 			.option {
 				font-weight: normal;
+			}
+		}
+	}
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+	.ungir-frettamenn {
+	.one-column {
+			#webform-client-form-4561 {
+				padding: 30px 40px;
+			}
+		}
+	}
+}
+
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+	.ungir-frettamenn {
+	.one-column {
+			#webform-client-form-4561 {
+				padding: 50px 60px;
 			}
 		}
 	}
