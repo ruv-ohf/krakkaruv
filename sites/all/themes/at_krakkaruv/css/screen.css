@@ -9850,90 +9850,91 @@ footer .region-footer {
   position: relative;
   max-width: 1024px;
   margin: 0px auto;
+  padding: 30px 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000039}}
 .ungir-frettamenn .one-column .text-box h2 {
   font-family: open sans;
   font-size: 26px;
   font-weight: 600;
   line-height: 1.2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000315}}
 .ungir-frettamenn .one-column .text-box p {
   margin-bottom: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000321}}
 .ungir-frettamenn #webform-client-form-4561 {
   position: relative;
-  margin: 50px auto;
+  margin: 12px auto 50px;
   background-color: #f1f3f9;
   max-width: 1024px;
   border: 1px solid #326771;
   background-color: #A3C4BC;
   padding: 10px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000330}}
 .ungir-frettamenn .pane-webform-client-block-4561 {
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000334}}
 .ungir-frettamenn #edit-submitted-myndband-upload {
   margin: 0;
   width: 100%;
   padding: 0;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000342}}
 .ungir-frettamenn form .form-text {
   width: 100%;
   border: 1px solid #326771;
   background-color: rgba(255, 255, 255, 0.6);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000348}}
 .ungir-frettamenn form label {
   margin-bottom: 24px;
   line-height: 1.3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000352}}
 .ungir-frettamenn form .form-managed-file {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000355}}
 .ungir-frettamenn form #edit-submitted-myndband-upload {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000358}}
 .ungir-frettamenn form #edit-submitted-myndband-upload-button, .ungir-frettamenn form .webform-submit {
   background-color: #326771;
   border: none;
   color: #FFFFFF;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000364}}
 .ungir-frettamenn form .description {
   line-height: 1.4;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000369}}
 .ungir-frettamenn form .webform-component-radios label {
   margin: 0;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000373}}
 .ungir-frettamenn form .webform-component-radios .option {
   font-weight: normal;
 }
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000384}}
   .ungir-frettamenn .one-column #webform-client-form-4561 {
     padding: 30px 40px;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000396}}
   .ungir-frettamenn .one-column #webform-client-form-4561 {
     padding: 50px 60px;
   }
