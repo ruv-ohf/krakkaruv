@@ -7,7 +7,7 @@
 			margin: 0px auto;
 			padding: 30px 60px 0;
 			h2 {
-				font-family: open sans;
+				font-family: $font-base;
 				font-size: 26px;
 				font-weight: 600;
 				line-height: 1.2;
@@ -48,6 +48,7 @@
 		h3 {
 			font-size: 20px;
 			font-weight: 600;
+			font-family: $font-base;
 		}
 
 		label {
