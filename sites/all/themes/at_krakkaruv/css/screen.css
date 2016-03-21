@@ -9850,7 +9850,7 @@ footer .region-footer {
   position: relative;
   max-width: 1024px;
   margin: 0px auto;
-  padding: 30px 60px 0;
+  padding: 30px 20px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000039}}
 .ungir-frettamenn .one-column .text-box h2 {
@@ -9944,9 +9944,12 @@ footer .region-footer {
   .ungir-frettamenn .one-column #webform-client-form-4561 {
     padding: 50px 60px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003105}}
+}
+/* Min width 1064px */
+@media only screen and (min-width: 1064px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003113}}
   .ungir-frettamenn .one-column .text-box {
-    padding: 50px 60px 20px;
+    padding: 50px 0 20px;
   }
 }
 

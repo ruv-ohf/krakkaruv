@@ -5,7 +5,7 @@
 			position: relative;
 			max-width: 1024px;
 			margin: 0px auto;
-			padding: 30px 60px 0;
+			padding: 30px 20px 0;
 			h2 {
 				font-family: $font-base;
 				font-size: 26px;
@@ -102,8 +102,16 @@
 			#webform-client-form-4561 {
 				padding: 50px 60px;
 			}
+		}
+	}
+}
+
+/* Min width 1064px */
+@media only screen and (min-width: 1064px) {
+	.ungir-frettamenn {
+	.one-column {
 			.text-box {
-				padding: 50px 60px 20px;
+				padding: 50px 0 20px;
 			}
 		}
 	}
