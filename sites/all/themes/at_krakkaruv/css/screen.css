@@ -1791,6 +1791,11 @@ ul li, ol li {
   width: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000347}}
+.four-col-item-list-view .view-content {
+  font-size: 0;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main_menu\.scss}line{font-family:\000031}}
 #menu-bar {
   position: relative;
