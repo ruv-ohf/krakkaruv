@@ -31,7 +31,10 @@
 .profill {
     .view-node-list {
         .view-content {
-            font-size: 16px !important;
+            a {
+                font-size: 16px !important;
+                color: #ffffff;
+            }
             .active {
                 display: none;
             }
