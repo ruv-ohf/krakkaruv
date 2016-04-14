@@ -9548,14 +9548,16 @@ footer .region-footer {
 .profill .region-two-66-33-bottom .view-node-list .view-content a {
   color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000342}}
+.profill .view-node-list .view-content {
+  /*.active {
+      display: none;
+  }*/
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000343}}
 .profill .view-node-list .view-content a {
   font-size: 16px !important;
   line-height: 1.4;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000347}}
-.profill .view-node-list .view-content .active {
-  display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\0000352}}
 .profill .pane-node-list-panel-pane-23 {
