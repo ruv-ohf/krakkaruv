@@ -34,6 +34,7 @@
             a {
                 font-size: 16px !important;
                 color: #ffffff;
+                line-height: 1.4;
             }
             .active {
                 display: none;
@@ -190,7 +191,7 @@
                 color: #FFFFFF;
             }
             .pane-title {
-                padding: 0;
+                padding: 0 0 12px 0;
                 text-align: left;
             }
             .panel-pane {
@@ -208,6 +209,7 @@
                 }
                 .views-field-field-image {
                     border: 4px solid #EAEAEA;
+                    margin-bottom: 6px;
                     .field-content {
                        padding: 0 !important; 
                     }
