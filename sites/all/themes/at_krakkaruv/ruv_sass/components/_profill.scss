@@ -29,12 +29,24 @@
 }
 
 .profill {
+    .region-two-66-33-bottom {
+        .view-node-list {
+        .view-content {
+            a {
+                color: #ffffff;
+                }
+            }
+        }
+    }
     .view-node-list {
         .view-content {
-            font-size: 16px !important;
-            .active {
-                display: none;
+            a {
+                font-size: 16px !important;
+                line-height: 1.4;
             }
+            /*.active {
+                display: none;
+            }*/
         }
     }
     .pane-node-list-panel-pane-23 {
@@ -187,7 +199,7 @@
                 color: #FFFFFF;
             }
             .pane-title {
-                padding: 0;
+                padding: 0 0 12px 0;
                 text-align: left;
             }
             .panel-pane {
@@ -205,6 +217,7 @@
                 }
                 .views-field-field-image {
                     border: 4px solid #EAEAEA;
+                    margin-bottom: 6px;
                     .field-content {
                        padding: 0 !important; 
                     }
