@@ -1,3 +1,9 @@
+.sound-byte {
+    margin-bottom: 20px;
+}
+.sound-byte:last-child {
+    margin-bottom: 0;
+}
 .node-custom-banners {
     .paragraphs-item-wrapper {
         position: relative;
