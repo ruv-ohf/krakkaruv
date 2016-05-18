@@ -9993,7 +9993,7 @@ footer .region-footer {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\000038}}
-.taxonomy-forsetakosningar-2016 .pane-node-title {
+.taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title {
   background-color: #30536b;
 }
 
