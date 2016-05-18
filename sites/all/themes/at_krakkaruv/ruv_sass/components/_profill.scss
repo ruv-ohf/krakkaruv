@@ -68,6 +68,9 @@
             border-right: 20px solid transparent;
             a {
                display: block;
+                p {
+                    color: #282828;
+                }
             }
             .image-wrapper {
                 padding: 20px;
@@ -238,6 +241,16 @@
                 }
             }
         }
+    }
+}
+
+.profill footer {
+    color: #282828;
+    .icon {
+        color: #282828;
+    }
+    .site-footer {
+        border: none;
     }
 }
 
