@@ -1786,7 +1786,12 @@ ul li, ol li {
   margin-bottom: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000343}}
+#block-system-main strong {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_main\.scss}line{font-family:\0000348}}
 #page {
   width: 100%;
 }
