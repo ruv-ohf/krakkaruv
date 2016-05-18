@@ -112,7 +112,7 @@ function at_krakkaruv_preprocess_html(&$variables) {
   }
 }
  
-function at_krakkaruv_taxonomy_node_get_terms($node, $key = 'tid') {
+function _at_krakkaruv_taxonomy_node_get_terms($node, $key = 'tid') {
   static $terms;
   if (!isset($terms[$node->vid][$key])) {
     $query = db_select('taxonomy_index', 'r');
