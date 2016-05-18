@@ -9804,7 +9804,7 @@ footer .region-footer {
   color: #282828;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003253}}
-.profill footer .icon {
+.profill footer .icon, .profill footer a {
   color: #282828;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_profill\.scss}line{font-family:\00003256}}
@@ -10017,7 +10017,7 @@ footer .region-footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\000038}}
 .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title,
 .page-profill-keppendur-forsetakosningar-2016 .pane-node-title {
-  background-color: #547aa5;
+  background-color: #547aa5 !important;
   height: 61px;
 }
 
