@@ -9985,9 +9985,16 @@ footer .region-footer {
     padding: 50px 0 20px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\000032}}
+.taxonomy-forsetakosningar-2016 .paragraphs-item-wrapper:before,
+.taxonomy-forsetakosningar-2016 .paragraphs-item-wrapper:after, .node-custom-banners .paragraphs-item-wrapper:before,
+.node-custom-banners .paragraphs-item-wrapper:after {
+  display: none;
+}
+
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000311}}
   .forsetakosningar-2016 .absolute-image-93 {
     width: 90%;
     background-size: contain;

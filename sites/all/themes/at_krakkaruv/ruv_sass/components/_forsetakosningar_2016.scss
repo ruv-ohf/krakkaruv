@@ -1,3 +1,10 @@
+.taxonomy-forsetakosningar-2016, .node-custom-banners {
+    .paragraphs-item-wrapper:before,
+    .paragraphs-item-wrapper:after {
+        display: none;
+    }
+}
+
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
     .forsetakosningar-2016 {
