@@ -5,16 +5,19 @@
     }
 }
 
-.taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title {
+.taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title,
+.page-profill-keppendur-forsetakosningar-2016 .pane-node-title {
     background-color: #547aa5;
     height: 61px
 }
 
-.taxonomy-forsetakosningar-2016 #block-system-main {
+.taxonomy-forsetakosningar-2016 #block-system-main,
+.page-profill-keppendur-forsetakosningar-2016 #block-system-main {
     background-color: #e4f1ed;
 }
 
-.taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
+.taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2,
+.page-profill-keppendur-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
     padding: 0 20px;
     font-size: 30px;
     font-family: "Open Sans",sans-serif;
