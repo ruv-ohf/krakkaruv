@@ -28,3 +28,10 @@
         }
     }
 }
+
+/* Min width 1196px */
+@media only screen and (min-width: 1196px) {
+    .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
+        padding: 0;
+    }
+}

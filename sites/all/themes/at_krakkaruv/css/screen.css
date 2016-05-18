@@ -10016,5 +10016,12 @@ footer .region-footer {
     left: 5%;
   }
 }
+/* Min width 1196px */
+@media only screen and (min-width: 1196px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000334}}
+  .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=screen.css.map */
