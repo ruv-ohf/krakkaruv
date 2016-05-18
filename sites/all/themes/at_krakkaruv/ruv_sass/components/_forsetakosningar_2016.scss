@@ -34,7 +34,7 @@
     background-color: #FFFFFF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.25),0px -2px 14px rgba(0,0,0,0.08) inset;
     position: relative;
-    margin-bottom: 6px;
+    margin: 0 auto 6px;
 }
 
 /* Min width 768px */
@@ -54,4 +54,8 @@
     .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
         padding: 0;
     }
+}
+
+/* Min width 1204px */
+@media only screen and (min-width: 1204px) {
 }

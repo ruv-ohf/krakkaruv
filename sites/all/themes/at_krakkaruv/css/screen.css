@@ -10026,7 +10026,7 @@ footer .region-footer {
   background-color: #FFFFFF;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0px -2px 14px rgba(0, 0, 0, 0.08) inset;
   position: relative;
-  margin-bottom: 6px;
+  margin: 0 auto 6px;
 }
 
 /* Min width 768px */
@@ -10046,5 +10046,6 @@ footer .region-footer {
     padding: 0;
   }
 }
+/* Min width 1204px */
 
 /*# sourceMappingURL=screen.css.map */
