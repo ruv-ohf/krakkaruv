@@ -9994,11 +9994,16 @@ footer .region-footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\000038}}
 .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title {
-  background-color: #e4f1ed;
+  background-color: #547aa5;
   height: 61px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000313}}
+.taxonomy-forsetakosningar-2016 #block-system-main {
+  background-color: #e4f1ed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000317}}
 .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
   padding: 0 20px;
   font-size: 30px;
@@ -10008,7 +10013,7 @@ footer .region-footer {
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000327}}
   .forsetakosningar-2016 .absolute-image-93 {
     width: 90%;
     background-size: contain;
@@ -10018,7 +10023,7 @@ footer .region-footer {
 }
 /* Min width 1196px */
 @media only screen and (min-width: 1196px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000338}}
   .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
     padding: 0;
   }
