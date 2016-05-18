@@ -10014,9 +10014,18 @@ footer .region-footer {
   line-height: 58px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000327}}
+.profill-box-wrapper .view {
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0px -2px 14px rgba(0, 0, 0, 0.08) inset;
+  position: relative;
+  margin-bottom: 6px;
+}
+
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000338}}
   .forsetakosningar-2016 .absolute-image-93 {
     width: 90%;
     background-size: contain;
@@ -10026,7 +10035,7 @@ footer .region-footer {
 }
 /* Min width 1196px */
 @media only screen and (min-width: 1196px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_forsetakosningar_2016\.scss}line{font-family:\0000349}}
   .taxonomy-forsetakosningar-2016 #block-system-main .pane-node-title .block-content h2 {
     padding: 0;
   }
