@@ -103,7 +103,7 @@ function at_krakkaruv_process_page(&$variables) {
 function at_krakkaruv_preprocess_html(&$variables) {
   if(arg(0)=='node' && is_numeric(arg(1))) {
     $node = node_load(arg(1));  
-    $results = _MYTHEME_taxonomy_node_get_terms($node); 
+    $results = _at_krakkaruv_taxonomy_node_get_terms($node); 
     if(is_array($results)) {
       foreach ($results as $item) { 
         $variables['classes_array'][] = "taxonomy-".strtolower(drupal_clean_css_identifier($item->name));
