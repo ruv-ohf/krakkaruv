@@ -94,6 +94,14 @@
 			border-color: #f4863b;
 			background-color: #f69e62;
 		}
+		form {
+			.form-text {
+				border-color: #f4863b;
+			}
+			#edit-submitted-myndband-upload-button, .webform-submit {
+				background-color: #f4863b;
+			}
+		}
 	}
 }
 

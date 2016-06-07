@@ -9995,24 +9995,32 @@ footer .region-footer {
   border-color: #f4863b;
   background-color: #f69e62;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000398}}
+.page-viltu-vera-med-i-stundinni-okkar .one-column form .form-text {
+  border-color: #f4863b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003101}}
+.page-viltu-vera-med-i-stundinni-okkar .one-column form #edit-submitted-myndband-upload-button, .page-viltu-vera-med-i-stundinni-okkar .one-column form .webform-submit {
+  background-color: #f4863b;
+}
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003112}}
   .ungir-frettamenn .one-column #webform-client-form-4561, .ungir-frettamenn .one-column #webform-client-form-6957, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-4561, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-6957 {
     padding: 30px 40px;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003124}}
   .ungir-frettamenn .one-column #webform-client-form-4561, .ungir-frettamenn .one-column #webform-client-form-6957, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-4561, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-6957 {
     padding: 50px 60px;
   }
 }
 /* Min width 1064px */
 @media only screen and (min-width: 1064px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003135}}
   .ungir-frettamenn .one-column .text-box, .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box {
     padding: 50px 0 20px;
   }
