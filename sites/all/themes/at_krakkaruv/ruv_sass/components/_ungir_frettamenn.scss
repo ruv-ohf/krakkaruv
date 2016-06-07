@@ -27,7 +27,7 @@
 		background-color: #A3C4BC;
 		padding: 10px 20px;
 	}
-	.pane-webform-client-block-4561 {
+	.pane-webform-client-block-4561, .pane-webform-client-block-6957 {
 		padding: 0 20px;
 	}
 
@@ -85,9 +85,9 @@
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-	.ungir-frettamenn {
+	.ungir-frettamenn, .page-viltu-vera-med-i-stundinni-okkar {
 	.one-column {
-			#webform-client-form-4561 {
+			#webform-client-form-4561, #webform-client-form-6957 {
 				padding: 30px 40px;
 			}
 		}
@@ -97,9 +97,9 @@
 
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-	.ungir-frettamenn {
+	.ungir-frettamenn, .page-viltu-vera-med-i-stundinni-okkar {
 	.one-column {
-			#webform-client-form-4561 {
+			#webform-client-form-4561, #webform-client-form-6957 {
 				padding: 50px 60px;
 			}
 		}
@@ -108,7 +108,7 @@
 
 /* Min width 1064px */
 @media only screen and (min-width: 1064px) {
-	.ungir-frettamenn {
+	.ungir-frettamenn, .page-viltu-vera-med-i-stundinni-okkar {
 	.one-column {
 			.text-box {
 				padding: 50px 0 20px;
