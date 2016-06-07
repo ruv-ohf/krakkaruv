@@ -9896,11 +9896,11 @@ footer .region-footer {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000032}}
-.ungir-frettamenn .one-column {
+.ungir-frettamenn .one-column, .page-viltu-vera-med-i-stundinni-okkar .one-column {
   background-color: #f1f3f9;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000033}}
-.ungir-frettamenn .one-column .text-box {
+.ungir-frettamenn .one-column .text-box, .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box {
   display: block !important;
   position: relative;
   max-width: 1024px;
@@ -9908,18 +9908,18 @@ footer .region-footer {
   padding: 30px 20px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\000039}}
-.ungir-frettamenn .one-column .text-box h2 {
+.ungir-frettamenn .one-column .text-box h2, .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 26px;
   font-weight: 600;
   line-height: 1.2;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000315}}
-.ungir-frettamenn .one-column .text-box p {
+.ungir-frettamenn .one-column .text-box p, .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box p {
   margin-bottom: 24px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000321}}
-.ungir-frettamenn #webform-client-form-4561 {
+.ungir-frettamenn #webform-client-form-4561, .page-viltu-vera-med-i-stundinni-okkar #webform-client-form-4561 {
   position: relative;
   margin: 12px auto 50px;
   background-color: #f1f3f9;
@@ -9929,60 +9929,60 @@ footer .region-footer {
   padding: 10px 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000330}}
-.ungir-frettamenn .pane-webform-client-block-4561 {
+.ungir-frettamenn .pane-webform-client-block-4561, .page-viltu-vera-med-i-stundinni-okkar .pane-webform-client-block-4561 {
   padding: 0 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000334}}
-.ungir-frettamenn #edit-submitted-myndband-upload {
+.ungir-frettamenn #edit-submitted-myndband-upload, .page-viltu-vera-med-i-stundinni-okkar #edit-submitted-myndband-upload {
   margin: 0;
   width: 100%;
   padding: 0;
   border: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000342}}
-.ungir-frettamenn form .form-text {
+.ungir-frettamenn form .form-text, .page-viltu-vera-med-i-stundinni-okkar form .form-text {
   width: 100%;
   border: 1px solid #326771;
   background-color: rgba(255, 255, 255, 0.6);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000348}}
-.ungir-frettamenn form h3 {
+.ungir-frettamenn form h3, .page-viltu-vera-med-i-stundinni-okkar form h3 {
   font-size: 20px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000354}}
-.ungir-frettamenn form label {
+.ungir-frettamenn form label, .page-viltu-vera-med-i-stundinni-okkar form label {
   margin-bottom: 24px;
   line-height: 1.3;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000358}}
-.ungir-frettamenn form .form-managed-file {
+.ungir-frettamenn form .form-managed-file, .page-viltu-vera-med-i-stundinni-okkar form .form-managed-file {
   margin-bottom: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000361}}
-.ungir-frettamenn form #edit-submitted-myndband-upload {
+.ungir-frettamenn form #edit-submitted-myndband-upload, .page-viltu-vera-med-i-stundinni-okkar form #edit-submitted-myndband-upload {
   margin-bottom: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000364}}
-.ungir-frettamenn form #edit-submitted-myndband-upload-button, .ungir-frettamenn form .webform-submit {
+.ungir-frettamenn form #edit-submitted-myndband-upload-button, .ungir-frettamenn form .webform-submit, .page-viltu-vera-med-i-stundinni-okkar form #edit-submitted-myndband-upload-button, .page-viltu-vera-med-i-stundinni-okkar form .webform-submit {
   background-color: #326771;
   border: none;
   color: #FFFFFF;
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000370}}
-.ungir-frettamenn form .description {
+.ungir-frettamenn form .description, .page-viltu-vera-med-i-stundinni-okkar form .description {
   line-height: 1.4;
   font-size: 14px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000375}}
-.ungir-frettamenn form .webform-component-radios label {
+.ungir-frettamenn form .webform-component-radios label, .page-viltu-vera-med-i-stundinni-okkar form .webform-component-radios label {
   margin: 0;
   font-weight: bold;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000379}}
-.ungir-frettamenn form .webform-component-radios .option {
+.ungir-frettamenn form .webform-component-radios .option, .page-viltu-vera-med-i-stundinni-okkar form .webform-component-radios .option {
   font-weight: normal;
 }
 
