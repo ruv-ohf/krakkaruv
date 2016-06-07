@@ -9990,24 +9990,29 @@ footer .region-footer {
 .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box h2 {
   margin-bottom: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\0000393}}
+.page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-6957 {
+  border-color: #f4863b;
+  background-color: #f69e62;
+}
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003104}}
   .ungir-frettamenn .one-column #webform-client-form-4561, .ungir-frettamenn .one-column #webform-client-form-6957, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-4561, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-6957 {
     padding: 30px 40px;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003116}}
   .ungir-frettamenn .one-column #webform-client-form-4561, .ungir-frettamenn .one-column #webform-client-form-6957, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-4561, .page-viltu-vera-med-i-stundinni-okkar .one-column #webform-client-form-6957 {
     padding: 50px 60px;
   }
 }
 /* Min width 1064px */
 @media only screen and (min-width: 1064px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/hosts\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_ungir_frettamenn\.scss}line{font-family:\00003127}}
   .ungir-frettamenn .one-column .text-box, .page-viltu-vera-med-i-stundinni-okkar .one-column .text-box {
     padding: 50px 0 20px;
   }
