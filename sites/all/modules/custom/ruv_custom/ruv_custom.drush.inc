@@ -107,6 +107,16 @@ function ruv_custom_drush_command() {
     ),
     'aliases' => array('ruv-unpublish-shows'),
   );
+
+  $items['ruv-print-empty_shows'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush drush_ruv_custom_ruv_print_empty_shows'
+    ),
+    'aliases' => array('ruv-print-shows'),
+  );
+
   $items['ruv-delete-orphant-nodes'] = array(
     'description' => dt('Run.'),
     'arguments'   => array(),
@@ -472,16 +482,48 @@ function drush_ruv_custom_ruv_unpublish_empty_shows() {
       ->execute();
 
     if (empty($res['node'])) {
-      $tax = taxonomy_term_load($show->tid);
-      $tax->field_not_in_program_list[LANGUAGE_NONE][0]['value'] = 0;
-      $tax->field_not_scheduled[LANGUAGE_NONE][0]['value'] = 1;
-      taxonomy_term_save($tax);
-      _ruv_custom_create_redirect(url('taxonomy/term/'.$show->tid), 'node/3400');
+      taxonomy_term_delete($show->tid);
       $zero_counter++;
     }
   }
 
   drush_print("Fjöldi sería sem var afbirt: $zero_counter");
+}
+
+/**
+ * Finds all shows (þættir) that are displayed in the program list, searches
+ * for nodes that have that taxonomy term id, and if there is none, it un-publishes
+ * the Taxonomy term.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ */
+function drush_ruv_custom_ruv_print_empty_shows() {
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'taxonomy_term')
+    ->propertyCondition('vid', 4, '=')
+    ->fieldCondition('field_not_in_program_list', 'value', 1, '=')
+    ->execute();
+
+  $zero_counter = 0;
+  foreach ($result['taxonomy_term'] as $show) {
+    $quer = new EntityFieldQuery();
+    $res = $quer
+      ->entityCondition('entity_type', 'node')
+      ->propertyCondition('type', 'dagskra')
+      ->propertyCondition('status', 1, '=')
+      ->fieldCondition('field_thaettir_term_ref', 'tid', array($show->tid), 'IN')
+      //->propertyOrderBy('title')
+      ->execute();
+
+    if (empty($res['node'])) {
+      $tax = taxonomy_term_load($show->tid);
+      drush_print($tax->name . " (" . $tax->tid . ")");
+      $zero_counter++;
+    }
+  }
+
+  drush_print("Fjöldi sería sem verða afbirtar: $zero_counter");
 }
 
 /**
