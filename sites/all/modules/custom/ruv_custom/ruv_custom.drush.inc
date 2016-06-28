@@ -81,6 +81,24 @@ function ruv_custom_drush_command() {
       'aliases' => array('ruv-unpublish-eps'),
   );
 
+  $items['ruv-remove-expired-nodes'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush ruv_remove_expired_nodes'
+    ),
+    'aliases' => array('ruv-remove-nodes'),
+  );
+
+  $items['ruv-print-expired-nodes'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush ruv_print_expired_nodes'
+    ),
+    'aliases' => array('ruv-print-nodes'),
+  );
+
   $items['ruv-unpublish-empty_shows'] = array(
     'description' => dt('Run.'),
     'arguments'   => array(),
@@ -105,15 +123,6 @@ function ruv_custom_drush_command() {
     ),
   );
 
- /* $items['ruv-delete-forms'] = array(
-      'description' => dt("Runs a delete command to reduce the size of cache_form table in the database"),
-      'arguments' => null,
-      ),
-      'examples' => array(
-        'Standard example' => 'drush ruv-delete-forms',
-        ),
-      'aliases' => array('ruv-df'),
-    );*/
   return $items;
 }
 
@@ -362,6 +371,77 @@ function drush_ruv_custom_ruv_unpublish_expired_nodes(){
   }
   else{
     drush_print("No nodes were unpublished.");
+  }
+}
+
+
+/**
+ * Finds all nodes that are published and have expires_on_web less than the day
+ * today (nodes are expired), and removes them.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ * @throws \Exception
+ */
+function drush_ruv_custom_ruv_remove_expired_nodes(){
+  //
+  $query = new EntityFieldQuery();
+  $date = date('Y-m-d H:i:s');
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->propertyCondition('type', 'dagskra')
+    ->fieldCondition('field_kringlan_expires_web', 'value', $date, '<')
+    ->propertyOrderBy('title')
+    ->execute();
+  if (!empty($result['node'])) {
+    $results = entity_load('node', array_keys($result['node']));
+
+    foreach($results as $res){
+      drush_print($res->title . " (". $res->nid . ") "  . " : " .
+        $res->field_kringla_episode_number[LANGUAGE_NONE][0]['value'] . " - " .
+        $res->field_kringla_episode_total[LANGUAGE_NONE][0]['value']
+      );
+      node_delete($res->nid);
+    }
+
+    drush_print("Removed " . sizeof($results) . " nodes.");
+  }
+  else{
+    drush_print("No nodes were unpublished.");
+  }
+}
+
+/**
+ * Finds all nodes that are published and have expires_on_web less than the day
+ * today (nodes are expired), and prints them out on the console, for user to
+ * see if any node is fragile.
+ *
+ * @author Hilmar Kári Hallbjörnsson
+ * @throws \Exception
+ */
+function drush_ruv_custom_ruv_print_expired_nodes(){
+  //
+  $query = new EntityFieldQuery();
+  $date = date('Y-m-d H:i:s');
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->propertyCondition('type', 'dagskra')
+    ->fieldCondition('field_kringlan_expires_web', 'value', $date, '<')
+    ->propertyOrderBy('title')
+    ->execute();
+  if (!empty($result['node'])) {
+    $results = entity_load('node', array_keys($result['node']));
+
+    foreach($results as $res){
+      drush_print($res->title . " (". $res->nid . ") "  . " : " .
+        $res->field_kringla_episode_number[LANGUAGE_NONE][0]['value'] . " - " .
+        $res->field_kringla_episode_total[LANGUAGE_NONE][0]['value']
+      );
+    }
+
+    drush_print("To be removed : " . sizeof($results) . " nodes.");
+  }
+  else{
+    drush_print("No nodes are to be removed.");
   }
 }
 
