@@ -99,13 +99,13 @@ function ruv_custom_drush_command() {
     'aliases' => array('ruv-print-nodes'),
   );
 
-  $items['ruv-unpublish-empty_shows'] = array(
+  $items['ruv-delete-empty_shows'] = array(
     'description' => dt('Run.'),
     'arguments'   => array(),
     'examples' => array(
-      'Standard example' => 'drush drush_ruv_custom_ruv_unpublish_empty_shows'
+      'Standard example' => 'drush drush_ruv_custom_ruv_delete_empty_shows'
     ),
-    'aliases' => array('ruv-unpublish-shows'),
+    'aliases' => array('ruv-delete-shows'),
   );
 
   $items['ruv-print-empty_shows'] = array(
@@ -462,7 +462,7 @@ function drush_ruv_custom_ruv_print_expired_nodes(){
  *
  * @author Hilmar Kári Hallbjörnsson
  */
-function drush_ruv_custom_ruv_unpublish_empty_shows() {
+function drush_ruv_custom_ruv_delete_empty_shows() {
   $query = new EntityFieldQuery();
   $result = $query
     ->entityCondition('entity_type', 'taxonomy_term')
@@ -478,7 +478,6 @@ function drush_ruv_custom_ruv_unpublish_empty_shows() {
       ->propertyCondition('type', 'dagskra')
       ->propertyCondition('status', 1, '=')
       ->fieldCondition('field_thaettir_term_ref', 'tid', array($show->tid), 'IN')
-      ->propertyOrderBy('title')
       ->execute();
 
     if (empty($res['node'])) {
@@ -487,7 +486,7 @@ function drush_ruv_custom_ruv_unpublish_empty_shows() {
     }
   }
 
-  drush_print("Fjöldi sería sem var afbirt: $zero_counter");
+  drush_print("Fjöldi sería sem var eytt: $zero_counter");
 }
 
 /**
@@ -523,7 +522,7 @@ function drush_ruv_custom_ruv_print_empty_shows() {
     }
   }
 
-  drush_print("Fjöldi sería sem verða afbirtar: $zero_counter");
+  drush_print("Fjöldi sería sem verður eytt: $zero_counter");
 }
 
 /**
