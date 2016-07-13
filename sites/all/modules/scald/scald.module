@@ -148,6 +148,10 @@ function scald_scald_contexts_alter(&$contexts) {
     if (!empty($contexts[$name])) {
       // This is the old and deprecated structure.
       foreach ($config->transcoder as $type => $transcoder) {
+        if ($transcoder['*'] == 'style-Library') {
+          $transcoder['*'] = 'style-library';
+          $config->transcoder[$type]['*'] = 'style-library';
+        }
         $contexts[$name]['type_format'][$type] = array(
           'file_format' => '*',
           'transcoder' => $transcoder['*'],
@@ -1337,7 +1341,15 @@ function scald_render($sid, $context, $options = array(), $rebuild = FALSE) {
   $cache_parts[] = $GLOBALS['is_https'] ? 'secure' : 'plain';
 
   if (!empty($options)) {
-    $cache_parts[] = $options;
+    if (is_array($options)) {
+      $cache_parts[] = md5(drupal_json_encode($options));
+    }
+    elseif (is_string($options)) {
+      $cache_parts[] = md5($options);
+    }
+    else {
+      $cache_parts[] = $options;
+    }
   }
   $cache_id = implode(':', $cache_parts);
 
@@ -1362,7 +1374,7 @@ function scald_render($sid, $context, $options = array(), $rebuild = FALSE) {
 
   // If $options is not a JSON string or a single value, give other modules a
   // chance to handle it.
-  if ($options) {
+  if ($options && !is_array($options)) {
     if (!is_array($decoded = drupal_json_decode($options))) {
       $options = array('option' => $options);
       drupal_alter('scald_render_options', $options, $atom, $context);
@@ -1467,7 +1479,7 @@ function _scald_context_fallback($type, $context) {
   // Determine where in the order the current Context falls so that "next" has a
   // definitive meaning.
   $current_index = array_search($context, $fallbacks);
-  if (!$current_index) {
+  if ($current_index === FALSE) {
     $current_index = -1;
   }
 
@@ -1822,12 +1834,12 @@ function scald_entity_property_info() {
     'computed' => TRUE,
   );
   $properties['actions'] = array(
-    'label' => t("Status"),
+    'label' => t("Actions"),
     'description' => t("The actions that are allowed for this atom."),
     'type' => 'integer',
     'setter callback' => 'entity_property_verbatim_set',
     'setter permission' => 'administer scald atoms',
-    'schema field' => 'status',
+    'schema field' => 'actions',
   );
   $properties['publisher'] = array(
     'label' => t("Publisher"),
