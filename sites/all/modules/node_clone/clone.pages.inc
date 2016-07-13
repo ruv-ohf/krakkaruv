@@ -144,6 +144,21 @@ function clone_node_clone_menu_link($node) {
       $link['menu_name'] = $old_link['menu_name'];
       $link['weight'] = $old_link['weight'];
       $link['module'] = $old_link['module'];
+      // Use the value -1 because it casts to boolean TRUE in function
+      // menu_form_node_form_alter() in menu.module so the node form checkbox
+      // is selected, but in function menu_link_save() no existing link will
+      // match.
+      $link['mlid'] = -1;
+      $link['has_children'] = 0;
+      $link['hidden'] = $old_link['hidden'];
+      $link['customized'] = $old_link['customized'];
+      $link['options'] = $old_link['options'];
+      $link['expanded'] = $old_link['expanded'];
+      $link['description'] = $old_link['description'];
+      $link['language'] = isset($old_link['language']) ? $old_link['language'] : NULL;
+      // This is needed to get the link saved in function menu_node_save() when
+      // using the save-edit method.
+      $link['enabled'] = TRUE;
       return $link;
     }
   }

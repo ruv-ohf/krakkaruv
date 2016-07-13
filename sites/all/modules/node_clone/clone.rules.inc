@@ -23,7 +23,7 @@ function clone_rules_event_info() {
 }
 
 /**
- * Implements hook_rules_action_info(). 
+ * Implements hook_rules_action_info().
  */
 function clone_rules_action_info() {
   $actions = array(

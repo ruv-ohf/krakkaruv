@@ -10,6 +10,7 @@
 * Closely modeled after views/modules/node/views_handler_field_node_link_edit.inc
 */
 class views_handler_field_node_link_clone extends views_handler_field_node_link {
+
   /**
    * Renders the link.
    */

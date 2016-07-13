@@ -275,7 +275,7 @@ function clone_action_clone($original_node, $context) {
       }
     }
     // Let other modules do special fixing up.
-    $context = array('method' => 'action', 'original_node' => $original_node);
+    $context = array('method' => 'action', 'original_node' => $original_node, 'clone_context' => $val);
     drupal_alter('clone_node', $node, $context);
     node_save($node);
     if (module_exists('rules')) {
