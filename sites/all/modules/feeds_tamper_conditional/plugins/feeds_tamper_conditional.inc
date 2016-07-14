@@ -78,7 +78,7 @@ function feeds_tamper_conditional_form($importer, $element_key, $settings) {
     '#default_value' => isset($settings['value'])
       ? $settings['value']
       : '',
-    '#required' => true,
+    '#required' => FALSE,
   );
   return $form;
 }
