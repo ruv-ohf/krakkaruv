@@ -534,10 +534,6 @@ tr td:last-child {
   border-right: 1px solid #bebfb9; /* LTR */
 }
 
-table tr:hover{
-  background:#b5fbff;
-}
-
 
 /**
  * Fieldsets.
