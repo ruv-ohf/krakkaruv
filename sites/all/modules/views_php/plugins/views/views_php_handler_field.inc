@@ -215,17 +215,18 @@ class views_php_handler_field extends views_handler_field {
       }
 
       $function = $this->php_output_lamda_function;
-      
-      if(isset($function) && $function != "")
-      {
-        ob_start();
-        $function($this->view, $this, $this->php_static_variable, $normalized_row, $values, isset($values->{$this->field_alias}) ? $values->{$this->field_alias} : NULL);
-        $value = ob_get_clean();
-      }
+      ob_start();
+      $function($this->view, $this, $this->php_static_variable, $normalized_row, $values, isset($values->{$this->field_alias}) ? $values->{$this->field_alias} : NULL);
+      $value = ob_get_clean();
     }
     else {
-      $value = check_plain($values->{$this->field_alias});
+      if (isset($values->{$this->field_alias})) {
+        $value = check_plain($values->{$this->field_alias});
+      }
     }
-    return $value;
+
+    if (isset($value)) {
+      return $value;
+    }
   }
 }
