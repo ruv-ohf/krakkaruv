@@ -1,0 +1,6 @@
+ name        = Kóðinn Theme
+ description = Custom Theme for Krakkarúv
+ core        = 7.x
+ release     = 7.x-1.x
+ engine      = phptemplate
+ screenshot  = screenshot.png
