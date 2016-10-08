@@ -1,0 +1,28 @@
+.main-menu {
+	color: $color-white;
+	.content {
+		background-color: rgba(255,255,255,0.6);
+		position: fixed;
+		top: 103px;
+		width: 100%;
+		height: 100%;
+	}
+	ul {
+		a {
+			color: $color-black;
+			text-decoration: none;
+		}
+	}
+}
+
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+	
+}
+
+/* Min width 1024px */
+@media only screen and (min-width: 1240px) {
+	
+}
+

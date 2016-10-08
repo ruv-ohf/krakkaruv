@@ -1,6 +1,6 @@
 <div id="page-wrapper">
 
-    <div class="menu">
+    <div class="main-menu">
         <?php print render($page['menu']); ?>
     </div>
     <div id="header">
