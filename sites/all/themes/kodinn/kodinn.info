@@ -8,6 +8,9 @@
   ;----------// Stylesheets
   stylesheets[screen][] = css/screen.css
 
+  ;----------// Javascript
+  scripts[] = scripts/scripts.js
+
   ;----------// Regions
   regions[menu]              = Menu
   regions[header]            = Header

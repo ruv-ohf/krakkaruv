@@ -1,4 +1,4 @@
-<div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
+<div id="<?php print $block_html_id; ?>" class="max-width <?php print $classes; ?>"<?php print $attributes; ?>>
 
     <?php print render($title_prefix); ?>
     <?php if ($block->subject): ?>
@@ -11,9 +11,18 @@
     </a>
 
     <div class="content"<?php print $content_attributes; ?>>
-        <?php print $content ?>
-        <div class="logo-2">Krakkarúv logo</div>
+        <div class="max-width">
+            <?php print $content ?>
+            <a href="/" class="logo-2"><img src="/sites/all/themes/kodinn/css/images/krakkaruv-logo.png"></a>
+        </div>
     </div>
-    <span>Burger</span>
+    <div class="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
 </div>

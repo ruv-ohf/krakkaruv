@@ -14,6 +14,17 @@ html, body {
     padding-top: 103px;
 }
 
+.max-width {
+     max-width: 1152px;
+     margin: 0 auto;
+}
+
+#page-wrapper {
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+}
+
 
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
