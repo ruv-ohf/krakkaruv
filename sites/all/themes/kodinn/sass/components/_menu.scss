@@ -1,9 +1,10 @@
 .main-menu {
 	.logo-1 {
-		width: 223px;
+		width: 207px;
 		display: block;
 		float: left;
-		margin-top: 21px;
+		margin-top: 23px;
+		margin-left: 12px;
 	}
 	.logo-2 {
 		display: block;
@@ -14,7 +15,7 @@
 	}
 	color: $color-white;
 	.content {
-		background-color: rgba(255,255,255,0.6);
+		background-color: rgba(36,32,56,0.6);
 		position: fixed;
 		top: 120%;
 		left: 0;
@@ -43,7 +44,7 @@
 			padding: 0;
 		}
 		a {
-			color: $color-black;
+			color: $color-white;
 			text-decoration: none;
 			font-size: 32px;
 			font-size: 2rem;
@@ -52,6 +53,7 @@
 	}
 	.nav-icon {
 		margin-top: 21px;
+		margin-right: 12px;
 		width: 60px;
 		height: 60px;
 		position: relative;
@@ -160,9 +162,67 @@
 	}
 }
 
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+	.main-menu {
+		.logo-1 {
+			width: 223px;
+			margin-top: 21px;
+			margin-left: 18px;
+		}
+		.nav-icon {
+			margin-right: 18px;
+		}
+	}
+}
 
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-	
+	.main-menu {
+		.content {
+			background: transparent;
+			position: static;
+			display: inline-block;
+			width: auto;
+			vertical-align: top;
+			opacity: 1;
+			width: calc(100% - 246px);
+			font-size: 0;
+			.max-width {
+				position: relative;
+				text-align: center;
+			}
+		}
+		ul {
+			li {
+				display: inline-block;
+				font-size: 0;
+			}
+			a {
+				font-size: 20px;
+				font-size: 1.25rem;
+			}
+		}
+		.logo-1 {
+			float: none;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 0;
+		}
+		.menu {
+			width: calc( 100% - 200px );
+		}
+		.logo-2 {
+			position: absolute;
+			right: 0;
+			top: 0;
+			img {
+				margin: 0;
+			}
+		}
+		.nav-icon {
+			display: none;
+		}
+	}
 }
 
