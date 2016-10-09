@@ -11,10 +11,15 @@ html, body {
 
 body {
     background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 #main-wrapper {
     padding-top: 103px;
+    padding-bottom: 103px;
 }
 
 .max-width {
@@ -40,10 +45,5 @@ body {
 	body {
         background-image: url(images/background-large.jpg);
     }
-}
-
-/* Min width 1024px */
-@media only screen and (min-width: 1240px) {
-	
 }
 

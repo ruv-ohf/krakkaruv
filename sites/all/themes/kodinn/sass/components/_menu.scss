@@ -7,8 +7,8 @@
 		margin-left: 12px;
 	}
 	.logo-2 {
-		display: block;
-		text-align: center;
+		display: inline-block;
+		max-width: 154px;
 		img {
 			margin-top: 20px;
 		}
@@ -31,6 +31,7 @@
    		-moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
      	-o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
         transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+        text-align: center;
 	}
 	.content.active {
 		top: 103px;
