@@ -26,3 +26,6 @@
     </div>
 
 </div>
+
+<div class="menu-bg"></div>
+<div class="menu-border"></div>

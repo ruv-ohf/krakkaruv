@@ -5,9 +5,12 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background-color: #0a1721;
-    font-family: $font-base;
+	font-family: $font-base;
     font-size: 16px;
+}
+
+body {
+    background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
 }
 
 #main-wrapper {
@@ -25,10 +28,18 @@ html, body {
     height: 100%;
 }
 
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(images/background-medium.jpg);
+    }
+}
 
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-	
+	body {
+        background-image: url(images/background-large.jpg);
+    }
 }
 
 /* Min width 1024px */
