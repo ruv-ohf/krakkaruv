@@ -33,8 +33,11 @@ body {
 
 #page-wrapper {
     position: relative;
-    overflow-x: hidden;
     height: 100%;
+}
+
+.border-bottom {
+    border-bottom: 27px solid $color-yellow;
 }
 
 /* Min width 400px */

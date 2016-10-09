@@ -20,6 +20,10 @@
 				width: 100%;
 				bottom: 0;
 				overflow: hidden;
+				height: 49px;
+				border-top: 1px solid rgba(255,255,255,0.62);
+				background-color: rgba(0,0,0,0.64);
+				line-height: 49px;
 				p {
 					color: $color-white;
 				}
@@ -31,8 +35,8 @@
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
 	.kodinn-hladbord {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 18px;
+		padding-right: 18px;
 	}
 }
 
