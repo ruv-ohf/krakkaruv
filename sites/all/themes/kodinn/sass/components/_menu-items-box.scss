@@ -1,0 +1,143 @@
+.menu-items {
+	ul {
+		li {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+.bg-black.menu-items {
+	ul {
+		a {
+			color: $color-white;
+		}
+	}
+}
+
+.bg-black.menu-items.box {
+	position: relative;
+	overflow: hidden;
+	ul {
+		a {
+			color: $color-green;
+			font-size: 30px;
+			font-size: 1.875rem;
+			font-family: $font-headline;
+			display: block;
+			padding: 52px 32px;
+		}
+		li {
+			margin-left: 0;
+			position: relative;
+		}
+		li:nth-child(odd) {
+			background-color: rgba(255,255,255,0.03);
+		}
+		li:nth-child(even) {
+			background-color: rgba(255,255,255,0.05);
+		}
+	}
+}
+
+.bg-black.menu-items.box.center {
+	text-align: center;
+	li, a {
+		text-align: center;
+	}
+}
+
+.bg-black.menu-items.box.icon {
+	a {
+		padding-top: 152px;
+		position: relative;
+		z-index: 1;
+	}
+	li:before {
+			content: "";
+			position: absolute;
+			top: 53px;
+			color: $color-white;
+		}
+	li:nth-child(1) {
+		&:before {
+			background: url(images/svg/add-mark.svg) no-repeat center center;
+			height: 62px;
+			width: 62px;
+			margin-left: -31px;
+		}
+	}
+	li:nth-child(2) {
+		&:before {
+			background: url(images/svg/question-mark.svg) no-repeat center center;
+			height: 62px;
+			width: 62px;
+			margin-left: -31px;
+		}
+	}
+	li:nth-child(3) {
+		&:before {
+			background: url(images/svg/brackets.svg) no-repeat center center;
+			height: 62px;
+			width: 62px;
+			margin-left: -31px;
+		}
+	}
+	li:nth-child(4) {
+		&:before {
+			background: url(images/svg/laptop.svg) no-repeat center center;
+			height: 68px;
+			width: 68px;
+			margin-left: -34px;
+		}
+	}
+}
+
+/* Min width 612px */
+@media only screen and (min-width: 612px) {
+	.bg-black.menu-items.box {
+		ul {
+			li {
+				float: left;
+				width: 50%;
+			}
+			li:nth-child(1), li:nth-child(4) {
+				background-color: rgba(255,255,255,0.03);
+			}
+			li:nth-child(2), li:nth-child(3) {
+				background-color: rgba(255,255,255,0.05);
+			}
+		}
+	}
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 1024px) {
+	.bg-black.menu-items.box {
+		ul {
+			li {
+				width: 25%;
+			}
+			li:nth-child(1), li:nth-child(3) {
+				background-color: rgba(255,255,255,0.03);
+			}
+			li:nth-child(2), li:nth-child(4) {
+				background-color: rgba(255,255,255,0.05);
+			}
+		}
+	}
+}
+
+/* Min width 1100px */
+@media only screen and (min-width: 1100px) {
+	.bg-black.menu-items.box {
+		ul {
+			a {
+				padding-left: 42px;
+				padding-right: 42px;
+			}
+		}
+	}
+}

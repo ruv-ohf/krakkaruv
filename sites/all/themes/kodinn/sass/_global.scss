@@ -19,18 +19,30 @@ body {
 
 #main-wrapper {
     padding-top: 103px;
-    padding-bottom: 103px;
 }
 
-.max-width {
+.max-width, .max-width-pane-content .pane-content {
      max-width: 1152px;
      margin: 0 auto;
+}
+
+.bg-black {
+    background-color: $color-black-4;
+    padding: 88px 12px;
 }
 
 #page-wrapper {
     position: relative;
     overflow-x: hidden;
     height: 100%;
+}
+
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+    .bg-black {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 }
 
 /* Min width 600px */
@@ -44,6 +56,14 @@ body {
 @media only screen and (min-width: 1024px) {
 	body {
         background-image: url(images/background-large.jpg);
+    }
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    .bg-black {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
