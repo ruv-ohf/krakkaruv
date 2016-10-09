@@ -273,5 +273,59 @@
 		.logo-2 {
 			right: 0;
 		}
+		ul {
+			li {
+				background-color: rgba(1,5,14,0);
+				-webkit-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+   				-moz-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+     			-o-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+				-webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+   				-moz-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+     			-o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		
+				a {
+					position: relative;
+					&:before, &:after {
+						content: "";
+						position: absolute;
+						width: 1px;
+						height: 100%;
+						top: 0;
+						background-color: rgba(254,254,254,0.15);
+						webkit-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+   						-moz-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+     			       -o-transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		       transition: all 225ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
+				       -webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+   				       -moz-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+     			       -o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		       transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+        		       opacity: 0;
+					}
+					&:before {
+						left: 16px;
+					}
+					&:after {
+						right: 16px;
+					}
+				}
+			}
+			li:hover {
+				background-color: rgba(1,5,14,0.26);
+				a {
+					&:before, &:after {
+						opacity: 1;
+					}
+					&:before {
+						left: 0;
+					}
+					&:after {
+						right: 0;
+					}
+				}
+			}
+		}
 	}
 }

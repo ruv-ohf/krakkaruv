@@ -416,6 +416,64 @@ body {
   .main-menu .logo-2 {
     right: 0;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003277}}
+  .main-menu ul li {
+    background-color: rgba(1, 5, 14, 0);
+    -webkit-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003288}}
+  .main-menu ul li a {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003290}}
+  .main-menu ul li a:before, .main-menu ul li a:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background-color: rgba(254, 254, 254, 0.15);
+    webkit-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: all 225ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    opacity: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003307}}
+  .main-menu ul li a:before {
+    left: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003310}}
+  .main-menu ul li a:after {
+    right: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003315}}
+  .main-menu ul li:hover {
+    background-color: rgba(1, 5, 14, 0.26);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003318}}
+  .main-menu ul li:hover a:before, .main-menu ul li:hover a:after {
+    opacity: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003321}}
+  .main-menu ul li:hover a:before {
+    left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\00003324}}
+  .main-menu ul li:hover a:after {
+    right: 0;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map */
