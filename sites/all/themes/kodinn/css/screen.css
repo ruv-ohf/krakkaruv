@@ -712,5 +712,58 @@ body img {
     padding-right: 42px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\000031}}
+.kodinn-hladbord {
+  background: #2a3741 url(images/background-hladbord.jpg) no-repeat top center;
+  padding: 115px 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\000034}}
+.kodinn-hladbord .view-content {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\000036}}
+.kodinn-hladbord .view-content .views-row {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 24px;
+  border: 6px solid #fcfa8c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000311}}
+.kodinn-hladbord .view-content .views-row img {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000314}}
+.kodinn-hladbord .view-content .views-row .hl-button {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000317}}
+.kodinn-hladbord .view-content .views-row .title-bar {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000323}}
+.kodinn-hladbord .view-content .views-row .title-bar p {
+  color: #ffffff;
+}
+
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000333}}
+  .kodinn-hladbord {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000341}}
+  .kodinn-hladbord {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 /*# sourceMappingURL=screen.css.map */

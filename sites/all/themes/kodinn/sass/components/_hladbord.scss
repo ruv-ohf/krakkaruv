@@ -1,3 +1,45 @@
-.hladbord {
-	
+.kodinn-hladbord {
+	background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
+	padding: 115px 12px;
+	.view-content {
+		text-align: center;
+		.views-row {
+			display: inline-block;
+			position: relative;
+			margin-bottom: 24px;
+			border: 6px solid $color-yellow;
+			img {
+				display: block;
+			}
+			.hl-button {
+				display: none;
+			}
+			.title-bar {
+				position: absolute;
+				color: $color-white;
+				width: 100%;
+				bottom: 0;
+				overflow: hidden;
+				p {
+					color: $color-white;
+				}
+			}
+		}
+	}
+}
+
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+	.kodinn-hladbord {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+	.kodinn-hladbord {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
