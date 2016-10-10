@@ -1,0 +1,49 @@
+.kodinn-hladbord {
+	background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
+	padding: 115px 12px;
+	.view-content {
+		text-align: center;
+		.views-row {
+			display: inline-block;
+			position: relative;
+			margin-bottom: 24px;
+			border: 6px solid $color-yellow;
+			img {
+				display: block;
+			}
+			.hl-button {
+				display: none;
+			}
+			.title-bar {
+				position: absolute;
+				color: $color-white;
+				width: 100%;
+				bottom: 0;
+				overflow: hidden;
+				height: 49px;
+				border-top: 1px solid rgba(255,255,255,0.62);
+				background-color: rgba(0,0,0,0.64);
+				line-height: 49px;
+				p {
+					color: $color-white;
+				}
+			}
+		}
+	}
+}
+
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+	.kodinn-hladbord {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+	.kodinn-hladbord {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

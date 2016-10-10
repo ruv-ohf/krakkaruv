@@ -1,0 +1,72 @@
+* { @include box-sizing(); }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Teko:500);
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: $font-base;
+    font-size: 16px;
+}
+
+body {
+    background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#main-wrapper {
+    padding-top: 103px;
+}
+
+.max-width, .max-width-pane-content .pane-content {
+     max-width: 1152px;
+     margin: 0 auto;
+}
+
+.bg-black {
+    background-color: $color-black-4;
+    padding: 88px 12px;
+}
+
+#page-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.border-bottom {
+    border-bottom: 27px solid $color-yellow;
+}
+
+/* Min width 400px */
+@media only screen and (min-width: 400px) {
+    .bg-black {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(images/background-medium.jpg);
+    }
+}
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+	body {
+        background-image: url(images/background-large.jpg);
+    }
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    .bg-black {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+

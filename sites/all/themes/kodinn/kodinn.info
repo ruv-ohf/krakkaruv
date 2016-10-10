@@ -1,0 +1,32 @@
+ name        = Kóðinn Theme
+ description = Custom Theme for Krakkarúv
+ core        = 7.x
+ release     = 7.x-1.x
+ engine      = phptemplate
+ screenshot  = screenshot.png
+
+  ;----------// Stylesheets
+  stylesheets[screen][] = css/screen.css
+
+  ;----------// Javascript
+  scripts[] = scripts/scripts.js
+
+  ;----------// Regions
+  regions[menu]              = Menu
+  regions[header]            = Header
+  regions[help]              = Help
+  regions[content]           = Main Content
+  regions[page_top]          = Page top
+  regions[footer]            = Footer
+  regions[page_bottom]       = Page bottom
+
+  ;----------// Default settings for site features
+  settings[toggle_logo]                      = 0
+  settings[toggle_name]                      = 0
+  settings[toggle_slogan]                    = 0
+  settings[toggle_node_user_picture]         = 1
+  settings[toggle_comment_user_picture]      = 1
+  settings[toggle_comment_user_verification] = 1
+  settings[toggle_favicon]                   = 1
+  settings[toggle_main_menu]                 = 0
+  settings[toggle_secondary_menu]            = 0
