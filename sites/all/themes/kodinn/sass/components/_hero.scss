@@ -1,0 +1,24 @@
+.primary-hero {
+    background: transparent url(images/hexagon-bg.png) no-repeat top center;
+    background-size: 100%;
+    position: relative;
+    .border {
+    	position: absolute;
+		bottom: -45px;
+		width: 1920px;
+		left: 50%;
+		margin-left: -960px;
+    }
+    .image-wrapper {
+    	img {
+    		margin-bottom: -29px;
+    	}
+    }
+}
+
+/* Min width 1024px */
+@media only screen and (min-width: 1024px) {
+	.primary-hero {
+    	background-size: inherit;
+	}
+}

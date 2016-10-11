@@ -1,4 +1,16 @@
+.logged-in {
+	.main-menu {
+		top: 29px;
+	}
+}
+
 .main-menu {
+	color: #ffffff;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
 	.logo-1 {
 		width: 207px;
 		display: block;

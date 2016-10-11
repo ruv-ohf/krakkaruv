@@ -18,7 +18,7 @@ body {
 }
 
 #main-wrapper {
-    padding-top: 103px;
+    /*padding-top: 103px;*/
 }
 
 .max-width, .max-width-pane-content .pane-content {
@@ -38,6 +38,10 @@ body {
 
 .border-bottom {
     border-bottom: 27px solid $color-yellow;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 /* Min width 400px */
