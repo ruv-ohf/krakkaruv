@@ -2,12 +2,17 @@
 	background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
 	padding: 115px 12px;
 	.view-content {
+		position: relative;
+		overflow: hidden;
 		text-align: center;
 		.views-row {
 			display: inline-block;
 			position: relative;
 			margin-bottom: 24px;
-			border: 6px solid $color-yellow;
+			> div {
+				border: 6px solid $color-yellow;
+				position: relative;
+			}
 			img {
 				display: block;
 			}
@@ -37,6 +42,25 @@
 	.kodinn-hladbord {
 		padding-left: 18px;
 		padding-right: 18px;
+	}
+}
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+	.kodinn-hladbord {
+		.view-content {
+			.views-row {
+				width: 50%;
+				float: left;
+				display: block;
+			}
+			.views-row:nth-child(odd) {
+				padding-right: 12px;
+			}
+			.views-row:nth-child(even) {
+				padding-left: 12px;
+			}
+		}
 	}
 }
 

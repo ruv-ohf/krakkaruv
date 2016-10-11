@@ -4,10 +4,10 @@
     position: relative;
     .border {
     	position: absolute;
-		bottom: -45px;
-		width: 1920px;
-		left: 50%;
-		margin-left: -960px;
+        bottom: -56px;
+        width: 2000px;
+        left: 50%;
+        margin-left: -1000px;
     }
     .image-wrapper {
     	img {
@@ -16,9 +16,33 @@
     }
 }
 
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+    .primary-hero {
+        .border {
+            width: 3000px;
+            margin-left: -1500px;
+        }
+    }
+}
+
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
 	.primary-hero {
     	background-size: inherit;
+        .border {
+            width: 4000px;
+            margin-left: -2000px;
+        }
 	}
+}
+
+/* Min width 4000px */
+@media only screen and (min-width: 4000px) {
+    .primary-hero {
+        .border {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
 }

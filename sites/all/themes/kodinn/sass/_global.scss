@@ -11,6 +11,7 @@ html, body {
 
 body {
     background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
+    overflow-x: hidden;
     img {
         max-width: 100%;
         height: auto;
@@ -37,7 +38,7 @@ body {
 }
 
 .border-bottom {
-    border-bottom: 27px solid $color-yellow;
+    border-bottom: 14px solid $color-yellow;
 }
 
 .text-align-center {
@@ -59,10 +60,20 @@ body {
     }
 }
 
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+   .border-bottom {
+        border-bottom: 18px solid $color-yellow;
+    }
+}
+
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
 	body {
         background-image: url(images/background-large.jpg);
+    }
+    .border-bottom {
+        border-bottom: 24px solid $color-yellow;
     }
 }
 
