@@ -774,7 +774,7 @@ body img {
   margin-bottom: 24px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000312}}
-.kodinn-hladbord .view-content .views-row .field-content {
+.kodinn-hladbord .view-content .views-row .field-content, .kodinn-hladbord .view-content .views-row .field-content a {
   display: block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000315}}
