@@ -88,7 +88,7 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\0000315}}
 body img {
-  width: auto;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
