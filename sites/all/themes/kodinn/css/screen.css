@@ -88,7 +88,7 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\0000315}}
 body img {
-  width: 100%;
+  width: auto;
   max-width: 100%;
   height: auto;
 }
@@ -785,7 +785,7 @@ body img {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000319}}
 .kodinn-hladbord .view-content .views-row img {
-  display: block;
+  /*display: block;*/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000322}}
 .kodinn-hladbord .view-content .views-row .hl-button {
