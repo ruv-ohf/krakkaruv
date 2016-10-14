@@ -105,7 +105,7 @@ body img {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\0000331}}
-.color-white {
+.color-white p, .color-white label, .color-white a {
   color: #ffffff;
 }
 
