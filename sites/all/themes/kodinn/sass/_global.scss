@@ -8,12 +8,11 @@ html {
 
 html, body {
 	height: 100%;
-	font-family: $font-base;
-    font-size: 16px;
 }
 
 body {
     background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
+    font-family: $font-base;
     img {
         width: auto;
         max-width: 100%;
