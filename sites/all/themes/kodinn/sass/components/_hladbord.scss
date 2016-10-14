@@ -9,6 +9,9 @@
 			display: inline-block;
 			position: relative;
 			margin-bottom: 24px;
+			.field-content {
+				display: block;
+			}
 			> div {
 				border: 6px solid $color-yellow;
 				position: relative;
