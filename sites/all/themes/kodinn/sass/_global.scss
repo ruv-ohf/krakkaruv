@@ -2,10 +2,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Teko:500);
 
-html {
-    overflow-x: hidden;
-}
-
 html, body {
 	height: 100%;
 }
@@ -13,6 +9,7 @@ html, body {
 body {
     background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
     font-family: $font-base;
+    overflow-x: hidden;
     img {
         width: auto;
         max-width: 100%;
