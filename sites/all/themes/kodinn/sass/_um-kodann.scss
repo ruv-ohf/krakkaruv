@@ -8,6 +8,9 @@
     }
     .panel-col-first  {
         margin-bottom: 30px;
+        .jwplayer {
+            border: 6px solid $color-yellow;
+        }
     }
 }
 
