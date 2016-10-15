@@ -294,16 +294,6 @@
 	}
 }
 
-/* Min width 1100px */
-@media only screen and (min-width: 1100px) {
-	/*.main-menu {
-		ul {
-			a {
-				
-			}
-		}
-	}*/
-}
 
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
@@ -315,6 +305,11 @@
 			right: 0;
 			top: 31px;
 			max-width: 192px;
+		}
+		.menu {
+			width: -webkit-calc( 100% - 192px );
+			width: calc( 100% - 192px );
+			height: 100%;
 		}
 		ul {
 			li {
