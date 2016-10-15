@@ -18,8 +18,10 @@
             background-color: $color-black-4;
         }
         .region-two-66-33-top {
-            padding-bottom: 40px;
+            padding-bottom: 41px;
             border-bottom: 14px solid $color-yellow;
+            margin-left: -12px;
+            margin-right: -12px;
         }
     }
 }
@@ -30,6 +32,10 @@
         .region-content {
             padding-left: 18px;
             padding-right: 18px;
+        }
+        .region-two-66-33-top {
+            margin-left: -18px;
+            margin-right: -18px;
         }
     }
 }
@@ -44,6 +50,9 @@
             padding-top: 88px;
             padding-bottom: 88px;
         }
+        .region-two-66-33-top {
+            padding-bottom: 61px;
+        }
     }
 }
 
@@ -53,6 +62,10 @@
         .region-content {
             padding-left: 0;
             padding-right: 0;
+        }
+        .region-two-66-33-top {
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 }
