@@ -1,9 +1,10 @@
 .page-node {
     .region-content {
+        padding: 168px 12px 88px;
+        background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
         .panel-pane {
             max-width: 1152px;
             margin: 0 auto;
-            padding: 66px 12px;
         }
     }
 }
