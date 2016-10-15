@@ -310,12 +310,22 @@ body img {
   width: 100%;
   height: 42px;
   border: 1px solid #ffffff;
-  background-color: rgba(9, 22, 32, 0.26);
+  background-color: rgba(9, 22, 32, 0.42);
   color: #ffffff;
   font-size: 16px;
   font-size: 1rem;
+  padding-left: 12px;
+  padding-right: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000327}}
+#mini-panel-um_kodann_2_col .webform-component .form-text::-webkit-input-placeholder,
+#mini-panel-um_kodann_2_col .webform-component .form-text:-moz-placeholder,
+#mini-panel-um_kodann_2_col .webform-component .form-text::-moz-placeholder,
+#mini-panel-um_kodann_2_col .webform-component .form-text:-ms-input-placeholder {
+  color: color-white;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000334}}
 #mini-panel-um_kodann_2_col .webform-component .form-item {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -323,19 +333,19 @@ body img {
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000345}}
   #mini-panel-um_kodann_2_col .panel-panel {
     float: left;
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000350}}
   .panel-col-first {
     margin-bottom: 0;
     padding-right: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000354}}
   .panel-col-last {
     padding-left: 12px;
   }
