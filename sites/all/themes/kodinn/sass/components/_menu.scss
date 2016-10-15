@@ -296,19 +296,13 @@
 
 /* Min width 1100px */
 @media only screen and (min-width: 1100px) {
-	.main-menu {
+	/*.main-menu {
 		ul {
 			a {
-				font-size: 20px;
-				font-size: 1.25rem;
-				padding: 0 25px;
+				
 			}
 		}
-		.logo-2 {
-			top: 31px;
-			max-width: 192px;
-		}
-	}
+	}*/
 }
 
 /* Min width 1188px */
@@ -319,6 +313,8 @@
 		}
 		.logo-2 {
 			right: 0;
+			top: 31px;
+			max-width: 192px;
 		}
 		ul {
 			li {
@@ -334,6 +330,9 @@
         		
 				a {
 					position: relative;
+					font-size: 20px;
+					font-size: 1.25rem;
+					padding: 0 25px;
 					&:before, &:after {
 						content: "";
 						position: absolute;
