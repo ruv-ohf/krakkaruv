@@ -6,6 +6,9 @@
         float: none;
         width: 100%;
     }
+    .panel-col-first  {
+        margin-bottom: 30px;
+    }
 }
 
 /* Min width 768px */
@@ -16,5 +19,8 @@
             float: left;
             width: 50%;
         }
+    }
+    .panel-col-first  {
+        margin-bottom: 0;
     }
 }
