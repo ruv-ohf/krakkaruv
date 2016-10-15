@@ -24,7 +24,6 @@ body {
 
 .bg-black {
     background-color: $color-black-4;
-    padding: 88px 12px;
 }
 
 .bg-image {
@@ -47,12 +46,16 @@ body {
     overflow: hidden;
 }
 
+.padding {
+    padding: 44px 12px;
+}
+
 .padding-top {
-    padding-top: 88px;
+    /*padding-top: 88px;*/
 }
 
 .padding-bottom {
-    padding-bottom: 88px;
+    /*padding-bottom: 88px;*/
 }
 
 .border-bottom {
@@ -60,11 +63,11 @@ body {
 }
 
 .padding-right {
-    padding-right: 12px;
+    /*padding-right: 12px;*/
 }
 
 .padding-left {
-    padding-left: 12px;
+    /*padding-left: 12px;*/
 }
 
 .text-align-center {
@@ -75,6 +78,10 @@ body {
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
     .bg-black {
+        /*padding-left: 18px;
+        padding-right: 18px;*/
+    }
+    .padding {
         padding-left: 18px;
         padding-right: 18px;
     }
@@ -107,8 +114,12 @@ body {
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
     .bg-black {
-        padding-left: 0;
-        padding-right: 0;
+        /*padding-left: 0;
+        padding-right: 0;*/
+    }
+    .padding {
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
 
