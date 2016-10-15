@@ -20,6 +20,10 @@ body {
 .max-width, .max-width-pane-content .pane-content {
      max-width: 1152px;
      margin: 0 auto;
+    .pane-title {
+        max-width: 1152px;
+        margin: 0 auto;
+    }
 }
 
 .bg-black {
