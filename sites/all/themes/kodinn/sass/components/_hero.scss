@@ -15,6 +15,12 @@
         h1 span {
             color: $color-green-2;
         }
+        .ruler {
+            display: inline-block;
+            height: 2px;
+            width: 14.93055555555556%;
+            background-color: $color-yellow-2;
+        }
     }
     .border {
     	position: absolute;
