@@ -64,3 +64,15 @@
         padding-left: 12px;
     }
 }
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    #mini-panel-um_kodann_2_col   {
+        .panel-col-first  {
+            padding-right: 18px;
+        }
+        .panel-col-last  {
+            padding-left: 18px;
+        }
+    }
+}
