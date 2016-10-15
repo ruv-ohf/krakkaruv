@@ -10,7 +10,6 @@ body {
     background: $color-black-2 url(images/background-small.jpg) no-repeat top center;
     font-family: $font-base;
     overflow-x: hidden;
-    position: relative;
     img {
         width: auto;
         max-width: 100%;
@@ -35,6 +34,11 @@ body {
 #page-wrapper {
     position: relative;
     height: 100%;
+}
+
+#main-wrapper {
+    position: relative;
+    overflow: hidden;
 }
 
 .padding-top {
