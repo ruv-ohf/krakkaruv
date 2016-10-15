@@ -1205,7 +1205,7 @@ h6 {
 .primary-hero .text-box {
   position: absolute;
   text-align: center;
-  bottom: 0;
+  bottom: 60px;
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000311}}
