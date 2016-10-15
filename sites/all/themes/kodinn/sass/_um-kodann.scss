@@ -50,18 +50,18 @@
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
     #mini-panel-um_kodann_2_col   {
+    .panel-col-first  {
+            margin-bottom: 0;
+            padding-right: 12px;
+        }
+        .panel-col-last  {
+            padding-left: 12px;
+        }
     
     .panel-panel {
             float: left;
             width: 50%;
         }
-    }
-    .panel-col-first  {
-        margin-bottom: 0;
-        padding-right: 12px;
-    }
-    .panel-col-last  {
-        padding-left: 12px;
     }
 }
 
