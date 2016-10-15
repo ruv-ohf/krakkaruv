@@ -249,8 +249,8 @@
 				position: relative;
 			}
 			a {
-				font-size: 20px;
-				font-size: 1.25rem;
+				font-size: 18px;
+				font-size: 1.125rem;
 				display: block;
 				height: 100%;
 				padding: 0 12px;
@@ -271,7 +271,8 @@
 		.logo-2 {
 			position: absolute;
 			right: 18px;
-			top: 31px;
+			top: 35px;
+			max-width: 163px;
 			img {
 				margin: 0;
 			}
@@ -298,8 +299,14 @@
 	.main-menu {
 		ul {
 			a {
+				font-size: 20px;
+				font-size: 1.25rem;
 				padding: 0 25px;
 			}
+		}
+		.logo-2 {
+			top: 31px;
+			max-width: 192px;
 		}
 	}
 }
