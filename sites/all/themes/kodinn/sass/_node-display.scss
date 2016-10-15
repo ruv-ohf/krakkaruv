@@ -32,10 +32,12 @@
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
     .page-node {
-        .two-66-33 {
-            .region-two-66-33-top, .region-wrapper  {
-                padding-left: 18px;
-                padding-right: 18px;
+        .region-content {
+            .two-66-33 {
+                .region-two-66-33-top, .region-wrapper  {
+                    padding-left: 18px;
+                    padding-right: 18px;
+                }
             }
         }
     }
