@@ -55,8 +55,8 @@
                 font-size: 3.5rem;
             }
             p {
-                font-size: 22px;
-                font-size: 1.357rem;
+                font-size: 24px;
+                font-size: 1.5rem;
             }
         }
     }
@@ -75,8 +75,8 @@
                 font-size: 3.875rem;
             }
             p {
-                font-size: 24px;
-                font-size: 1.5rem;
+                font-size: 26px;
+                font-size: 1.625rem;
             }
         }
     }
@@ -90,7 +90,33 @@
             width: 4000px;
             margin-left: -2000px;
         }
+        .text-box {
+            h1 {
+                font-size: 68px;
+                font-size: 4.25rem;
+            }
+            p {
+                font-size: 30px;
+                font-size: 1.875rem;
+            }
+        }
 	}
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    .primary-hero {
+        .text-box {
+            h1 {
+                font-size: 72px;
+                font-size: 4.5rem;
+            }
+            p {
+                font-size: 34px;
+                font-size: 2.125rem;
+            }
+        }
+    }
 }
 
 /* Min width 4000px */
