@@ -3,13 +3,13 @@
     background-size: 100%;
     position: relative;
     z-index: 2;
+    overflow: hidden;
     .border {
     	position: absolute;
         bottom: -56px;
         width: 2000px;
         left: 50%;
         margin-left: -1000px;
-        overflow: hidden;
     }
     .image-wrapper {
     	img {
