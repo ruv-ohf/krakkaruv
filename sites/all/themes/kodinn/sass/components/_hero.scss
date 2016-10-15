@@ -6,14 +6,14 @@
     .text-box {
         position: absolute;
         text-align: center;
-        bottom: 60px;
+        bottom: 16px;
         width: 100%;
         h1, p {
             text-align: center;
             color: $color-white;
         }
         h1 span {
-            color: $color-green;
+            color: $color-green-2;
         }
     }
     .border {
@@ -27,6 +27,15 @@
     	img {
     		margin-bottom: -29px;
     	}
+    }
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 480px) {
+    .primary-hero {
+        .text-box {
+            bottom: 26px;
+        }
     }
 }
 
