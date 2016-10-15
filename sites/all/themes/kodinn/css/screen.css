@@ -288,6 +288,19 @@ body img {
     padding-right: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\000032}}
+#mini-panel-um_kodann_2_col .inside {
+  margin: 0;
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000314}}
+  #mini-panel-um_kodann_2_col .panel-panel {
+    float: left;
+    width: 50%;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\000032}}
 .logged-in .main-menu {
   top: 29px;

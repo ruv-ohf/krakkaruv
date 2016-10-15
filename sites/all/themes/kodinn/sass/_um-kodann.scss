@@ -1,0 +1,19 @@
+#mini-panel-um_kodann_2_col   {
+    .inside {
+        margin: 0;
+    }
+    .panel-panel {
+
+    }
+}
+
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+    #mini-panel-um_kodann_2_col   {
+    
+    .panel-panel {
+            float: left;
+            width: 50%;
+        }
+    }
+}
