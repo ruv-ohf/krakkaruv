@@ -13,7 +13,7 @@
     <div class="content"<?php print $content_attributes; ?>>
         <div class="max-width">
             <?php print $content ?>
-            <a href="/" class="logo-2"><img src="/sites/all/themes/kodinn/css/images/krakkaruv-logo.png"></a>
+            <a href="/" class="logo-2"><img src="/sites/all/themes/kodinn/css/images/krakkaruv-logo2.png"></a>
         </div>
     </div>
     <div class="nav-icon">
