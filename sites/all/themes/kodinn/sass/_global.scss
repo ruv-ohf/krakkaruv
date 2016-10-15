@@ -31,8 +31,10 @@ body {
     background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
 }
 
-.color-white p, .color-white label, .color-white  a {
-    color: $color-white;
+.color-white {
+    h1,h2,h3,h4,h5,h6,p,label {
+         color: $color-white;
+    }
 }
 
 #page-wrapper {
