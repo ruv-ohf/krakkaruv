@@ -34,7 +34,11 @@ body {
 #page-wrapper {
     position: relative;
     height: 100%;
-    overflow-x: hidden;
+}
+
+#main-wrapper {
+    position: relative;
+    overflow: hidden;
 }
 
 .padding-top {
