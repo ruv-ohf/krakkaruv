@@ -855,16 +855,15 @@ body img {
   left: 50%;
   margin-left: -1000px;
   overflow: hidden;
-  display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000315}}
 .primary-hero .image-wrapper img {
   margin-bottom: -29px;
 }
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000324}}
   .primary-hero .border {
     width: 3000px;
     margin-left: -1500px;
@@ -872,11 +871,11 @@ body img {
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000333}}
   .primary-hero {
     background-size: inherit;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000335}}
   .primary-hero .border {
     width: 4000px;
     margin-left: -2000px;
@@ -884,7 +883,7 @@ body img {
 }
 /* Min width 4000px */
 @media only screen and (min-width: 4000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000345}}
   .primary-hero .border {
     width: 100%;
     margin-left: 0;
