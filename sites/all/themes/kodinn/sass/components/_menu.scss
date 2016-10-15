@@ -329,6 +329,9 @@
 				}
 				a.active {
 					background-color: rgba(1,5,14,0.26);
+					&:before, &:after {
+						display: none;
+					}
 				}
 			}
 			li:hover {
