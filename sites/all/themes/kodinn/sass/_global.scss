@@ -99,6 +99,10 @@ body {
    .border-bottom {
         border-bottom: 18px solid $color-yellow;
     }
+    .padding {
+        padding-top: 66px;
+        padding-bottom: 66px;
+    }
 }
 
 /* Min width 1024px */
@@ -108,6 +112,10 @@ body {
     }
     .border-bottom {
         border-bottom: 24px solid $color-yellow;
+    }
+    .padding {
+        padding-top: 88px;
+        padding-bottom: 88px;
     }
 }
 
