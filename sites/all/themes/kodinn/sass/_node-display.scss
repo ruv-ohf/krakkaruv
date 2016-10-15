@@ -1,4 +1,4 @@
-.node {
+.page-node {
     .region-content {
         .panel-pane {
             max-width: 1152px;
@@ -10,7 +10,7 @@
 
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
-    .node {
+    .page-node {
         .region-content {
             .panel-pane {
                 padding-left: 18px;
@@ -22,7 +22,7 @@
 
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-    .node {
+    .page-node {
         .region-content {
             .panel-pane {
                 padding-left: 0;
