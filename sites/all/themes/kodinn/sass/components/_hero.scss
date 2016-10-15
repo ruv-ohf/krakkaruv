@@ -3,6 +3,19 @@
     background-size: 100%;
     position: relative;
     z-index: 2;
+    .text-box {
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        h1, p {
+            text-align: center;
+            color: $color-white;
+        }
+        h1 span {
+            color: $color-green;
+        }
+    }
     .border {
     	position: absolute;
         bottom: -56px;
