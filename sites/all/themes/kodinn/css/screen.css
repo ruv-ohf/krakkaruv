@@ -1244,12 +1244,6 @@ h6 {
   }
 }
 /* Min width 600px */
-@media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000352}}
-  .primary-hero .text-box {
-    bottom: 46px;
-  }
-}
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\0000361}}
