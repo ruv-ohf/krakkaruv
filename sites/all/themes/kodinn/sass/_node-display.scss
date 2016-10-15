@@ -17,10 +17,8 @@
 @media only screen and (min-width: 400px) {
     .page-node {
         .region-content {
-            .panel-pane {
-                /*padding-left: 18px;
-                padding-right: 18px;*/
-            }
+            padding-left: 18px;
+            padding-right: 18px;
         }
     }
 }
@@ -38,10 +36,8 @@
 @media only screen and (min-width: 1188px) {
     .page-node {
         .region-content {
-            .panel-pane {
-                /*padding-left: 0;
-                padding-right: 0;*/
-            }
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 }

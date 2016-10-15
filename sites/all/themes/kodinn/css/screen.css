@@ -237,25 +237,25 @@ body img {
 
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000320}}
-  .page-node .region-content .panel-pane {
-    /*padding-left: 18px;
-    padding-right: 18px;*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000319}}
+  .page-node .region-content {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000329}}
   .page-node .region-content {
     padding-top: 196px;
   }
 }
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000341}}
-  .page-node .region-content .panel-pane {
-    /*padding-left: 0;
-    padding-right: 0;*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000338}}
+  .page-node .region-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_menu\.scss}line{font-family:\000032}}
