@@ -27,6 +27,10 @@ body {
     padding: 88px 12px;
 }
 
+.bg-image {
+    background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
+}
+
 .color-white p, .color-white label, .color-white  a {
     color: $color-white;
 }
@@ -64,6 +68,7 @@ body {
 .text-align-center {
     text-align: center;
 }
+
 
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
