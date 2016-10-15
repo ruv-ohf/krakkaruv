@@ -238,9 +238,16 @@ body img {
     padding-right: 18px;
   }
 }
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000327}}
+  .page-node .region-content {
+    padding-top: 196px;
+  }
+}
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000337}}
   .page-node .region-content .panel-pane {
     padding-left: 0;
     padding-right: 0;

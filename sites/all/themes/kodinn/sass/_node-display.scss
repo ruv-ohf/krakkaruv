@@ -21,6 +21,15 @@
     }
 }
 
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+    .page-node {
+        .region-content {
+            padding-top: 196px;
+        }
+    }
+}
+
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
     .page-node {
