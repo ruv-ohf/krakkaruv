@@ -318,14 +318,26 @@ body img {
   padding-right: 12px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000327}}
-#mini-panel-um_kodann_2_col .webform-component .form-text::-webkit-input-placeholder,
-#mini-panel-um_kodann_2_col .webform-component .form-text:-moz-placeholder,
-#mini-panel-um_kodann_2_col .webform-component .form-text::-moz-placeholder,
+#mini-panel-um_kodann_2_col .webform-component .form-text::-webkit-input-placeholder {
+  color: color-white;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000331}}
+#mini-panel-um_kodann_2_col .webform-component .form-text:-moz-placeholder {
+  color: color-white;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000335}}
+#mini-panel-um_kodann_2_col .webform-component .form-text::-moz-placeholder {
+  color: color-white;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000339}}
 #mini-panel-um_kodann_2_col .webform-component .form-text:-ms-input-placeholder {
   color: color-white;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000343}}
 #mini-panel-um_kodann_2_col .webform-component .form-item {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -333,19 +345,19 @@ body img {
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000354}}
   #mini-panel-um_kodann_2_col .panel-panel {
     float: left;
     width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000359}}
   .panel-col-first {
     margin-bottom: 0;
     padding-right: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_um-kodann\.scss}line{font-family:\0000363}}
   .panel-col-last {
     padding-left: 12px;
   }
