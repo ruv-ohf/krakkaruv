@@ -327,10 +327,13 @@
 						right: 16px;
 					}
 				}
+				a.active {
+					background-color: rgba(1,5,14,0.26);
+				}
 			}
 			li:hover {
-				background-color: rgba(1,5,14,0.26);
 				a {
+					background-color: rgba(1,5,14,0.26);
 					&:before, &:after {
 						opacity: 1;
 					}
