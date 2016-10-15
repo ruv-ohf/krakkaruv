@@ -13,43 +13,46 @@
         }
     }
     .webform-client-form  {
-          .form-actions {
+        .form-actions {
             text-align: center;
         }
+        #edit-submitted-valmoguleiki {
+            font-size: 14px;
+            font-size: 0.875rem;
+        }
         .webform-component {
-        .form-text {
-            width: 100%;
-            height: 42px;
-            border: 1px solid $color-white;
-            background-color: rgba(9,22,32,0.42);
-            color: $color-white;
-            font-size: 16px;
-            font-size: 1rem;
-            padding-left: 12px;
-            padding-right: 12px;
+            .form-text {
+                width: 100%;
+                height: 42px;
+                border: 1px solid $color-white;
+                background-color: rgba(9,22,32,0.42);
+                color: $color-white;
+                font-size: 16px;
+                font-size: 1rem;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .form-text::-webkit-input-placeholder {
+                color: color-white;
+                opacity: 1;
+            }
+            .form-text:-moz-placeholder {
+                color: color-white;
+                opacity: 1;
+            }
+            .form-text::-moz-placeholder {
+                color: color-white;
+                opacity: 1;
+            }
+            .form-text:-ms-input-placeholder {
+                color: color-white;
+                opacity: 1;
+            }
+            .form-item {
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
         }
-        .form-text::-webkit-input-placeholder {
-            color: color-white;
-            opacity: 1;
-        }
-        .form-text:-moz-placeholder {
-            color: color-white;
-            opacity: 1;
-        }
-        .form-text::-moz-placeholder {
-            color: color-white;
-            opacity: 1;
-        }
-        .form-text:-ms-input-placeholder {
-            color: color-white;
-            opacity: 1;
-        }
-        .form-item {
-            margin-top: 12px;
-            margin-bottom: 12px;
-        }
-      
-    }
     }
 }
 
