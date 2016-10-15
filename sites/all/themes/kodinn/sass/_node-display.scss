@@ -3,7 +3,7 @@
         padding: 168px 12px 88px;
         background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
         color: $color-white;
-        
+
         .panel-pane {
             max-width: 1152px;
             margin: 0 auto;
@@ -11,6 +11,14 @@
         .pane-node-entities-panel-pane-7 {
             border: 6px solid $color-blue;
             margin-bottom: 24px;
+        }
+        .region-wrapper {
+            padding-top: 66px;
+            padding-bottom: 66px;
+        }
+        .region-two-66-33-top {
+            padding-bottom: 20px;
+            border-bottom: 14px solid $color-yellow;
         }
     }
 }
@@ -30,6 +38,10 @@
     .page-node {
         .region-content {
             padding-top: 196px;
+        }
+        .region-wrapper {
+            padding-top: 88px;
+            padding-bottom: 88px;
         }
     }
 }
