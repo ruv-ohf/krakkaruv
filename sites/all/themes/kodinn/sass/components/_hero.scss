@@ -1,8 +1,23 @@
 .primary-hero {
-    background: transparent url(images/hexagon-bg.png) no-repeat top center;
+    /*background: transparent url(images/hexagon-bg.png) no-repeat top center;*/
     background-size: 100%;
     position: relative;
     z-index: 2;
+    .hexagon-wrapper {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        opacity: 0.42;
+        #hexagons {
+            width: 100%;
+            max-width: 1098px;
+            position: relative;
+            margin: 0 auto;
+        }
+    }
     .text-box {
         position: absolute;
         text-align: center;

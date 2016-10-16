@@ -13,4 +13,13 @@
         <?php print render($page['footer']); ?>
     </div>
 
+    <div id="square"></div>
+    <style>
+        #square {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
 </div>

@@ -5,7 +5,6 @@
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
-    <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
 <div id="skip-link">
@@ -13,6 +12,7 @@
 </div>
 <?php print $page_top; ?>
 <?php print $page; ?>
+<?php print $scripts; ?>
 <?php print $page_bottom; ?>
 </body>
 </html>
