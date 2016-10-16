@@ -1,3 +1,19 @@
 .box-4-col {
-    display: block;
+    .views-row-1 {
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+/* Min width 600px */
+@media only screen and (min-width: 600px) {
+    .box-4-col {
+        .views-row-1 {
+            float: left;
+            width: 50%;
+            a {
+                display: block;
+            }
+        }
+    }
 }
