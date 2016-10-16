@@ -1,6 +1,6 @@
 .kodinn-hladbord {
 	background: $color-grey-2 url(images/background-hladbord.jpg) no-repeat top center;
-	padding: 115px 12px;
+	padding: 66px 12px;
 	.view-content {
 		position: relative;
 		overflow: hidden;
@@ -68,10 +68,19 @@
 	}
 }
 
+/* Min width 768px */
+@media only screen and (min-width: 768px) {
+	.kodinn-hladbord {
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}
+}
+
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
 	.kodinn-hladbord {
 		padding-left: 0;
 		padding-right: 0;
+		padding-top: 115px;
 	}
 }
