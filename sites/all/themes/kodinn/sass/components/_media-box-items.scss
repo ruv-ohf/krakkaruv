@@ -13,6 +13,16 @@
             width: 50%;
             a {
                 display: block;
+                img  {
+                    display: block;
+                    border: 6px solid $color-blue;
+                }
+            }
+            .title-bar {
+                a {
+                    text-align: center;
+                    color: $color-white;
+                }
             }
         }
     }
