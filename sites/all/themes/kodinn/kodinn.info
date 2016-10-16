@@ -10,8 +10,6 @@
 
   ;----------// Javascript
   scripts[] = scripts/scripts.js
-  ;scripts[] = scripts/gsap/jquery.gsap.min.js
-  scripts[] = scripts/gsap/TimelineLite.min.js
   scripts[] = scripts/gsap/TweenMax.min.js
   scripts[] = scripts/gsap-animation.js
 
