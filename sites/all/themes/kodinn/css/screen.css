@@ -1426,5 +1426,9 @@ h6 {
     margin-left: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\000031}}
+.box-4-col {
+  display: block;
+}
 
 /*# sourceMappingURL=screen.css.map */
