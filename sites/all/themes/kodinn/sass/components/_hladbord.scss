@@ -108,6 +108,7 @@
 	   				-moz-transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
 	     			-o-transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
 	        		transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+	        		background-color: rgba(0,0,0,0.64);
         			p {
 						position: absolute;
 						bottom: 0;
@@ -117,6 +118,7 @@
 				a:hover {
 					.title-bar {
 						height: 100%;
+						background-color: rgba(0,0,0,0.40);
 					}
 				}
 			}

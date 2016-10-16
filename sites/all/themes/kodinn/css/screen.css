@@ -1247,16 +1247,18 @@ h6 {
     -moz-transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
     -o-transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
     transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    background-color: rgba(0, 0, 0, 0.64);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003112}}
   .kodinn-hladbord .view-content .views-row .title-bar p {
     position: absolute;
     bottom: 0;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003119}}
   .kodinn-hladbord .view-content .views-row a:hover .title-bar {
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\000031}}
