@@ -1161,7 +1161,7 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000313}}
 .kodinn-hladbord .view-content .views-row p {
   margin-bottom: 0;
-  line-height: auto;
+  line-height: inherit;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000318}}
 .kodinn-hladbord .view-content .views-row .field-content, .kodinn-hladbord .view-content .views-row .field-content a {
