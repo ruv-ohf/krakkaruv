@@ -1449,17 +1449,18 @@ h6 {
 .box-4-col .views-row {
   position: relative;
   overflow: hidden;
+  margin-bottom: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\000036}}
 .box-4-col .views-row a {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\000038}}
 .box-4-col .views-row a img {
   display: block;
   border: 6px solid #a3d9ff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000314}}
 .box-4-col .views-row .title-bar a {
   text-align: center;
   color: #ffffff;
@@ -1471,16 +1472,16 @@ h6 {
 
 /* Min width 600px */
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000329}}
   .box-4-col .views-row {
     float: left;
     width: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000333}}
   .box-4-col .views-row:nth-child(odd) {
     padding-right: 12px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_media-box-items\.scss}line{font-family:\0000336}}
   .box-4-col .views-row:nth-child(even) {
     padding-left: 12px;
   }
