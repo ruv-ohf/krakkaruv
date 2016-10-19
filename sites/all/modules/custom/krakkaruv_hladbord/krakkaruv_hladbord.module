@@ -85,7 +85,7 @@ function krakkaruv_hladbord_assemble_hladbord(){
   $fixed_places = explode(',', variable_get('krakkaruv_hladbord_fixed_places'));
 
   //HP 2016-10-19 : Added affected Node-queue value
-  $affected_node_queue = variable_get('krakkaruv_hladbord_affected_queue',1);
+  $affected_node_queue = variable_get('krakkaruv_hladbord_affected_queue');
 
   if(strlen($fixed_places[0])==0){
     $fixed_places = null;
@@ -136,12 +136,13 @@ function _krakkaruv_hladbord_element_to_queue($nid, $pos, $qid){
   db_update('nodequeue_nodes')
     ->fields(array(
       'qid' => $qid,
-      'sqid' => 1,
+      'sqid' => $qid,
       'nid' => $nid,
       'position' => $pos,
       'timestamp' => time()
     ))
     ->condition('position', $pos, '=')
+    ->condition('qid',$qid,'=')
     ->execute();
 }
 

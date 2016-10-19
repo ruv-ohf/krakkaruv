@@ -21,7 +21,7 @@ function krakkaruv_haldbord_queuelist()
   {
     foreach($queuelist as $key => $val)
     {
-      $queuelistarray[$key] = $val->title;
+      $queuelistarray[$val->qid] = $val->title;
     }
   }else
   {
@@ -29,6 +29,8 @@ function krakkaruv_haldbord_queuelist()
   }
   return $queuelistarray;
 }
+
+//krakkaruv_haldbord_queuelist();
 
 
 /**
@@ -39,7 +41,7 @@ function krakkaruv_hladbord_admin_settings() {
   $form['krakkaruv_hladbord_affected_queue'] = array(
     '#type' => 'select',
     '#title' => t('Affected node-queue'),
-    '#options' => drupal_map_assoc(krakkaruv_haldbord_queuelist()),
+    '#options' => krakkaruv_haldbord_queuelist(),
     '#default_value' => variable_get('krakkaruv_hladbord_affected_queue', 1),
     '#description' => t('Defines witch Node-queue for Hlaðborð should be affected.'),
     '#required' => TRUE,
