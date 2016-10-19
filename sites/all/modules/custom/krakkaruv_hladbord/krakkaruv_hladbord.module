@@ -83,6 +83,10 @@ function krakkaruv_hladbord_assemble_hladbord(){
   $listen_number = variable_get('krakkaruv_hladbord_number_of_listen_nodes');
   $first_place_number = variable_get('krakkaruv_hladbord_first_place_tax');
   $fixed_places = explode(',', variable_get('krakkaruv_hladbord_fixed_places'));
+
+  //HP 2016-10-19 : Added affected Node-queue value
+  $affected_node_queue = variable_get('krakkaruv_hladbord_affected_queue',1);
+
   if(strlen($fixed_places[0])==0){
     $fixed_places = null;
   }
@@ -90,7 +94,7 @@ function krakkaruv_hladbord_assemble_hladbord(){
   $watch_nodes_array = _krakkaruv_hladbord_query_generator('dagskra', WATCH, null, $watch_number);
   $listen_nodes_array = _krakkaruv_hladbord_query_generator('dagskra', LISTEN, null, $listen_number);
 
-  $nodequeue = nodequeue_load_nodes(1, false, 0, 0, true);
+  $nodequeue = nodequeue_load_nodes($affected_node_queue, false, 0, 0, true);
 
   if(!in_array(1, $fixed_places)){
     $first_place = ($first_place_number == WATCH)
@@ -109,14 +113,14 @@ function krakkaruv_hladbord_assemble_hladbord(){
 
   for($a = 1; $a <= 9; $a++){
     if($a == 1){
-      _krakkaruv_hladbord_element_to_queue($first_place->nid, $a);
+      _krakkaruv_hladbord_element_to_queue($first_place->nid, $a, $affected_node_queue);
     }
     elseif(in_array($a, $fixed_places)){
-      _krakkaruv_hladbord_element_to_queue($nodequeue[$a-1]->nid, $a);
+      _krakkaruv_hladbord_element_to_queue($nodequeue[$a-1]->nid, $a, $affected_node_queue);
     }
     else{
       $element = array_shift($merged_array);
-      _krakkaruv_hladbord_element_to_queue($element->nid, $a);
+      _krakkaruv_hladbord_element_to_queue($element->nid, $a, $affected_node_queue);
     }
   }
 }
@@ -128,10 +132,10 @@ function krakkaruv_hladbord_assemble_hladbord(){
  * @param $pos int The posistion in the queue
  * @author Hilmar Kári Hallbjörnsson (drupalviking)
  */
-function _krakkaruv_hladbord_element_to_queue($nid, $pos){
+function _krakkaruv_hladbord_element_to_queue($nid, $pos, $qid){
   db_update('nodequeue_nodes')
     ->fields(array(
-      'qid' => 1,
+      'qid' => $qid,
       'sqid' => 1,
       'nid' => $nid,
       'position' => $pos,

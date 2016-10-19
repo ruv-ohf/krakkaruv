@@ -10,9 +10,40 @@ define('PLAY', 314);
  */
 
 /**
+* Helperfunction to get list of nodequeues that the module should affect on.
+* @date 2016-10-19
+* @author: Helgi P (holypoly4) <helgipall@ruv.is>  
+*/
+function krakkaruv_haldbord_queuelist()
+{
+  $queuelist = nodequeue_load_queues(nodequeue_get_all_qids());
+  if($queuelist)
+  {
+    foreach($queuelist as $key => $val)
+    {
+      $queuelistarray[$key] = $val->title;
+    }
+  }else
+  {
+    return false;
+  }
+  return $queuelistarray;
+}
+
+
+/**
  * Builds and returns the scaffolding settings form.
  */
+
 function krakkaruv_hladbord_admin_settings() {
+  $form['krakkaruv_hladbord_affected_queue'] = array(
+    '#type' => 'select',
+    '#title' => t('Affected node-queue'),
+    '#options' => drupal_map_assoc(krakkaruv_haldbord_queuelist()),
+    '#default_value' => variable_get('krakkaruv_hladbord_affected_queue', 1),
+    '#description' => t('Defines witch Node-queue for Hlaðborð should be affected.'),
+    '#required' => TRUE,
+  );
   $form['krakkaruv_hladbord_number_of_watch_nodes'] = array(
     '#type' => 'select',
     '#title' => t('Number of "watch" nodes'),
