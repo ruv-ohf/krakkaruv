@@ -36,10 +36,12 @@
 				bottom: 0;
 				overflow: hidden;
 				height: 49px;
-				border-top: 1px solid rgba(255,255,255,0.62);
+				/*border-top: 1px solid rgba(255,255,255,0.62);*/
 				background-color: rgba(0,0,0,0.64);
 				line-height: 49px;
-
+				&:before {
+					content: "";
+				}
 				p {
 					color: $color-white;
 				}
