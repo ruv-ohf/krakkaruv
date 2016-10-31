@@ -153,6 +153,9 @@
 				position: absolute;
 				padding: 0 !important;
 				margin: 0 !important;
+				> div:hover {
+					border-color: $color-blue;
+				}
 			}
 			.views-row-1 {
 				top: 0;
