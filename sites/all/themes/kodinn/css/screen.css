@@ -1286,8 +1286,8 @@ h6 {
   .kodinn-hladbord .view-content .views-row-2 {
     width: 564px;
     position: absolute;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003138}}
   .kodinn-hladbord .view-content .views-row-3,
@@ -1298,8 +1298,8 @@ h6 {
   .kodinn-hladbord .view-content .views-row-8 {
     width: 270px;
     position: absolute;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003149}}
   .kodinn-hladbord .view-content .views-row-1 {
