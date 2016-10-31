@@ -134,6 +134,12 @@
 				position: absolute;
 				padding: 0 !important;
 				margin: 0 !important;
+				.title-bar {
+					p {
+						font-size: 20px;
+						font-size: 1.25rem;
+					}
+				}
 			}
 			.views-row-3,
 			.views-row-4,
