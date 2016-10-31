@@ -1239,7 +1239,11 @@ h6 {
     padding-right: 0;
     padding-top: 115px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000392}}
+  .kodinn-hladbord .view-content {
+    height: 730px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000395}}
   .kodinn-hladbord .view-content .views-row > div {
     -webkit-transition: all 325ms cubic-bezier(0.39, 0.575, 0.565, 1);
     -moz-transition: all 325ms cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -1250,11 +1254,11 @@ h6 {
     -o-transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
     transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003105}}
   .kodinn-hladbord .view-content .views-row > div:hover {
     border-color: #fcfa8c;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003108}}
   .kodinn-hladbord .view-content .views-row .title-bar {
     -webkit-transition: all 225ms cubic-bezier(0.39, 0.575, 0.565, 1);
     -moz-transition: all 225ms cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -1266,16 +1270,84 @@ h6 {
     transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
     background-color: rgba(0, 0, 0, 0.64);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003118}}
   .kodinn-hladbord .view-content .views-row .title-bar p {
     position: absolute;
     bottom: 0;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003125}}
   .kodinn-hladbord .view-content .views-row a:hover .title-bar {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003131}}
+  .kodinn-hladbord .view-content .views-row-1,
+  .kodinn-hladbord .view-content .views-row-2 {
+    width: 564px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003138}}
+  .kodinn-hladbord .view-content .views-row-3,
+  .kodinn-hladbord .view-content .views-row-4,
+  .kodinn-hladbord .view-content .views-row-5,
+  .kodinn-hladbord .view-content .views-row-6,
+  .kodinn-hladbord .view-content .views-row-7,
+  .kodinn-hladbord .view-content .views-row-8 {
+    width: 270px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003149}}
+  .kodinn-hladbord .view-content .views-row-1 {
+    top: 0;
+    left: 294px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003153}}
+  .kodinn-hladbord .view-content .views-row-2 {
+    top: 373px;
+    left: 294px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003157}}
+  .kodinn-hladbord .view-content .views-row-3 {
+    top: 130px;
+    left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003161}}
+  .kodinn-hladbord .view-content .views-row-4 {
+    top: 326px;
+    left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003165}}
+  .kodinn-hladbord .view-content .views-row-5 {
+    top: 522px;
+    left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003169}}
+  .kodinn-hladbord .view-content .views-row-6 {
+    top: 130px;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003173}}
+  .kodinn-hladbord .view-content .views-row-7 {
+    top: 326px;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003177}}
+  .kodinn-hladbord .view-content .views-row-8 {
+    top: 522px;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\00003186}}
+  .kodinn-hladbord .view-content .views-row-4 > div,
+  .kodinn-hladbord .view-content .views-row-5 > div,
+  .kodinn-hladbord .view-content .views-row-6 > div,
+  .kodinn-hladbord .view-content .views-row-7 > div,
+  .kodinn-hladbord .view-content .views-row-8 > div {
+    border-color: #fcfa8c;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hero\.scss}line{font-family:\000031}}
