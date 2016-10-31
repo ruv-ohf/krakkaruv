@@ -1201,10 +1201,10 @@ h6 {
   top: 0;
   position: absolute;
   left: 0;
-  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0) 100%);
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0.1) 100%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.64) 10%, rgba(255, 255, 255, 0.62) 50%, rgba(255, 255, 255, 0.62) 90%, rgba(255, 255, 255, 0.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affffff', endColorstr='#1affffff',GradientType=1 );
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hladbord\.scss}line{font-family:\0000354}}
 .kodinn-hladbord .view-content .views-row .title-bar p {
