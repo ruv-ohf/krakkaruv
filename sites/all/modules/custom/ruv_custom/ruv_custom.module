@@ -773,7 +773,7 @@ function ruv_custom_add_video_player_w_playlist($playlistNr = false, $epNumber, 
      */
     //PLAYS
     var played = false;
-    jwplayer("sarpur-video- player").on('time', function(e) {
+    jwplayer("sarpur-video-player").on('time', function(e) {
       if(e.position > (e.duration/2) && played === false){
         var action = 'undefined';
         played = true;
