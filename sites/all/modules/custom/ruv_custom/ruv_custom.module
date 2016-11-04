@@ -751,12 +751,40 @@ function ruv_custom_add_video_player_w_playlist($playlistNr = false, $epNumber, 
       fallback : false,
       stretching: "uniform",
       andriodhls: true,
+      /**
+       * Google counter
+       * @author Rafn Árnason
+       */
+      events: {
+        onError: function (callback) {
+          ga('send', 'event', 'JW Player Video', 'Error', callback.message + " ||| " + window.location.href);
+        }
+      },
+      // End Google counter
       cookies : false,
       listbar: {
         position: "right",
         size: '30%'
       }
     });
+    /**
+     * Google counter
+     * @author Rafn Árnason
+     */
+    //PLAYS
+    var played = false;
+    jwplayer("sarpur-player").on('time', function(e) {
+      if(e.position > (e.duration/2) && played === false){
+        var action = 'undefined';
+        played = true;
+        var file = jwplayer("sarpur-video-player").getPlaylistItem().file;
+        if(file.indexOf(".mp3") !== -1) action = "Listens";
+        if(file.indexOf(".mp4") !== -1) action = "Views";
+        var title = document.title;
+        ga('send', 'event', 'JW Player Video', action, title + " ||| " + window.location.href);
+      }
+    });
+    // End Google counter
     <?php if (isset($src) && $src != ''){ ?>
     theplayer.onReady (
       function (){
