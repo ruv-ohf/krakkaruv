@@ -73,6 +73,12 @@ h6 {
     }
 }
 
+.panel-pane {
+    .pane-title {
+        margin-bottom: 4px;
+    }
+}
+
 .color-white {
     h1,h2,h3,h4,h5,h6,p,label, a {
          color: $color-white;
@@ -101,28 +107,12 @@ h6 {
     padding: 66px 12px;
 }
 
-.padding-top {
-    /*padding-top: 88px;*/
-}
-
-.padding-bottom {
-    /*padding-bottom: 88px;*/
-}
-
 .border-top {
     border-top: 14px solid $color-yellow;
 }
 
 .border-bottom {
     border-bottom: 14px solid $color-yellow;
-}
-
-.padding-right {
-    /*padding-right: 12px;*/
-}
-
-.padding-left {
-    /*padding-left: 12px;*/
 }
 
 .text-align-center {
