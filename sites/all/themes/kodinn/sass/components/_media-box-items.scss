@@ -95,3 +95,14 @@
         }
     }
 }
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    .box-4-col-subpages {
+    .view-content {
+        .views-row {
+                width: 25%;
+            }
+        }
+    }
+}
