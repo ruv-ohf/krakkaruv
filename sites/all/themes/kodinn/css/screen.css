@@ -1807,22 +1807,22 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000326}}
 .hexagon-items ul li:nth-child(1) {
   left: 90px;
-  top: 93px;
+  top: 101px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000330}}
 .hexagon-items ul li:nth-child(2) {
   right: 90px;
-  top: 93px;
+  top: 101px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000334}}
 .hexagon-items ul li:nth-child(3) {
   left: 0;
-  top: 40px;
+  top: 48px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000338}}
 .hexagon-items ul li:nth-child(4) {
   right: 0;
-  top: 40px;
+  top: 48px;
 }
 
 /* Min width 1188px */
