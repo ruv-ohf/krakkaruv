@@ -8,6 +8,22 @@
             position: absolute;
             width: 116px;
         }
+        li:nth-child(1) {
+            left: 93px;
+            top: 81px;
+        }
+        li:nth-child(2) {
+            right: 93px;
+            top: 81px;
+        }
+        li:nth-child(3) {
+            left: 0;
+            top: 29px;
+        }
+        li:nth-child(4) {
+            right: 0;
+            top: 29px;
+        }
     }
 }
 

@@ -1786,10 +1786,30 @@ h6 {
   position: absolute;
   width: 116px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000311}}
+.hexagon-items ul li:nth-child(1) {
+  left: 93px;
+  top: 81px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000315}}
+.hexagon-items ul li:nth-child(2) {
+  right: 93px;
+  top: 81px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000319}}
+.hexagon-items ul li:nth-child(3) {
+  left: 0;
+  top: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000323}}
+.hexagon-items ul li:nth-child(4) {
+  right: 0;
+  top: 29px;
+}
 
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000333}}
   .hexagon-items ul {
     display: block;
   }
