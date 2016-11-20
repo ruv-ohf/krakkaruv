@@ -24,6 +24,10 @@ body {
      overflow: hidden;
 }
 
+.max-width-pane-content {
+    min-width: inherit;
+}
+
 .bg-black {
     background-color: $color-black-4;
 }
