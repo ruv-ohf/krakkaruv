@@ -141,6 +141,17 @@ h6 {
     margin-bottom: 24px;
 }
 
+.page-node {
+    .region-content {
+        .region-wrapper {
+            a:link, a:visited {
+                color: $color-white;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
     .bg-black {
