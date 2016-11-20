@@ -4,6 +4,10 @@
             z-index: 2;
             position: relative;
             width: 116px;
+            img {
+                margin-left: 4px;
+                margin-top: 4px;
+            }
         }
         svg {
             position: absolute;
