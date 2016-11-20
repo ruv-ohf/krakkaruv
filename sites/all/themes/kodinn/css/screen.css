@@ -197,26 +197,31 @@ h6 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003112}}
+.border-top {
+  border-top: 14px solid #fcfa8c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003116}}
 .border-bottom {
   border-bottom: 14px solid #fcfa8c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003120}}
 .padding-right {
   /*padding-right: 12px;*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003124}}
 .padding-left {
   /*padding-left: 12px;*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003128}}
 .text-align-center {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003132}}
 .webform-submit {
   background-color: #b8336a;
   color: #ffffff;
@@ -231,13 +236,13 @@ h6 {
 
 /* Min width 400px */
 @media only screen and (min-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003147}}
   .bg-black {
     /*padding-left: 18px;
     padding-right: 18px;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003151}}
   .padding {
     padding-left: 18px;
     padding-right: 18px;
@@ -245,106 +250,106 @@ h6 {
 }
 /* Min width 600px */
 @media only screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003159}}
   body {
     background-image: url(images/background-medium.jpg);
   }
 }
 /* Min width 768px */
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003166}}
   .border-bottom {
     border-bottom: 18px solid #fcfa8c;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003169}}
   .padding {
     padding-top: 88px;
     padding-bottom: 88px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003173}}
   h1 {
     font-size: 40px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003177}}
   h2 {
     font-size: 32px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003181}}
   h3 {
     font-size: 24px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003185}}
   h4 {
     font-size: 18px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003189}}
   h5 {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003192}}
   h6 {
     font-size: 14px;
   }
 }
 /* Min width 1024px */
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003199}}
   body {
     background-image: url(images/background-large.jpg);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003202}}
   .border-bottom {
     border-bottom: 24px solid #fcfa8c;
   }
 }
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003209}}
   .bg-black {
     /*padding-left: 0;
     padding-right: 0;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003213}}
   .padding {
     padding-left: 0;
     padding-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003217}}
   h1 {
     font-size: 48px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003221}}
   h2 {
     font-size: 36px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003225}}
   h3 {
     font-size: 28px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003229}}
   h4 {
     font-size: 18px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003233}}
   h5 {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_global\.scss}line{font-family:\00003236}}
   h6 {
     font-size: 14px;
   }
