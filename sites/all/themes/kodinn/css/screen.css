@@ -1781,27 +1781,39 @@ h6 {
   width: 1152px;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\000033}}
+.hexagon-items ul .image-wrapper {
+  z-index: 2;
+  position: relative;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\000037}}
+.hexagon-items ul svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000317}}
 .hexagon-items ul li {
   position: absolute;
-  width: 116px;
+  width: 121px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000321}}
 .hexagon-items ul li:nth-child(1) {
   left: 93px;
   top: 81px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000325}}
 .hexagon-items ul li:nth-child(2) {
   right: 93px;
   top: 81px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000329}}
 .hexagon-items ul li:nth-child(3) {
   left: 0;
   top: 29px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000333}}
 .hexagon-items ul li:nth-child(4) {
   right: 0;
   top: 29px;
@@ -1809,7 +1821,7 @@ h6 {
 
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000343}}
   .hexagon-items ul {
     display: block;
   }

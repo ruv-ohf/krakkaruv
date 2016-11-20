@@ -1,12 +1,22 @@
 .hexagon-items {
     ul {
+        .image-wrapper {
+            z-index: 2;
+            position: relative;
+        }
+        svg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
         display: none;
         position: relative;
         width: 1152px;
         margin: 0 auto;
         li {
             position: absolute;
-            width: 116px;
+            width: 121px;
         }
         li:nth-child(1) {
             left: 93px;
