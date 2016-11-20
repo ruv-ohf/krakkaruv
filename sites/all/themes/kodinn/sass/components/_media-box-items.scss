@@ -23,6 +23,34 @@
     }
 }
 
+.box-4-col-subpages {
+    .title-bar {
+        position: absolute;
+        color: $color-white;
+        width: 100%;
+        bottom: 0;
+        overflow: hidden;
+        height: 49px;
+        background-color: rgba(0,0,0,0.64);
+        line-height: 49px;
+        &:before {
+            content: "";
+            height: 1px;
+            width: 100%;
+            top: 0;
+            position: absolute;
+            left: 0;
+            background: -moz-linear-gradient(left, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.64) 10%, rgba(255,255,255,0.62) 50%, rgba(255,255,255,0.62) 90%, rgba(255,255,255,0.1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.64) 10%,rgba(255,255,255,0.62) 50%,rgba(255,255,255,0.62) 90%,rgba(255,255,255,0.1) 100%);
+            background: linear-gradient(to right, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.64) 10%,rgba(255,255,255,0.62) 50%,rgba(255,255,255,0.62) 90%,rgba(255,255,255,0.1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affffff', endColorstr='#1affffff',GradientType=1 );
+        }
+        p {
+            color: $color-white;
+        }
+    }
+}
+
 /* Min width 600px */
 @media only screen and (min-width: 600px) {
     .box-4-col {
