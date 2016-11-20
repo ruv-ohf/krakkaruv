@@ -1728,29 +1728,28 @@ h6 {
 .webform-client-form .webform-component textarea::-webkit-input-placeholder {
   color: color-white;
   opacity: 1;
+  font-family: "Open Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000337}}
 .webform-client-form .webform-component textarea::-moz-placeholder {
   color: color-white;
   opacity: 1;
+  font-family: "Open Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000342}}
 .webform-client-form .webform-component textarea::-moz-placeholder {
   color: color-white;
   opacity: 1;
+  font-family: "Open Sans", sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000347}}
 .webform-client-form .webform-component textarea::-ms-input-placeholder {
   color: color-white;
   opacity: 1;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000348}}
-.webform-client-form .webform-component .form-text::-webkit-input-placeholder {
-  color: color-white;
-  opacity: 1;
+  font-family: "Open Sans", sans-serif;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000352}}
-.webform-client-form .webform-component .form-text::-moz-placeholder {
+.webform-client-form .webform-component .form-text::-webkit-input-placeholder {
   color: color-white;
   opacity: 1;
 }
@@ -1760,11 +1759,16 @@ h6 {
   opacity: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000360}}
-.webform-client-form .webform-component .form-text::-ms-input-placeholder {
+.webform-client-form .webform-component .form-text::-moz-placeholder {
   color: color-white;
   opacity: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000364}}
+.webform-client-form .webform-component .form-text::-ms-input-placeholder {
+  color: color-white;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000368}}
 .webform-client-form .webform-component .form-item {
   margin-top: 12px;
   margin-bottom: 12px;
