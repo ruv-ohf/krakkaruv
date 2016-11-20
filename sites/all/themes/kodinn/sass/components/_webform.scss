@@ -15,6 +15,7 @@
             font-size: 1rem;
             padding-left: 12px;
             padding-right: 12px;
+            padding-top: 12px;
             width: 100%;
         }
         .form-text {
@@ -28,11 +29,23 @@
             padding-left: 12px;
             padding-right: 12px;
         }
-        .form-text::-webkit-input-placeholder {
+        textarea::-webkit-input-placeholder {
             color: color-white;
             opacity: 1;
         }
-        .form-text:-moz-placeholder {
+        textarea::-moz-placeholder {
+            color: color-white;
+            opacity: 1;
+        }
+        textarea::-moz-placeholder {
+            color: color-white;
+            opacity: 1;
+        }
+        textarea::-ms-input-placeholder {
+            color: color-white;
+            opacity: 1;
+        }
+        .form-text::-webkit-input-placeholder {
             color: color-white;
             opacity: 1;
         }
@@ -40,7 +53,11 @@
             color: color-white;
             opacity: 1;
         }
-        .form-text:-ms-input-placeholder {
+        .form-text::-moz-placeholder {
+            color: color-white;
+            opacity: 1;
+        }
+        .form-text::-ms-input-placeholder {
             color: color-white;
             opacity: 1;
         }
