@@ -1701,6 +1701,17 @@ h6 {
   font-size: 0.875rem;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000310}}
+.webform-client-form .webform-component textarea {
+  border: 1px solid #ffffff;
+  background-color: rgba(9, 22, 32, 0.42);
+  color: #ffffff;
+  font-size: 16px;
+  font-size: 1rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000320}}
 .webform-client-form .webform-component .form-text {
   width: 100%;
   height: 42px;
@@ -1712,27 +1723,27 @@ h6 {
   padding-left: 12px;
   padding-right: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000331}}
 .webform-client-form .webform-component .form-text::-webkit-input-placeholder {
   color: color-white;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000335}}
 .webform-client-form .webform-component .form-text:-moz-placeholder {
   color: color-white;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000339}}
 .webform-client-form .webform-component .form-text::-moz-placeholder {
   color: color-white;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000343}}
 .webform-client-form .webform-component .form-text:-ms-input-placeholder {
   color: color-white;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_webform\.scss}line{font-family:\0000347}}
 .webform-client-form .webform-component .form-item {
   margin-top: 12px;
   margin-bottom: 12px;
