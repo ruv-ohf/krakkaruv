@@ -3,6 +3,7 @@
         .image-wrapper {
             z-index: 2;
             position: relative;
+            width: 116px;
         }
         svg {
             position: absolute;
@@ -16,7 +17,7 @@
         margin: 0 auto;
         li {
             position: absolute;
-            width: 121px;
+            width: 126px;
         }
         li:nth-child(1) {
             left: 93px;
