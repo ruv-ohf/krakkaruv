@@ -1,0 +1,15 @@
+.hexagon-items {
+    ul {
+        display: none;
+        position: relative;
+    }
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+    .hexagon-items {
+        ul {
+            display: block;
+        }
+    }
+}

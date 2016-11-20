@@ -1774,4 +1774,18 @@ h6 {
   margin-bottom: 12px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\000032}}
+.hexagon-items ul {
+  display: none;
+  position: relative;
+}
+
+/* Min width 1188px */
+@media only screen and (min-width: 1188px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/components\/_hexagon-items\.scss}line{font-family:\0000311}}
+  .hexagon-items ul {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=screen.css.map */
