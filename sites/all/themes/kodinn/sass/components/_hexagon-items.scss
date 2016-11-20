@@ -2,6 +2,10 @@
     ul {
         display: none;
         position: relative;
+        li {
+            position: absolute;
+            width: 116px;
+        }
     }
 }
 
