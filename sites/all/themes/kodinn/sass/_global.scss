@@ -166,6 +166,9 @@ h6 {
    .border-bottom {
         border-bottom: 18px solid $color-yellow;
     }
+    .border-top {
+        border-bottom: 18px solid $color-yellow;
+    }
     .padding {
         padding-top: 88px;
         padding-bottom: 88px;
@@ -201,6 +204,9 @@ h6 {
     }
     .border-bottom {
         border-bottom: 24px solid $color-yellow;
+    }
+     .border-bottom {
+        border-top: 24px solid $color-yellow;
     }
 }
 
