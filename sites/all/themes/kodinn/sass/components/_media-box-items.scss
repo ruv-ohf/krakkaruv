@@ -100,8 +100,10 @@
 @media only screen and (min-width: 1188px) {
     .box-4-col-subpages {
     .view-content {
+        margin: 0 -12px;
         .views-row {
                 width: 25%;
+                padding: 12px;
             }
         }
     }
