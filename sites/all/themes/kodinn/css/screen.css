@@ -418,11 +418,16 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000356}}
   .page-node .region-content .two-66-33 .region-two-66-33-top {
     padding-bottom: 61px;
+    border-bottom: 18px solid #fcfa8c;
   }
 }
 /* Min width 1188px */
 @media only screen and (min-width: 1188px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000370}}
+  .page-node .region-content .two-66-33 .region-two-66-33-top {
+    border-bottom: 24px solid #fcfa8c;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/hosts\/krakkaruv\/sites\/all\/themes\/kodinn\/sass\/_node-display\.scss}line{font-family:\0000374}}
   .page-node .region-content .two-66-33 .region-wrapper .region-two-66-33-top, .page-node .region-content .two-66-33 .region-wrapper .region-wrapper {
     padding-left: 0;
     padding-right: 0;
