@@ -132,6 +132,14 @@ function ruv_custom_drush_command() {
       'Standard example' => 'drush ruv-remove-dead-files'
     ),
   );
+   $items['ruv-make-sipvefur'] = array(
+    'description' => dt('Run.'),
+    'arguments'   => array(),
+    'examples' => array(
+      'Standard example' => 'drush ruv-make-sipvefur'
+    ),
+    'aliases' => array('ruv-msip'),
+  );
 
   return $items;
 }
@@ -178,6 +186,49 @@ function drush_ruv_custom_ruv_solr()
   $is_succsess = search_api_cron();
   drush_print($is_succsess);
   drush_print("DONE Solr Index | ".date("Y-m-d H:i:s",time()));
+}
+
+function drush_ruv_custom_ruv_make_sipvefur()
+{
+  drush_print("Start to make SIP-vefur item | ".date("Y-m-d H:i:s",time()));
+  $excludefolders = [".",".."];
+
+  $folder = "/var/www/www.krakkaruv.is/sites/all/themes/at_krakkaruv/vantage-messages/";
+  if ($handler = opendir($folder)) 
+  {
+    drush_print("Open folder");
+    while (false !== ($entry = readdir($handler))) {
+      if(!in_array($entry,$excludefolders))
+      {
+        if ($subhandler = opendir($folder.$entry)) 
+        {
+         while (false !== ($subentry = readdir($subhandler))) {
+            if(!in_array($subentry,$excludefolders))
+            {
+              $xmldata = str_replace("soa:","",file_get_contents($folder.$entry."/".$subentry));
+              $xmldata = simplexml_load_string($xmldata);
+              if(isset($xmldata->Manifest->Format->Name))
+              {
+                $node = new StdClass();
+                $node->type = 'sip_vefur_umslag_';
+                $node->title = "Sip-vefur:".$xmldata->Manifest->Format->Name;
+                $node->field_sip_vefur_file_ref[LANGUAGE_NONE][0]['value'] = $xmldata->Manifest->Format->Name;                 
+                $node->uid = 697;
+                $node->status = 1;
+                node_save($node);
+                drush_print("Filename: ".$xmldata->Manifest->Format->Name." Saved");
+              }
+            }
+          }
+          file_unmanaged_delete_recursive($folder.$entry);
+          drush_print("Package: ".$folder.$entry." deleted ".date("Y-m-d H:i:s",time()));
+        }   
+      }
+    }
+    drush_print("Folder closed");
+    closedir($handler);
+  }
+  drush_print("End of make SIP-vefur item | ".date("Y-m-d H:i:s",time()));
 }
 
 /**
