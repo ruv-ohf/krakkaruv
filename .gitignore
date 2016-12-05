@@ -5,3 +5,10 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 sites/all/themes/kodinn/.sass-cache/
+sites/all/.DS_Store*
+
+.DS_Store
+.idea/*
+sites/all/themes/at_krakkaruv/vendor/*
+sites/all/themes/at_krakkaruv/.sass-cache
+
