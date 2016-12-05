@@ -5,7 +5,7 @@
   #menu-bar{
     height: 390px;
     /*background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-small.jpg') no-repeat top center;*/
-    background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat top center;
+    background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat center center;
   }
   .one-column {
     border-top: 1px solid white;
@@ -34,125 +34,123 @@
 /*
  * the bottomblocks .two-50 contains the small contact form and the "about" (fyrir fullorðna)
  */
-#front-bottom-mini-panel{
+#front-bottom-mini-panel {
   background-color: $color-messages-background;
   padding: 0 40px;
 
-  .two-50{
+  .two-50 {
     max-width: $max-width;
-    margin:0 auto;
+    margin: 0 auto;
 
-    .region{
+    .region {
       width: 50%;
       float: left;
       clear: none;
 
-      @include breakpoint($mobile-size){
+      @include breakpoint($mobile-size) {
         width: 100%;
       }
     }
-  
-  
-  .block-inner {
-	 h2 {
-		font-size: 36px;
-		line-height: 48px;
 
-       @include breakpoint($mobile-portrait-max){
-         font-size: 24px;
-         line-heigth: 36px;
-       }
-	 }
-  }  
-  
-  h2{
-    color: $color-messages-headline;
-    padding-bottom: 10px;
-  }
+    .block-inner {
+      h2 {
+        font-size: 36px;
+        line-height: 48px;
 
-  h3,
-  h3 * {
-    color: white;
-    font-size: 24px;
-    @include breakpoint($mobile-size){
-       text-align: center;
-  	}
-  }
-  
-  h2{
-    margin-right: 2%;
-
-    @include breakpoint($mobile-size){
-      width: 100%;
-      font-size: 24px;
-      text-align: center;
-    }
-  }
-  
-  .region-two-50-first{
-    .block-content
-    {
-      padding-right:30px;
-
-      @include breakpoint($mobile-size){
-        padding-right: 0px;
+        @include breakpoint($mobile-portrait-max) {
+          font-size: 24px;
+          line-heigth: 36px;
+        }
       }
     }
-  }
-  
-  .region-two-50-second{
-    @include breakpoint($mobile-size){
-      padding-left: 0px;
+
+    h2 {
+      color: $color-messages-headline;
+      padding-bottom: 10px;
     }
- 
-  }
-  
-  .block-content{
-  
-  	p{
-      padding-top: 11px;
-      margin: 1em 0 1em 0;
+
+    h3,
+    h3 * {
       color: white;
-      font-family: "Open Sans", sans-serif;
-  	}
-    
-    a{
-        color: white;
-    }
-    a:hover{
-        text-decoration: underline;
+      font-size: 24px;
+      @include breakpoint($mobile-size) {
+        text-align: center;
+      }
     }
 
-    input {
-      width: 100%;
-    }
-
-    input[type="submit"] {
-      width: 30%;
-      transition: all 0.3s ease-in-out;
-      color: #FFF;
+    h2 {
+      margin-right: 2%;
 
       @include breakpoint($mobile-size) {
-        width: 35%;
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
       }
     }
 
-    input[type="submit"]:hover {
-      background-color: #34c6c6; 
-      border: 1px solid #34c6c6;
-      color: white;
-      cursor:pointer;
+    .region-two-50-first {
+      .block-content {
+        padding-right: 30px;
+
+        @include breakpoint($mobile-size) {
+          padding-right: 0px;
+        }
+      }
     }
 
-    textarea {
-      width: 100%;
+    .region-two-50-second {
+      @include breakpoint($mobile-size) {
+        padding-left: 0px;
+      }
+
     }
 
-    @include breakpoint($mobile-size) {
-      width: 100%;
+    .block-content {
+
+      p {
+        padding-top: 11px;
+        margin: 1em 0 1em 0;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      a {
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      input {
+        width: 100%;
+      }
+
+      input[type="submit"] {
+        width: 30%;
+        transition: all 0.3s ease-in-out;
+        color: #FFF;
+
+        @include breakpoint($mobile-size) {
+          width: 35%;
+        }
+      }
+
+      input[type="submit"]:hover {
+        background-color: #34c6c6;
+        border: 1px solid #34c6c6;
+        color: white;
+        cursor: pointer;
+      }
+
+      textarea {
+        width: 100%;
+      }
+
+      @include breakpoint($mobile-size) {
+        width: 100%;
+      }
     }
-  }  
-}
+  }
 }
 
 /* Min width 601px */
@@ -161,7 +159,7 @@
     #menu-bar {
       height: 500px;
       /*background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-medium.jpg') no-repeat top center;*/
-      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat top center;
+      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat center center;
     }
   }
 }
@@ -172,9 +170,9 @@
     #page {
       background: url('/sites/all/themes/at_krakkaruv/css/images/christmas/banner-frontpage-bg-repeat.jpg') repeat-x top center;
     }
-    /*#menu-bar {
+    #menu-bar {
       height: 790px;
-      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg') no-repeat top center;
-    }*/
+      background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat center center;
+    }
   }
 }
