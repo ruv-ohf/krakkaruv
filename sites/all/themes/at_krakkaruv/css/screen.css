@@ -1736,7 +1736,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/drupalviking\/workspace\/krakkaruv\/sites\/all\/themes\/at_krakkaruv\/ruv_sass\/components\/_frontpage\.scss}line{font-family:\00003173}}
   .front #menu-bar {
     height: 790px;
-    background: #000000 url("/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg") no-repeat center center;
+    /* background: #000000 url('/sites/all/themes/at_krakkaruv/css/images/christmas/front-chrstmas-hero-image.jpg') no-repeat center center; */
+    background: #000000 url("/sites/all/themes/at_krakkaruv/css/images/frontpage/front-bg-large.jpg") no-repeat top center;
   }
 }
 /** 
